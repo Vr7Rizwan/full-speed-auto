@@ -47,7 +47,7 @@ function Offers() {
     <div className='bg-primary'>
       <div className='flex flex-col gap-5 px-5 py-5 items-center md:items-center md:justify-center'>
         <p className='text-secondary text-3xl  font-bold'>WHAT WE OFFER</p>
-        <h1 className='text-txtColor text-4xl text-center font-extrabold'>To Our Customers At Our Luxury Car Service Center in Dubai</h1>
+        <h1 className='text-txtColor text-3xl md:text-4xl text-center font-extrabold'>To Our Customers At Our Luxury Car Service Center in Dubai</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
       {offers.map((offer, index) => (
@@ -61,7 +61,7 @@ function Offers() {
             className="w-30 h-30 object-contain"
           />
 
-          <h2 className="text-3xl text-txtColor font-bold">
+          <h2 className="text-2xl md:text-3xl text-txtColor font-bold">
             {offer.title}
           </h2>
 

@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
 
                 {/* Logo */}
                 <div className="text-3xl md:text-2xl font-bold text-black">
-                    SWISS <span className="text-secondary">AUTOS</span>
+                    FULL SPEED <span className="text-secondary">AUTOS</span>
                 </div>
 
                 {/* Desktop Menu */}
