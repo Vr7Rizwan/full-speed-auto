@@ -43,6 +43,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className="w-full bg-white shadow-md">
             {/* Top Bar */}
+            <h1>aasas</h1>
             <div className='flex flex-row items-center justify-between py-5 px-6 md:px-12 lg:px-20'>
 
                 {/* Logo */}
