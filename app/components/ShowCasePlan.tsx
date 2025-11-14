@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-function Component1() {
+function ShowCasePlan() {
   const [w, setW] = useState(0);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ function Component1() {
   );
 }
 
-export default Component1;
+export default ShowCasePlan;

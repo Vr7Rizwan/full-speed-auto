@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Component1 from "./components/Component1";
+import ShowCasePlan from "./components/ShowCasePlan";
 import Offers from "./components/Offers";
 import Banner from "./components/Banner";
 export default function Home() {
@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <Navbar />
       <Banner />
-    <Component1 />
-    <Offers />
+      <ShowCasePlan />
+      <Offers />
     </div>
   );
 }
