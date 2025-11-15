@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #FFFFFF;
-    --color-secondary: #E01424;
-    --color-txtColor: #000000;
+  --color-primary: #ffffff;
+  --color-secondary: #e01424;
+  --color-txtColor: #000000;
+}
+
+.heading {
+  @apply text-4xl md:text-5xl;
+}
+.subHeading {
+  @apply text-xl md:text-2xl;
+}
+.normalText {
+  @apply text-sm md:text-lg;
 }

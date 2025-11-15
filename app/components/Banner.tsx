@@ -16,13 +16,15 @@ const Banner = () => {
                       }
                       ${i === 3 ? "gap-20" : "gap-10"}`}
           >
-            <h1 className="text-4xl text-white font-bold w-50">
+            <h2 className="subHeading text-white font-bold w-50">
               {value.title}
-            </h1>
+            </h2>
             <div className="flex flex-col gap-5">
-              <p className="text-gray-200 text-lg pr-6">{value.description}</p>
+              <p className="text-gray-200 normalText pr-6">
+                {value.description}
+              </p>
               <button
-                className={`border py-2 px-3 text-gray-200 w-35 relative
+                className={`border py-2 px-3 normalText text-gray-200 w-35 relative
                      before:absolute before:top-0 before:left-0 before:w-0 before:h-full
                   ${
                     i % 2 !== 0
