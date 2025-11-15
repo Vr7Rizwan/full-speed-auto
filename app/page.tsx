@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import ShowCasePlan from "./components/ShowCasePlan";
 import Offers from "./components/Offers";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner />
       <ShowCasePlan />
       <Offers />
+      <Footer />
     </div>
   );
 }
