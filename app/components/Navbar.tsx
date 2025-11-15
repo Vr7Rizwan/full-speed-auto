@@ -2,8 +2,10 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { HiChevronDown, HiMenu, HiX } from "react-icons/hi";
 import navLinks from "../resources/navLinks";
+import { ChevronDown, Menu, X } from "lucide-react";
+
+
 
 const navItemClass = `
   relative inline-flex items-center py-2 font-bold text-black hover:text-secondary
@@ -42,7 +44,7 @@ const Navbar: React.FC = () => {
             <li key={item.name} className="relative group">
               <Link href={item.href} className={navItemClass}>
                 {item.name}{" "}
-                {item.submenu && <HiChevronDown className="ml-1 w-4 h-4" />}
+                {item.submenu && <ChevronDown className="ml-1 w-4 h-4" />}
               </Link>
 
               {/* Desktop Dropdown */}
@@ -73,12 +75,13 @@ const Navbar: React.FC = () => {
         <div className="md:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
-              <HiX className="w-6 h-6" />
+              <X className="w-6 h-6" />
             ) : (
-              <HiMenu className="w-6 h-6" />
+              <Menu className="w-6 h-6" />
             )}
           </button>
         </div>
+
       </div>
 
       {/* Mobile Menu */}
@@ -93,10 +96,9 @@ const Navbar: React.FC = () => {
                 >
                   <Link href={item.href}>{item.name}</Link>
                   {item.submenu && (
-                    <HiChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${
-                        activeSubmenu === item.name ? "rotate-180" : ""
-                      }`}
+                    <ChevronDown
+                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
+                        }`}
                     />
                   )}
                 </div>
