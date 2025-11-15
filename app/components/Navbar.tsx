@@ -125,7 +125,7 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Button */}
             <li className="mt-2">
-              <button className="w-full text-left cursor-pointer normalText font-semibold bg-secondary text-primary px-3 py-2">
+              <button className="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2">
                 Book My Appointment
               </button>
             </li>

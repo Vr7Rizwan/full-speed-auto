@@ -8,28 +8,9 @@ import {
   Instagram,
   Youtube,
 } from "lucide-react";
+import { locations, quickLinks, usefulLinks } from "../resources/footer";
 
 const Footer = () => {
-  // Data Arrays
-  const locations = ["Dubai", "Sharjah", "Abu Dhabi"];
-  const quickLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Our Brands", href: "/brands" },
-    { name: "Offers", href: "/offers" },
-    { name: "Contact", href: "/contact" },
-  ];
-
-  const usefulLinks = [
-    { name: "Car Detailing", href: "/services/detailing" },
-    { name: "Auto Repair", href: "/services/repair" },
-    { name: "Oil Change", href: "/services/oil-change" },
-    { name: "Engine Service", href: "/services/engine" },
-    { name: "Tinting Service", href: "/services/tinting" },
-    { name: "Car Inspection", href: "/services/inspection" },
-  ];
-
   const socialLinks = [
     {
       icon: <Facebook className="size-5 hover:text-secondary cursor-pointer" />,
