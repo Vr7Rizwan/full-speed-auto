@@ -8,7 +8,7 @@ function WhyChooseUS() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="z-30 py-15 flex items-center flex-col gap-15">
-        <h2 className="text-primary font-bold heading">WHY CHOOSE US</h2>
+        <h2 className="text-primary font-bold subHeading">WHY CHOOSE US</h2>
         <div className="flex flex-col md:flex-row flex-wrap gap-5 justify-around px-5">
           {whyChooseUs.map((item, index) => (
             <div
