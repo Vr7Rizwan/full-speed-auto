@@ -6,6 +6,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 // =======
 import WhyChooseUS from "./components/WhyChooseUS";
+import CarWorkshopForm from "./components/CarWorkshopForm";
 
 // >>>>>>> Stashed changes
 export default function Home() {
@@ -15,11 +16,12 @@ export default function Home() {
       <Banner />
       <ShowCasePlan />
       <Offers />
-{/* <<<<<<< Updated upstream */}
-{/* ======= */}
+      {/* <<<<<<< Updated upstream */}
+      {/* ======= */}
       <WhyChooseUS />
+      <CarWorkshopForm />
       <Footer />
-{/* >>>>>>> Stashed changes */}
+      {/* >>>>>>> Stashed changes */}
     </div>
   );
 }

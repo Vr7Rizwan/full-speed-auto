@@ -28,8 +28,6 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="w-full bg-white shadow-md">
-      {/* Top Bar */}
-
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
         <div className="subHeading font-bold text-txtColor">
@@ -37,9 +35,15 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex flex-row gap-3 xl:gap-7   text-txtColor items-center">
+        <ul className="hidden lg:flex flex-row gap-3 xl:gap-7 text-txtColor items-center">
           {navLinks.map((item) => (
-            <li key={item.name} className="relative group normalText">
+            <li
+              key={item.name}
+              className="relative group normalText"
+              onMouseEnter={() => setActiveSubmenu(item.name)} // hover open
+              onMouseLeave={() => setActiveSubmenu(null)} // hover close
+              onClick={() => item.submenu && toggleSubmenu(item.name)} // click toggle
+            >
               <Link href={item.href} className={navItemClass}>
                 {item.name}{" "}
                 {item.submenu && <ChevronDown className="ml-1 w-4 h-4" />}
@@ -48,23 +52,17 @@ const Navbar: React.FC = () => {
               {/* Desktop Dropdown */}
               {item.submenu && (
                 <ul
-                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible 
-            group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50
-            ${
-              item.name === "Brands" || item.name === "Services"
-                ? "grid grid-cols-3  p-4"
-                : "w-40"
-            }`}
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg 
+                    opacity-0 invisible transition-all duration-300 z-50
+                    ${item.name === "Brands" || item.name === "Services" ? "grid grid-cols-3 p-4" : "w-40"}
+                    group-hover:opacity-100 group-hover:visible
+                    ${activeSubmenu === item.name ? "opacity-100 visible" : ""}`}
                 >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem}
-                      className={`px-4 py-2 hover:bg-gray-100 normalText 
-                ${
-                  item.name === "Brands" || item.name === "Services"
-                    ? "p-2"
-                    : ""
-                }`}
+                      className={`px-4 py-2 hover:bg-gray-100 normalText ${item.name === "Brands" || item.name === "Services" ? "p-2" : ""
+                        }`}
                     >
                       <Link href="#" className="block font-semibold">
                         {subItem}
@@ -87,11 +85,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Hamburger */}
         <div className="lg:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
@@ -111,9 +105,8 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${
-                        activeSubmenu === item.name ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
+                        }`}
                     />
                   )}
                 </div>
