@@ -54,15 +54,24 @@ const Navbar: React.FC = () => {
                 <ul
                   className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
-                    ${item.name === "Brands" || item.name === "Services" ? "grid grid-cols-3 p-4" : "w-40"}
+                    ${
+                      item.name === "Brands" || item.name === "Services"
+                        ? "grid grid-cols-3 p-4"
+                        : "w-40"
+                    }
                     group-hover:opacity-100 group-hover:visible
-                    ${activeSubmenu === item.name ? "opacity-100 visible" : ""}`}
+                    ${
+                      activeSubmenu === item.name ? "opacity-100 visible" : ""
+                    }`}
                 >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem}
-                      className={`px-4 py-2 hover:bg-gray-100 normalText ${item.name === "Brands" || item.name === "Services" ? "p-2" : ""
-                        }`}
+                      className={`px-4 py-2 hover:bg-gray-100 normalText ${
+                        item.name === "Brands" || item.name === "Services"
+                          ? "p-2"
+                          : ""
+                      }`}
                     >
                       <Link href="#" className="block font-semibold">
                         {subItem}
@@ -85,7 +94,11 @@ const Navbar: React.FC = () => {
         {/* Mobile Hamburger */}
         <div className="lg:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
       </div>
@@ -105,8 +118,9 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${
+                        activeSubmenu === item.name ? "rotate-180" : ""
+                      }`}
                     />
                   )}
                 </div>
