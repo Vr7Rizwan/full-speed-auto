@@ -2,13 +2,15 @@ import Navbar from "./components/Navbar";
 import ShowCasePlan from "./components/ShowCasePlan";
 import Offers from "./components/Offers";
 import Banner from "./components/Banner";
-// <<<<<<< Updated upstream
 import Footer from "./components/Footer";
-// =======
 import WhyChooseUS from "./components/WhyChooseUS";
+<<<<<<< Updated upstream
 import CarWorkshopForm from "./components/CarWorkshopForm";
+=======
+import Faq from "./components/Faq";
 
-// >>>>>>> Stashed changes
+>>>>>>> Stashed changes
+
 export default function Home() {
   return (
     <div>
@@ -16,12 +18,18 @@ export default function Home() {
       <Banner />
       <ShowCasePlan />
       <Offers />
+<<<<<<< Updated upstream
       {/* <<<<<<< Updated upstream */}
       {/* ======= */}
       <WhyChooseUS />
       <CarWorkshopForm />
       <Footer />
       {/* >>>>>>> Stashed changes */}
+=======
+      <WhyChooseUS />
+      <Faq />
+      <Footer />
+>>>>>>> Stashed changes
     </div>
   );
 }

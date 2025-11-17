@@ -15,3 +15,6 @@
 .normalText {
   @apply text-sm md:text-lg;
 }
+.summary::marker{
+  display:none;
+}
