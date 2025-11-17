@@ -1,4 +1,3 @@
-import React from "react";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Facebook, Instagram } from "lucide-react"
 
@@ -8,7 +7,7 @@ const CarWorkshopForm = () => {
         <section className="w-full flex flex-col md:flex-row items-center bg-gray-50 py-12 px-4 sm:px-8 lg:px-20 gap-8">
 
             {/* Left Image - Fully Responsive */}
-            <section className="bg-txtColor text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">
+            <section className="bg-txtColor rounded-2xl text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">
 
       {/* Background Texture (optional) */}
 
@@ -66,13 +65,11 @@ const CarWorkshopForm = () => {
         </div>
 
         {/* Map */}
-        <div className="rounded-lg overflow-hidden h-80 shadow-lg">
+        <div className="rounded-lg overflow-hidden h-60 shadow-lg">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14442.815024647876!2d55.370376!3d25.278007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5fb2e7c3e93f%3A0x4fb6ea9dd7c03033!2sAwtar%20Auto%20Multi%20Brand%20Repairing%20Garage!5e0!3m2!1sen!2sae!4v1700000000000"
             width="100%"
             height="100%"
-            allowFullScreen=""
-            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
@@ -81,7 +78,7 @@ const CarWorkshopForm = () => {
 
             {/* Right Form */}
             <div className="w-full md:w-1/2 bg-primary p-6 sm:p-8 rounded-lg shadow-md">
-                <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-txtColor">
+                <h2 className="subHeading font-bold mb-6 text-txtColor">
                     Book Your Car Service
                 </h2>
 
@@ -115,7 +112,7 @@ const CarWorkshopForm = () => {
 
                     <button
                         type="submit"
-                        className="bg-secondary cursor-pointer text-primary font-semibold py-3 rounded transition"
+                        className="bg-secondary cursor-pointer text-primary normalText font-semibold py-3 rounded transition"
                     >
                         Submit
                     </button>
