@@ -30,14 +30,14 @@ const Navbar: React.FC = () => {
     <nav className="w-full bg-white shadow-md">
       {/* Top Bar */}
 
-      <div className="flex flex-row items-center justify-between py-5 px-6 md:px-12 lg:px-20">
+      <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
         <div className="subHeading font-bold text-txtColor">
           FULL SPEED <span className="text-secondary">AUTOS</span>
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex flex-row gap-7   text-txtColor items-center">
+        <ul className="hidden lg:flex flex-row gap-3 xl:gap-7   text-txtColor items-center">
           {navLinks.map((item) => (
             <li key={item.name} className="relative group normalText">
               <Link href={item.href} className={navItemClass}>
@@ -50,15 +50,21 @@ const Navbar: React.FC = () => {
                 <ul
                   className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible 
             group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50
-            ${item.name === "Brands" || item.name === "Services" ? "grid grid-cols-3  p-4" : "w-40"}`
-                  }
+            ${
+              item.name === "Brands" || item.name === "Services"
+                ? "grid grid-cols-3  p-4"
+                : "w-40"
+            }`}
                 >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem}
                       className={`px-4 py-2 hover:bg-gray-100 normalText 
-                ${item.name === "Brands" || item.name === "Services" ? "p-2" : ""}`
-                      }
+                ${
+                  item.name === "Brands" || item.name === "Services"
+                    ? "p-2"
+                    : ""
+                }`}
                     >
                       <Link href="#" className="block font-semibold">
                         {subItem}
@@ -71,17 +77,15 @@ const Navbar: React.FC = () => {
           ))}
         </ul>
 
-
-
         {/* Desktop Button */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <button className="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full">
             Book My Appointment
           </button>
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
               <X className="w-6 h-6" />
@@ -94,7 +98,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="lg:hidden bg-white border-t border-gray-200">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
@@ -107,8 +111,9 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${
+                        activeSubmenu === item.name ? "rotate-180" : ""
+                      }`}
                     />
                   )}
                 </div>
