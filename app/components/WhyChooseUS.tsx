@@ -13,7 +13,7 @@ function WhyChooseUS() {
           {whyChooseUs.map((item, index) => (
             <div
               key={index}
-              className="bg-[#742B2A]/60 px-10 py-10 flex flex-col gap-5 rounded-2xl text-primary"
+              className="bg-[#742B2A]/80 px-10 py-10 flex flex-col gap-5 rounded-2xl text-primary"
             >
               <h3 className="text-primary subHeading font-bold">
                 {item.title}
