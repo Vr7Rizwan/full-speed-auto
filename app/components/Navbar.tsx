@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex flex-row gap-7 font-bold text-txtColor items-center">
+        <ul className="hidden md:flex flex-row gap-7   text-txtColor items-center">
           {navLinks.map((item) => (
             <li key={item.name} className="relative group normalText">
               <Link href={item.href} className={navItemClass}>
@@ -47,13 +47,20 @@ const Navbar: React.FC = () => {
 
               {/* Desktop Dropdown */}
               {item.submenu && (
-                <ul className="absolute left-0 top-full mt-2 w-40 bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                <ul
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg opacity-0 invisible 
+            group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50
+            ${item.name === "Brands" || item.name === "Services" ? "grid grid-cols-3  p-4" : "w-40"}`
+                  }
+                >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem}
-                      className="px-4 py-2 hover:bg-gray-100 normalText"
+                      className={`px-4 py-2 hover:bg-gray-100 normalText 
+                ${item.name === "Brands" || item.name === "Services" ? "p-2" : ""}`
+                      }
                     >
-                      <Link href="#" className="block">
+                      <Link href="#" className="block font-semibold">
                         {subItem}
                       </Link>
                     </li>
@@ -63,6 +70,8 @@ const Navbar: React.FC = () => {
             </li>
           ))}
         </ul>
+
+
 
         {/* Desktop Button */}
         <div className="hidden md:block">
@@ -98,9 +107,8 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${
-                        activeSubmenu === item.name ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
+                        }`}
                     />
                   )}
                 </div>
