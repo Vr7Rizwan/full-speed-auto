@@ -10,14 +10,12 @@ import Faq from "./components/Faq";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Banner />
       <ShowCasePlan />
       <Offers />
       <WhyChooseUS />
       <Faq />
       <CarWorkshopForm />
-      <Footer />
     </div>
   );
 }

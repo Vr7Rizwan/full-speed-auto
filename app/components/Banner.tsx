@@ -32,7 +32,8 @@ const Banner = () => {
                     i % 2 !== 0
                       ? "before:bg-black/70"
                       : "before:bg-secondary/75"
-                  }  hover:before:w-full before:transition-all before:duration-1000`}
+                  } active:before:w-full md:hover:before:w-full before:transition-all md:before:duration-1000
+                   duration-300`}
               >
                 <span className="relative z-10">{value.button}</span>
               </button>

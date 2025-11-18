@@ -5,7 +5,7 @@ interface NavLinkType {
 }
 
 const navLinks: NavLinkType[] = [
-  { name: "About", href: "" },
+  { name: "About", href: "/about" },
   { name: "Offers", href: "" },
   {
     name: "Brands",
