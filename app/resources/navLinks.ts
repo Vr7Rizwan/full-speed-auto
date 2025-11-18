@@ -1,7 +1,7 @@
 interface NavLinkType {
   name: string;
   href: string;
-  submenu?: string[];
+  submenu?: [string, string][];
 }
 
 const navLinks: NavLinkType[] = [
@@ -11,28 +11,15 @@ const navLinks: NavLinkType[] = [
     name: "Brands",
     href: "",
     submenu: [
-      "Audi",
-      "Bentley",
-      "BMW",
-      "Bugatti",
-      "Ferrari",
-      "Jaguar",
-      "Lamborghini",
-      "Maserati",
-      "Maybach",
-      "McLaren",
-      "Mercedes",
-      "Mini Cooper",
-      "Pagani",
-      "Porsche",
-      "Range Rover",
-      "Rolls Royce",
-      "Volkswagen",
-      "Dodge",
-      "Jeep"
-    ]
-  }
-  ,
+      ["Audi", "/brands/audi"],
+      ["BMW", "/brands/bmw"],
+      ["Jaguar", "/brands/jaguar"],
+      ["Maserati", "/brands/maserati"],
+      ["Maybach", "/brands/maybach"],
+      ["Mercedes", "/brands/mercedes"],
+      ["Porsche", "/brands/porsche"],
+    ],
+  },
   {
     name: "Services",
     href: "",
@@ -68,6 +55,6 @@ const navLinks: NavLinkType[] = [
   }
   ,
   { name: "Packages", href: "", submenu: ["Basic", "Premium", "VIP"] },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact", href: "" },
 ];
 export default navLinks;
