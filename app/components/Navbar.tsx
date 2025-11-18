@@ -66,15 +66,15 @@ const Navbar: React.FC = () => {
                 >
                   {item.submenu.map((subItem) => (
                     <li
-                      key={subItem}
+                      key={subItem[0]}
                       className={`px-4 py-2 hover:bg-gray-100 normalText ${
                         item.name === "Brands" || item.name === "Services"
                           ? "p-2"
                           : ""
                       }`}
                     >
-                      <Link href="#" className="block font-semibold">
-                        {subItem}
+                      <Link href={subItem[1]} className="block font-semibold">
+                        {subItem[0]}
                       </Link>
                     </li>
                   ))}
@@ -129,12 +129,12 @@ const Navbar: React.FC = () => {
                 {item.submenu && activeSubmenu === item.name && (
                   <ul className="pl-4 mt-1 flex flex-col gap-1">
                     {item.submenu.map((subItem) => (
-                      <li key={subItem} className="py-1 normalText">
+                      <li key={subItem[0]} className="py-1 normalText">
                         <Link
-                          href="#"
+                          href={subItem[1]}
                           className="block text-txtColor hover:text-secondary"
                         >
-                          {subItem}
+                          {subItem[0]}
                         </Link>
                       </li>
                     ))}
