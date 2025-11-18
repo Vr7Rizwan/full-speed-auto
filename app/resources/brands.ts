@@ -10,7 +10,7 @@ export interface BrandType {
   seoDescription?: string;
 }
 
-export const brandsData: BrandType[] = [
+const brandsData: BrandType[] = [
   {
     name: "Audi",
     banner: "/assets/brands/audi.webp",
@@ -277,3 +277,16 @@ export const brandsData: BrandType[] = [
       "Professional Porsche maintenance and repair in Dubai. Certified technicians, genuine parts, engine, brakes, suspension, AC, performance, and full high-performance service.",
   },
 ];
+
+export const findBrand = (brand: string) => {
+  const data = brandsData.find(
+    (eachService: BrandType) =>
+      eachService.name
+        .split(" ")
+        .join("-")
+        .split("&-")
+        .join("")
+        .toLowerCase() === brand
+  );
+  return data;
+};

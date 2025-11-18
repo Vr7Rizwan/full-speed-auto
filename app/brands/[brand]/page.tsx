@@ -1,12 +1,9 @@
-import Banner from "@/app/components/Brands/Banner";
+import { findBrand } from "@/app/resources/brands";
 
 async function page({ params }: { params: { brand: string } }) {
   const data = await params;
-  return (
-    <div>
-      <Banner brand={data.brand} />
-    </div>
-  );
+  const selectedBrand = findBrand(data.brand);
+  return <div>{selectedBrand?.heading}</div>;
 }
 
 export default page;
