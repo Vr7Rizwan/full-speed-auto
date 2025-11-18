@@ -1,9 +1,12 @@
-import Banner from '@/app/components/Services/Banner';
-import React from 'react'
+import { findService } from "@/app/resources/services";
 
 const page = async ({ params }: { params: { service: string } }) => {
-    const data = await params;
-    return <Banner service={data.service} />
-}
+  const data = await params;
+  const selectedService = findService(data.service);
+  if (!selectedService) {
+    return <div>Service not found</div>;
+  }
+  return <div>{selectedService.name}</div>;
+};
 
-export default page
+export default page;
