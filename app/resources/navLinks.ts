@@ -68,6 +68,6 @@ const navLinks: NavLinkType[] = [
   }
   ,
   { name: "Packages", href: "", submenu: ["Basic", "Premium", "VIP"] },
-  { name: "Contact", href: "" },
+  { name: "Contact", href: "/contact" },
 ];
 export default navLinks;
