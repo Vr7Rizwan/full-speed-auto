@@ -1,4 +1,4 @@
-interface faqTypes {
+export interface faqTypes {
   Question: string;
   Answer: string;
 }

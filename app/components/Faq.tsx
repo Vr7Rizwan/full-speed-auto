@@ -1,6 +1,6 @@
-import faq from "../resources/faq";
+import { faqTypes } from "../resources/faq";
 
-function Faq() {
+function Faq({faq}:{faq:faqTypes[]|undefined}) {
   
   return (
     <div>
@@ -11,7 +11,7 @@ function Faq() {
       </div>
 
       <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-primary">
-        {faq.map((item, index) => (
+        {faq && faq.map((item, index) => (
           <details
             key={index}
             className=" text-primary p-2 rounded-md cursor-pointer"
