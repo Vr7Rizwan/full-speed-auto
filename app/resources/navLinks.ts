@@ -6,7 +6,6 @@ interface NavLinkType {
 
 const navLinks: NavLinkType[] = [
   { name: "About", href: "/about" },
-  { name: "Offers", href: "" },
   {
     name: "Brands",
     href: "",
@@ -55,12 +54,7 @@ const navLinks: NavLinkType[] = [
   },
   {
     name: "Packages",
-    href: "",
-    submenu: [
-      ["Basic", "/packages/basic"],
-      ["Premium", "/packages/premium"],
-      ["VIP", "/packages/vip"],
-    ],
+    href: "/packages"
   },
   { name: "Contact", href: "/contact" },
 ];
