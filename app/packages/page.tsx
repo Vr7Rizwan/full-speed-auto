@@ -10,15 +10,15 @@ function page() {
       {packageDetails.map((pack, index) => (
         <div
           key={index}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-primary  rounded-xl overflow-hidden"
+          className="grid grid-cols-1 md:grid-cols-2 md:gap-6 md:bg-primary  bg-gray-100 rounded-2xl md:rounded-xl overflow-hidden"
         >
           {/* Left Image */}
-          <div className="relative w-full h-60 md:h-full">
-            <img className='rounded-3xl' src={pack.image} alt="" />
+          <div className="relative w-full md:h-full">
+            <img className='md:rounded-3xl' src={pack.image} alt="" />
           </div>
 
           {/* Right Content */}
-          <div className="flex flex-col justify-center p-6 space-y-4 bg-gray-100 rounded-3xl">
+          <div className="flex flex-col justify-center p-6 space-y-4 md:bg-gray-100 md:rounded-3xl">
             <h3 className="subHeading font-bold text-secondary">{pack.title}</h3>
             <p className="text-txtColor">{pack.desc}</p>
 
