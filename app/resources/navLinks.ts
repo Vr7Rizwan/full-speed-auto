@@ -8,7 +8,7 @@ const navLinks: NavLinkType[] = [
   { name: "About", href: "/about" },
   { name: "Offers", href: "" },
   {
-    name: "hello",
+    name: "Brands",
     href: "",
     submenu: [
       ["Audi", "/brands/audi"],
