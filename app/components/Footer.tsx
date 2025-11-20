@@ -29,7 +29,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full bg-txtColor text-primary py-12 px-6 md:px-12">
+    <footer className="w-full bg-txtColor text-primary py-12 px-6 md:px-12 z-20">
       <div className="flex flex-col md:flex-row justify-between gap-12">
         {/* Column 1: Brand + Locations */}
         <div className="flex flex-col gap-3 md:w-1/4">

@@ -1,4 +1,5 @@
 import banner from "../resources/banner";
+import ContactBtn from "./ContactBtn";
 const Banner = () => {
   return (
     <>
@@ -25,18 +26,17 @@ const Banner = () => {
               <p className="text-primary normalText pr-6">
                 {value.description}
               </p>
-              <button
-                className={`border py-2 px-3 normalText text-primary w-35 relative
-                     before:absolute before:top-0 before:left-0 before:w-0 before:h-full
+              <ContactBtn
+                text={value.button}
+                classes={`border py-2 px-3 normalText text-primary w-35 relative
+                     before:absolute before:-z-10 before:top-0 before:left-0 before:w-0 before:h-full
                   ${
                     i % 2 !== 0
                       ? "before:bg-black/70"
                       : "before:bg-secondary/75"
                   } active:before:w-full md:hover:before:w-full before:transition-all md:before:duration-1000
                    duration-300`}
-              >
-                <span className="relative z-10">{value.button}</span>
-              </button>
+              />
             </div>
           </div>
         ))}
