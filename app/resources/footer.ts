@@ -4,7 +4,7 @@ export const quickLinks: { name: string; href: string }[] = [
   { name: "About Us", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Our Brands", href: "/brands" },
-  { name: "Offers", href: "/offers" },
+  { name: "Packages", href: "/packages" },
   { name: "Contact", href: "/contact" },
 ];
 export const usefulLinks: { name: string; href: string }[] = [
