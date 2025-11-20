@@ -1,5 +1,7 @@
 // src/data/services.ts
 
+import { whyChooseUsTypes } from "./whyChooseUs";
+
 export interface ServiceType {
     name: string;
     banner: string;
@@ -7,7 +9,7 @@ export interface ServiceType {
     heading: string;
     heroText: string;
     description: string[];
-    whyChooseUs: string[];
+    whyChooseUs: whyChooseUsTypes[];
     features: string[];
     seoTitle?: string;
     seoDescription?: string;
@@ -28,10 +30,9 @@ const servicesData: ServiceType[] = [
             "Certified technicians use genuine parts to guarantee long-lasting performance and reliability.",
         ],
         whyChooseUs: [
-            "Certified AC repair specialists.",
-            "Advanced diagnostics for precise problem detection.",
-            "Use of genuine parts for all repairs.",
-            "Efficient and timely service.",
+            { title: "Experienced AC Specialists", text: "Our technicians are trained and experienced in handling all aspects of AC Repair & Maintenance, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for ac repair & maintenance." },
+            { title: "Quality Service Guaranteed", text: "Every ac repair & maintenance job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Refrigerant Leak Detection & Repair",
@@ -59,10 +60,9 @@ const servicesData: ServiceType[] = [
             "Genuine parts and advanced diagnostics are used for all services, ensuring reliability and long-lasting results.",
         ],
         whyChooseUs: [
-            "Certified engine and ECU specialists.",
-            "Advanced diagnostic and repair tools.",
-            "Use of genuine parts.",
-            "Preventive maintenance to avoid costly repairs.",
+            { title: "Experienced Engine Specialists", text: "Our technicians are trained and experienced in handling all aspects of Engine & ECU Service, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for engine & ecu service." },
+            { title: "Quality Service Guaranteed", text: "Every engine & ecu service job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Engine Diagnostics & Repairs",
@@ -91,10 +91,9 @@ const servicesData: ServiceType[] = [
             "All repairs are performed using genuine parts and certified techniques for maximum efficiency.",
         ],
         whyChooseUs: [
-            "Certified brake system technicians.",
-            "Genuine parts used for all repairs.",
-            "Advanced diagnostics for precise repair.",
-            "Reliable service with fast turnaround.",
+            { title: "Experienced Brake Specialists", text: "Our technicians are trained and experienced in handling all aspects of Brake System Service, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for brake system service." },
+            { title: "Quality Service Guaranteed", text: "Every brake system service job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Brake Pad & Rotor Replacement",
@@ -123,10 +122,9 @@ const servicesData: ServiceType[] = [
             "Certified technicians provide expert guidance and service for both manual and automatic transmissions.",
         ],
         whyChooseUs: [
-            "Certified transmission specialists.",
-            "Genuine parts for all repairs.",
-            "Advanced diagnostic tools for accurate assessment.",
-            "Fast and professional service.",
+            { title: "Experienced Transmission Specialists", text: "Our technicians are trained and experienced in handling all aspects of Transmission & Gearbox Repair, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for transmission & gearbox repair." },
+            { title: "Quality Service Guaranteed", text: "Every transmission & gearbox repair job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Transmission Fluid Replacement",
@@ -155,10 +153,9 @@ const servicesData: ServiceType[] = [
             "Regular maintenance extends the life of suspension and steering systems and ensures a safer driving experience.",
         ],
         whyChooseUs: [
-            "Certified suspension and steering specialists.",
-            "Advanced diagnostic and alignment tools.",
-            "High-quality parts used in all repairs.",
-            "Timely and professional service.",
+            { title: "Experienced Suspension Specialists", text: "Our technicians are trained and experienced in handling all aspects of Suspension & Steering Maintenance, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for suspension & steering maintenance." },
+            { title: "Quality Service Guaranteed", text: "Every suspension & steering maintenance job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Shock & Strut Replacement",
@@ -186,10 +183,9 @@ const servicesData: ServiceType[] = [
             "Certified technicians perform thorough checks to prevent leaks and detect early signs of wear.",
         ],
         whyChooseUs: [
-            "Certified technicians specialized in fluid maintenance.",
-            "High-quality oils and fluids used.",
-            "Comprehensive checks for all vital fluids.",
-            "Efficient and timely service.",
+            { title: "Experienced Oil Specialists", text: "Our technicians are trained and experienced in handling all aspects of Oil Change & Fluid Checks, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for oil change & fluid checks." },
+            { title: "Quality Service Guaranteed", text: "Every oil change & fluid checks job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Engine Oil Replacement",
@@ -218,10 +214,9 @@ const servicesData: ServiceType[] = [
             "Regular maintenance prevents unexpected failures and ensures your car's technology works perfectly.",
         ],
         whyChooseUs: [
-            "Certified electrical system specialists.",
-            "Advanced diagnostics and repair tools.",
-            "Software updates and troubleshooting services.",
-            "Reliable and professional service.",
+            { title: "Experienced Electrical Specialists", text: "Our technicians are trained and experienced in handling all aspects of Electrical & Comfort Systems, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for electrical & comfort systems." },
+            { title: "Quality Service Guaranteed", text: "Every electrical & comfort systems job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Electrical System Diagnostics",
@@ -249,10 +244,9 @@ const servicesData: ServiceType[] = [
             "Preventive maintenance keeps your engine running smoothly and reduces the risk of costly repairs.",
         ],
         whyChooseUs: [
-            "Certified fuel system specialists.",
-            "Advanced injector cleaning tools.",
-            "Improves fuel efficiency and engine performance.",
-            "Preventive maintenance to avoid major repairs.",
+            { title: "Experienced Fuel Specialists", text: "Our technicians are trained and experienced in handling all aspects of Fuel Injection Service, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for fuel injection service." },
+            { title: "Quality Service Guaranteed", text: "Every fuel injection service job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Fuel Injector Cleaning",
@@ -281,10 +275,9 @@ const servicesData: ServiceType[] = [
             "We cover all major systems to ensure the vehicle is safe, reliable, and roadworthy.",
         ],
         whyChooseUs: [
-            "Certified vehicle inspection specialists.",
-            "Comprehensive system diagnostics.",
-            "Detailed report for informed decisions.",
-            "Reliable and professional service.",
+            { title: "Experienced Pre Specialists", text: "Our technicians are trained and experienced in handling all aspects of Pre Purchase Inspection & Diagnostics, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for pre purchase inspection & diagnostics." },
+            { title: "Quality Service Guaranteed", text: "Every pre purchase inspection & diagnostics job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Engine & Transmission Inspection",
@@ -313,10 +306,9 @@ const servicesData: ServiceType[] = [
             "All tuning is done by certified technicians to ensure reliability and vehicle safety.",
         ],
         whyChooseUs: [
-            "Certified performance tuning specialists.",
-            "Safe ECU programming and optimization.",
-            "Improves power, efficiency, and drivability.",
-            "Professional and reliable service.",
+            { title: "Experienced Performance Specialists", text: "Our technicians are trained and experienced in handling all aspects of Performance Tuning & ECU Upgrade, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for performance tuning & ecu upgrade." },
+            { title: "Quality Service Guaranteed", text: "Every performance tuning & ecu upgrade job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "ECU Mapping & Updates",
@@ -345,10 +337,9 @@ const servicesData: ServiceType[] = [
             "Regular maintenance keeps your car looking new and enhances its overall aesthetic appeal.",
         ],
         whyChooseUs: [
-            "Certified paint protection specialists.",
-            "High-quality materials and coatings.",
-            "Precise and professional application.",
-            "Long-lasting finish and protection.",
+            { title: "Experienced Paint Specialists", text: "Our technicians are trained and experienced in handling all aspects of Paint Protection & Coatings, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for paint protection & coatings." },
+            { title: "Quality Service Guaranteed", text: "Every paint protection & coatings job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "PPF Installation & Maintenance",
@@ -377,10 +368,9 @@ const servicesData: ServiceType[] = [
             "Regular maintenance helps prevent further damage and prolongs the life of your alloy wheels.",
         ],
         whyChooseUs: [
-            "Certified alloy wheel repair specialists.",
-            "Advanced tools and high-quality materials.",
-            "Comprehensive repair and refurbishment.",
-            "Reliable and professional service.",
+            { title: "Experienced Alloy Specialists", text: "Our technicians are trained and experienced in handling all aspects of Alloy Wheel Repair & Refurbishment, ensuring reliable service and consistent performance." },
+            { title: "Advanced Diagnostic Tools", text: "We use modern equipment and precise diagnostic technology to identify issues quickly and deliver accurate solutions for alloy wheel repair & refurbishment." },
+            { title: "Quality Service Guaranteed", text: "Every alloy wheel repair & refurbishment job is carried out with attention to detail, using high‑quality parts and practices to ensure long‑lasting results." }
         ],
         features: [
             "Wheel Straightening & Crack Repair",

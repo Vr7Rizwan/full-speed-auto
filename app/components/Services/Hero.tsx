@@ -6,14 +6,14 @@ const Hero = ({
     heading,
     heroTxt,
     description,
-    whyChooseUs,
+
     contentimg,
     features
 }: {
     heading: string,
     heroTxt: string,
     description: string[],
-    whyChooseUs: string[],
+
     contentimg: string,
     features: string[];
 }) => {
@@ -43,11 +43,7 @@ const Hero = ({
 
             <h2 className="subHeading text-txtColor font-semibold">{heroTxt}</h2>
 
-            <ul className="list-disc pl-5 space-y-2">
-                {whyChooseUs.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
+
             <Link
                 href="https://wa.me/923001234567?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
                 target="_blank"
