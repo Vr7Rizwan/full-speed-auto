@@ -2,7 +2,7 @@ import { companyservices } from "@/app/resources/about"
 const CompanyServices=()=>{
     return(
       <section className="flex justify-center">
-       <div className="w-[95%] lg:w-8/10 flex flex-col gap-10 justify-center">
+       <div className="w-[93%] mx-auto flex flex-col gap-10 justify-center">
         
   <h1 className="heading text-secondary font-bold">{companyservices.heading}</h1>
   <p className="normalText font-light">
