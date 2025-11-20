@@ -2,7 +2,6 @@
 
 export interface ServiceType {
     name: string;
-    slug: string;
     banner: string;
     contentimg: string;
     heading: string;
@@ -17,7 +16,6 @@ export interface ServiceType {
 const servicesData: ServiceType[] = [
     {
         name: "AC Repair & Maintenance",
-        slug: "/services/ac-repair-&-maintenance",
         banner: "/assets/services/ac-repair-&-maintenance.webp",
         heading: "Expert Car AC Repair & Maintenance",
         contentimg: "/assets/services/content-1.webp",
@@ -49,7 +47,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Engine & ECU Service",
-        slug: "/services/engine-&-ecu-service",
         banner: "/assets/services/engine-&-ecu-service.webp",
         heading: "Comprehensive Engine & ECU Maintenance",
         contentimg: "/assets/services/content-2.webp",
@@ -81,7 +78,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Brake System Service",
-        slug: "/services/brake-system-service",
         banner: "/assets/services/brake-system-service.webp",
         heading: "Professional Brake System Repair & Maintenance",
         contentimg: "/assets/services/content-3.webp",
@@ -114,7 +110,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Transmission & Gearbox Repair",
-        slug: "/services/transmission-&-gearbox-repair",
         banner: "/assets/services/transmission-&-gearbox-repair.webp",
         heading: "Reliable Transmission & Gearbox Repairs",
         contentimg: "/assets/services/content-4.webp",
@@ -147,7 +142,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Suspension & Steering Maintenance",
-        slug: "/services/suspension-steering-repair",
         banner: "/assets/services/suspension-steering-repair.webp",
         heading: "Expert Suspension & Steering Services",
         contentimg: "/assets/services/content-5.webp",
@@ -180,7 +174,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Oil Change & Fluid Checks",
-        slug: "/services/oil-change-fluid-checks",
         banner: "/assets/services/oil-change-fluid-checks.webp",
         heading: "Comprehensive Oil Change & Fluid Maintenance",
         contentimg: "/assets/services/content-6.webp",
@@ -212,7 +205,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Electrical & Comfort Systems",
-        slug: "/services/electrical-comfort-repair",
         banner: "/assets/services/electrical-comfort-repair.webp",
         contentimg: "/assets/services/content-7.webp",
 
@@ -245,7 +237,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Fuel Injection Service",
-        slug: "/services/fuel-injection-service",
         banner: "/assets/services/fuel-injection-service.webp",
         heading: "Expert Fuel Injection Cleaning & Maintenance",
         contentimg: "/assets/services/content-8.webp",
@@ -277,7 +268,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Pre Purchase Inspection & Diagnostics",
-        slug: "/services/pre-purchase-inspection",
         banner: "/assets/services/pre-purchase-inspection.webp",
         heading: "Comprehensive Pre-Purchase Vehicle Inspection",
         contentimg: "/assets/services/content-9.webp",
@@ -310,7 +300,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Performance Tuning & ECU Upgrade",
-        slug: "/services/performance-ecu-tuning",
         banner: "/assets/services/performance-ecu-tuning.webp",
         contentimg: "/assets/services/content-10.webp",
 
@@ -343,7 +332,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Paint Protection & Coatings",
-        slug: "/services/paint-protection-coating",
         banner: "/assets/services/paint-protection-coating.webp",
         contentimg: "/assets/services/content-11.webp",
 
@@ -376,7 +364,6 @@ const servicesData: ServiceType[] = [
 
     {
         name: "Alloy Wheel Repair & Refurbishment",
-        slug: "/services/alloy-wheel-repair-refurbishment",
         banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
         contentimg: "/assets/services/content-12.webp",
 

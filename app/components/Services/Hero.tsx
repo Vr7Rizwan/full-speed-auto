@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from "next/link";
+
 
 const Hero = ({
     heading,
@@ -16,7 +18,7 @@ const Hero = ({
     features: string[];
 }) => {
     return (
-        <div className="flex flex-col justify-center p-5 md:p-10 gap-5">
+        <div className="flex flex-col justify-center py-10 px-18 md:py-10 md:px-18 gap-5">
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-0">
 
@@ -46,12 +48,16 @@ const Hero = ({
                     <li key={index}>{item}</li>
                 ))}
             </ul>
-
-            <img
-                src="/assets/services/discountimg.webp"
-                className="w-full p-3 md:p-10"
-                alt=""
-            />
+            <Link
+                href="https://wa.me/923001234567?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+                target="_blank"
+            >
+                <img
+                    src="/assets/services/discountimg.webp"
+                    className="w-full py-3 md:py-10"
+                    alt="discount"
+                />
+            </Link>
 
             <h2 className="heading text-secondary font-bold pt-5 md:pt-10">Our Features</h2>
 
