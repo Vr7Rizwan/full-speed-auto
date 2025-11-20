@@ -113,7 +113,11 @@ const Navbar: React.FC = () => {
                   className="flex items-center justify-between py-2 font-bold text-txtColor cursor-pointer"
                   onClick={() => item.submenu && toggleSubmenu(item.name)}
                 >
-                  <Link className="normalText" href={item.href}>
+                  <Link
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="normalText"
+                    href={item.href}
+                  >
                     {item.name}
                   </Link>
                   {item.submenu && (
@@ -131,6 +135,7 @@ const Navbar: React.FC = () => {
                     {item.submenu.map((subItem) => (
                       <li key={subItem[0]} className="py-1 normalText">
                         <Link
+                          onClick={() => setMobileMenuOpen(false)}
                           href={subItem[1]}
                           className="block text-txtColor hover:text-secondary"
                         >
@@ -145,7 +150,10 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Button */}
             <li className="mt-2">
-              <button className="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2">
+              <button
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2"
+              >
                 Book My Appointment
               </button>
             </li>
