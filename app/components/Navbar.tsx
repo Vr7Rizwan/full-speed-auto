@@ -31,9 +31,9 @@ const Navbar: React.FC = () => {
     <nav className="w-full bg-white shadow-md sticky top-0 z-20">
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
-        <div className="subHeading font-bold text-txtColor">
+        <Link href="/" className="subHeading font-bold text-txtColor">
           FULL SPEED <span className="text-secondary">AUTOS</span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex flex-row gap-3 xl:gap-7 text-txtColor items-center">
