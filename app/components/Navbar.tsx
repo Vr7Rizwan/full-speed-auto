@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-white shadow-md fixed z-10">
+    <nav className="w-full bg-white shadow-md sticky top-0 z-10">
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
         <div className="subHeading font-bold text-txtColor">
