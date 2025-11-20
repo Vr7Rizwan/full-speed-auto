@@ -1,17 +1,20 @@
 import { missionvision } from "@/app/resources/about"
 const MissionVision=()=>{
     return(
-        <section className="flex flex-col md:flex-row justify-around pt-12 gap-8 md:gap-0">
+        <section className="pt-10">
+            
+      <div className="w-[95%] mx-auto flex flex-col gap-7 md:flex-row md:gap-0">
         {
             missionvision.map((value,i)=>(
-            <div key={`${value} ${i}`} className={`flex flex-col w-full px-2 md:pl-0 items-center gap-5
-            ${i===1?"md:w-1/3":"md:w-1/2"}`}>
+            <div key={`${value} ${i}`} className={`flex flex-col w-full px-2 md:pl-0 gap-5
+            `}>
                 <h1 className="heading text-secondary font-bold">{value.heading}</h1>
                 <p className="normalText text-txtColor font-light">{value.description}</p>
                 
             </div>
                ))
         }
+        </div>
         </section>
     )
 }

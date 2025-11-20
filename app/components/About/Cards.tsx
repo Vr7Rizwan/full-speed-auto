@@ -2,7 +2,7 @@ import { cards } from "@/app/resources/about"
 const Cards=()=>{
     return(
         <section>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 flex-wrap py-12">
+            <div className="w-[95%] mx-auto flex flex-col md:flex-row justify-between items-center gap-10 md:gap-20 flex-wrap py-12">
                 {
                    cards.map((value,i)=>(                   
             <div key={`${value} ${i}`} className="flex flex-col items-center w-full md:w-1/4 gap-3 px-2 md:px-0">
