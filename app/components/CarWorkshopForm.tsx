@@ -78,7 +78,7 @@ const CarWorkshopForm = () => {
     </section>
 
             {/* Right Form */}
-      <Form/>
+          <Form/>
 
         </section>
     );
