@@ -1,6 +1,6 @@
-import whyChooseUs from "../resources/whyChooseUs";
+import { whyChooseUsTypes } from "../resources/whyChooseUs";
 
-function WhyChooseUS() {
+function WhyChooseUS({whyChooseUs}:{whyChooseUs:whyChooseUsTypes[] | undefined}) {
   return (
     <div
       className="bg-cover relative bg-center bg-no-repeat min-h-screen flex justify-center"
@@ -10,7 +10,7 @@ function WhyChooseUS() {
       <div className="z-30 py-15 flex items-center flex-col gap-15">
         <h2 className="text-primary font-bold subHeading">WHY CHOOSE US</h2>
         <div className="flex flex-col md:flex-row flex-wrap gap-5 justify-around px-5">
-          {whyChooseUs.map((item, index) => (
+          {whyChooseUs && whyChooseUs.map((item, index) => (
             <div
               key={index}
               className="bg-[#742B2A]/80 px-10 py-10 flex flex-col gap-5 rounded-2xl text-primary"
