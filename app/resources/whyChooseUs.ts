@@ -1,4 +1,4 @@
-interface whyChooseUsTypes{
+export interface whyChooseUsTypes{
     title: string;
     text: string
 }

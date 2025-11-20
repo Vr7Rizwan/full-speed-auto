@@ -4,7 +4,7 @@ import { Facebook, Instagram } from "lucide-react"
 
 const CarWorkshopForm = () => {
     return (
-        <section className="w-full flex flex-col md:flex-row items-center bg-gray-50 py-12 px-4 sm:px-8 lg:px-20 gap-8">
+        <section className="w-[95%] mx-auto flex flex-col md:flex-row items-center bg-gray-50 py-12 gap-8">
 
             {/* Left Image - Fully Responsive */}
             <section className="bg-txtColor rounded-2xl text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">

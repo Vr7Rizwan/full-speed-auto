@@ -1,7 +1,8 @@
 const AboutBanner=()=>{
     return(
-        <section>
-            <img src="./assets/aboutbanner.webp" alt="Error" className="h-120 w-full object-cover object-center"/>
+        <section className="relative">
+            <img src="./assets/aboutbanner.webp" alt="Error" className=" h-120 w-full object-cover object-center"/>
+            <div className="absolute inset-0 bg-black/35"></div>
         </section>
     )
 }

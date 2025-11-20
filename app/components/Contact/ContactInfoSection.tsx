@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactInfoSection = () => {
     return (
-        <section className="w-full bg-white py-16 px-6 md:px-12 lg:px-20">
+        <section className="w-[95%] mx-auto bg-white py-16">
             <div className="max-w-6xl mx-auto">
 
                 {/* Heading */}

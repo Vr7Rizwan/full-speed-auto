@@ -5,6 +5,7 @@ import WhyChooseUS from "./components/WhyChooseUS";
 import CarWorkshopForm from "./components/CarWorkshopForm";
 import Faq from "./components/Faq";
 import faq from "./resources/faq";
+import whyChooseUs from "./resources/whyChooseUs";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Banner />
       <ShowCasePlan />
       <Offers />
-      <WhyChooseUS />
+      <WhyChooseUS whyChooseUs={whyChooseUs} />
       <Faq faq={faq} />
       <CarWorkshopForm />
       
