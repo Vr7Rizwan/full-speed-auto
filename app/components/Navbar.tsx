@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import navLinks from "../resources/navLinks";
 import { ChevronDown, Menu, X } from "lucide-react";
+import ContactBtn from "./ContactBtn";
 
 const navItemClass = `
   relative inline-flex items-center py-2 font-bold text-txtColor hover:text-secondary
@@ -27,7 +28,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-white shadow-md sticky top-0 z-10">
+    <nav className="w-full bg-white shadow-md sticky top-0 z-20">
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
         <div className="subHeading font-bold text-txtColor">
@@ -150,12 +151,17 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Button */}
             <li className="mt-2">
-              <button
+              {/* <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2"
               >
                 Book My Appointment
-              </button>
+              </button> */}
+              <ContactBtn
+                setMobileMenuOpen={setMobileMenuOpen}
+                text="Book My Appointment"
+                classes="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2"
+              />
             </li>
           </ul>
         </div>
