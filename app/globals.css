@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #ffffff;
   --color-secondary: #e01424;
+  /* --color-secondary: #ffbf00; */
   --color-txtColor: #000000;
 }
 
@@ -15,6 +16,6 @@
 .normalText {
   @apply text-sm md:text-lg;
 }
-.summary::marker{
-  display:none;
+.summary::marker {
+  display: none;
 }

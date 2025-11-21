@@ -1,8 +1,6 @@
-import React from 'react'
-
-function Form() {
+function Form({widthAfterMD}:{widthAfterMD?:string}) {
   return (
-    <div className="w-full md:w-1/2 bg-primary p-6 sm:p-8 rounded-lg shadow-md">
+    <div className={`w-full md:${widthAfterMD || "w-1/2"} bg-primary p-6 sm:p-8 rounded-lg shadow-md`}>
                 <h2 className="subHeading font-bold mb-6 text-txtColor">
                     Book Your Car Service
                 </h2>

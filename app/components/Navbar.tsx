@@ -87,9 +87,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Button */}
         <div className="hidden lg:block">
-          <button className="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full">
-            Book My Appointment
-          </button>
+          <ContactBtn text="Book My Appointment" classes="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full" />
         </div>
 
         {/* Mobile Hamburger */}
