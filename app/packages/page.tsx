@@ -26,7 +26,7 @@ function page() {
               <p className="text-txtColor">{pack.desc}</p>
               <ContactBtn
                 text={pack.btn}
-                classes="bg-txtColor text-primary py-3 rounded-md cursor-pointer hover:bg-secondary transition"
+                classes="bg-txtColor text-primary px-3 py-3 rounded-md cursor-pointer hover:bg-secondary transition"
               />
             </div>
           </div>

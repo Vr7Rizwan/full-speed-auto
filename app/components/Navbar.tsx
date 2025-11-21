@@ -26,7 +26,6 @@ const Navbar: React.FC = () => {
   const toggleSubmenu = (name: string) => {
     setActiveSubmenu(activeSubmenu === name ? null : name);
   };
-
   return (
     <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
@@ -89,7 +88,7 @@ const Navbar: React.FC = () => {
         <div className="hidden lg:block">
           <ContactBtn
             text="Book My Appointment"
-            classes="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full"
+            classes="cursor-pointer normalText font-semibold bg-txtColor text-primary px-5 py-3 rounded-full"
           />
         </div>
 
@@ -107,7 +106,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-200">
+        <div className="lg:hidden bg-secondary border-t border-txtColor">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
@@ -116,7 +115,7 @@ const Navbar: React.FC = () => {
                   onClick={() => item.submenu && toggleSubmenu(item.name)}
                 >
                   <Link
-                    onClick={() => setMobileMenuOpen(false)}
+                    onClick={() => item.submenu || setMobileMenuOpen(false)}
                     className="normalText"
                     href={item.href}
                   >
@@ -155,7 +154,7 @@ const Navbar: React.FC = () => {
               <ContactBtn
                 setMobileMenuOpen={setMobileMenuOpen}
                 text="Book My Appointment"
-                classes="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2"
+                classes="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-txtColor text-primary px-3 py-2"
               />
             </li>
           </ul>

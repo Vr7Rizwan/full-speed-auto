@@ -37,7 +37,7 @@ function ContactBtn({
         formPopup &&
         createPortal(
           <div
-            className="fixed w-full h-full inset-0 bg-black/50 z-[9999] flex justify-center items-center p-4"
+            className="fixed w-full h-full inset-0 backdrop-blur-[2px] bg-black/50 z-[9999] flex justify-center items-center p-4"
             onClick={() => setFormPopup(false)}
           >
             <div

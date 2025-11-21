@@ -20,7 +20,7 @@ function Faq({faq}:{faq:faqTypes[]|undefined}) {
               <span> {item.Question}</span>
             </summary>
 
-            <p className="normalText mt-2 bg-gray-300 px-5 py-5 text-txtColor border-2 rounded-2xl">{item.Answer}</p>
+            <p className="normalText bg-txtColor text-primary mt-2 px-5 py-5 border-2 rounded-2xl border-secondary">{item.Answer}</p>
           </details>
         ))}
       </div>
