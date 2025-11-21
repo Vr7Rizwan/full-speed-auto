@@ -5,7 +5,7 @@ const Banner = () => {
     <>
       <img className="lg:hidden" src="/assets/banner.webp" alt="banner" />
       <section
-        className="lg:h-screen bg-primary lg:bg-[url('/assets/banner.webp')] w-full flex  justify-center items-center
+        className="lg:h-screen bg-primary lg:bg-[url('/assets/banner.png')] w-full flex  justify-center items-center
             bg-cover bg-center bg-no-repeat flex-wrap"
       >
         {banner.map((value, i) => (
@@ -14,8 +14,8 @@ const Banner = () => {
             className={`w-full lg:w-1/4 h-90 lg:h-100 flex flex-col justify-center p-7
                       [clip-path:polygon(0_0,100%_0,85%_100%,0%_100%)] ${
                         i % 2 !== 0
-                          ? "bg-secondary lg:bg-secondary/75"
-                          : "bg-black lg:bg-black/70"
+                          ? "bg-secondary lg:bg-secondary/85"
+                          : "bg-black lg:bg-black/80"
                       }
                       ${i === 3 ? "gap-20" : "gap-10"}`}
           >
@@ -28,7 +28,7 @@ const Banner = () => {
               </p>
               <ContactBtn
                 text={value.button}
-                classes={`border py-2 px-3 normalText text-primary w-35 relative
+                classes={`border py-2 px-3 normalText text-primary w-35 relative cursor-pointer
                      before:absolute before:-z-10 before:top-0 before:left-0 before:w-0 before:h-full
                   ${
                     i % 2 !== 0

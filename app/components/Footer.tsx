@@ -106,7 +106,7 @@ const Footer = () => {
                 key={idx}
                 href={s.href}
                 target="_blank"
-                className="border p-2 rounded-full"
+                className="border border-secondary p-2 rounded-3xl"
               >
                 {s.icon}
               </Link>
