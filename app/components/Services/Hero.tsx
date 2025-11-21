@@ -7,12 +7,14 @@ const Hero = ({
   description,
 
   contentimg,
+  features,
 }: {
   heading: string;
   heroTxt: string;
   description: string[];
 
   contentimg: string;
+  features: string[];
 }) => {
   return (
     <div className="flex flex-col justify-center py-10 w-[95%] mx-auto md:py-10 gap-5">
@@ -51,7 +53,7 @@ const Hero = ({
         />
       </Link>
 
-      {/* <h2 className="heading text-secondary font-bold pt-5 md:pt-10">
+      <h2 className="heading text-secondary font-bold pt-5 md:pt-10">
         Our Features
       </h2>
 
@@ -59,7 +61,7 @@ const Hero = ({
         {features.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
