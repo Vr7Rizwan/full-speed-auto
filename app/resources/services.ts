@@ -10,12 +10,11 @@ export interface ServiceType {
     heroText: string;
     description: string[];
     whyChooseUs: whyChooseUsTypes[];
-    features: string[];
+    features: { icon: string; title: string; desc: string; }[];
     seoTitle?: string;
     seoDescription?: string;
     faqs?: { Question: string; Answer: string }[];
 }
-
 const servicesData: ServiceType[] = [
     {
         name: "AC Repair & Maintenance",
@@ -46,12 +45,23 @@ const servicesData: ServiceType[] = [
         ],
 
         features: [
-            "Refrigerant Leak Detection & Repair",
-            "Compressor & Condenser Repair",
-            "AC System Cleaning & Servicing",
-            "Temperature & Airflow Optimization",
-            "Full AC System Inspection",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Expert AC Technicians",
+                desc: "Certified specialists ensuring accurate diagnosis and reliable AC repairs.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Optimal Cooling Performance",
+                desc: "We restore your AC’s cooling efficiency with precision tuning and servicing.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Fast & Same-Day Service",
+                desc: "Quick repair turnaround with minimal downtime for your home or office.",
+            },
         ],
+
         seoTitle: "Car AC Repair Dubai | Expert AC Service",
         faqs: [
             { Question: "How often should I service my car AC?", Answer: "Every 6–12 months depending on usage." },
@@ -101,12 +111,23 @@ const servicesData: ServiceType[] = [
             { Question: "Is preventive maintenance offered?", Answer: "Yes, we provide full preventive maintenance checks." },
         ],
         features: [
-            "Engine Diagnostics & Repairs",
-            "ECU Programming & Updates",
-            "Cooling System Maintenance",
-            "Engine Performance Tuning",
-            "Preventive Maintenance Checks",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Advanced ECU Diagnostics",
+                desc: "State-of-the-art scanning tools to detect and resolve electronic system issues.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Engine Performance Boost",
+                desc: "Optimizing engine output for smoother performance and better fuel efficiency.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Precision Tuning & Calibration",
+                desc: "Accurate ECU tuning and calibration to enhance overall vehicle response.",
+            },
         ],
+
         seoTitle: "Engine & ECU Service Dubai | Car Engine Repairs",
         seoDescription:
             "Professional engine and ECU service in Dubai. Diagnostics, repairs, performance tuning, cooling system maintenance, and genuine parts.",
@@ -149,12 +170,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you perform brake fluid replacement?", Answer: "Yes, complete brake fluid replacement is included." },
         ],
         features: [
-            "Brake Pad & Rotor Replacement",
-            "Caliper & Brake Line Repair",
-            "Brake Fluid Check & Replacement",
-            "ABS Diagnostics & Repair",
-            "Emergency Brake Inspection",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Complete Brake Inspection",
+                desc: "Detailed assessment of brake pads, discs, and overall braking performance.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Enhanced Safety Assurance",
+                desc: "Ensuring maximum road safety with precise and reliable brake servicing.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Professional Brake Repairs",
+                desc: "Expert repair and replacement of worn-out brake components for smooth control.",
+            },
         ],
+
         seoTitle: "Car Brake Repair Dubai | Expert Brake Service",
         seoDescription:
             "Professional brake repair and maintenance in Dubai. Certified technicians, genuine parts, diagnostics, and full brake system service.",
@@ -198,12 +230,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you offer gearbox diagnostics?", Answer: "Yes, advanced diagnostic tools are used for precise analysis." },
         ],
         features: [
-            "Transmission Fluid Replacement",
-            "Gearbox Repair & Replacement",
-            "Clutch Inspection & Repair",
-            "Drive Train Diagnostics",
-            "Manual & Automatic Transmission Service",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Smooth Gear Shifting",
+                desc: "Restoring optimal gear transition for a smoother and more responsive drive.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Expert Gearbox Repair",
+                desc: "Professional repair and rebuilding of automatic and manual gearboxes.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Performance Diagnostics",
+                desc: "Advanced transmission scanning to detect issues and improve drivetrain performance.",
+            },
         ],
+
         seoTitle: "Transmission & Gearbox Repair Dubai | Car Service",
         seoDescription:
             "Expert transmission and gearbox repair in Dubai. Diagnostics, repairs, fluid replacement, clutch service, manual and automatic transmissions.",
@@ -246,12 +289,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you check for vibrations and noise?", Answer: "Yes, full vibration and noise diagnostics are included." },
         ],
         features: [
-            "Shock & Strut Replacement",
-            "Steering System Repair",
-            "Wheel Alignment & Balancing",
-            "Suspension Component Check",
-            "Vibration & Noise Troubleshooting",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Smooth & Stable Ride",
+                desc: "Ensuring balanced suspension for a comfortable and vibration-free driving experience.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Precision Steering Repairs",
+                desc: "Expert repair of steering components for accurate control and handling.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Noise & Vibration Reduction",
+                desc: "Fixing shocks, bushings, and mounts to eliminate unwanted noise and vibrations.",
+            },
         ],
+
         seoTitle: "Suspension & Steering Service Dubai | Car Maintenance",
         seoDescription:
             "Professional suspension and steering maintenance in Dubai. Certified technicians, alignment, shock repair, struts, and vehicle handling optimization.",
@@ -293,12 +347,23 @@ const servicesData: ServiceType[] = [
             { Question: "Can you top up fluids?", Answer: "Yes, we refill and top up all necessary fluids." },
         ],
         features: [
-            "Engine Oil Replacement",
-            "Coolant & Radiator Check",
-            "Brake & Power Steering Fluid Inspection",
-            "Transmission Fluid Check",
-            "Preventive Maintenance Checks",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Premium Oil Replacement",
+                desc: "Using high-quality oils to keep your engine running smoothly and efficiently.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Comprehensive Fluid Checks",
+                desc: "Inspection and topping of coolant, brake, power steering, and transmission fluids.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Fast & Reliable Service",
+                desc: "Quick oil and fluid maintenance to minimize downtime and ensure vehicle longevity.",
+            },
         ],
+
         seoTitle: "Oil Change & Fluid Checks Dubai | Car Maintenance",
         seoDescription:
             "Professional oil change and fluid maintenance in Dubai. Engine oil, coolant, brake, power steering, and transmission fluid checks by certified technicians.",
@@ -341,12 +406,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you maintain comfort systems?", Answer: "Yes, AC, seats, and other comfort electronics are serviced." },
         ],
         features: [
-            "Electrical System Diagnostics",
-            "Infotainment & Comfort Module Repairs",
-            "Sensor & Wiring Troubleshooting",
-            "Software Updates & Programming",
-            "Lighting & Accessory Checks",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Advanced Electrical Diagnostics",
+                desc: "Accurate detection and repair of all electrical systems, including sensors and wiring.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Infotainment & Comfort Repairs",
+                desc: "Ensuring your car’s entertainment and comfort systems function flawlessly.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Software & Module Updates",
+                desc: "Professional updates and programming for smooth operation of modern car electronics.",
+            },
         ],
+
         seoTitle: "Car Electrical & Comfort System Repairs Dubai",
         seoDescription:
             "Professional car electrical and comfort system repairs in Dubai. Diagnostics, software updates, wiring, sensors, infotainment, and lighting repairs.",
@@ -388,12 +464,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you prevent clogging?", Answer: "Yes, preventive maintenance avoids injector blockages." },
         ],
         features: [
-            "Fuel Injector Cleaning",
-            "Fuel Pressure Testing",
-            "Fuel System Diagnostics",
-            "Throttle Body Cleaning",
-            "Fuel Flow Optimization",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Injector Cleaning & Maintenance",
+                desc: "Precision cleaning of fuel injectors for optimal fuel delivery and engine efficiency.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Fuel System Diagnostics",
+                desc: "Advanced scanning to detect fuel pump and injector issues accurately.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Performance Optimization",
+                desc: "Enhancing engine performance, fuel efficiency, and emission control through precise servicing.",
+            },
         ],
+
         seoTitle: "Fuel Injection Service Dubai | Engine Efficiency",
         seoDescription:
             "Professional fuel injection service in Dubai. Injector cleaning, fuel system diagnostics, throttle body cleaning, and engine performance optimization.",
@@ -436,12 +523,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you test drive the car?", Answer: "Yes, a complete road test is part of the inspection." },
         ],
         features: [
-            "Engine & Transmission Inspection",
-            "Brake & Suspension Checks",
-            "Electrical System Diagnostics",
-            "Fluid & Oil Level Inspection",
-            "Road Test & Performance Check",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Comprehensive Vehicle Inspection",
+                desc: "Thorough checks of engine, transmission, brakes, suspension, and electrical systems.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Detailed Diagnostic Report",
+                desc: "Providing a complete report with actionable recommendations for informed decisions.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Road Test & Performance Check",
+                desc: "Test driving to ensure all systems function properly before purchase.",
+            },
         ],
+
         seoTitle: "Pre-Purchase Vehicle Inspection Dubai | Car Diagnostics",
         seoDescription:
             "Professional pre-purchase vehicle inspection in Dubai. Engine, transmission, brakes, suspension, electrical systems, and road test diagnostics.",
@@ -484,12 +582,23 @@ const servicesData: ServiceType[] = [
             { Question: "Will tuning affect warranty?", Answer: "We advise clients and ensure safe modifications that minimize risks." },
         ],
         features: [
-            "ECU Mapping & Updates",
-            "Throttle Response Optimization",
-            "Torque & Power Enhancement",
-            "Fuel Efficiency Tuning",
-            "Custom Performance Packages",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "ECU Mapping & Optimization",
+                desc: "Fine-tuning engine control unit for enhanced power, torque, and fuel efficiency.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Performance Boost",
+                desc: "Improving throttle response and overall vehicle driving dynamics safely.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Custom Tuning Packages",
+                desc: "Tailored performance upgrades designed for your specific driving needs.",
+            },
         ],
+
         seoTitle: "Performance Tuning & ECU Upgrade Dubai | Car Optimization",
         seoDescription:
             "Professional performance tuning and ECU upgrades in Dubai. Improve engine power, torque, efficiency, and driving dynamics with certified specialists.",
@@ -532,12 +641,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you guarantee finish quality?", Answer: "Yes, all work is done by certified specialists for lasting results." },
         ],
         features: [
-            "PPF Installation & Maintenance",
-            "Ceramic Coating Application",
-            "Car Dip Color Service",
-            "Scratch & UV Protection",
-            "Gloss & Finish Enhancement",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Ceramic & PPF Coatings",
+                desc: "Applying protective layers to guard your car’s paint against scratches and UV damage.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Durable Paint Protection",
+                desc: "Ensuring long-lasting protection and maintaining the car’s showroom finish.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Gloss & Finish Enhancement",
+                desc: "Enhancing appearance with high-quality coatings for a shiny, flawless look.",
+            },
         ],
+
         seoTitle: "Paint Protection & Car Coatings Dubai | PPF & Ceramic",
         seoDescription:
             "Professional paint protection and coatings in Dubai. PPF, ceramic coating, car dip color services, scratch and UV protection for long-lasting finish.",
@@ -580,12 +700,23 @@ const servicesData: ServiceType[] = [
             { Question: "Do you offer preventive maintenance?", Answer: "Yes, inspections and maintenance checks are done to avoid future damage." },
         ],
         features: [
-            "Wheel Straightening & Crack Repair",
-            "Painting & Coating",
-            "Alloy Wheel Polishing",
-            "Balancing & Alignment",
-            "Preventive Maintenance",
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Wheel Straightening & Crack Repair",
+                desc: "Restoring structural integrity and safety of alloy wheels with precision repairs.",
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Painting & Coating",
+                desc: "High-quality finishes to restore appearance and protect against corrosion.",
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Polishing & Maintenance",
+                desc: "Ensuring your wheels look brand new and maintain their performance for longer.",
+            },
         ],
+
         seoTitle: "Alloy Wheel Repair & Refurbishment Dubai | Car Wheels",
         seoDescription:
             "Professional alloy wheel repair and refurbishment in Dubai. Straightening, crack repair, painting, coating, polishing, and alignment services.",
