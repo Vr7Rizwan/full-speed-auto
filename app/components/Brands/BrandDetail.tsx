@@ -16,7 +16,7 @@ const BrandDetail=({heading,heroText,description}:brandDetailPropType )=>{
                     description.map((value,i)=>(
 
                     
-                   <p key={`${value} ${i}`} className="normalText text-txtColor font-light">{value}</p>
+                   <p key={`${value} ${i}`} className="normalText text-txtColor">{value}</p>
                    ))}
                    </div>
                    </div>

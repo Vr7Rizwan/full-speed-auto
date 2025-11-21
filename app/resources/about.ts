@@ -107,12 +107,12 @@ export const cards:cardsType[]=[
     {
         icon:"/assets/Card5.webp",
         heading:"SERVICE",
-        description:"we combine quality workmanship with courteous and professional service. We are always happy to answer any questions about the repair process. We promise we will exceed all your expectations."
+        description:"We combine quality workmanship with courteous and professional service. We are always happy to answer any questions about the repair process. We promise we will exceed all your expectations."
 
     },
     {
         icon:"/assets/Card6.webp",
         heading:"PROFESSIONALISM & CREDIBILITY",
-        description:"we always provide our services with honesty, reliability, and respect."
+        description:"We always provide our services with honesty, reliability, and respect."
      }
 ]

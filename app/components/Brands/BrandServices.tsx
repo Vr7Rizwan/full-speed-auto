@@ -8,7 +8,7 @@ const BrandServices=({Services}:{Services:string[] | undefined})=>{
             <ul className="list-disc list-inside flex flex-col">
                {
                 Services.map((value,i)=>(
-                    <li key={`${value} ${i}`} className="text-txtColor font-light normalText">{value}</li>
+                    <li key={`${value} ${i}`} className="text-txtColor normalText">{value}</li>
                 ))
                }
             </ul>

@@ -10,7 +10,7 @@ const AboutPage=()=>{
         <CompanyProfile/>
         <CompanyServices/>
         <MissionVision/>
-         <Cards/>
+        <Cards/>
         </>
     )
 }
