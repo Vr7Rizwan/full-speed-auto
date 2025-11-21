@@ -6,7 +6,7 @@ interface offersType {
 const offers: offersType[] = [
   {
     title: "Mechanical Services",
-    image: "/assets/offer1.webp",
+    image: "/assets/offer3.png",
     text: [
       "Axle/ Driveshaft Repair",
       "Brake Repair",
@@ -17,17 +17,17 @@ const offers: offersType[] = [
   },
   {
     title: "Electrical Services",
-    image: "/assets/offer2.webp",
+    image: "/assets/offer3.png",
     text: ["AC Repair", "Comfort System Repair"],
   },
   {
     title: "Programming & Retrofit",
-    image: "/assets/offer3.webp",
+    image: "/assets/offer3.png",
     text: ["Car Software Repair & Programming", "Camera / Radar Calibration"],
   },
   {
     title: "Engine Repair Services",
-    image: "/assets/offer4.webp",
+    image: "/assets/offer3.png",
     text: [
       "Engine Control Unit Repair",
       "Engine Cooling System Repair",
@@ -36,12 +36,12 @@ const offers: offersType[] = [
   },
   {
     title: "Service Packages",
-    image: "/assets/offer5.webp",
+    image: "/assets/offer3.png",
     text: ["Luxury Car Service Packages", "Service & Warranty Packages"],
   },
   {
     title: "Extended Warranty",
-    image: "/assets/offer6.webp",
+    image: "/assets/offer3.png",
     text: [
       "New Cars Warranty Packages",
       "Pre-Owned Cars Warranty Packages",

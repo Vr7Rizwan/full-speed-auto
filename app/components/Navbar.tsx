@@ -7,7 +7,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import ContactBtn from "./ContactBtn";
 
 const navItemClass = `
-  relative inline-flex items-center py-2 font-bold text-txtColor hover:text-secondary
+  relative inline-flex items-center py-2 font-bold text-txtColor
   before:content-[''] before:absolute before:left-0 before:top-0 
   before:w-full before:h-0.5 before:bg-current 
   before:scale-x-0 before:origin-left before:transition before:duration-300 
@@ -16,7 +16,7 @@ const navItemClass = `
   after:content-[''] after:absolute after:left-0 after:bottom-0 
   after:w-full after:h-0.5 after:bg-current 
   after:scale-x-0 after:origin-right after:transition before:duration-300 
-  hover:after:scale-x-100
+  hover:after:scale-x-100 text-txtColor flex items-center font-medium
 `;
 
 const Navbar: React.FC = () => {
@@ -28,32 +28,32 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-white shadow-md sticky top-0 z-20">
+    <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
       <div className="flex flex-row items-center justify-between py-5 px-6 md:px-8">
         {/* Logo */}
         <Link href="/" className="subHeading font-bold text-txtColor">
-          FULL SPEED <span className="text-secondary">AUTOS</span>
+          FULL SPEED <span className="text-primary">AUTOS</span>
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex flex-row gap-3 xl:gap-7 text-txtColor items-center">
+        <ul className="hidden lg:flex flex-row gap-6 xl:gap-7 text-primary items-center">
           {navLinks.map((item) => (
             <li
               key={item.name}
-              className="relative group normalText"
+              className="relative group normalText text-primary"
               onMouseEnter={() => setActiveSubmenu(item.name)} // hover open
               onMouseLeave={() => setActiveSubmenu(null)} // hover close
               onClick={() => item.submenu && toggleSubmenu(item.name)} // click toggle
             >
               <Link href={item.href} className={navItemClass}>
                 {item.name}{" "}
-                {item.submenu && <ChevronDown className="ml-1 w-4 h-4" />}
+                {item.submenu && <ChevronDown className="ml-1 w-8 h-8 px-2" />}
               </Link>
 
               {/* Desktop Dropdown */}
               {item.submenu && (
                 <ul
-                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-white border border-gray-200 rounded shadow-lg 
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-txtColor border border-gray-100 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
                     ${
                       item.name === "Brands" || item.name === "Services"
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem[0]}
-                      className={`px-4 py-2 hover:bg-gray-100 normalText ${
+                      className={`px-4 py-2 hover:bg-secondary hover:text-txtColor normalText ${
                         item.name === "Brands" || item.name === "Services"
                           ? "p-2"
                           : ""
@@ -87,7 +87,10 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Button */}
         <div className="hidden lg:block">
-          <ContactBtn text="Book My Appointment" classes="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full" />
+          <ContactBtn
+            text="Book My Appointment"
+            classes="cursor-pointer normalText font-semibold bg-secondary text-primary px-5 py-3 rounded-full"
+          />
         </div>
 
         {/* Mobile Hamburger */}
