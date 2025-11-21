@@ -4,7 +4,7 @@ const BrandServices=({Services}:{Services:string[] | undefined})=>{
           <section className="flex justify-center py-10">
            {Services &&
            <div className="w-[95%] flex flex-col gap-3">
-            <h1 className="text-secondary subHeading font-semibold">Our Services</h1>
+            <h1 className="text-txtColor subHeading font-semibold">Our Services</h1>
             <ul className="list-disc list-inside flex flex-col">
                {
                 Services.map((value,i)=>(

@@ -3,14 +3,14 @@ import { faqTypes } from "../resources/faq";
 function Faq({faq}:{faq:faqTypes[]|undefined}) {
   
   return (
-    <div className="bg-txtColor py-5">
-      <div className="flex justify-center ">
-        <h2 className="subHeading font-bold text-primary py-10">
-          FREQUENTLY ASKED <span className="subHeading font-bold text-secondary py-10">QUESTIONS</span>
+    <div className="bg-primary py-5">
+      <div className="flex justify-center">
+        <h2 className="subHeading font-bold text-txtColor py-10">
+          FREQUENTLY ASKED QUESTIONS
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-txtColor">
+      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-primary">
         {faq && faq.map((item, index) => (
           <details
             key={index}
@@ -20,7 +20,7 @@ function Faq({faq}:{faq:faqTypes[]|undefined}) {
               <span> {item.Question}</span>
             </summary>
 
-            <p className="normalText bg-txtColor text-primary mt-2 px-5 py-5 border-2 rounded-2xl border-secondary">{item.Answer}</p>
+            <p className="normalText bg-primary text-txtColor mt-2 px-5 py-5 border-2 rounded-2xl border-txtColor">{item.Answer}</p>
           </details>
         ))}
       </div>
