@@ -25,8 +25,8 @@ function ContactBtn({
       <section>
         <button
           onClick={() => {
-            if (setMobileMenuOpen) setMobileMenuOpen(false);
             setFormPopup(true);
+            // setMobileMenuOpen && setMobileMenuOpen(false);
           }}
           className={classes}
         >

@@ -149,12 +149,6 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Button */}
             <li className="mt-2">
-              {/* <button
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-secondary text-primary px-3 py-2"
-              >
-                Book My Appointment
-              </button> */}
               <ContactBtn
                 setMobileMenuOpen={setMobileMenuOpen}
                 text="Book My Appointment"
