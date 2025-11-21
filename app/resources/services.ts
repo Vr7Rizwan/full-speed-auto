@@ -13,6 +13,7 @@ export interface ServiceType {
     features: string[];
     seoTitle?: string;
     seoDescription?: string;
+    faqs?: { Question: string; Answer: string }[];
 }
 
 const servicesData: ServiceType[] = [
@@ -43,6 +44,7 @@ const servicesData: ServiceType[] = [
                 text: "Every AC repair and maintenance task we undertake is executed with meticulous attention to detail. We use only high-quality parts and adhere to industry best practices to ensure durability and long-lasting results. Our commitment to quality guarantees that your vehicle’s AC system will perform optimally, keeping you comfortable and confident on the road."
             }
         ],
+
         features: [
             "Refrigerant Leak Detection & Repair",
             "Compressor & Condenser Repair",
@@ -51,6 +53,14 @@ const servicesData: ServiceType[] = [
             "Full AC System Inspection",
         ],
         seoTitle: "Car AC Repair Dubai | Expert AC Service",
+        faqs: [
+            { Question: "How often should I service my car AC?", Answer: "Every 6–12 months depending on usage." },
+            { Question: "Do you use genuine AC parts?", Answer: "Yes, only certified OEM parts are used." },
+            { Question: "Can you fix AC leaks?", Answer: "Yes, we repair refrigerant leaks and replace faulty components." },
+            { Question: "Do you offer AC diagnostics?", Answer: "Yes, advanced diagnostic tools are used to identify issues." },
+            { Question: "How long does AC servicing take?", Answer: "Usually 1–2 hours depending on the problem." },
+            { Question: "Do you also maintain the AC system?", Answer: "Yes, full AC maintenance including cleaning and testing is provided." },
+        ],
         seoDescription:
             "Professional car AC repair and maintenance in Dubai. Certified technicians, genuine parts, diagnostics, and full AC service.",
     },
@@ -81,6 +91,14 @@ const servicesData: ServiceType[] = [
                 title: "Quality Service Guaranteed",
                 text: "Every Engine & ECU service is performed with meticulous attention to detail, using premium quality parts and adhering to industry best practices. Our commitment to quality ensures long-lasting results, optimal engine performance, and maximum reliability, giving you peace of mind and confidence in your vehicle’s health."
             }
+        ],
+        faqs: [
+            { Question: "How often should I service my engine?", Answer: "Every 10,000 km or 12 months." },
+            { Question: "Do you use genuine engine parts?", Answer: "Yes, only OEM parts are used for all repairs." },
+            { Question: "Can you diagnose ECU issues?", Answer: "Yes, advanced ECU diagnostic tools are used." },
+            { Question: "How long does engine servicing take?", Answer: "Typically 2–3 hours depending on the work required." },
+            { Question: "Do you perform engine tuning?", Answer: "Yes, performance tuning is available safely." },
+            { Question: "Is preventive maintenance offered?", Answer: "Yes, we provide full preventive maintenance checks." },
         ],
         features: [
             "Engine Diagnostics & Repairs",
@@ -121,6 +139,14 @@ const servicesData: ServiceType[] = [
                 title: "Quality Service Guaranteed",
                 text: "Every brake system service is performed with meticulous attention to detail, using high-quality parts and following industry best practices. Our commitment to excellence ensures long-lasting results, optimal brake performance, and your safety on the road, giving you complete confidence in every drive."
             }
+        ],
+        faqs: [
+            { Question: "How often should I check my brakes?", Answer: "Brake inspection is recommended every 6 months." },
+            { Question: "Do you replace brake pads and rotors?", Answer: "Yes, all worn components are replaced with genuine parts." },
+            { Question: "Can you repair ABS systems?", Answer: "Yes, we service both standard and ABS brake systems." },
+            { Question: "How long does brake servicing take?", Answer: "Typically 1–2 hours depending on vehicle type." },
+            { Question: "Do you offer emergency brake repair?", Answer: "Yes, urgent brake repairs are available." },
+            { Question: "Do you perform brake fluid replacement?", Answer: "Yes, complete brake fluid replacement is included." },
         ],
         features: [
             "Brake Pad & Rotor Replacement",
@@ -163,6 +189,14 @@ const servicesData: ServiceType[] = [
             }
         ]
         ,
+        faqs: [
+            { Question: "How often should I check my transmission?", Answer: "Transmission inspection is recommended every 20,000 km." },
+            { Question: "Do you repair both manual and automatic gearboxes?", Answer: "Yes, we service all transmission types." },
+            { Question: "Can you replace the clutch?", Answer: "Yes, clutch inspection and replacement is available." },
+            { Question: "How long does transmission servicing take?", Answer: "Typically 2–4 hours depending on complexity." },
+            { Question: "Do you perform transmission fluid replacement?", Answer: "Yes, full fluid replacement is included." },
+            { Question: "Do you offer gearbox diagnostics?", Answer: "Yes, advanced diagnostic tools are used for precise analysis." },
+        ],
         features: [
             "Transmission Fluid Replacement",
             "Gearbox Repair & Replacement",
@@ -203,6 +237,14 @@ const servicesData: ServiceType[] = [
                 text: "Every suspension and steering maintenance job is carried out with meticulous attention to detail using high-quality components. Our goal is to provide long-lasting performance, improved vehicle handling, and a safe driving experience for you and your passengers."
             }
         ],
+        faqs: [
+            { Question: "How often should I check my suspension?", Answer: "Every 12 months or 15,000 km." },
+            { Question: "Do you fix steering issues?", Answer: "Yes, steering repairs and maintenance are available." },
+            { Question: "Can you do wheel alignment?", Answer: "Yes, complete wheel alignment and balancing is provided." },
+            { Question: "How long does suspension servicing take?", Answer: "Usually 1–2 hours depending on the vehicle." },
+            { Question: "Do you replace shocks and struts?", Answer: "Yes, high-quality shocks and struts replacement is done." },
+            { Question: "Do you check for vibrations and noise?", Answer: "Yes, full vibration and noise diagnostics are included." },
+        ],
         features: [
             "Shock & Strut Replacement",
             "Steering System Repair",
@@ -241,6 +283,14 @@ const servicesData: ServiceType[] = [
                 title: "Quality Service Guaranteed",
                 text: "Each oil change and fluid check is performed meticulously with high-quality oils and fluids. We focus on providing consistent, reliable service that keeps your engine running smoothly, improves fuel efficiency, and ensures long-term vehicle reliability."
             }
+        ],
+        faqs: [
+            { Question: "How often should I change my engine oil?", Answer: "Every 5,000–10,000 km depending on vehicle type." },
+            { Question: "Do you check all car fluids?", Answer: "Yes, coolant, brake, steering, and transmission fluids are checked." },
+            { Question: "Do you use high-quality oil?", Answer: "Yes, we use OEM recommended or high-quality synthetic oils." },
+            { Question: "How long does an oil change take?", Answer: "Typically 30–45 minutes." },
+            { Question: "Do you offer preventive maintenance?", Answer: "Yes, full preventive checks are included." },
+            { Question: "Can you top up fluids?", Answer: "Yes, we refill and top up all necessary fluids." },
         ],
         features: [
             "Engine Oil Replacement",
@@ -282,6 +332,14 @@ const servicesData: ServiceType[] = [
                 text: "Every electrical and comfort system service is executed with meticulous attention to detail, using high-quality parts and proven techniques. We guarantee consistent, safe, and reliable performance for all your vehicle's advanced systems."
             }
         ],
+        faqs: [
+            { Question: "Do you repair infotainment systems?", Answer: "Yes, all infotainment and multimedia systems are serviced." },
+            { Question: "Can you fix car sensors?", Answer: "Yes, sensor diagnostics and repairs are performed." },
+            { Question: "Do you update software?", Answer: "Yes, software updates and ECU programming are provided." },
+            { Question: "Do you check wiring and connections?", Answer: "Yes, full electrical diagnostics is done." },
+            { Question: "How long does electrical repair take?", Answer: "1–3 hours depending on complexity." },
+            { Question: "Do you maintain comfort systems?", Answer: "Yes, AC, seats, and other comfort electronics are serviced." },
+        ],
         features: [
             "Electrical System Diagnostics",
             "Infotainment & Comfort Module Repairs",
@@ -320,6 +378,14 @@ const servicesData: ServiceType[] = [
                 title: "Quality Service Guaranteed",
                 text: "Every fuel injection service is performed with meticulous attention to detail. Using high-quality components and proven procedures, we guarantee optimal engine efficiency, improved fuel economy, and consistent performance for your vehicle."
             }
+        ],
+        faqs: [
+            { Question: "How often should I service fuel injectors?", Answer: "Every 20,000 km or annually." },
+            { Question: "Do you clean all injectors?", Answer: "Yes, complete injector cleaning is performed." },
+            { Question: "Can you test fuel pressure?", Answer: "Yes, we provide accurate fuel pressure testing." },
+            { Question: "Do you improve fuel efficiency?", Answer: "Yes, cleaning and tuning optimize fuel delivery." },
+            { Question: "How long does fuel injection service take?", Answer: "Typically 1–2 hours." },
+            { Question: "Do you prevent clogging?", Answer: "Yes, preventive maintenance avoids injector blockages." },
         ],
         features: [
             "Fuel Injector Cleaning",
@@ -361,6 +427,14 @@ const servicesData: ServiceType[] = [
                 text: "Every inspection is conducted with meticulous attention to detail. We provide a complete report with actionable recommendations, ensuring you make an informed and safe vehicle purchase with confidence."
             }
         ],
+        faqs: [
+            { Question: "What does pre-purchase inspection cover?", Answer: "Engine, transmission, suspension, brakes, and electrical systems." },
+            { Question: "Do you provide a detailed report?", Answer: "Yes, a full diagnostic report with recommendations is given." },
+            { Question: "How long does inspection take?", Answer: "Typically 1–2 hours." },
+            { Question: "Do you check for hidden damages?", Answer: "Yes, advanced diagnostics reveal hidden issues." },
+            { Question: "Can I rely on your inspection?", Answer: "Yes, certified technicians ensure accuracy and reliability." },
+            { Question: "Do you test drive the car?", Answer: "Yes, a complete road test is part of the inspection." },
+        ],
         features: [
             "Engine & Transmission Inspection",
             "Brake & Suspension Checks",
@@ -400,6 +474,14 @@ const servicesData: ServiceType[] = [
                 title: "Guaranteed Quality & Reliability",
                 text: "Every performance tuning and ECU upgrade is conducted with meticulous attention to detail. We use high-quality parts and proven methods to ensure long-lasting, safe, and reliable results."
             }
+        ],
+        faqs: [
+            { Question: "Can you improve engine performance?", Answer: "Yes, ECU tuning enhances power and throttle response." },
+            { Question: "Do you offer fuel efficiency tuning?", Answer: "Yes, performance and fuel efficiency can be optimized." },
+            { Question: "Is ECU upgrade safe?", Answer: "Yes, certified technicians perform safe ECU upgrades." },
+            { Question: "How long does tuning take?", Answer: "Typically 2–3 hours depending on vehicle." },
+            { Question: "Do you provide custom tuning?", Answer: "Yes, custom packages are available for enthusiasts." },
+            { Question: "Will tuning affect warranty?", Answer: "We advise clients and ensure safe modifications that minimize risks." },
         ],
         features: [
             "ECU Mapping & Updates",
@@ -441,6 +523,14 @@ const servicesData: ServiceType[] = [
                 text: "Every paint protection and coating service is carried out with meticulous attention to detail, using premium products to ensure a durable, scratch-resistant, and visually stunning result."
             }
         ],
+        faqs: [
+            { Question: "Do you apply PPF and ceramic coating?", Answer: "Yes, full paint protection services are offered." },
+            { Question: "How long does coating last?", Answer: "Depending on usage, coatings last 3–5 years." },
+            { Question: "Do you offer dip color services?", Answer: "Yes, full car dip color application is available." },
+            { Question: "Can coatings prevent scratches?", Answer: "Yes, PPF and ceramic coatings reduce scratches and damage." },
+            { Question: "How long does application take?", Answer: "Typically 1–2 days depending on service." },
+            { Question: "Do you guarantee finish quality?", Answer: "Yes, all work is done by certified specialists for lasting results." },
+        ],
         features: [
             "PPF Installation & Maintenance",
             "Ceramic Coating Application",
@@ -480,6 +570,14 @@ const servicesData: ServiceType[] = [
                 title: "Guaranteed Quality & Durability",
                 text: "Every alloy wheel repair and refurbishment service is performed with meticulous attention to detail, using high-quality materials and methods to deliver long-lasting, visually flawless results."
             }
+        ],
+        faqs: [
+            { Question: "Do you repair damaged alloy wheels?", Answer: "Yes, straightening, cracks, and refurbishment is done." },
+            { Question: "Can you polish and paint alloy wheels?", Answer: "Yes, full painting and polishing services are provided." },
+            { Question: "Do you balance wheels after repair?", Answer: "Yes, balancing and alignment is included." },
+            { Question: "How long does repair take?", Answer: "Typically 1–2 days depending on wheel condition." },
+            { Question: "Do you guarantee durability?", Answer: "Yes, we use high-quality materials for lasting results." },
+            { Question: "Do you offer preventive maintenance?", Answer: "Yes, inspections and maintenance checks are done to avoid future damage." },
         ],
         features: [
             "Wheel Straightening & Crack Repair",
