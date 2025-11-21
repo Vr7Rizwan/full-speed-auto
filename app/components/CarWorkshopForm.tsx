@@ -4,9 +4,9 @@ import Form from "./Form";
 
 const CarWorkshopForm = () => {
   return (
-    <section className=" mx-auto flex flex-col md:flex-row items-center bg-gray-100 py-15 px-6 gap-8">
+    <section className="mx-auto flex flex-col md:flex-row items-center bg-gray-100 py-15 px-6 gap-8">
       {/* Left Image - Fully Responsive */}
-      <section className="bg-txtColor rounded-2xl text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">
+      <section className="bg-txtColor rounded-2xl w-full text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">
         {/* Background Texture (optional) */}
 
         <div className="relative max-w-6xl mx-auto">
@@ -25,21 +25,21 @@ const CarWorkshopForm = () => {
           {/* Contact Info */}
           <div className="grid md:grid-cols-2 gap-6 mb-10">
             {/* Address */}
-            <div className="flex items-start gap-3">
-              <MapPin className="text-secondary mt-1" size={24} />
+            <div className="flex items-center gap-3">
+              <MapPin className="text-secondary mt-1" size={30} />
               <p className="leading-tight normalText">
                 <strong>Haleb Street, Al Qusais Industrial - 1 , Dubai</strong>
               </p>
             </div>
 
             {/* Phone */}
-            <div className="flex items-start gap-3">
+            <div className="flex items-center gap-3">
               <Phone className="text-secondary mt-1" size={24} />
               <p className="leading-tight normalText">052 174 3438</p>
             </div>
 
             {/* Email */}
-            <div className="flex items-start gap-3">
+            <div className="flex items-center gap-3">
               <Mail className="text-secondary mt-1" size={24} />
               <p className="leading-tight normalText">
                 fullspeedauto@gmail.com
