@@ -19,14 +19,14 @@ function page() {
             </div>
 
             {/* Right Content */}
-            <div className="flex flex-col justify-center p-6 space-y-4 md:bg-gray-100 md:rounded-3xl">
-              <h3 className="subHeading font-bold text-secondary">
+            <div className="flex flex-col justify-center p-8 space-y-4 md:bg-gray-100 md:rounded-3xl">
+              <h3 className="subHeading font-bold text-txtColor">
                 {pack.title}
               </h3>
               <p className="text-txtColor">{pack.desc}</p>
               <ContactBtn
                 text={pack.btn}
-                classes="bg-txtColor text-primary px-3 py-3 rounded-md cursor-pointer hover:bg-secondary transition"
+                classes="bg-txtColor text-primary px-3 py-3 rounded-md cursor-pointer hover:bg-secondary transition hover:text-txtColor"
               />
             </div>
           </div>

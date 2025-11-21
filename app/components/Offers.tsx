@@ -2,10 +2,10 @@ import offers from "../resources/offers";
 
 function Offers() {
   return (
-    <div className="bg-txtColor">
+    <div className="bg-primary">
       <div className="flex flex-col gap-5 px-5 py-15 items-center md:items-center md:justify-center">
-        <h1 className="text-primary subHeading font-bold">WHAT WE <span className="text-secondary subHeading font-bold">OFFER</span></h1>
-        <h2 className="text-secondary heading text-center font-extrabold">
+        <h1 className="text-txtColor subHeading font-bold">WHAT WE OFFER</h1>
+        <h2 className="text-txtColor heading text-center font-extrabold">
           To Our Customers At Our Luxury Car Service Center in Dubai
         </h2>
       </div>
@@ -21,11 +21,11 @@ function Offers() {
               className="w-30 h-30 object-contain"
             />
 
-            <h2 className="subHeading text-secondary font-bold">
+            <h2 className="subHeading text-txtColor font-bold">
               {offer.title}
             </h2>
 
-            <div className="text-secondary space-y-1">
+            <div className="text-txtColor space-y-1">
               {offer.text.map((item, i) => (
                 <p className="normalText" key={i}>
                   {item}
