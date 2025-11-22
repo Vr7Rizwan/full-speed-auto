@@ -16,17 +16,17 @@ export default function OurFeatures({ features }: { features: { icon: string; ti
                 {features.map((item, index) => (
                     <div
                         key={index}
-                        className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all p-8 text-center border border-gray-200"
+                        className="bg-primary rounded-2xl shadow-md hover:shadow-lg transition-all p-8 text-center border border-gray-200"
                     >
                         <div className="w-13 h-13 mx-auto mb-5 flex items-center justify-center">
                             <img src={item.icon} alt="" />
                         </div>
 
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        <h3 className="subHeading font-semibold text-gray-900 mb-2">
                             {item.title}
                         </h3>
 
-                        <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                        <p className="text-gray-600 normalText leading-relaxed">{item.desc}</p>
                     </div>
                 ))}
             </div>

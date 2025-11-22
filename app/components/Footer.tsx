@@ -32,10 +32,8 @@ const Footer = () => {
     <footer className="w-full bg-txtColor text-primary py-12 px-6 md:px-12 z-20">
       <div className="flex flex-col md:flex-row justify-between gap-12">
         {/* Column 1: Brand + Locations */}
-        <div className="flex flex-col gap-3 md:w-1/4">
-          <h1 className="text-3xl md:text-2xl font-bold">
-            FULL SPEED <span className="text-secondary">AUTOS</span>
-          </h1>
+        <div className="flex flex-col gap-4 md:w-1/4">
+          <img className="w-40 h-25 items-center justify-center"src="/assets/logo-light.png" alt="" />
 
           <p className="normalText leading-tight">
             Premium car care, detailing, and automotive services.
