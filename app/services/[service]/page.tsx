@@ -5,6 +5,8 @@ import { findService } from "@/app/resources/services";
 import WhyChooseUS from "@/app/components/WhyChooseUS";
 import Faq from "@/app/components/Faq";
 import { whyChooseUsTypes } from "@/app/resources/whyChooseUs";
+import OurFeatures from "@/app/components/Services/Features";
+
 
 export async function generateMetadata({ params }: { params: { service: string } }) {
     const data = await params;
@@ -29,9 +31,9 @@ const page = async ({ params }: { params: { service: string } }) => {
             heading={selectedService.heading}
             heroTxt={selectedService.heroText}
             description={selectedService.description}
-            features={selectedService.features}
             contentimg={selectedService.contentimg} />
         <WhyChooseUS whyChooseUs={whychooseus} />
+        <OurFeatures features={selectedService.features} />
         <Faq faq={selectedService.faqs} />
         <CarWorkshopForm />
 
