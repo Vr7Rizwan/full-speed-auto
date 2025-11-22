@@ -13,14 +13,81 @@ pnpm dev
 # or
 bun dev
 ```
+# Setup
+## Project initialization
+
+To initialize the project, we followed the official recommended setup process from the Next.js documentation. The project was created using the standard initialization command:
+
+```
+npx create-next-app@latest
+```
+After running the official initialization command, the CLI prompts for basic project setup details. During this step, the project name was provided as:
+
+```
+? What is your project named? full-speed-auto-master
+```
+Next, the setup process asks whether you want to proceed with the recommended Next.js configuration. Choosing “Yes, use recommended defaults” automatically enables the ideal development tools for a modern, scalable, and high-performance website
+
+```
+? Would you like to use the recommended Next.js defaults? » - Use arrow-keys. Return to submit.
+>   Yes, use recommended defaults
+    TypeScript, ESLint, Tailwind CSS, App Router
+    No, reuse previous settings
+    No, customize settings
+```
+After confirming the setup options, Next.js automatically created the project, installed all required dependencies (React, Tailwind, TypeScript, ESLint, etc.), initialized Git, and successfully generated the project structure.
+
+```
+   Creating a new Next.js app in :path\full-speed-auto-master.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- next     
+- react    
+- react-dom
+
+Installing devDependencies:
+- @tailwindcss/postcss
+- @types/node
+- @types/react
+- @types/react-dom
+- eslint
+- eslint-config-next
+- tailwindcss
+- typescript
+
+added 359 packages, and audited 360 packages in 1m
+
+141 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Generating route types...
+✓ Types generated successfully
+
+Initialized a git repository.
+
+Success! Created full-speed-auto-master
+
+
+```
+
+
+
+
+
 ## Project Name
 ```
 Full Speed Auto
 ```
 # Tools
 
-## Frontend
-```bash
+```
      Next.js (TypeScript)
      Tailwind CSS
      React Hooks
@@ -546,6 +613,30 @@ The services.ts file defines all automotive services offered by the center and p
 whyChooseUs.ts
 
 The whyChooseUs.ts file lists the key reasons to choose Royal Swiss Auto Services. Each entry, defined by the whyChooseUsTypes interface, includes a title and detailed text explaining the benefit. Highlights include a professional team with advanced tools, reliable service at fair prices, detailed vehicle diagnosis, quality spare parts, excellent customer service, and quick assistance during emergencies. This structured data can be used to dynamically display the company’s value propositions on the website.
+
+```
+### globals.css
+
+located inside `app` directory
+
+```
+The globals.css file defines all global styling for the project using Tailwind CSS, including a custom theme with primary (#ffffff), secondary (#e01424), and text (#000000) colors to maintain consistent branding. It also provides reusable typography classes like .heading, .subHeading, and .normalText using @apply for clean, responsive text across all pages. Additionally, it includes small custom tweaks such as removing default list markers with .summary::marker. Overall, this file ensures unified design, readable typography, and scalable styling throughout the website.
+
+```
+### layout.tsx
+
+located inside `app` directory
+
+```
+In layout.tsx, we include components that are used consistently across the entire application—such as <Navbar /> and <Footer />. Placing these globally ensures a unified structure, consistent user experience, and avoids repeating the same components on every individual page.
+
+```
+### page.tsx
+
+located inside `app` directory
+
+```
+The page.tsx (Home Page) imports and renders all major sections of the landing page, including Banner, Offers, WhyChooseUS, FAQ, and the CarWorkshopForm. Each component is neatly separated for better readability and maintainability. Data-driven sections like WhyChooseUS and Faq receive their content through props, ensuring clean separation of UI and data. This structured approach keeps the home page modular, scalable, and easy to update.
 
 ```
 
