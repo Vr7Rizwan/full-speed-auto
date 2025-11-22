@@ -1,18 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  introduction
+## FULL SPEED AUTOS – Professional Car Repair Services
+FULL SPEED AUTOS is a premium automotive service center dedicated to providing high-quality car repair and maintenance services for luxury vehicles. Our goal is to ensure that every client receives reliable, efficient, and professional care for their vehicle, enhancing both performance and longevity.
 
-## Getting Started
+We specialize in a wide range of automotive services, including:
 
-First, run the development server:
+- **AC Repair & Maintenance**
+- **Engine & ECU Service**
+- **Brake System Service**
+- **Transmission & Gearbox Repair**
+- **Suspension & Steering Maintenance**
+- **Oil Change & Fluid Checks**
+- **Electrical & Comfort Systems**
+- **Fuel Injection Service**
+- **Pre-Purchase Inspection & Diagnostics**
+- **Performance Tuning & ECU Upgrade**
+- **Paint Protection & Coatings**
+- **Alloy Wheel Repair & Refurbishment**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Our service center caters exclusively to luxury car brands, ensuring that each vehicle is handled with precision and care by trained professionals. The brands we proudly support include:
+
+- **Audi**
+- **BMW**
+- **Jaguar**
+- **Maserati**
+- **Maybach**
+- **Mercedes**
+- **Porsche**
+
+At FULL SPEED AUTOS, we combine state-of-the-art diagnostic tools, genuine spare parts, and a skilled technical team to deliver a seamless, trustworthy, and client-focused experience. Whether it’s routine maintenance or specialized performance upgrades, our mission is to keep your luxury vehicle in peak condition while providing exceptional customer service.
+
+# Client Requirements
+## Website Name
 ```
+FULL SPEED AUTO
+```
+## Website Pages & Navigation
+ The site should include the following pages with dropdowns where applicable:
+```
+- About – Company overview, mission, vision, services, and values  
+   - Brands – Dropdown for each brand detailing services and unique offerings  
+   - Services – Dropdown for each service with detailed descriptions and features  
+   - Packages – Promotional offers and service packages  
+   - Contact – Contact form, information, and inquiry options
+```
+## Brands
+```
+- Audi  
+- BMW  
+- Jaguar  
+- Maserati  
+- Maybach  
+- Mercedes  
+- Porsche
+```
+## Automotive Services
+```
+- AC Repair & Maintenance  
+- Engine & ECU Service  
+- Brake System Service  
+- Transmission & Gearbox Repair  
+- Suspension & Steering Maintenance  
+- Oil Change & Fluid Checks  
+- Electrical & Comfort Systems  
+- Fuel Injection Service  
+- Pre-Purchase Inspection & Diagnostics  
+- Performance Tuning & ECU Upgrade  
+- Paint Protection & Coatings  
+- Alloy Wheel Repair & Refurbishment
+```
+## Design & Branding Guidelines
+
+```
+- Primary Color: `#ffffff` (backgrounds and light UI sections)  
+   - Secondary Color: `#febd1a` (buttons, accents, highlights)  
+   - Text Color: `#000000` (for maximum readability)  
+   - Typography:  
+     - `.heading` → text-4xl → text-5xl  
+     - `.subHeading` → text-xl → text-2xl  
+     - `.normalText` → text-sm → text-lg  
+   - Lists use a custom style to remove default markers: `.summary::marker { display: none; }`
+```
+## User Experience Goals 
+
+```
+ - Clean, modern, and visually appealing layout reflecting a premium service.  
+   - Easy navigation and responsive design for all devices.  
+   - Quick access to brand information, services, and booking forms.  
+   - Consistent branding across all pages, leveraging the defined colors and typography.
+```
+
+
 # Setup
 ## Project initialization
 
@@ -76,11 +153,10 @@ Success! Created full-speed-auto-master
 
 
 ```
-
-
-
-
-
+Start server:
+```
+npm run dev
+```
 ## Project Name
 ```
 Full Speed Auto
@@ -92,7 +168,21 @@ Full Speed Auto
      Tailwind CSS
      React Hooks
      TypeScript
+
 ```
+## libraries
+
+### Lucide React
+
+```
+npm install lucide-react
+```
+### React DOM
+
+```
+npm i react-dom
+```
+
 Here ## heading refer to folders and ``` bash``` refer to subfolders and files
  
 # Folder Structure
