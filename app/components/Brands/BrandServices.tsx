@@ -7,7 +7,7 @@ const BrandServices = ({ Services }: { Services: string[] | undefined }) => {
                         <h1 className="heading md:text-4xl font-bold text-txtColor mb-3">
                             Our Services
                         </h1>
-                        <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
+                        <p className="text-txtColor max-w-2xl mx-auto text-base md:text-lg">
                             Premium services designed to maintain, repair, and enhance your vehicle.
                         </p>
                     </div>
@@ -23,7 +23,7 @@ const BrandServices = ({ Services }: { Services: string[] | undefined }) => {
                                     {value}
                                 </h3>
 
-                                <p className="text-gray-600 normalText leading-relaxed">
+                                <p className="text-txtColor normalText leading-relaxed">
                                     High-quality service ensuring top performance and reliability.
                                 </p>
                             </div>
