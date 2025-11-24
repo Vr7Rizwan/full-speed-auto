@@ -12,6 +12,14 @@ export interface BrandType {
 }
 // Common Services (Same for All Brands)
 const commonServices: {name:string;link:string}[] = [
+ {
+    name:"Radiator Repair & Service",
+    link:"/services/radiator-repair-service"
+  },
+  {
+    name:"Ceramic Coating",
+    link:"/services/ceramic-coating"
+  },
   {
     name:"AC Repair & Maintenance",
     link:"/services/ac-repair-maintenance"
