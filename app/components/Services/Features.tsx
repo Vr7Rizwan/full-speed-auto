@@ -4,10 +4,10 @@ export default function OurFeatures({ features }: { features: { icon: string; ti
     return (
         <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
             <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                <h2 className="subHeading font-bold txtColor mb-3">
                     Our Features
                 </h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
+                <p className="txtColor max-w-2xl mx-auto text-base md:text-lg">
                     Why customers trust our services — premium quality, reliability, and professionalism.
                 </p>
             </div>
@@ -22,11 +22,11 @@ export default function OurFeatures({ features }: { features: { icon: string; ti
                             <img src={item.icon} alt="" />
                         </div>
 
-                        <h3 className="subHeading font-semibold text-gray-900 mb-2">
+                        <h3 className="subHeading font-semibold txtColor mb-2">
                             {item.title}
                         </h3>
 
-                        <p className="text-gray-600 normalText leading-relaxed">{item.desc}</p>
+                        <p className="txtColor normalText leading-relaxed">{item.desc}</p>
                     </div>
                 ))}
             </div>
