@@ -4,7 +4,7 @@ import Form from "./Form";
 
 const CarWorkshopForm = () => {
   return (
-    <section className="mx-auto flex flex-col md:flex-row items-center bg-gray-100 py-15 px-6 gap-8">
+    <section className="mx-auto flex flex-col md:flex-row items-center bg-gray-100 py-15 px-4 md:px-6 gap-8">
       {/* Left Image - Fully Responsive */}
       <section className="bg-txtColor rounded-2xl w-full text-primary py-16 px-6 flex md:px-20 relative overflow-hidden">
         {/* Background Texture (optional) */}
