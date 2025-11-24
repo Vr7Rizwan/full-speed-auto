@@ -23,6 +23,9 @@ const navLinks: NavLinkType[] = [
     name: "Services",
     href: "",
     submenu: [
+      ["Radiator Repair & Service", "/services/radiator-repair-service"],
+      ["Ceramic Coating", "/services/ceramic-coating"],
+
       ["AC Repair & Maintenance", "/services/ac-repair-maintenance"],
       ["Engine & ECU Service", "/services/engine-ecu-service"],
       ["Brake System Service", "/services/brake-system-service"],

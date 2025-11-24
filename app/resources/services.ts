@@ -18,6 +18,127 @@ export interface ServiceType {
 
 const servicesData: ServiceType[] = [
     {
+        name: "Radiator Repair & Service",
+        banner: "/assets/services/performance-ecu-tuning.webp",
+        heading: "Professional Radiator Repair & Cooling System Service",
+        contentimg: "/assets/services/content-10.webp",
+        heroText:
+            "Ensure your engine stays cool with expert radiator repair and cooling system services.",
+        description: [
+            "Our radiator repair service ensures your engine remains at optimal temperature by restoring the complete cooling system efficiency.",
+            "We identify issues such as coolant leaks, clogged radiators, faulty thermostats, and damaged hoses using advanced diagnostic methods.",
+            "Routine radiator maintenance prevents overheating, improves engine life, and enhances overall vehicle performance.",
+            "Skilled technicians use high-grade parts and precise techniques to ensure long-lasting and reliable cooling performance."
+        ],
+
+        whyChooseUs: [
+            {
+                title: "Expert Cooling System Technicians",
+                text: "Our certified specialists handle all types of radiator and cooling system issues with precision and care. From minor leaks to full radiator replacements, our team ensures your car’s temperature control system works flawlessly."
+            },
+            {
+                title: "Advanced Cooling Diagnostics",
+                text: "We use modern diagnostic tools to accurately detect issues like blockages, coolant contamination, water pump failure, and thermostat malfunction, ensuring a fast and effective repair process."
+            },
+            {
+                title: "Reliable & Long-Lasting Repairs",
+                text: "We follow strict repair standards and only use durable, high-quality components. Every service comes with reliability, ensuring your engine stays protected from overheating throughout all driving conditions."
+            }
+        ],
+
+        features: [
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Cooling System Experts",
+                desc: "Certified technicians ensuring accurate radiator diagnostics and repairs."
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "Engine Overheat Prevention",
+                desc: "We maximize cooling efficiency to prevent engine overheating and breakdown."
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Quick & Efficient Service",
+                desc: "Same-day service with fast repair turnaround and guaranteed results."
+            }
+        ],
+
+        seoTitle: "Radiator Repair Dubai | Professional Cooling System Service",
+        faqs: [
+            { Question: "When should I service my radiator?", Answer: "Every 12 months or whenever coolant levels drop or overheating occurs." },
+            { Question: "Do you repair coolant leaks?", Answer: "Yes, we repair leaks, replace hoses, and fix or replace damaged components." },
+            { Question: "Can you flush my radiator?", Answer: "Yes, full radiator flushing and coolant replacement is provided." },
+            { Question: "Do you check the thermostat and water pump?", Answer: "Yes, complete cooling system inspection is included." },
+            { Question: "How long does radiator service take?", Answer: "Typically 1–2 hours depending on the issue." },
+            { Question: "Do you use high-quality coolant?", Answer: "Yes, we use premium long-life coolant for best performance." }
+        ],
+
+        seoDescription:
+            "Professional radiator repair and cooling system service in Dubai. Leak repair, coolant flush, thermostat inspection, and full radiator maintenance by certified experts."
+    },
+    {
+        name: "Ceramic Coating",
+        banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
+        heading: "Premium Ceramic Coating for Ultimate Paint Protection",
+        contentimg: "/assets/services/content-12.webp",
+        heroText:
+            "Protect your vehicle’s paint with long-lasting ceramic coating for shine, gloss, and durability.",
+        description: [
+            "Our ceramic coating service provides a strong protective layer that shields your car's paint from UV rays, scratches, contaminants, and oxidation.",
+            "Using high-quality ceramic materials, we enhance your vehicle’s gloss and ensure long-lasting protection that outperforms waxes and sealants.",
+            "Proper ceramic coating improves paint clarity, repels water, and keeps your car cleaner for longer.",
+            "Applied by certified detailing experts using advanced techniques for maximum durability and shine."
+        ],
+
+        whyChooseUs: [
+            {
+                title: "Certified Ceramic Coating Specialists",
+                text: "Our detailing experts are trained in professional ceramic coating application, ensuring flawless results and long-lasting protection for your car’s exterior."
+            },
+            {
+                title: "Premium-Grade Ceramic Products",
+                text: "We use internationally approved ceramic coating formulations that offer superior resistance against scratches, UV damage, bird droppings, and harsh weather conditions."
+            },
+            {
+                title: "Mirror-Like Gloss & Durability",
+                text: "Every coating is applied with precision, ensuring a deep gloss, hydrophobic finish, and years of paint protection. Your car stays looking brand new for a longer time."
+            }
+        ],
+
+        features: [
+            {
+                icon: "/assets/services/wrench.png",
+                title: "Advanced Paint Protection",
+                desc: "A strong protective ceramic layer that keeps your paint safe from damage."
+            },
+            {
+                icon: "/assets/services/fixing.png",
+                title: "High Gloss Finish",
+                desc: "Achieve a deep, mirror-like shine with expert ceramic application."
+            },
+            {
+                icon: "/assets/services/settings.png",
+                title: "Long-Lasting Durability",
+                desc: "Coating lasts 2–5 years depending on maintenance and package type."
+            }
+        ],
+
+        seoTitle: "Ceramic Coating Dubai | Premium Paint Protection",
+        faqs: [
+            { Question: "How long does ceramic coating last?", Answer: "It lasts 2–5 years depending on quality and maintenance." },
+            { Question: "Does ceramic coating protect from scratches?", Answer: "It protects from minor scratches, swirl marks, and contaminants." },
+            { Question: "Is polishing required before coating?", Answer: "Yes, proper paint preparation and polishing are essential." },
+            { Question: "How long does the process take?", Answer: "Usually 6–12 hours depending on the package and vehicle condition." },
+            { Question: "Can ceramic coating be washed normally?", Answer: "Yes, but we recommend pH-neutral shampoo for best results." },
+            { Question: "Does ceramic coating make the car shiny?", Answer: "Yes, it enhances gloss and gives a stunning mirror-like finish." }
+        ],
+
+        seoDescription:
+            "Premium ceramic coating service in Dubai. Professional paint protection, high gloss finish, UV resistance, scratch protection, and long-lasting durability."
+    },
+
+    {
         name: "AC Repair & Maintenance",
         banner: "/assets/services/ac-repair-&-maintenance.webp",
         heading: "Expert Car AC Repair & Maintenance",
