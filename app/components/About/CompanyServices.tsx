@@ -4,7 +4,7 @@ const CompanyServices=()=>{
       <section className="flex justify-center">
        <div className="w-[93%] mx-auto flex flex-col gap-10 justify-center">
         
-  <h1 className="heading text-txtColor font-bold">{companyservices.heading}</h1>
+  <h1 className="subHeading text-txtColor font-bold">{companyservices.heading}</h1>
   <p className="normalText">
    {companyservices.description}
 </p>

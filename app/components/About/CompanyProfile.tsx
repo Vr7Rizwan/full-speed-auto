@@ -4,7 +4,7 @@ const CompanyProfile=()=>{
         <section className="flex justify-center py-10">
             <div className="w-[95%] mx-auto">
             <div className="flex flex-col gap-5">
-              <h1 className="heading text-txtColor font-bold">ABOUT THE COMPANY</h1>
+              <h1 className="subHeading text-txtColor font-bold">ABOUT THE COMPANY</h1>
               <div className="flex flex-col gap-4 normalText text-txtColor">
               {
                 companyprofile.map((value,i)=>(

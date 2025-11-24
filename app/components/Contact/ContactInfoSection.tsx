@@ -7,12 +7,12 @@ const ContactInfoSection = () => {
             <div className="max-w-6xl mx-auto">
 
                 {/* Heading */}
-                <h2 className="heading font-bold text-center mb-12">
+                <h2 className="subHeading font-bold text-center mb-12">
                     Get in <span className="text-secondary">Touch With Us</span>
                 </h2>
 
                 {/* Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-2">
 
                     {/* Phone */}
                     <div className="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all">
