@@ -5,26 +5,62 @@ export interface BrandType {
   heroText: string;
   description: string[];
   whyChooseUs: { title: string; text: string }[];
-  services: string[];
+  services: {name:string;link:string}[];
   seoTitle?: string;
   seoDescription?: string;
   faqs?: { Question: string; Answer: string }[];
 }
 // Common Services (Same for All Brands)
-const commonServices: string[] = [
-  "AC Repair & Maintenance",
-  "Engine & ECU Service",
-  "Brake System Service",
-  "Transmission & Gearbox Repair",
-  "Suspension & Steering Maintenance",
-  "Oil Change & Fluid Checks",
-  "Electrical & Comfort Systems",
-  "Fuel Injection Service",
-  "Pre Purchase Inspection & Diagnostics",
-  "Performance Tuning & ECU Upgrade",
-  "Paint Protection & Coatings",
-  "Alloy Wheel Repair & Refurbishment",
-];
+const commonServices: {name:string;link:string}[] = [
+  {
+    name:"AC Repair & Maintenance",
+    link:"/services/ac-repair-maintenance"
+  },
+  {
+    name:"Engine & ECU Service",
+    link:"/services/engine-ecu-service"
+  },
+  {
+    name:"Brake System Service",
+    link:"/services/brake-system-service"
+  },
+  {
+    name:"Transmission & Gearbox Repair",
+    link:"/services/transmission-gearbox-repair"
+  },
+ {
+    name:"Suspension & Steering Maintenance",
+    link:"/services/suspension-steering-maintenance"
+ },
+ {
+    name:"Oil Change & Fluid Checks",
+    link:"/services/oil-change-fluid-checks"
+ },
+ {
+    name:"Electrical & Comfort Systems",
+    link:"/services/electrical-comfort-systems"
+ },
+ {
+    name:  "Fuel Injection Service",
+    link:"/services/fuel-injection-service"
+ },
+ {
+    name:"Pre Purchase Inspection & Diagnostics",
+    link:"/services/pre-purchase-inspection-diagnostics",
+ },
+ {
+    name:"Performance Tuning & ECU Upgrade",
+    link:"/services/performance-tuning-ecu-upgrade",
+ },
+ {
+    name:"Paint Protection & Coatings",
+    link:"/services/paint-protection-coatings"
+ },
+ {
+    name:"Alloy Wheel Repair & Refurbishment",
+    link:"/services/alloy-wheel-repair-refurbishment",
+ },
+ ];
 const brandsData: BrandType[] = [
   {
     name: "Audi",

@@ -1,4 +1,8 @@
-const BrandServices = ({ Services }: { Services: string[] | undefined }) => {
+"use client";
+import Link from "next/link";
+import { useState } from "react";
+const BrandServices = ({ Services }: { Services: {name:string;link:string}[] | undefined }) => {
+    const [flip, setFlip] = useState<number | null>(null);
     return (
         <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
             {Services && (
@@ -14,18 +18,29 @@ const BrandServices = ({ Services }: { Services: string[] | undefined }) => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {Services.map((value, i) => (
-                            <div
-                                key={`${value} ${i}`}
-                                className="bg-primary flex flex-col rounded-2xl shadow-md hover:shadow-lg 
+                            <div key={`${value} ${i}`}  onClick={() => setFlip(flip === i ? null : i)} className="group w-full h-64 perspective-[1000px]">
+                            <div  className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${flip === i ? "transform-[rotateY(180deg)]" : ""}`}>
+                            <div className="absolute w-full h-64 bg-primary flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-lg 
                                 transition-all p-8 text-center border border-gray-200"
                             >
                                 <h3 className="subHeading font-semibold text-txtColor mb-2">
-                                    {value}
+                                    {value.name}
                                 </h3>
 
                                 <p className="text-txtColor normalText leading-relaxed">
                                     High-quality service ensuring top performance and reliability.
                                 </p>
+                            </div>
+                            
+                             <div className="absolute w-full h-full bg-primary flex flex-col items-center justify-center gap-10 rounded-2xl shadow-md hover:shadow-lg 
+                                transition-all p-8 text-center border border-gray-200 backface-hidden transform-[rotateY(180deg)]"
+                            >
+                                <h3 className="subHeading font-semibold text-txtColor mb-2">
+                                    {value.name}
+                                </h3>
+      <Link className="px-6 py-2 bg-txtColor text-white rounded-full hover:bg-gray-800 transition" href={value.link}>Learn More</Link>
+                            </div>
+                            </div>
                             </div>
                         ))}
                     </div>
