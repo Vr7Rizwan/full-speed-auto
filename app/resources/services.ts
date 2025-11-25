@@ -8,7 +8,7 @@ export interface ServiceType {
     contentimg: string;
     heading: string;
     heroText: string;
-    description: string[];
+    description: string;
     whyChooseUs: whyChooseUsTypes[];
     features: { icon: string; title: string; desc: string; }[];
     seoTitle?: string;
@@ -22,87 +22,89 @@ const servicesData: ServiceType[] = [
         banner: "/assets/services/performance-ecu-tuning.webp",
         heading: "Professional Radiator Repair & Cooling System Service",
         contentimg: "/assets/services/content-10.webp",
+
         heroText:
-            "Ensure your engine stays cool with expert radiator repair and cooling system services.",
-        description: [
-            "Our radiator repair service ensures your engine remains at optimal temperature by restoring the complete cooling system efficiency.",
-            "We identify issues such as coolant leaks, clogged radiators, faulty thermostats, and damaged hoses using advanced diagnostic methods.",
-            "Routine radiator maintenance prevents overheating, improves engine life, and enhances overall vehicle performance.",
-            "Skilled technicians use high-grade parts and precise techniques to ensure long-lasting and reliable cooling performance."
-        ],
+            "Keep your engine cool and running smoothly with our professional radiator repair and complete cooling system services.",
+
+        description: "Our radiator repair service ensures your engine stays at a safe temperature by improving the overall cooling system performance. We carefully check for issues like coolant leaks, blocked radiators, weak water pumps, worn-out hoses, and thermostat problems using advanced diagnostic tools. Regular radiator service helps prevent overheating, reduces repair costs, and increases the overall life and efficiency of your engine. Our experienced technicians use premium parts and reliable techniques to deliver long-lasting and efficient cooling system performance.",
+
 
         whyChooseUs: [
             {
-                title: "Expert Cooling System Technicians",
-                text: "Our certified specialists handle all types of radiator and cooling system issues with precision and care. From minor leaks to full radiator replacements, our team ensures your car’s temperature control system works flawlessly."
+                title: "Certified Cooling System Specialists",
+                text: "Our team is trained to handle all radiator and cooling system problems with accuracy and care. Whether it's a minor leak or a full radiator replacement, we make sure your vehicle stays protected from overheating."
             },
             {
-                title: "Advanced Cooling Diagnostics",
-                text: "We use modern diagnostic tools to accurately detect issues like blockages, coolant contamination, water pump failure, and thermostat malfunction, ensuring a fast and effective repair process."
+                title: "Accurate & Modern Diagnostics",
+                text: "We use advanced tools to detect issues like clogged radiators, coolant contamination, water pump failure, and thermostat faults. This ensures quick and precise repairs without guesswork."
             },
             {
-                title: "Reliable & Long-Lasting Repairs",
-                text: "We follow strict repair standards and only use durable, high-quality components. Every service comes with reliability, ensuring your engine stays protected from overheating throughout all driving conditions."
+                title: "Durable & Trusted Repair Solutions",
+                text: "We follow high-quality repair standards and use long-lasting components, ensuring reliable cooling performance. Your engine remains safe and steady in all weather and driving conditions."
             }
         ],
 
         features: [
             {
                 icon: "/assets/services/wrench.png",
-                title: "Cooling System Experts",
-                desc: "Certified technicians ensuring accurate radiator diagnostics and repairs."
+                title: "Cooling System Professionals",
+                desc: "Skilled technicians ensuring accurate inspections, diagnostics, and repairs."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "Engine Overheat Prevention",
-                desc: "We maximize cooling efficiency to prevent engine overheating and breakdown."
+                title: "Engine Overheating Protection",
+                desc: "We enhance cooling system efficiency to avoid overheating and major engine damage."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Quick & Efficient Service",
-                desc: "Same-day service with fast repair turnaround and guaranteed results."
+                title: "Fast & Reliable Service",
+                desc: "Quick service with same-day repair options and guaranteed performance improvement."
             }
         ],
 
-        seoTitle: "Radiator Repair Dubai | Professional Cooling System Service",
+        seoTitle: "Radiator Repair Dubai | Expert Cooling System Service & Leak Fix",
+
         faqs: [
-            { Question: "When should I service my radiator?", Answer: "Every 12 months or whenever coolant levels drop or overheating occurs." },
-            { Question: "Do you repair coolant leaks?", Answer: "Yes, we repair leaks, replace hoses, and fix or replace damaged components." },
-            { Question: "Can you flush my radiator?", Answer: "Yes, full radiator flushing and coolant replacement is provided." },
-            { Question: "Do you check the thermostat and water pump?", Answer: "Yes, complete cooling system inspection is included." },
-            { Question: "How long does radiator service take?", Answer: "Typically 1–2 hours depending on the issue." },
-            { Question: "Do you use high-quality coolant?", Answer: "Yes, we use premium long-life coolant for best performance." }
+            { Question: "When should I service my radiator?", Answer: "It’s best to service your radiator every 12–18 months or anytime you notice overheating or dropping coolant levels." },
+            { Question: "Do you repair coolant and hose leaks?", Answer: "Yes, we fix coolant leaks, replace damaged hoses, and repair or replace faulty components." },
+            { Question: "Do you offer radiator flushing?", Answer: "Yes, we provide a complete radiator flush and refill using high-quality long-life coolant." },
+            { Question: "Do you check the thermostat and water pump?", Answer: "Yes, we perform a full cooling system inspection including the thermostat, water pump, radiator cap, and hoses." },
+            { Question: "How long does radiator service take?", Answer: "Most radiator services take 1–2 hours depending on the condition of the cooling system." },
+            { Question: "Do you use high-quality coolant?", Answer: "Yes, we use premium long-life coolant designed for better cooling and engine protection." }
         ],
 
         seoDescription:
-            "Professional radiator repair and cooling system service in Dubai. Leak repair, coolant flush, thermostat inspection, and full radiator maintenance by certified experts."
-    },
+            "Expert radiator repair and cooling system service in Dubai. We fix leaks, flush radiators, inspect thermostats, and restore full cooling performance using high-quality parts and certified technicians."
+    }
+    ,
     {
         name: "Ceramic Coating",
         banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
         heading: "Premium Ceramic Coating for Ultimate Paint Protection",
         contentimg: "/assets/services/content-12.webp",
+
         heroText:
-            "Protect your vehicle’s paint with long-lasting ceramic coating for shine, gloss, and durability.",
+            "Give your car long-lasting shine and protection with our premium ceramic coating that keeps your paint looking new for years.",
+
         description: [
-            "Our ceramic coating service provides a strong protective layer that shields your car's paint from UV rays, scratches, contaminants, and oxidation.",
-            "Using high-quality ceramic materials, we enhance your vehicle’s gloss and ensure long-lasting protection that outperforms waxes and sealants.",
-            "Proper ceramic coating improves paint clarity, repels water, and keeps your car cleaner for longer.",
-            "Applied by certified detailing experts using advanced techniques for maximum durability and shine."
+            "Our ceramic coating service adds a strong protective layer over your car’s paint, keeping it safe from UV rays, scratches, dirt, and oxidation.",
+            "We use high-quality ceramic products that create a deep gloss and provide stronger, longer protection compared to normal wax or sealant.",
+            "Ceramic coating boosts paint clarity, repels water, and makes cleaning much easier, keeping your car shiny for a longer time.",
+            "The coating is applied by trained experts using advanced detailing techniques to ensure maximum shine, durability, and a flawless finish."
         ],
 
         whyChooseUs: [
             {
-                title: "Certified Ceramic Coating Specialists",
-                text: "Our detailing experts are trained in professional ceramic coating application, ensuring flawless results and long-lasting protection for your car’s exterior."
+                title: "Professional Ceramic Coating Experts",
+                text: "Our team is certified in ceramic coating application and ensures a smooth, even, and long-lasting protective layer for your vehicle’s paint."
             },
             {
-                title: "Premium-Grade Ceramic Products",
-                text: "We use internationally approved ceramic coating formulations that offer superior resistance against scratches, UV damage, bird droppings, and harsh weather conditions."
+                title: "Top-Quality Ceramic Products",
+                text: "We use globally trusted ceramic coatings that offer strong resistance against scratches, sun damage, bird droppings, and Dubai weather conditions."
             },
             {
-                title: "Mirror-Like Gloss & Durability",
-                text: "Every coating is applied with precision, ensuring a deep gloss, hydrophobic finish, and years of paint protection. Your car stays looking brand new for a longer time."
+                title: "High Gloss & Long-Term Protection",
+                text: "Each coating is applied with precision to achieve a deep shine, hydrophobic effect, and years of premium paint protection—keeping your car looking fresh and glossy."
             }
         ],
 
@@ -110,148 +112,165 @@ const servicesData: ServiceType[] = [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Advanced Paint Protection",
-                desc: "A strong protective ceramic layer that keeps your paint safe from damage."
+                desc: "A durable ceramic layer that shields your car’s paint from daily wear and environmental damage."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "High Gloss Finish",
-                desc: "Achieve a deep, mirror-like shine with expert ceramic application."
+                title: "Mirror-Like Gloss",
+                desc: "Experience a rich, glossy shine that makes your car stand out anywhere."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Long-Lasting Durability",
-                desc: "Coating lasts 2–5 years depending on maintenance and package type."
+                title: "Long-Term Durability",
+                desc: "Ceramic coating lasts 2–5 years depending on the package and regular maintenance."
             }
         ],
 
-        seoTitle: "Ceramic Coating Dubai | Premium Paint Protection",
+        seoTitle: "Ceramic Coating Dubai | Premium Paint Protection & High Gloss Finish",
+
         faqs: [
-            { Question: "How long does ceramic coating last?", Answer: "It lasts 2–5 years depending on quality and maintenance." },
-            { Question: "Does ceramic coating protect from scratches?", Answer: "It protects from minor scratches, swirl marks, and contaminants." },
-            { Question: "Is polishing required before coating?", Answer: "Yes, proper paint preparation and polishing are essential." },
-            { Question: "How long does the process take?", Answer: "Usually 6–12 hours depending on the package and vehicle condition." },
-            { Question: "Can ceramic coating be washed normally?", Answer: "Yes, but we recommend pH-neutral shampoo for best results." },
-            { Question: "Does ceramic coating make the car shiny?", Answer: "Yes, it enhances gloss and gives a stunning mirror-like finish." }
+            { Question: "How long does ceramic coating last?", Answer: "It usually lasts 2–5 years, depending on the coating quality and regular maintenance." },
+            { Question: "Does ceramic coating protect from scratches?", Answer: "Yes, it protects from minor scratches, swirl marks, and paint damage caused by contaminants." },
+            { Question: "Is polishing required before coating?", Answer: "Yes, proper polishing and paint correction are necessary to ensure smooth application and best results." },
+            { Question: "How long does the process take?", Answer: "Ceramic coating typically takes 6–12 hours based on the vehicle size and chosen package." },
+            { Question: "Can I wash my car normally after ceramic coating?", Answer: "Yes, but we recommend using pH-neutral car shampoo to maintain shine and durability." },
+            { Question: "Does ceramic coating make the car shiny?", Answer: "Absolutely. It enhances depth, gloss, and gives a stunning mirror-like finish." }
         ],
 
         seoDescription:
-            "Premium ceramic coating service in Dubai. Professional paint protection, high gloss finish, UV resistance, scratch protection, and long-lasting durability."
-    },
+            "Premium ceramic coating service in Dubai offering long-term paint protection, high gloss shine, hydrophobic performance, UV resistance, and scratch protection by certified experts."
+    }
+    ,
 
     {
         name: "AC Repair & Maintenance",
         banner: "/assets/services/ac-repair-&-maintenance.webp",
         heading: "Expert Car AC Repair & Maintenance",
         contentimg: "/assets/services/content-1.webp",
+
         heroText:
-            "Keep your car cool and comfortable with professional AC repair and maintenance services.",
+            "Enjoy cool, fresh, and comfortable drives with our professional car AC repair and complete maintenance services.",
+
         description: [
-            "Our AC repair service ensures your vehicle’s air conditioning system works efficiently, providing comfort even in the hottest conditions.",
-            "We diagnose all AC issues, from refrigerant leaks to compressor faults, using advanced tools and performing precise repairs.",
-            "Regular AC maintenance improves air quality, prevents system breakdowns, and extends the lifespan of your AC system.",
-            "Certified technicians use genuine parts to guarantee long-lasting performance and reliability.",
+            "Our AC repair service makes sure your vehicle’s cooling system works perfectly, even during the hottest Dubai weather.",
+            "We check and fix all types of AC issues including weak cooling, refrigerant leaks, compressor faults, and electrical problems using advanced diagnostic tools.",
+            "Regular AC maintenance improves air quality, prevents sudden failures, and increases the overall life of your AC system.",
+            "Our certified technicians use genuine, high-quality parts to deliver reliable performance and long-lasting cooling comfort."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced AC Specialists",
-                text: "Our team consists of highly skilled and certified technicians who have extensive experience in all aspects of car AC repair and maintenance. They are trained to handle even the most complex issues, ensuring that every service is performed with precision and care. You can rely on us for consistent performance, accurate diagnoses, and professional service every time."
+                title: "Skilled & Certified AC Technicians",
+                text: "Our expert team has years of experience handling all kinds of car AC problems. From simple gas refills to complex compressor repairs, we provide accurate solutions and careful workmanship every time."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We utilize state-of-the-art diagnostic equipment and cutting-edge technology to quickly and accurately identify problems within your vehicle's AC system. From refrigerant leaks to compressor faults, our advanced tools allow us to pinpoint issues efficiently, providing precise solutions and minimizing downtime for your vehicle."
+                title: "Modern & Accurate Diagnostics",
+                text: "We use advanced AC diagnostic tools to quickly identify issues such as leaks, airflow problems, sensor faults, and compressor failure. This ensures fast, correct repairs without guesswork."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every AC repair and maintenance task we undertake is executed with meticulous attention to detail. We use only high-quality parts and adhere to industry best practices to ensure durability and long-lasting results. Our commitment to quality guarantees that your vehicle’s AC system will perform optimally, keeping you comfortable and confident on the road."
+                title: "Reliable & High-Quality Service",
+                text: "We follow strict service standards and use OEM parts to ensure durability. Every repair and maintenance service is done with attention to detail, guaranteeing smooth and powerful cooling performance."
             }
         ],
 
         features: [
             {
                 icon: "/assets/services/wrench.png",
-                title: "Expert AC Technicians",
-                desc: "Certified specialists ensuring accurate diagnosis and reliable AC repairs.",
+                title: "Professional AC Experts",
+                desc: "Trained specialists offering accurate inspections and reliable repairs."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "Optimal Cooling Performance",
-                desc: "We restore your AC’s cooling efficiency with precision tuning and servicing.",
+                title: "Perfect Cooling Efficiency",
+                desc: "We restore strong cooling performance with detailed AC servicing and tuning."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Fast & Same-Day Service",
-                desc: "Quick repair turnaround with minimal downtime for your home or office.",
-            },
+                title: "Quick & Same-Day Repairs",
+                desc: "Fast turnaround time with minimal waiting, ideal for busy schedules."
+            }
         ],
-        seoTitle: "Car AC Repair Dubai | Expert AC Service",
+
+        seoTitle: "Car AC Repair Dubai | Professional Cooling System Service",
+
         faqs: [
-            { Question: "How often should I service my car AC?", Answer: "Every 6–12 months depending on usage." },
-            { Question: "Do you use genuine AC parts?", Answer: "Yes, only certified OEM parts are used." },
-            { Question: "Can you fix AC leaks?", Answer: "Yes, we repair refrigerant leaks and replace faulty components." },
-            { Question: "Do you offer AC diagnostics?", Answer: "Yes, advanced diagnostic tools are used to identify issues." },
-            { Question: "How long does AC servicing take?", Answer: "Usually 1–2 hours depending on the problem." },
-            { Question: "Do you also maintain the AC system?", Answer: "Yes, full AC maintenance including cleaning and testing is provided." },
+            { Question: "How often should I service my car AC?", Answer: "It’s recommended to service your AC every 6–12 months depending on usage and weather conditions." },
+            { Question: "Do you use genuine AC parts?", Answer: "Yes, we only use high-quality OEM parts to ensure reliable performance and durability." },
+            { Question: "Can you fix AC leaks?", Answer: "Yes, we detect and repair refrigerant leaks, replace damaged hoses, and fix faulty seals or valves." },
+            { Question: "Do you offer AC diagnostics?", Answer: "Yes, we use modern diagnostic tools to find issues quickly and accurately." },
+            { Question: "How long does AC servicing take?", Answer: "Most AC services take 1–2 hours depending on the condition of the system." },
+            { Question: "Do you provide full AC maintenance?", Answer: "Yes, we offer complete AC maintenance including cleaning, gas refill, inspection, and performance testing." }
         ],
+
         seoDescription:
-            "Professional car AC repair and maintenance in Dubai. Certified technicians, genuine parts, diagnostics, and full AC service.",
-    },
+            "Professional car AC repair and maintenance service in Dubai. We fix cooling issues, repair leaks, use genuine parts, and provide full diagnostics with certified technicians."
+    }
+    ,
 
     {
         name: "Engine & ECU Service",
         banner: "/assets/services/engine-&-ecu-service.webp",
         heading: "Comprehensive Engine & ECU Maintenance",
         contentimg: "/assets/services/content-2.webp",
+
         heroText:
-            "Keep your car engine and ECU performing at peak efficiency with expert service.",
+            "Ensure your car’s engine and ECU perform at their best with our professional maintenance and repair services.",
+
         description: [
-            "Our engine and ECU service covers all aspects of engine health, including diagnostics, performance optimization, and repair of key components.",
-            "We merge services like engine cooling, engine management, and ECU repair to ensure your vehicle runs safely and efficiently.",
-            "Regular maintenance prevents costly repairs and ensures your car maintains top performance.",
-            "Genuine parts and advanced diagnostics are used for all services, ensuring reliability and long-lasting results.",
+            "Our engine and ECU service takes care of every aspect of your vehicle’s engine health, including diagnostics, performance checks, and repair of critical components.",
+            "We combine engine maintenance, cooling system checks, and ECU repair to make sure your car runs safely, efficiently, and reliably.",
+            "Regular servicing helps prevent costly repairs, maintains smooth performance, and extends the life of your engine.",
+            "All work is done using genuine parts and advanced diagnostic tools, ensuring accuracy, reliability, and long-lasting results."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Engine Specialists",
-                text: "Our engine specialists are highly trained and certified professionals with years of experience in handling all types of Engine & ECU services. They are skilled in diagnosing and repairing complex engine issues, ensuring that your vehicle runs smoothly, efficiently, and safely. With their expertise, every service is delivered with precision and reliability."
+                title: "Certified Engine & ECU Specialists",
+                text: "Our experienced team is trained to handle all types of engine and ECU issues. From complex diagnostics to precise repairs, every service is delivered with care, accuracy, and reliability."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We employ the latest diagnostic equipment and cutting-edge technology to thoroughly inspect your vehicle’s engine and ECU systems. From identifying performance inefficiencies to detecting potential faults, our tools allow us to quickly and accurately pinpoint issues, enabling us to provide effective solutions and minimize downtime for your car."
+                title: "Modern Diagnostic Equipment",
+                text: "We use advanced scanning tools and the latest technology to detect engine inefficiencies, ECU errors, and potential faults. This allows us to provide fast, precise solutions and minimize downtime."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every Engine & ECU service is performed with meticulous attention to detail, using premium quality parts and adhering to industry best practices. Our commitment to quality ensures long-lasting results, optimal engine performance, and maximum reliability, giving you peace of mind and confidence in your vehicle’s health."
+                title: "Trusted & Long-Lasting Service",
+                text: "We follow strict service standards and use only premium parts, ensuring optimal engine performance and long-term reliability. Your car stays smooth, safe, and efficient in all conditions."
             }
         ],
-        faqs: [
-            { Question: "How often should I service my engine?", Answer: "Every 10,000 km or 12 months." },
-            { Question: "Do you use genuine engine parts?", Answer: "Yes, only OEM parts are used for all repairs." },
-            { Question: "Can you diagnose ECU issues?", Answer: "Yes, advanced ECU diagnostic tools are used." },
-            { Question: "How long does engine servicing take?", Answer: "Typically 2–3 hours depending on the work required." },
-            { Question: "Do you perform engine tuning?", Answer: "Yes, performance tuning is available safely." },
-            { Question: "Is preventive maintenance offered?", Answer: "Yes, we provide full preventive maintenance checks." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Advanced ECU Diagnostics",
-                desc: "State-of-the-art scanning tools to detect and resolve electronic system issues.",
+                desc: "State-of-the-art tools to identify and fix electronic system issues quickly and accurately."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "Engine Performance Boost",
-                desc: "Optimizing engine output for smoother performance and better fuel efficiency.",
+                title: "Engine Performance Optimization",
+                desc: "Enhancing engine output for smoother driving, better fuel efficiency, and reliable performance."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Precision Tuning & Calibration",
-                desc: "Accurate ECU tuning and calibration to enhance overall vehicle response.",
-            },
+                desc: "Accurate ECU calibration and tuning to improve responsiveness and overall vehicle performance."
+            }
         ],
-        seoTitle: "Engine & ECU Service Dubai | Car Engine Repairs",
+
+        seoTitle: "Engine & ECU Service Dubai | Expert Car Engine Maintenance & Repairs",
+
+        faqs: [
+            { Question: "How often should I service my engine?", Answer: "It is recommended every 10,000 km or 12 months, whichever comes first." },
+            { Question: "Do you use genuine engine parts?", Answer: "Yes, we only use high-quality OEM parts to ensure reliability and performance." },
+            { Question: "Can you diagnose ECU issues?", Answer: "Absolutely, our advanced ECU diagnostic tools accurately detect and resolve system faults." },
+            { Question: "How long does engine servicing take?", Answer: "Most engine and ECU services take 2–3 hours depending on the work required." },
+            { Question: "Do you perform engine tuning?", Answer: "Yes, safe performance tuning is available to optimize engine output." },
+            { Question: "Is preventive maintenance offered?", Answer: "Yes, we provide full preventive checks to keep your engine and ECU in top condition." }
+        ],
+
         seoDescription:
-            "Professional engine and ECU service in Dubai. Diagnostics, repairs, performance tuning, cooling system maintenance, and genuine parts.",
-    },
+            "Professional engine and ECU service in Dubai. Expert diagnostics, repairs, performance tuning, cooling system maintenance, and genuine parts for long-lasting reliability."
+    }
+    ,
 
     {
         name: "Brake System Service",
@@ -260,56 +279,63 @@ const servicesData: ServiceType[] = [
         contentimg: "/assets/services/content-3.webp",
 
         heroText:
-            "Ensure your safety on the road with expert brake system services.",
+            "Stay safe on the road with our professional brake system repair and maintenance services.",
+
         description: [
-            "Our brake system service guarantees safe driving by maintaining optimal stopping power and performance.",
-            "We inspect and repair brake pads, rotors, calipers, and fluid systems to prevent failures and enhance reliability.",
-            "Routine brake maintenance prevents accidents and prolongs component life.",
-            "All repairs are performed using genuine parts and certified techniques for maximum efficiency.",
+            "Our brake system service ensures your vehicle stops safely and reliably, keeping you protected on every drive.",
+            "We inspect and repair all brake components including pads, rotors, calipers, brake lines, and fluid systems to prevent failures and maintain top performance.",
+            "Regular brake maintenance prevents accidents, extends component life, and ensures consistent braking efficiency.",
+            "All repairs and replacements are done using genuine parts and certified techniques for long-lasting reliability and peace of mind."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Brake Specialists",
-                text: "Our brake specialists are highly trained and certified, with extensive experience in inspecting, repairing, and maintaining all types of brake systems. From standard hydraulic brakes to advanced ABS and electronic braking systems, they ensure your vehicle maintains optimal stopping power, safety, and reliability on the road."
+                title: "Certified Brake Specialists",
+                text: "Our expert team is trained in all types of brake systems, including hydraulic, ABS, and electronic brakes. They ensure your vehicle has optimal stopping power and safe performance every time."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We utilize state-of-the-art diagnostic tools and precision equipment to thoroughly inspect every component of your brake system. This includes pads, rotors, calipers, brake lines, and fluid systems. Our advanced technology helps detect potential issues early, allowing us to provide accurate solutions quickly and efficiently."
+                title: "Advanced Inspection & Diagnostics",
+                text: "We use modern diagnostic tools to thoroughly examine pads, rotors, calipers, lines, and fluid systems. This allows us to detect issues early and provide accurate, efficient repairs."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every brake system service is performed with meticulous attention to detail, using high-quality parts and following industry best practices. Our commitment to excellence ensures long-lasting results, optimal brake performance, and your safety on the road, giving you complete confidence in every drive."
+                title: "Reliable & Long-Lasting Service",
+                text: "We follow strict quality standards and use only genuine parts. Every service guarantees maximum safety, optimal braking performance, and long-term reliability for your vehicle."
             }
         ],
-        faqs: [
-            { Question: "How often should I check my brakes?", Answer: "Brake inspection is recommended every 6 months." },
-            { Question: "Do you replace brake pads and rotors?", Answer: "Yes, all worn components are replaced with genuine parts." },
-            { Question: "Can you repair ABS systems?", Answer: "Yes, we service both standard and ABS brake systems." },
-            { Question: "How long does brake servicing take?", Answer: "Typically 1–2 hours depending on vehicle type." },
-            { Question: "Do you offer emergency brake repair?", Answer: "Yes, urgent brake repairs are available." },
-            { Question: "Do you perform brake fluid replacement?", Answer: "Yes, complete brake fluid replacement is included." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Complete Brake Inspection",
-                desc: "Detailed assessment of brake pads, discs, and overall braking performance.",
+                desc: "Thorough assessment of pads, discs, calipers, and overall braking performance."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "Enhanced Safety Assurance",
-                desc: "Ensuring maximum road safety with precise and reliable brake servicing.",
+                title: "Enhanced Road Safety",
+                desc: "Ensuring maximum safety with precise, reliable brake servicing."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Professional Brake Repairs",
-                desc: "Expert repair and replacement of worn-out brake components for smooth control.",
-            },
+                desc: "Expert repair and replacement of worn-out components for smooth, consistent braking."
+            }
         ],
-        seoTitle: "Car Brake Repair Dubai | Expert Brake Service",
+
+        seoTitle: "Car Brake Repair Dubai | Expert Brake System Service",
+
+        faqs: [
+            { Question: "How often should I check my brakes?", Answer: "We recommend a full brake inspection every 6 months or sooner if you notice unusual noises or reduced performance." },
+            { Question: "Do you replace brake pads and rotors?", Answer: "Yes, we replace all worn or damaged components with high-quality genuine parts." },
+            { Question: "Can you repair ABS systems?", Answer: "Yes, we service both standard and ABS electronic brake systems with precision." },
+            { Question: "How long does brake servicing take?", Answer: "Most brake services are completed within 1–2 hours, depending on the vehicle and work required." },
+            { Question: "Do you offer emergency brake repairs?", Answer: "Yes, urgent brake repair services are available to keep you safe on the road." },
+            { Question: "Do you perform brake fluid replacement?", Answer: "Yes, complete brake fluid replacement and system bleeding is included in our service." }
+        ],
+
         seoDescription:
-            "Professional brake repair and maintenance in Dubai. Certified technicians, genuine parts, diagnostics, and full brake system service.",
-    },
+            "Professional brake system repair and maintenance in Dubai. Expert technicians, genuine parts, advanced diagnostics, and full-service brake solutions to ensure your safety on the road."
+    }
+    ,
 
     {
         name: "Transmission & Gearbox Repair",
@@ -318,57 +344,63 @@ const servicesData: ServiceType[] = [
         contentimg: "/assets/services/content-4.webp",
 
         heroText:
-            "Smooth driving with expert transmission and gearbox maintenance services.",
+            "Enjoy smooth, precise driving with our professional transmission and gearbox repair and maintenance services.",
+
         description: [
-            "Our transmission and gearbox repair service ensures efficient power delivery and smooth gear changes.",
-            "We inspect clutches, gears, bearings, and fluids, providing precise repairs using genuine parts.",
-            "Regular maintenance improves performance, reduces wear, and extends the lifespan of your transmission system.",
-            "Certified technicians provide expert guidance and service for both manual and automatic transmissions.",
+            "Our transmission and gearbox service ensures efficient power delivery, smooth gear changes, and reliable vehicle performance.",
+            "We inspect and repair all key components including clutches, gears, bearings, and fluids, using genuine parts and advanced techniques.",
+            "Regular maintenance helps prevent wear, improves performance, and extends the life of your transmission system.",
+            "Certified technicians provide expert service for both manual and automatic transmissions, ensuring safe and smooth operation."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Transmission Specialists",
-                text: "Our transmission specialists have extensive experience working on all types of transmissions, including manual, automatic, and CVT systems. They are trained to diagnose and repair even the most complex transmission issues, ensuring your vehicle operates smoothly and reliably."
+                title: "Certified Transmission Specialists",
+                text: "Our experienced team handles all types of transmissions, including manual, automatic, and CVT systems. They can diagnose and repair even complex issues, guaranteeing smooth, reliable performance."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We employ cutting-edge diagnostic equipment to thoroughly inspect your transmission and gearbox. From fluid analysis to electronic sensor checks, our tools help us quickly identify problems and deliver precise solutions, minimizing downtime and preventing costly repairs."
+                title: "Advanced Diagnostic Technology",
+                text: "We use modern transmission diagnostic tools to inspect fluids, gears, clutches, and electronic sensors. This allows us to identify problems accurately and provide precise, fast solutions."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every transmission and gearbox repair is executed with meticulous attention to detail using high-quality parts and best practices. Our commitment to excellence ensures long-lasting performance, smooth gear shifts, and maximum reliability for your vehicle."
+                title: "Reliable & Long-Lasting Service",
+                text: "We follow strict quality standards and use genuine parts for every repair. This ensures smooth gear shifts, long-term reliability, and maximum performance for your vehicle."
             }
-        ]
-        ,
-        faqs: [
-            { Question: "How often should I check my transmission?", Answer: "Transmission inspection is recommended every 20,000 km." },
-            { Question: "Do you repair both manual and automatic gearboxes?", Answer: "Yes, we service all transmission types." },
-            { Question: "Can you replace the clutch?", Answer: "Yes, clutch inspection and replacement is available." },
-            { Question: "How long does transmission servicing take?", Answer: "Typically 2–4 hours depending on complexity." },
-            { Question: "Do you perform transmission fluid replacement?", Answer: "Yes, full fluid replacement is included." },
-            { Question: "Do you offer gearbox diagnostics?", Answer: "Yes, advanced diagnostic tools are used for precise analysis." },
         ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Smooth Gear Shifting",
-                desc: "Restoring optimal gear transition for a smoother and more responsive drive.",
+                desc: "Restoring precise and responsive gear transitions for a comfortable driving experience."
             },
             {
                 icon: "/assets/services/fixing.png",
-                title: "Expert Gearbox Repair",
-                desc: "Professional repair and rebuilding of automatic and manual gearboxes.",
+                title: "Professional Gearbox Repairs",
+                desc: "Expert repair and rebuilding of manual and automatic gearboxes using high-quality parts."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Performance Diagnostics",
-                desc: "Advanced transmission scanning to detect issues and improve drivetrain performance.",
-            },
+                title: "Advanced Performance Diagnostics",
+                desc: "State-of-the-art scanning tools to detect transmission issues and optimize drivetrain performance."
+            }
         ],
-        seoTitle: "Transmission & Gearbox Repair Dubai | Car Service",
+
+        seoTitle: "Transmission & Gearbox Repair Dubai | Expert Car Transmission Service",
+
+        faqs: [
+            { Question: "How often should I check my transmission?", Answer: "It’s recommended to inspect your transmission every 20,000 km or as advised in your vehicle manual." },
+            { Question: "Do you repair both manual and automatic gearboxes?", Answer: "Yes, we service all types of transmissions, including manual, automatic, and CVT systems." },
+            { Question: "Can you replace the clutch?", Answer: "Yes, clutch inspection, repair, and replacement services are available." },
+            { Question: "How long does transmission servicing take?", Answer: "Most services are completed within 2–4 hours depending on the vehicle and work required." },
+            { Question: "Do you perform transmission fluid replacement?", Answer: "Yes, full fluid replacement and system checks are included in our service." },
+            { Question: "Do you offer gearbox diagnostics?", Answer: "Absolutely, we use advanced diagnostic tools for precise analysis and effective repairs." }
+        ],
+
         seoDescription:
-            "Expert transmission and gearbox repair in Dubai. Diagnostics, repairs, fluid replacement, clutch service, manual and automatic transmissions.",
-    },
+            "Professional transmission and gearbox repair in Dubai. Expert diagnostics, repairs, clutch replacement, fluid servicing, and full support for manual and automatic transmissions."
+    }
+    ,
 
     {
         name: "Suspension & Steering Maintenance",
@@ -377,56 +409,63 @@ const servicesData: ServiceType[] = [
         contentimg: "/assets/services/content-5.webp",
 
         heroText:
-            "Ensure stable and smooth driving with professional suspension and steering maintenance.",
+            "Drive smoothly and safely with our professional suspension and steering repair and maintenance services.",
+
         description: [
-            "Our suspension and steering service improves vehicle handling, comfort, and safety by inspecting and repairing shocks, struts, and steering components.",
-            "We also provide alignment services to prevent uneven tire wear and improve driving performance.",
-            "Certified technicians use high-quality components and advanced tools for precise repairs.",
-            "Regular maintenance extends the life of suspension and steering systems and ensures a safer driving experience.",
+            "Our suspension and steering service improves vehicle stability, comfort, and safety by inspecting and repairing shocks, struts, springs, and steering components.",
+            "We also provide wheel alignment and balancing services to prevent uneven tire wear and enhance driving performance.",
+            "Certified technicians use high-quality parts and advanced tools to ensure precise repairs and reliable performance.",
+            "Regular maintenance extends the life of your suspension and steering systems while ensuring a safer and more comfortable driving experience."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Suspension Specialists",
-                text: "Our suspension specialists have extensive experience maintaining and repairing all types of suspension and steering systems. They ensure your vehicle handles smoothly, rides comfortably, and maintains optimal safety on all road conditions."
+                title: "Certified Suspension & Steering Experts",
+                text: "Our experienced specialists handle all types of suspension and steering systems, ensuring smooth handling, comfortable rides, and optimal safety under all driving conditions."
             },
             {
                 title: "Advanced Diagnostic Tools",
-                text: "We use state-of-the-art diagnostic tools to inspect shocks, struts, springs, and steering components. This allows us to detect issues early, provide precise solutions, and prevent further damage, ensuring your vehicle stays stable and reliable."
+                text: "We use state-of-the-art equipment to check shocks, struts, springs, and steering components. Early detection of issues allows precise repairs, preventing further damage and ensuring stability."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every suspension and steering maintenance job is carried out with meticulous attention to detail using high-quality components. Our goal is to provide long-lasting performance, improved vehicle handling, and a safe driving experience for you and your passengers."
+                title: "Reliable & Long-Lasting Service",
+                text: "All maintenance is performed with attention to detail using premium components. This guarantees improved handling, reduced vibrations, and a safe, comfortable driving experience for you and your passengers."
             }
         ],
-        faqs: [
-            { Question: "How often should I check my suspension?", Answer: "Every 12 months or 15,000 km." },
-            { Question: "Do you fix steering issues?", Answer: "Yes, steering repairs and maintenance are available." },
-            { Question: "Can you do wheel alignment?", Answer: "Yes, complete wheel alignment and balancing is provided." },
-            { Question: "How long does suspension servicing take?", Answer: "Usually 1–2 hours depending on the vehicle." },
-            { Question: "Do you replace shocks and struts?", Answer: "Yes, high-quality shocks and struts replacement is done." },
-            { Question: "Do you check for vibrations and noise?", Answer: "Yes, full vibration and noise diagnostics are included." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Smooth & Stable Ride",
-                desc: "Ensuring balanced suspension for a comfortable and vibration-free driving experience.",
+                desc: "Ensuring balanced suspension for a comfortable and vibration-free drive."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Precision Steering Repairs",
-                desc: "Expert repair of steering components for accurate control and handling.",
+                desc: "Expert repair and maintenance of steering components for accurate control."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Noise & Vibration Reduction",
-                desc: "Fixing shocks, bushings, and mounts to eliminate unwanted noise and vibrations.",
-            },
+                title: "Noise & Vibration Control",
+                desc: "Fixing shocks, bushings, and mounts to reduce unwanted noise and vibrations."
+            }
         ],
-        seoTitle: "Suspension & Steering Service Dubai | Car Maintenance",
+
+        seoTitle: "Suspension & Steering Service Dubai | Expert Car Handling Maintenance",
+
+        faqs: [
+            { Question: "How often should I check my suspension?", Answer: "It is recommended every 12 months or 15,000 km, whichever comes first." },
+            { Question: "Do you fix steering issues?", Answer: "Yes, we provide full steering system inspection, repair, and maintenance." },
+            { Question: "Can you do wheel alignment?", Answer: "Yes, we offer complete wheel alignment and balancing services for better performance." },
+            { Question: "How long does suspension servicing take?", Answer: "Most services are completed in 1–2 hours depending on the vehicle type." },
+            { Question: "Do you replace shocks and struts?", Answer: "Yes, we replace worn-out shocks and struts with high-quality components." },
+            { Question: "Do you check for vibrations and noise?", Answer: "Yes, full diagnostics for vibrations and noise are included in our service." }
+        ],
+
         seoDescription:
-            "Professional suspension and steering maintenance in Dubai. Certified technicians, alignment, shock repair, struts, and vehicle handling optimization.",
-    },
+            "Professional suspension and steering maintenance in Dubai. Expert repair, wheel alignment, shock and strut replacement, certified technicians, and improved vehicle handling."
+    }
+    ,
 
     {
         name: "Oil Change & Fluid Checks",
@@ -434,114 +473,129 @@ const servicesData: ServiceType[] = [
         heading: "Comprehensive Oil Change & Fluid Maintenance",
         contentimg: "/assets/services/content-6.webp",
 
-        heroText: "Keep your engine healthy with expert oil and fluid services.",
+        heroText:
+            "Keep your engine healthy and running efficiently with our professional oil change and fluid maintenance services.",
+
         description: [
-            "Regular oil changes and fluid checks are crucial for engine longevity and optimal performance.",
-            "Our service includes oil replacement, coolant check, brake fluid, and power steering fluid inspections.",
-            "We use high-quality oils and fluids to protect your engine and maintain smooth operation.",
-            "Certified technicians perform thorough checks to prevent leaks and detect early signs of wear.",
+            "Regular oil changes and fluid inspections are essential for engine longevity, smooth performance, and preventing costly repairs.",
+            "Our service covers engine oil replacement, coolant inspection, brake fluid check, power steering fluid check, and transmission fluid review.",
+            "We use high-quality, manufacturer-recommended oils and fluids to protect your engine and maintain optimal operation.",
+            "Certified technicians perform thorough inspections to detect leaks, prevent wear, and ensure all fluids are at the correct levels for safe driving."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Oil Specialists",
-                text: "Our certified oil specialists have years of experience performing oil changes and fluid inspections for all types of vehicles. They ensure that your engine receives the right oils and fluids for optimal performance, longevity, and protection against wear."
+                title: "Certified Oil & Fluid Experts",
+                text: "Our experienced team ensures every vehicle receives the correct oils and fluids for maximum engine performance, protection, and reliability."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We use modern diagnostic equipment to check engine oil, coolant, brake, power steering, and transmission fluids. This allows us to detect potential issues early, maintain fluid quality, and prevent costly engine or component damage."
+                title: "Advanced Diagnostic Checks",
+                text: "We use modern diagnostic tools to monitor engine oil, coolant, brake, power steering, and transmission fluids, allowing early detection of potential issues and maintaining optimal fluid quality."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Each oil change and fluid check is performed meticulously with high-quality oils and fluids. We focus on providing consistent, reliable service that keeps your engine running smoothly, improves fuel efficiency, and ensures long-term vehicle reliability."
+                title: "Reliable & Long-Lasting Service",
+                text: "Every oil change and fluid maintenance is done meticulously with high-quality products, guaranteeing smooth engine operation, improved fuel efficiency, and long-term reliability."
             }
         ],
-        faqs: [
-            { Question: "How often should I change my engine oil?", Answer: "Every 5,000–10,000 km depending on vehicle type." },
-            { Question: "Do you check all car fluids?", Answer: "Yes, coolant, brake, steering, and transmission fluids are checked." },
-            { Question: "Do you use high-quality oil?", Answer: "Yes, we use OEM recommended or high-quality synthetic oils." },
-            { Question: "How long does an oil change take?", Answer: "Typically 30–45 minutes." },
-            { Question: "Do you offer preventive maintenance?", Answer: "Yes, full preventive checks are included." },
-            { Question: "Can you top up fluids?", Answer: "Yes, we refill and top up all necessary fluids." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Premium Oil Replacement",
-                desc: "Using high-quality oils to keep your engine running smoothly and efficiently.",
+                desc: "Using high-quality oils for smooth, efficient engine performance."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Comprehensive Fluid Checks",
-                desc: "Inspection and topping of coolant, brake, power steering, and transmission fluids.",
+                desc: "Inspection, topping, and replacement of coolant, brake, power steering, and transmission fluids."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Fast & Reliable Service",
-                desc: "Quick oil and fluid maintenance to minimize downtime and ensure vehicle longevity.",
-            },
+                desc: "Quick, efficient maintenance to minimize downtime and ensure your engine stays protected."
+            }
         ],
-        seoTitle: "Oil Change & Fluid Checks Dubai | Car Maintenance",
+
+        seoTitle: "Oil Change & Fluid Checks Dubai | Expert Car Maintenance Service",
+
+        faqs: [
+            { Question: "How often should I change my engine oil?", Answer: "It’s recommended every 5,000–10,000 km depending on your vehicle type and manufacturer guidelines." },
+            { Question: "Do you check all car fluids?", Answer: "Yes, we inspect engine oil, coolant, brake, power steering, and transmission fluids." },
+            { Question: "Do you use high-quality oil?", Answer: "Yes, only OEM-recommended or premium synthetic oils are used." },
+            { Question: "How long does an oil change take?", Answer: "Most oil changes are completed within 30–45 minutes." },
+            { Question: "Do you offer preventive maintenance?", Answer: "Yes, we include full preventive checks during every service." },
+            { Question: "Can you top up fluids?", Answer: "Absolutely, we refill and top up all essential fluids as part of our service." }
+        ],
+
         seoDescription:
-            "Professional oil change and fluid maintenance in Dubai. Engine oil, coolant, brake, power steering, and transmission fluid checks by certified technicians.",
-    },
+            "Professional oil change and fluid maintenance in Dubai. Certified technicians perform engine oil replacement, coolant, brake, power steering, and transmission fluid checks to keep your vehicle running smoothly."
+    }
+    ,
 
     {
         name: "Electrical & Comfort Systems",
         banner: "/assets/services/electrical-comfort-repair.webp",
         contentimg: "/assets/services/content-7.webp",
-
         heading: "Electrical & Comfort System Repairs",
+
         heroText:
-            "Maintain advanced electrical systems and comfort features of your car.",
+            "Keep your car’s advanced electrical and comfort systems working perfectly with our expert services.",
+
         description: [
-            "We repair and maintain electrical systems including infotainment, sensors, lights, and comfort modules.",
-            "Our service also covers software updates and troubleshooting for modern car systems.",
-            "Certified technicians use advanced diagnostic tools to ensure accurate and long-lasting repairs.",
-            "Regular maintenance prevents unexpected failures and ensures your car's technology works perfectly.",
+            "We repair and maintain all vehicle electrical systems, including infotainment, sensors, lighting, and comfort modules such as AC, seats, and climate controls.",
+            "Our services also cover software updates, ECU programming, and troubleshooting of modern car electronics to ensure smooth performance.",
+            "Certified technicians use advanced diagnostic tools to deliver accurate repairs that last and prevent recurring issues.",
+            "Regular maintenance ensures your car’s technology functions reliably, enhancing convenience, safety, and driving comfort."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Electrical Specialists",
-                text: "Our certified electrical specialists are skilled in diagnosing, repairing, and maintaining all aspects of your vehicle's electrical and comfort systems. From infotainment to sensors and lighting, we ensure reliable performance and long-lasting results."
+                title: "Certified Electrical Specialists",
+                text: "Our skilled technicians diagnose and repair all aspects of your vehicle’s electrical and comfort systems. From infotainment to sensors and lighting, we guarantee reliable, long-lasting performance."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We employ cutting-edge diagnostic tools to quickly identify issues in your car's electrical systems. This allows precise troubleshooting of components like wiring, sensors, comfort modules, and software systems, preventing recurring problems."
+                title: "Advanced Diagnostic Equipment",
+                text: "We use modern diagnostic tools to quickly detect electrical faults, troubleshoot wiring, sensors, modules, and software systems, preventing future malfunctions."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every electrical and comfort system service is executed with meticulous attention to detail, using high-quality parts and proven techniques. We guarantee consistent, safe, and reliable performance for all your vehicle's advanced systems."
+                title: "Reliable & High-Quality Service",
+                text: "Every service is carried out with attention to detail, using high-quality parts and proven techniques. We ensure safe, consistent, and smooth operation of all your car’s advanced systems."
             }
         ],
-        faqs: [
-            { Question: "Do you repair infotainment systems?", Answer: "Yes, all infotainment and multimedia systems are serviced." },
-            { Question: "Can you fix car sensors?", Answer: "Yes, sensor diagnostics and repairs are performed." },
-            { Question: "Do you update software?", Answer: "Yes, software updates and ECU programming are provided." },
-            { Question: "Do you check wiring and connections?", Answer: "Yes, full electrical diagnostics is done." },
-            { Question: "How long does electrical repair take?", Answer: "1–3 hours depending on complexity." },
-            { Question: "Do you maintain comfort systems?", Answer: "Yes, AC, seats, and other comfort electronics are serviced." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Advanced Electrical Diagnostics",
-                desc: "Accurate detection and repair of all electrical systems, including sensors and wiring.",
+                desc: "Accurate detection and repair of all electrical systems, including wiring, sensors, and control modules."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Infotainment & Comfort Repairs",
-                desc: "Ensuring your car’s entertainment and comfort systems function flawlessly.",
+                desc: "Ensuring your car’s entertainment and comfort systems perform flawlessly."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Software & Module Updates",
-                desc: "Professional updates and programming for smooth operation of modern car electronics.",
-            },
+                desc: "Professional updates, programming, and calibration for modern car electronics."
+            }
         ],
-        seoTitle: "Car Electrical & Comfort System Repairs Dubai",
+
+        seoTitle: "Car Electrical & Comfort System Repairs Dubai | Expert Diagnostics & Repair",
+
+        faqs: [
+            { Question: "Do you repair infotainment systems?", Answer: "Yes, all infotainment and multimedia systems are fully serviced." },
+            { Question: "Can you fix car sensors?", Answer: "Yes, we perform full sensor diagnostics and repairs." },
+            { Question: "Do you update software?", Answer: "Yes, software updates, ECU programming, and module calibration are included." },
+            { Question: "Do you check wiring and connections?", Answer: "Absolutely, we perform thorough electrical diagnostics and wiring checks." },
+            { Question: "How long does electrical repair take?", Answer: "Most repairs are completed within 1–3 hours depending on the complexity." },
+            { Question: "Do you maintain comfort systems?", Answer: "Yes, AC, seat electronics, and other comfort systems are serviced and maintained." }
+        ],
+
         seoDescription:
-            "Professional car electrical and comfort system repairs in Dubai. Diagnostics, software updates, wiring, sensors, infotainment, and lighting repairs.",
-    },
+            "Professional car electrical and comfort system repair in Dubai. Certified technicians provide diagnostics, software updates, wiring, sensors, infotainment, and lighting repairs for reliable vehicle performance."
+    }
+    ,
 
     {
         name: "Fuel Injection Service",
@@ -549,56 +603,64 @@ const servicesData: ServiceType[] = [
         heading: "Expert Fuel Injection Cleaning & Maintenance",
         contentimg: "/assets/services/content-8.webp",
 
-        heroText: "Ensure maximum engine efficiency with fuel injection servicing.",
+        heroText:
+            "Maximize engine efficiency and performance with our professional fuel injection cleaning and maintenance services.",
+
         description: [
-            "Our fuel injection service cleans and maintains fuel injectors for optimal engine performance.",
-            "Regular servicing prevents clogging, improves fuel efficiency, and reduces emissions.",
-            "Certified technicians use specialized equipment to deliver precise injector cleaning and adjustments.",
-            "Preventive maintenance keeps your engine running smoothly and reduces the risk of costly repairs.",
+            "Our fuel injection service cleans, inspects, and maintains fuel injectors to ensure smooth engine performance and reliable fuel delivery.",
+            "Regular servicing prevents clogging, improves fuel efficiency, reduces emissions, and helps your engine run at peak performance.",
+            "Certified technicians use specialized equipment for precise injector cleaning, fuel system checks, and adjustments.",
+            "Preventive maintenance ensures your engine stays healthy, reduces the risk of costly repairs, and maintains long-term reliability."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Fuel Specialists",
-                text: "Our certified fuel specialists have extensive experience in servicing and maintaining fuel injection systems for all types of vehicles. They ensure precise fuel delivery, optimal performance, and long-lasting reliability."
+                title: "Certified Fuel Injection Specialists",
+                text: "Our experienced specialists service all types of fuel injection systems, ensuring accurate fuel delivery, improved engine performance, and long-lasting reliability."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "We use state-of-the-art diagnostic equipment to quickly detect issues in fuel injectors, fuel pumps, and fuel system components. Accurate diagnostics allow us to address problems efficiently and prevent future malfunctions."
+                title: "Advanced Diagnostic Equipment",
+                text: "We use modern diagnostic tools to inspect fuel injectors, pumps, and system components. Accurate diagnostics allow precise repairs and help prevent future issues."
             },
             {
-                title: "Quality Service Guaranteed",
-                text: "Every fuel injection service is performed with meticulous attention to detail. Using high-quality components and proven procedures, we guarantee optimal engine efficiency, improved fuel economy, and consistent performance for your vehicle."
+                title: "Reliable & Long-Lasting Service",
+                text: "Each fuel injection service is done carefully using high-quality products and proven techniques. We guarantee optimal engine efficiency, improved fuel economy, and consistent performance."
             }
         ],
-        faqs: [
-            { Question: "How often should I service fuel injectors?", Answer: "Every 20,000 km or annually." },
-            { Question: "Do you clean all injectors?", Answer: "Yes, complete injector cleaning is performed." },
-            { Question: "Can you test fuel pressure?", Answer: "Yes, we provide accurate fuel pressure testing." },
-            { Question: "Do you improve fuel efficiency?", Answer: "Yes, cleaning and tuning optimize fuel delivery." },
-            { Question: "How long does fuel injection service take?", Answer: "Typically 1–2 hours." },
-            { Question: "Do you prevent clogging?", Answer: "Yes, preventive maintenance avoids injector blockages." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Injector Cleaning & Maintenance",
-                desc: "Precision cleaning of fuel injectors for optimal fuel delivery and engine efficiency.",
+                desc: "Precision cleaning of fuel injectors for smooth fuel delivery and engine efficiency."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Fuel System Diagnostics",
-                desc: "Advanced scanning to detect fuel pump and injector issues accurately.",
+                desc: "Advanced scanning and testing to detect fuel pump and injector issues accurately."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Performance Optimization",
-                desc: "Enhancing engine performance, fuel efficiency, and emission control through precise servicing.",
-            },
+                desc: "Enhancing engine output, fuel efficiency, and emission control through precise servicing."
+            }
         ],
-        seoTitle: "Fuel Injection Service Dubai | Engine Efficiency",
+
+        seoTitle: "Fuel Injection Service Dubai | Expert Engine Performance",
+
+        faqs: [
+            { Question: "How often should I service fuel injectors?", Answer: "It’s recommended every 20,000 km or at least once a year." },
+            { Question: "Do you clean all injectors?", Answer: "Yes, we perform full cleaning and maintenance of all fuel injectors." },
+            { Question: "Can you test fuel pressure?", Answer: "Yes, we provide accurate fuel pressure testing to ensure proper fuel delivery." },
+            { Question: "Do you improve fuel efficiency?", Answer: "Yes, cleaning and tuning optimize fuel delivery, improving fuel economy." },
+            { Question: "How long does fuel injection service take?", Answer: "Typically 1–2 hours depending on your vehicle." },
+            { Question: "Do you prevent clogging?", Answer: "Yes, preventive maintenance avoids injector blockages and ensures smooth performance." }
+        ],
+
         seoDescription:
-            "Professional fuel injection service in Dubai. Injector cleaning, fuel system diagnostics, throttle body cleaning, and engine performance optimization.",
-    },
+            "Professional fuel injection service in Dubai. Certified technicians provide injector cleaning, fuel system diagnostics, throttle body cleaning, and engine performance optimization."
+    }
+    ,
 
     {
         name: "Pre Purchase Inspection & Diagnostics",
@@ -607,172 +669,193 @@ const servicesData: ServiceType[] = [
         contentimg: "/assets/services/content-9.webp",
 
         heroText:
-            "Ensure a safe and informed vehicle purchase with our detailed inspections.",
+            "Make a safe and confident vehicle purchase with our detailed pre-purchase inspection and diagnostics.",
+
         description: [
-            "We provide detailed inspections of vehicles before purchase, checking engine, transmission, suspension, brakes, and electrical systems.",
-            "Our certified technicians identify potential issues and provide a full diagnostic report.",
-            "This service helps buyers avoid costly repairs and make informed decisions.",
-            "We cover all major systems to ensure the vehicle is safe, reliable, and roadworthy.",
+            "We perform thorough inspections of vehicles before purchase, covering engine, transmission, suspension, brakes, electrical systems, and more.",
+            "Our certified technicians identify hidden issues and provide a complete diagnostic report, helping you avoid costly repairs.",
+            "This service allows buyers to make informed decisions and ensures the vehicle is safe, reliable, and roadworthy.",
+            "All major systems are checked carefully to guarantee peace of mind and long-term vehicle performance."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Pre-Purchase Specialists",
-                text: "Our certified pre-purchase specialists have extensive experience inspecting all types of vehicles. They ensure that every aspect of the car—from engine to electronics—is thoroughly checked for reliability and safety."
+                title: "Certified Pre-Purchase Specialists",
+                text: "Our experienced specialists inspect all types of vehicles, ensuring that every component—from engine to electronics—is checked for safety, reliability, and proper functionality."
             },
             {
-                title: "Advanced Diagnostic Tools",
-                text: "Using modern diagnostic equipment, we quickly identify hidden issues in engine, transmission, brakes, suspension, and electrical systems. Our precise diagnostics help prevent future problems and save you from costly repairs."
+                title: "Advanced Diagnostic Equipment",
+                text: "Using state-of-the-art diagnostic tools, we detect hidden issues in engine, transmission, brakes, suspension, and electrical systems, helping prevent future problems and expensive repairs."
             },
             {
                 title: "Comprehensive Quality Assurance",
-                text: "Every inspection is conducted with meticulous attention to detail. We provide a complete report with actionable recommendations, ensuring you make an informed and safe vehicle purchase with confidence."
+                text: "Every inspection is carried out with meticulous attention to detail. We provide a complete report with actionable recommendations, giving you confidence in your vehicle purchase."
             }
         ],
-        faqs: [
-            { Question: "What does pre-purchase inspection cover?", Answer: "Engine, transmission, suspension, brakes, and electrical systems." },
-            { Question: "Do you provide a detailed report?", Answer: "Yes, a full diagnostic report with recommendations is given." },
-            { Question: "How long does inspection take?", Answer: "Typically 1–2 hours." },
-            { Question: "Do you check for hidden damages?", Answer: "Yes, advanced diagnostics reveal hidden issues." },
-            { Question: "Can I rely on your inspection?", Answer: "Yes, certified technicians ensure accuracy and reliability." },
-            { Question: "Do you test drive the car?", Answer: "Yes, a complete road test is part of the inspection." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
-                title: "Comprehensive Vehicle Inspection",
-                desc: "Thorough checks of engine, transmission, brakes, suspension, and electrical systems.",
+                title: "Complete Vehicle Inspection",
+                desc: "Detailed assessment of engine, transmission, brakes, suspension, and electrical systems."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Detailed Diagnostic Report",
-                desc: "Providing a complete report with actionable recommendations for informed decisions.",
+                desc: "A comprehensive report with recommendations for informed and confident purchase decisions."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Road Test & Performance Check",
-                desc: "Test driving to ensure all systems function properly before purchase.",
-            },
+                desc: "Test drive and performance evaluation to ensure the vehicle operates perfectly before purchase."
+            }
         ],
-        seoTitle: "Pre-Purchase Vehicle Inspection Dubai | Car Diagnostics",
+
+        seoTitle: "Pre-Purchase Vehicle Inspection Dubai | Expert Car Diagnostics",
+
+        faqs: [
+            { Question: "What does pre-purchase inspection cover?", Answer: "We inspect engine, transmission, suspension, brakes, electrical systems, and more." },
+            { Question: "Do you provide a detailed report?", Answer: "Yes, a full diagnostic report with recommendations is provided." },
+            { Question: "How long does inspection take?", Answer: "Typically 1–2 hours depending on the vehicle." },
+            { Question: "Do you check for hidden damages?", Answer: "Yes, advanced diagnostics help uncover hidden issues." },
+            { Question: "Can I rely on your inspection?", Answer: "Absolutely, certified technicians ensure accuracy and reliability." },
+            { Question: "Do you test drive the car?", Answer: "Yes, a complete road test is included in the inspection." }
+        ],
+
         seoDescription:
-            "Professional pre-purchase vehicle inspection in Dubai. Engine, transmission, brakes, suspension, electrical systems, and road test diagnostics.",
-    },
+            "Professional pre-purchase vehicle inspection in Dubai. Comprehensive diagnostics of engine, transmission, brakes, suspension, electrical systems, and road test performance evaluation."
+    }
+    ,
 
     {
         name: "Performance Tuning & ECU Upgrade",
         banner: "/assets/services/performance-ecu-tuning.webp",
         contentimg: "/assets/services/content-10.webp",
-
         heading: "Expert Performance Tuning & ECU Upgrades",
+
         heroText:
-            "Enhance your vehicle’s power, efficiency, and driving experience with performance tuning.",
+            "Boost your vehicle’s power, efficiency, and driving experience with professional performance tuning and ECU upgrades.",
+
         description: [
-            "Our performance tuning service optimizes engine and ECU settings to enhance power and fuel efficiency.",
-            "We use advanced diagnostic tools and software updates to safely maximize performance.",
-            "This service is ideal for enthusiasts seeking better throttle response, torque, and overall driving dynamics.",
-            "All tuning is done by certified technicians to ensure reliability and vehicle safety.",
+            "Our performance tuning service carefully optimizes engine and ECU settings to enhance power, torque, and fuel efficiency while maintaining vehicle safety.",
+            "We use advanced diagnostic tools and software updates to maximize performance in a safe and controlled manner.",
+            "This service is perfect for car enthusiasts who want better throttle response, smoother acceleration, and improved driving dynamics.",
+            "Certified technicians perform all tuning with precision, ensuring long-lasting reliability and optimal vehicle performance."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Performance Specialists",
-                text: "Our certified performance specialists have extensive experience in tuning engines and upgrading ECUs. We ensure your vehicle achieves optimal power, efficiency, and driving dynamics safely."
+                title: "Certified Performance Specialists",
+                text: "Our experienced specialists have extensive expertise in engine tuning and ECU upgrades. They ensure your vehicle delivers maximum power, efficiency, and driving pleasure safely."
             },
             {
                 title: "Advanced Diagnostic & Tuning Tools",
-                text: "We utilize cutting-edge diagnostic tools and software to fine-tune your engine and ECU. This allows precise adjustments for improved throttle response, torque, and overall vehicle performance."
+                text: "We use cutting-edge tools and software to accurately fine-tune your engine and ECU. This allows precise adjustments for enhanced torque, throttle response, and overall performance."
             },
             {
-                title: "Guaranteed Quality & Reliability",
-                text: "Every performance tuning and ECU upgrade is conducted with meticulous attention to detail. We use high-quality parts and proven methods to ensure long-lasting, safe, and reliable results."
+                title: "Reliable & Long-Lasting Results",
+                text: "Every tuning and ECU upgrade is performed with attention to detail using high-quality parts and proven techniques, ensuring safe, reliable, and durable performance improvements."
             }
         ],
-        faqs: [
-            { Question: "Can you improve engine performance?", Answer: "Yes, ECU tuning enhances power and throttle response." },
-            { Question: "Do you offer fuel efficiency tuning?", Answer: "Yes, performance and fuel efficiency can be optimized." },
-            { Question: "Is ECU upgrade safe?", Answer: "Yes, certified technicians perform safe ECU upgrades." },
-            { Question: "How long does tuning take?", Answer: "Typically 2–3 hours depending on vehicle." },
-            { Question: "Do you provide custom tuning?", Answer: "Yes, custom packages are available for enthusiasts." },
-            { Question: "Will tuning affect warranty?", Answer: "We advise clients and ensure safe modifications that minimize risks." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "ECU Mapping & Optimization",
-                desc: "Fine-tuning engine control unit for enhanced power, torque, and fuel efficiency.",
+                desc: "Precise tuning of the engine control unit for improved power, torque, and fuel efficiency."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Performance Boost",
-                desc: "Improving throttle response and overall vehicle driving dynamics safely.",
+                desc: "Enhancing throttle response and overall driving dynamics safely and effectively."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Custom Tuning Packages",
-                desc: "Tailored performance upgrades designed for your specific driving needs.",
-            },
+                desc: "Tailored ECU and performance upgrades designed to meet your specific driving preferences."
+            }
         ],
-        seoTitle: "Performance Tuning & ECU Upgrade Dubai | Car Optimization",
+
+        seoTitle: "Performance Tuning & ECU Upgrade Dubai | Engine Optimization & Power Boost",
+
+        faqs: [
+            { Question: "Can you improve engine performance?", Answer: "Yes, our ECU tuning enhances engine power, torque, and throttle response." },
+            { Question: "Do you offer fuel efficiency tuning?", Answer: "Yes, we can optimize performance and fuel efficiency together." },
+            { Question: "Is ECU upgrade safe?", Answer: "Absolutely, all upgrades are done by certified technicians using safe methods." },
+            { Question: "How long does tuning take?", Answer: "Typically 2–3 hours depending on your vehicle and package." },
+            { Question: "Do you provide custom tuning?", Answer: "Yes, we offer tailor-made packages for enthusiasts seeking specific performance improvements." },
+            { Question: "Will tuning affect warranty?", Answer: "We guide clients and perform safe modifications to minimize any warranty impact." }
+        ],
+
         seoDescription:
-            "Professional performance tuning and ECU upgrades in Dubai. Improve engine power, torque, efficiency, and driving dynamics with certified specialists.",
-    },
+            "Professional performance tuning and ECU upgrades in Dubai. Certified specialists improve engine power, torque, fuel efficiency, and driving dynamics safely and reliably."
+    }
+    ,
 
     {
         name: "Paint Protection & Coatings",
         banner: "/assets/services/paint-protection-coating.webp",
         contentimg: "/assets/services/content-11.webp",
-
         heading: "Professional Paint Protection & Car Coatings",
+
         heroText:
-            "Protect your car’s paint and maintain a flawless finish with PPF, ceramic coating, and dip color services.",
+            "Keep your car’s paint flawless and protected with professional PPF, ceramic coatings, and car dip color services.",
+
         description: [
-            "Our paint protection services prevent scratches, fading, and damage from environmental factors.",
-            "We offer PPF (Paint Protection Film), ceramic coating, and car dip color services to maintain your vehicle’s appearance and resale value.",
-            "Certified technicians apply coatings with precision for long-lasting results.",
-            "Regular maintenance keeps your car looking new and enhances its overall aesthetic appeal.",
+            "Our paint protection services shield your vehicle from scratches, fading, UV damage, and environmental wear.",
+            "We offer PPF (Paint Protection Film), ceramic coatings, and full car dip color services to maintain your car’s appearance, gloss, and resale value.",
+            "Certified specialists apply coatings with precision, ensuring long-lasting durability and a showroom finish.",
+            "Regular maintenance and professional application keep your car looking new while enhancing its overall aesthetic appeal."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Paint Specialists",
-                text: "Our certified paint specialists have extensive experience in applying PPF, ceramic coatings, and car dip colors, ensuring flawless protection and a perfect finish."
+                title: "Certified Paint Specialists",
+                text: "Our experienced paint specialists are trained in applying PPF, ceramic coatings, and car dip colors. They ensure flawless protection, a perfect finish, and long-lasting results."
             },
             {
                 title: "Advanced Tools & Techniques",
-                text: "We use advanced machinery and precision-based application techniques to ensure your vehicle’s paint receives durable, long-lasting protection. Our professional process enhances shine, prevents wear, and keeps your car looking newer for a longer time."
+                text: "We use modern machinery and precision application techniques to deliver durable coatings. Our professional process enhances shine, prevents wear, and maintains your vehicle’s premium look for years."
             },
             {
-                title: "Guaranteed Quality & Durability",
-                text: "Every paint protection and coating service is carried out with meticulous attention to detail, using premium products to ensure a durable, scratch-resistant, and visually stunning result."
+                title: "Reliable & Long-Lasting Finish",
+                text: "Every paint protection and coating service is performed with attention to detail using premium materials. We guarantee durable, scratch-resistant, and visually stunning results."
             }
         ],
-        faqs: [
-            { Question: "Do you apply PPF and ceramic coating?", Answer: "Yes, full paint protection services are offered." },
-            { Question: "How long does coating last?", Answer: "Depending on usage, coatings last 3–5 years." },
-            { Question: "Do you offer dip color services?", Answer: "Yes, full car dip color application is available." },
-            { Question: "Can coatings prevent scratches?", Answer: "Yes, PPF and ceramic coatings reduce scratches and damage." },
-            { Question: "How long does application take?", Answer: "Typically 1–2 days depending on service." },
-            { Question: "Do you guarantee finish quality?", Answer: "Yes, all work is done by certified specialists for lasting results." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
-                title: "Ceramic & PPF Coatings",
-                desc: "Applying protective layers to guard your car’s paint against scratches and UV damage.",
+                title: "PPF & Ceramic Coatings",
+                desc: "Professional application of protective layers to guard your car’s paint from scratches, UV, and environmental damage."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Durable Paint Protection",
-                desc: "Ensuring long-lasting protection and maintaining the car’s showroom finish.",
+                desc: "Long-lasting protection that maintains your vehicle’s showroom-quality finish."
             },
             {
                 icon: "/assets/services/settings.png",
-                title: "Gloss & Finish Enhancement",
-                desc: "Enhancing appearance with high-quality coatings for a shiny, flawless look.",
-            },
+                title: "Gloss & Appearance Enhancement",
+                desc: "High-quality coatings that enhance shine, clarity, and overall vehicle aesthetics."
+            }
         ],
-        seoTitle: "Paint Protection & Car Coatings Dubai | PPF & Ceramic",
+
+        seoTitle: "Paint Protection & Car Coatings Dubai | PPF, Ceramic & Dip Color",
+
+        faqs: [
+            { Question: "Do you apply PPF and ceramic coating?", Answer: "Yes, we provide full paint protection services including PPF and ceramic coatings." },
+            { Question: "How long does the coating last?", Answer: "Depending on usage, coatings typically last 3–5 years with proper care." },
+            { Question: "Do you offer car dip color services?", Answer: "Yes, full car dip color application is available." },
+            { Question: "Can coatings prevent scratches?", Answer: "Yes, PPF and ceramic coatings reduce scratches, fading, and minor paint damage." },
+            { Question: "How long does application take?", Answer: "Typically 1–2 days depending on the type of service." },
+            { Question: "Do you guarantee finish quality?", Answer: "Yes, all coatings are applied by certified specialists to ensure lasting quality and shine." }
+        ],
+
         seoDescription:
-            "Professional paint protection and coatings in Dubai. PPF, ceramic coating, car dip color services, scratch and UV protection for long-lasting finish.",
-    },
+            "Professional paint protection and coatings in Dubai. PPF, ceramic coatings, and car dip color services to protect your car from scratches, UV damage, and maintain a long-lasting showroom finish."
+    }
+    ,
 
     {
         name: "Alloy Wheel Repair & Refurbishment",
@@ -780,57 +863,64 @@ const servicesData: ServiceType[] = [
         contentimg: "/assets/services/content-12.webp",
 
         heading: "Expert Alloy Wheel Repair & Refurbishment",
+
         heroText:
-            "Restore your alloy wheels to perfect condition with professional repair and refurbishment services.",
+            "Restore your alloy wheels to perfect condition with professional repair, refurbishment, and maintenance services.",
+
         description: [
-            "We repair and refurbish damaged alloy wheels, restoring their structural integrity and appearance.",
-            "Our service includes straightening, crack repair, painting, and coating to ensure long-lasting results.",
-            "Certified technicians use advanced tools and high-quality materials to maintain wheel safety and aesthetics.",
-            "Regular maintenance helps prevent further damage and prolongs the life of your alloy wheels.",
+            "We repair and refurbish damaged alloy wheels, restoring both their structural integrity and visual appeal.",
+            "Our service includes wheel straightening, crack repair, painting, coating, and polishing to ensure long-lasting results.",
+            "Certified specialists use advanced tools and high-quality materials to maintain safety, durability, and aesthetics of your wheels.",
+            "Regular maintenance and professional refurbishment help prevent further damage and extend the lifespan of your alloy wheels."
         ],
+
         whyChooseUs: [
             {
-                title: "Experienced Alloy Specialists",
-                text: "Our certified alloy wheel specialists have extensive experience in repairing, refurbishing, and restoring alloy wheels to their original condition, ensuring precision and reliability."
+                title: "Certified Alloy Wheel Specialists",
+                text: "Our experts have extensive experience in repairing, refurbishing, and restoring alloy wheels to their original condition, ensuring precision, safety, and reliable results."
             },
             {
                 title: "Advanced Tools & Techniques",
-                text: "We utilize modern tools and advanced techniques to detect cracks, bends, and imperfections, providing accurate repairs that extend the life of your wheels."
+                text: "We employ modern machinery and precision techniques to detect cracks, bends, and imperfections. Accurate repairs extend the life of your wheels and maintain their performance."
             },
             {
                 title: "Guaranteed Quality & Durability",
-                text: "Every alloy wheel repair and refurbishment service is performed with meticulous attention to detail, using high-quality materials and methods to deliver long-lasting, visually flawless results."
+                text: "Each alloy wheel repair is done with meticulous attention to detail using premium materials. We ensure long-lasting, visually flawless results that keep your wheels looking brand new."
             }
         ],
-        faqs: [
-            { Question: "Do you repair damaged alloy wheels?", Answer: "Yes, straightening, cracks, and refurbishment is done." },
-            { Question: "Can you polish and paint alloy wheels?", Answer: "Yes, full painting and polishing services are provided." },
-            { Question: "Do you balance wheels after repair?", Answer: "Yes, balancing and alignment is included." },
-            { Question: "How long does repair take?", Answer: "Typically 1–2 days depending on wheel condition." },
-            { Question: "Do you guarantee durability?", Answer: "Yes, we use high-quality materials for lasting results." },
-            { Question: "Do you offer preventive maintenance?", Answer: "Yes, inspections and maintenance checks are done to avoid future damage." },
-        ],
+
         features: [
             {
                 icon: "/assets/services/wrench.png",
                 title: "Wheel Straightening & Crack Repair",
-                desc: "Restoring structural integrity and safety of alloy wheels with precision repairs.",
+                desc: "Precise repairs to restore structural integrity and ensure safe driving."
             },
             {
                 icon: "/assets/services/fixing.png",
                 title: "Painting & Coating",
-                desc: "High-quality finishes to restore appearance and protect against corrosion.",
+                desc: "High-quality finishes to enhance appearance and protect against corrosion."
             },
             {
                 icon: "/assets/services/settings.png",
                 title: "Polishing & Maintenance",
-                desc: "Ensuring your wheels look brand new and maintain their performance for longer.",
-            },
+                desc: "Keeping your wheels looking new while maintaining long-term performance."
+            }
         ],
-        seoTitle: "Alloy Wheel Repair & Refurbishment Dubai | Car Wheels",
+
+        faqs: [
+            { Question: "Do you repair damaged alloy wheels?", Answer: "Yes, we provide straightening, crack repair, and full refurbishment." },
+            { Question: "Can you polish and paint alloy wheels?", Answer: "Yes, we offer complete painting and polishing services for all wheels." },
+            { Question: "Do you balance wheels after repair?", Answer: "Yes, wheel balancing and alignment are included after repairs." },
+            { Question: "How long does repair take?", Answer: "Typically 1–2 days depending on wheel condition and service type." },
+            { Question: "Do you guarantee durability?", Answer: "Yes, we use premium materials and expert techniques for long-lasting results." },
+            { Question: "Do you offer preventive maintenance?", Answer: "Yes, regular inspections and maintenance checks are provided to prevent future damage." }
+        ],
+
+        seoTitle: "Alloy Wheel Repair & Refurbishment Dubai | Expert Car Wheel Services",
         seoDescription:
-            "Professional alloy wheel repair and refurbishment in Dubai. Straightening, crack repair, painting, coating, polishing, and alignment services.",
-    },
+            "Professional alloy wheel repair and refurbishment in Dubai. Services include straightening, crack repair, painting, coating, polishing, and wheel alignment by certified specialists."
+    }
+    ,
 ];
 
 export const findService = (service: string) => {
