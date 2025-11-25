@@ -2,7 +2,7 @@ import offers from "../resources/offers";
 
 function Offers() {
   return (
-    <div className="bg-primary">
+    <div className="bg-gray-50">
       <div className="flex flex-col gap-5 px-5 py-15 items-center md:items-center md:justify-center">
         <h1 className="text-txtColor subHeading font-bold">WHAT WE OFFER</h1>
         <h2 className="text-txtColor heading text-center font-extrabold">
