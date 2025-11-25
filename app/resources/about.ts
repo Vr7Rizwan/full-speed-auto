@@ -1,6 +1,6 @@
 // companyprofile
 export const companyprofile: string =
-  "“Royal Swiss Auto Services — A one stop shop for auto repair needs in the UAE”";
+  "“Speed-Full Auto Services — Your trusted one-stop center for car repair services across the UAE.”";
 
 // CompanyServices
 interface companyservicesType {
@@ -40,14 +40,16 @@ export const missionvision: missionvisionType[] = [
   {
     heading: "OUR VISION",
     description:
-      "Become one of the leading car repair workshops in Dubai and the UAE.",
+      "To become the most trusted and respected automotive repair workshop in Dubai and across the UAE, recognized for excellence in service, customer satisfaction, and innovative solutions that set the benchmark for the automotive industry.",
   },
   {
     heading: "OUR MISSION",
     description:
-      "Our Mission takes our vision statement a stage further and describes how we will achieve our vision. We aim to provide a safe and enjoyable workplace for our employees, and an ethical environment that creates opportunity for all, and an extraordinary service to our customers, suppliers, and clients along the UAE and the Middle East.",
+      "We aim to achieve our vision by fostering a safe and supportive workplace for our team, maintaining high ethical standards, creating opportunities for growth, and delivering outstanding service to our customers, partners, and clients throughout the UAE and Middle East.",
   },
 ];
+
+
 interface cardsType {
   icon: string;
   heading: string;
@@ -56,38 +58,40 @@ interface cardsType {
 export const cards: cardsType[] = [
   {
     icon: "/assets/Card1.webp",
-    heading: "EXPERIENCED",
+    heading: "SKILLED & EXPERIENCED",
     description:
-      "Masters of our craft based on many years of practical experience, offering you an outstanding service.",
+      "With years of hands-on experience, our team delivers top-quality service and precise craftsmanship you can trust and rely on at every visit.",
   },
   {
     icon: "/assets/Card2.webp",
-    heading: "HIGHLY QUALIFIED",
+    heading: "TRAINED SPECIALISTS",
     description:
-      "We will connect you with the best experts! Our highly qualified staff will value your vehicle and needs and take care of the smallest details. Guaranteed satisfaction!",
+      "Our experts are carefully trained to understand every aspect of your vehicle. They handle each detail with precision and ensure complete satisfaction every time.",
   },
   {
     icon: "/assets/Card3.webp",
-    heading: "CREDIBLE",
+    heading: "TRUSTWORTHY & RELIABLE",
     description:
-      "We always provide our services with honesty, reliability, and respect.",
+      "We provide every service with honesty, dependability, and respect, ensuring that our customers feel confident and secure in our care.",
   },
   {
     icon: "/assets/Card4.webp",
-    heading: "AVAILABILITY",
+    heading: "ALWAYS ACCESSIBLE",
     description:
-      "Very approachable and responsive, we are always happy to answer any questions about the repair process or anything else you have in mind. You will never feel ignored. We have got your back!.",
+      "Friendly and responsive, our team is always available to answer your questions and guide you throughout the repair process, leaving no concern unaddressed.",
   },
   {
     icon: "/assets/Card5.webp",
-    heading: "SERVICE",
+    heading: "QUALITY SERVICE",
     description:
-      "We combine quality workmanship with courteous and professional service. We are always happy to answer any questions about the repair process. We promise we will exceed all your expectations.",
+      "We combine expert workmanship with courteous, professional support, making sure your experience is smooth, reliable, and exceeds expectations every time.",
   },
   {
     icon: "/assets/Card6.webp",
-    heading: "PROFESSIONALISM & CREDIBILITY",
+    heading: "PROFESSIONAL & TRUSTED",
     description:
-      "We always provide our services with honesty, reliability, and respect.",
+      "Integrity, honesty, and reliability are the pillars of our service, giving you confidence that your vehicle is in skilled and trustworthy hands.",
   },
 ];
+
+
