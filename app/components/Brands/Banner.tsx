@@ -3,7 +3,7 @@ const Banner=({banner}:{banner:string | undefined})=>{
         <section>
         {banner && 
         <div>
-            <img src={banner} alt="Error" className="w-full  object-center object-cover" />
+            <img src={banner} alt="Error" className="w-full object-center object-cover" />
         </div>
         }
         </section>
