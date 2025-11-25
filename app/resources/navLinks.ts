@@ -17,6 +17,12 @@ const navLinks: NavLinkType[] = [
       ["Maybach", "/brands/maybach"],
       ["Mercedes", "/brands/mercedes"],
       ["Porsche", "/brands/porsche"],
+      ["Ferrari", "/brands/ferrari"],
+      ["Hyundai", "/brands/hyundai"],
+      ["Toyota", "/brands/toyota"],
+      ["Lamborghini", "/brands/lamborghini"],
+      ["Honda", "/brands/honda"],
+      ["Mazda", "/brands/mazda"],
     ],
   },
   {
