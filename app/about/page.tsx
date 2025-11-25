@@ -13,7 +13,7 @@ const AboutPage = () => {
       <Cards />
       <div className="w-[95%] mx-auto flex flex-col gap-5">
         <h2 className="subHeading font-bold text-center">
-          Brands we have dealth with
+          Brands we have dealt with
         </h2>
         <LogoSlider logos={logos} />
       </div>
