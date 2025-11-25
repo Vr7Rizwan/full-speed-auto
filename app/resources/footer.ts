@@ -1,4 +1,4 @@
-export const locations: string[] = ["Dubai", "Sharjah", "Abu Dhabi"];
+export const locations: string[] = ["Dubai UAE"];
 export const quickLinks: { name: string; href: string }[] = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },

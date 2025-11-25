@@ -9,7 +9,7 @@ const AboutPage = () => {
     <>
       <AboutBanner />
       <CompanyProfile />
-      <Services Services={commonServices} />
+      
       <MissionVision />
       <Cards />
     </>

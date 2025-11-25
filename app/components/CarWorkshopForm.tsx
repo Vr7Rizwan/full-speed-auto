@@ -28,14 +28,14 @@ const CarWorkshopForm = () => {
             <div className="flex items-center gap-3">
               <MapPin className="text-secondary mt-1" size={30} />
               <p className="leading-tight normalText">
-                <strong>Haleb Street, Al Qusais Industrial - 1 , Dubai</strong>
+                <strong>Ras Al Khor Industrial Area 2, Warehouse No. 56, Dubai-UAE</strong>
               </p>
             </div>
 
             {/* Phone */}
             <div className="flex items-center gap-3">
               <Phone className="text-secondary mt-1" size={24} />
-              <p className="leading-tight normalText">052 174 3438</p>
+              <p className="leading-tight normalText">+971 56 322 0861</p>
             </div>
 
             {/* Email */}
@@ -66,7 +66,7 @@ const CarWorkshopForm = () => {
           {/* Map */}
           <div className="rounded-lg overflow-hidden h-60 shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14442.815024647876!2d55.370376!3d25.278007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5fb2e7c3e93f%3A0x4fb6ea9dd7c03033!2sAwtar%20Auto%20Multi%20Brand%20Repairing%20Garage!5e0!3m2!1sen!2sae!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1198.689093853261!2d55.36501520203905!3d25.17217144182619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f67ec76d0ae0b%3A0x482ba993ace9d7aa!2sSpeed%20Full%20Auto%20Garage!5e0!3m2!1sen!2s!4v1764074839736!5m2!1sen!2s" 
               width="100%"
               height="100%"
               referrerPolicy="no-referrer-when-downgrade"

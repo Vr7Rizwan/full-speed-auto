@@ -4,7 +4,7 @@ import packageDetails from "../resources/packages";
 function page() {
   return (
     <section>
-      <div className="w-full h-64 bg-[url('/assets/packages/banner.webp')] bg-cover bg-center"></div>
+      <div className="w-full h-94 bg-[url('/assets/packages/banner.webp')] bg-cover bg-center bg-no-repeat"></div>
       <div className="px-6 md:px-20 py-10 space-y-10">
         <h2 className="heading font-semibold">Offers</h2>
 
