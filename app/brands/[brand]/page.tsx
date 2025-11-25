@@ -4,7 +4,7 @@ import BrandServices from "@/app/components/Brands/BrandServices";
 import CarWorkshopForm from "@/app/components/CarWorkshopForm";
 import Faq from "@/app/components/Faq";
 import WhyChooseUS from "@/app/components/WhyChooseUS";
-import { findBrand } from "@/app/resources/brands";
+import { commonServices, findBrand } from "@/app/resources/brands";
 
 export async function generateMetadata({
   params,
@@ -29,8 +29,7 @@ async function page({ params }: { params: { brand: string } }) {
         heroText={selectedBrand?.heroText}
         description={selectedBrand?.description}
       />
-      <BrandServices Services={selectedBrand?.services} />
-      {/* <WhyChooseUs whychooseus={selectedBrand?.whyChooseUs}/> */}
+      <BrandServices Services={commonServices} />
       <WhyChooseUS whyChooseUs={selectedBrand?.whyChooseUs} />
       <Faq faq={selectedBrand?.faqs} />
       <CarWorkshopForm />

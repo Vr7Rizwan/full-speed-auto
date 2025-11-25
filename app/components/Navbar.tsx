@@ -31,7 +31,11 @@ const Navbar: React.FC = () => {
       <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
         <Link href="/" className="">
-          <img className="w-20 h-15 md:w-40 md:h-25 py-2" src="/assets/logo.png" alt="" />
+          <img
+            className="w-20 h-15 md:w-40 md:h-25 py-2"
+            src="/assets/logo.png"
+            alt=""
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -39,7 +43,7 @@ const Navbar: React.FC = () => {
           {navLinks.map((item) => (
             <li
               key={item.name}
-              className="relative group normalText text-primary"
+              className="group normalText text-primary"
               onMouseEnter={() => setActiveSubmenu(item.name)} // hover open
               onMouseLeave={() => setActiveSubmenu(null)} // hover close
               onClick={() => item.submenu && toggleSubmenu(item.name)} // click toggle
@@ -52,7 +56,7 @@ const Navbar: React.FC = () => {
               {/* Desktop Dropdown */}
               {item.submenu && (
                 <ul
-                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max bg-txtColor border border-gray-100 rounded shadow-lg 
+                  className={`absolute top-[90%] left-0 mt-2 w-[99vw] mx-auto bg-txtColor border border-gray-100 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
                     ${
                       item.name === "Brands" || item.name === "Services"
