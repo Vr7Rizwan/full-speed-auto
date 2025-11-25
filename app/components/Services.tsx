@@ -9,10 +9,10 @@ const BrandServices = ({ Services }: { Services: {name:string;link:string}[] | u
                 <div>
                     <div className="text-center mb-12">
                         <h1 className="heading md:text-4xl font-bold text-txtColor mb-3">
-                            Our Services
+                           Automotive Solutions
                         </h1>
-                        <p className="text-txtColor max-w-2xl mx-auto text-base md:text-lg">
-                            Premium services designed to maintain, repair, and enhance your vehicle.
+                        <p className="text-txtColor max-w-5xl mx-auto text-base md:text-lg">
+                          Expert care for maintenance, repairs, and performance upgrades, ensuring your vehicle runs smoothly, stays reliable, and delivers its full potential.
                         </p>
                     </div>
 

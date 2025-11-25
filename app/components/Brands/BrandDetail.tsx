@@ -12,12 +12,7 @@ const BrandDetail=({heading,heroText,description}:brandDetailPropType )=>{
                    <div className="flex flex-col gap-5">
                    <p className="italic text-txtColor normalText font-medium">{heroText}</p>
                    <div className="flex flex-col">
-                   {
-                    description.map((value,i)=>(
-
-                    
-                   <p key={`${value} ${i}`} className="normalText text-txtColor">{value}</p>
-                   ))}
+                    <p className="normalText text-txtColor">{description}</p>
                    </div>
                    </div>
                 </div>
