@@ -8,14 +8,14 @@ const Services = ({
 }) => {
   const [flip, setFlip] = useState<number | null>(null);
   return (
-    <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
+    <section className="w-full py-16 px-6 md:px-12 bg-gray-50">
       {Services && (
         <div>
-          <div className="text-center mb-12">
-            <h1 className="heading md:text-4xl font-bold text-txtColor mb-3">
+          <div className="mb-12">
+            <h1 className="subHeading font-bold text-txtColor mb-3">
               Automotive Solutions
             </h1>
-            <p className="text-txtColor max-w-5xl mx-auto text-base md:text-lg">
+            <p className="text-txtColor normalText">
               Expert care for maintenance, repairs, and performance upgrades,
               ensuring your vehicle runs smoothly, stays reliable, and delivers
               its full potential.
