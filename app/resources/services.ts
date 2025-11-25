@@ -21,7 +21,7 @@ const servicesData: ServiceType[] = [
         name: "Radiator Repair & Service",
         banner: "/assets/services/radiator-repair-&-service.webp",
         heading: "Professional Radiator Repair & Cooling System Service",
-        contentimg: "/assets/services/content-10.webp",
+        contentimg: "/assets/services/radiator-repair-content.webp",
 
         heroText:
             "Keep your engine cool and running smoothly with our professional radiator repair and complete cooling system services.",
@@ -105,7 +105,7 @@ const servicesData: ServiceType[] = [
         name: "Ceramic Coating",
         banner: "/assets/services/ceramic-coating.webp",
         heading: "Premium Ceramic Coating for Ultimate Paint Protection",
-        contentimg: "/assets/services/content-12.webp",
+        contentimg: "/assets/services/ceramic-coating-content.webp",
 
         heroText:
             "Give your car long-lasting shine and protection with our premium ceramic coating that keeps your paint looking new for years.",
@@ -188,7 +188,7 @@ const servicesData: ServiceType[] = [
         name: "AC Repair & Maintenance",
         banner: "/assets/services/ac-repair-&-maintenance.webp",
         heading: "Expert Car AC Repair & Maintenance",
-        contentimg: "/assets/services/content-1.webp",
+        contentimg: "/assets/services/ac-repair-content.webp",
 
         heroText:
             "Enjoy cool, fresh, and comfortable drives with our professional car AC repair and complete maintenance services.",
@@ -270,7 +270,7 @@ const servicesData: ServiceType[] = [
         name: "Engine & ECU Service",
         banner: "/assets/services/engine-&-ecu-service.webp",
         heading: "Comprehensive Engine & ECU Maintenance",
-        contentimg: "/assets/services/content-2.webp",
+        contentimg: "/assets/services/engine-content.webp",
 
         heroText:
             "Ensure your car’s engine and ECU perform at their best with our professional maintenance and repair services.",
@@ -353,7 +353,7 @@ const servicesData: ServiceType[] = [
         name: "Brake System Service",
         banner: "/assets/services/brake-system-service.webp",
         heading: "Professional Brake System Repair & Maintenance",
-        contentimg: "/assets/services/content-3.webp",
+        contentimg: "/assets/services/brake-system-content.webp",
 
         heroText:
             "Stay safe on the road with our professional brake system repair and maintenance services.",
@@ -435,7 +435,7 @@ const servicesData: ServiceType[] = [
         name: "Transmission & Gearbox Repair",
         banner: "/assets/services/transmission-&-gearbox-repair.webp",
         heading: "Reliable Transmission & Gearbox Repairs",
-        contentimg: "/assets/services/content-4.webp",
+        contentimg: "/assets/services/transmission-content.webp",
 
         heroText:
             "Enjoy smooth, precise driving with our professional transmission and gearbox repair and maintenance services.",
@@ -518,7 +518,7 @@ const servicesData: ServiceType[] = [
         name: "Suspension & Steering Maintenance",
         banner: "/assets/services/suspension-steering-repair.webp",
         heading: "Expert Suspension & Steering Services",
-        contentimg: "/assets/services/content-5.webp",
+        contentimg: "/assets/services/suspension-content.webp",
 
         heroText:
             "Drive smoothly and safely with our professional suspension and steering repair and maintenance services.",
@@ -601,7 +601,7 @@ const servicesData: ServiceType[] = [
         name: "Oil Change & Fluid Checks",
         banner: "/assets/services/oil-change-fluid-checks.webp",
         heading: "Comprehensive Oil Change & Fluid Maintenance",
-        contentimg: "/assets/services/content-6.webp",
+        contentimg: "/assets/services/oil-change-content.webp",
 
         heroText:
             "Keep your engine healthy and running efficiently with our professional oil change and fluid maintenance services.",
@@ -680,7 +680,7 @@ const servicesData: ServiceType[] = [
     {
         name: "Electrical & Comfort Systems",
         banner: "/assets/services/electrical-comfort-repair.webp",
-        contentimg: "/assets/services/content-7.webp",
+        contentimg: "/assets/services/electrical-comfort-system-content.webp",
         heading: "Electrical & Comfort System Repairs",
 
         heroText:
@@ -763,7 +763,7 @@ const servicesData: ServiceType[] = [
         name: "Fuel Injection Service",
         banner: "/assets/services/fuel-injection-service.webp",
         heading: "Expert Fuel Injection Cleaning & Maintenance",
-        contentimg: "/assets/services/content-8.webp",
+        contentimg: "/assets/services/fuel-injection-content.webp",
 
         heroText:
             "Maximize engine efficiency and performance with our professional fuel injection cleaning and maintenance services.",
@@ -843,7 +843,7 @@ const servicesData: ServiceType[] = [
         name: "Pre Purchase Inspection & Diagnostics",
         banner: "/assets/services/pre-purchase-inspection.webp",
         heading: "Comprehensive Pre-Purchase Vehicle Inspection",
-        contentimg: "/assets/services/content-9.webp",
+        contentimg: "/assets/services/pre-purchase-content.webp",
 
         heroText:
             "Make a safe and confident vehicle purchase with our detailed pre-purchase inspection and diagnostics.",
@@ -921,7 +921,7 @@ const servicesData: ServiceType[] = [
     {
         name: "Performance Tuning & ECU Upgrade",
         banner: "/assets/services/performance-ecu-tuning.webp",
-        contentimg: "/assets/services/content-10.webp",
+        contentimg: "/assets/services/performance-tuning-content.webp",
         heading: "Expert Performance Tuning & ECU Upgrades",
 
         heroText:
@@ -1003,7 +1003,7 @@ const servicesData: ServiceType[] = [
     {
         name: "Paint Protection & Coatings",
         banner: "/assets/services/paint-protection-coating.webp",
-        contentimg: "/assets/services/content-11.webp",
+        contentimg: "/assets/services/paint-protection-content.webp",
         heading: "Professional Paint Protection & Car Coatings",
 
         heroText:
@@ -1084,7 +1084,7 @@ const servicesData: ServiceType[] = [
     {
         name: "Alloy Wheel Repair & Refurbishment",
         banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
-        contentimg: "/assets/services/content-12.webp",
+        contentimg: "/assets/services/alloy-wheel-content.webp",
 
         heading: "Expert Alloy Wheel Repair & Refurbishment",
 
