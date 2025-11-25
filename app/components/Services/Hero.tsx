@@ -15,7 +15,7 @@ const Hero = ({
   contentimg: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center py-10 w-[95%] mx-auto md:py-10 gap-5">
+    <div className="flex flex-col bg-gray-50 justify-center py-10 w-full px-4 md:px-6 md:py-10 gap-5">
       <div className="flex flex-col md:flex-row justify-center  gap-6 md:gap-0">
         <div className="flex flex-col gap-6 md:gap-8 md:pr-10">
           <h1 className="heading text-txtColor font-bold">{heading}</h1>
@@ -38,16 +38,28 @@ const Hero = ({
 
       <h2 className="subHeading text-txtColor font-semibold">{heroTxt}</h2>
 
-      <Link
-        href="https://wa.me/923001234567?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
-        target="_blank"
-      >
-        <img
-          src="/assets/services/discountimg.webp"
-          className="w-full py-3 md:py-10"
-          alt="discount"
-        />
-      </Link>
+     <Link
+  href="https://wa.me/971563220861?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+  target="_blank"
+  className="block w-full"
+>
+  {/* Desktop Image */}
+  <img
+    src="/assets/services/discounting.webp"
+    alt="discount"
+    className="hidden md:block w-full py-3 md:py-10 h-auto"
+  />
+
+  {/* Mobile Image */}
+  <img
+    src="/assets/services/discounting-mob.webp"
+    alt="discount"
+    className="block md:hidden w-full py-3 md:py-10 h-auto"
+  />
+</Link>
+
+
+
 
       {/* <h2 className="heading text-txtColor font-bold pt-5 md:pt-10">
         Our Features

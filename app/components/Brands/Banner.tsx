@@ -2,9 +2,14 @@ const Banner=({banner}:{banner:string | undefined})=>{
      return(
         <section>
         {banner && 
-        <div>
-            <img src={banner} alt="Error" className="w-full object-center object-cover" />
-        </div>
+        <div className="w-full overflow-hidden">
+  <img
+    src={banner}
+    alt="Hero"
+    className="w-full max-h-[400px] object-cover"
+  />
+</div>
+
         }
         </section>
     )

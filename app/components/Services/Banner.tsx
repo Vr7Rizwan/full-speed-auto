@@ -2,9 +2,14 @@ import React from "react";
 
 const Banner = ({ banner }: { banner: string }) => {
   return (
-    <div>
-      <img src={banner} alt="" className="w-full object-center object-cover" />
-    </div>
+    <div className="w-full overflow-hidden">
+  <img
+    src={banner}
+    alt="Hero"
+    className="w-full max-h-[400px] object-cover"
+  />
+</div>
+
   );
 };
 

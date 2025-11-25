@@ -24,7 +24,7 @@ const faq: faqTypes[] = [
       "Absolutely. Along with expert repair, maintenance, and body shop solutions, Speed-Full Auto Services also offers budget-friendly and customized car warranty and insurance plans tailored to your needs.",
   },
   {
-    Question: "How long has Speed-Full Auto Services been operating in the car repair industry?",
+    Question: "How long has Speed-Full Auto been operating in the car repair industry?",
     Answer:
       "Speed-Full Auto Services brings over 18 years of dealership-level expertise, serving customers from its single, state-of-the-art Dubai workshop.",
   },
