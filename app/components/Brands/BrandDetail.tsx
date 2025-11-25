@@ -1,7 +1,7 @@
 interface brandDetailPropType {
   heading: string | undefined;
   heroText: string | undefined;
-  description: string[] | undefined;
+  description: string | undefined;
 }
 const BrandDetail = ({
   heading,
