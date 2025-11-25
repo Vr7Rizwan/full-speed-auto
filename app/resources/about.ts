@@ -2,39 +2,6 @@
 export const companyprofile: string =
   "Speed-Full Auto Services is the UAE’s premier destination for complete automotive care, offering a wide range of services from routine maintenance to advanced repairs and luxury car detailing. Our workshop is equipped with state-of-the-art diagnostic tools and cutting-edge technology, enabling our highly trained and experienced technicians to deliver precise, efficient, and reliable solutions for every vehicle. We pride ourselves on maintaining the highest standards of quality, safety, and professionalism, ensuring that every car we service performs at its best. From engine diagnostics, transmission and suspension repairs, to bodywork, AC service, and comprehensive detailing, we provide tailored solutions to meet the unique needs of each customer. With transparent pricing, flexible service packages, and customized warranty and insurance options, we offer a seamless, stress-free, and exceptional automotive experience that keeps our clients coming back and builds long-term trust across the UAE.";
 
-
-
-
-
-// CompanyServices
-interface companyservicesType {
-  heading: string;
-  description: string;
-  subheading: string;
-  services: string[];
-}
-export const companyservices: companyservicesType = {
-  heading: "FACILITIES AND SERVICE QUALITY",
-  description:
-    "At Our Luxury Car service Center in UAE, your comfort is our priority, we strive to make you feel good! Relax and let us take good care of your vehicle.",
-  subheading: "We have:",
-  services: [
-    "Engine room dedicated to engine repair, engine refurbishment, or engine replacement.",
-    "Highly qualified and experienced technicians specialized each of them on the brands we serve and main parts of the car.",
-    "Spare parts department and own storage, with available parts on stock and dedicated teams. We track and ship our spare parts at the best rates!",
-    "A professional and multi-cultural team, we speak your language!",
-    "Warranty certificates for 12 months for both labour and parts work.",
-    "A very sophisticated CRM system to keep the history of your car saved forever.",
-    "Up to 15000 different spare parts available on stock.",
-    "Easy and fast access.",
-    "Intelligent security system equipped with CCTV cameras.",
-    "Waiting area for men.",
-    "Waiting area for ladies.",
-    "AC, Free WI-FI and TVs.",
-    "Dedicated service advisor and free recovery for ladies.",
-    "Free EV Charging station.",
-  ],
-};
 // missionvision
 interface missionvisionType {
   heading: string;
@@ -52,7 +19,6 @@ export const missionvision: missionvisionType[] = [
       "We aim to achieve our vision by fostering a safe and supportive workplace for our team, maintaining high ethical standards, creating opportunities for growth, and delivering outstanding service to our customers, partners, and clients throughout the UAE and Middle East.",
   },
 ];
-
 
 interface cardsType {
   icon: string;
@@ -97,5 +63,3 @@ export const cards: cardsType[] = [
       "Integrity, honesty, and reliability are the pillars of our service, giving you confidence that your vehicle is in skilled and trustworthy hands.",
   },
 ];
-
-

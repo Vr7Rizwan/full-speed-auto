@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Button */}
         <div className="hidden lg:block">
           <ContactBtn
-            text="Book My Appointment"
+            text="Book Appointment"
             classes="cursor-pointer normalText font-semibold bg-txtColor text-primary px-5 py-3 rounded-full"
           />
         </div>
@@ -157,7 +157,7 @@ const Navbar: React.FC = () => {
             <li className="mt-2">
               <ContactBtn
                 setMobileMenuOpen={setMobileMenuOpen}
-                text="Book My Appointment"
+                text="Book Appointment"
                 classes="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-txtColor text-primary px-3 py-2"
               />
             </li>
