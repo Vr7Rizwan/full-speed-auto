@@ -16,7 +16,7 @@ const Hero = ({
 }) => {
   return (
     <div className="flex flex-col justify-center py-10 w-[95%] mx-auto md:py-10 gap-5">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-0">
+      <div className="flex flex-col md:flex-row justify-center  gap-6 md:gap-0">
         <div className="flex flex-col gap-6 md:gap-8 md:pr-10">
           <h1 className="heading text-txtColor font-bold">{heading}</h1>
 
