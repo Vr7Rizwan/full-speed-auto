@@ -10,7 +10,7 @@ const Hero = ({
 }: {
   heading: string;
   heroTxt: string;
-  description: string[];
+  description: string;
 
   contentimg: string;
 }) => {
@@ -21,15 +21,13 @@ const Hero = ({
           <h1 className="heading text-txtColor font-bold">{heading}</h1>
 
           <div className="flex flex-col gap-1">
-            {description.map((desc, index) => (
-              <p key={index} className="normalText">
-                {desc}
-              </p>
-            ))}
+            <p className="normalText">
+              {description}
+            </p>
+
           </div>
         </div>
-
-        <div className="md:w-[30%] w-full flex justify-center md:justify-end">
+        <div className="md:w-full w-full flex justify-center md:justify-end">
           <img
             src={contentimg}
             alt=""

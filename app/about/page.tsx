@@ -3,14 +3,15 @@ import Cards from "../components/About/Cards"
 import CompanyProfile from "../components/About/CompanyProfile"
 import CompanyServices from "../components/About/CompanyServices"
 import MissionVision from "../components/About/MissionVision"
-const AboutPage=()=>{
-    return(
+
+const AboutPage = () => {
+    return (
         <>
-        <AboutBanner/>
-        <CompanyProfile/>
-        <CompanyServices/>
-        <MissionVision/>
-        <Cards/>
+            <AboutBanner />
+            <CompanyProfile />
+            <CompanyServices />
+            <MissionVision />
+            <Cards />
         </>
     )
 }
