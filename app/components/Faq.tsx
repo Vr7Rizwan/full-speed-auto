@@ -5,7 +5,7 @@ function Faq({ faq }: { faq: faqTypes[] | undefined }) {
     <div className="bg-gray-50 py-5">
       <div className="flex justify-center">
         <h2 className="subHeading font-bold text-txtColor py-10">
-          FREQUENTLY ASKED QUESTIONS
+          FREQUENTLY ASKED <span className="subHeading font-bold text-secondary py-10">QUESTIONS</span>
         </h2>
       </div>
 
