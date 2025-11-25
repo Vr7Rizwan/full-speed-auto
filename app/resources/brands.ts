@@ -3,7 +3,7 @@ export interface BrandType {
   banner: string;
   heading: string;
   heroText: string;
-  description: string[];
+  description: string;
   whyChooseUs: { title: string; text: string }[];
   seoTitle?: string;
   seoDescription?: string;
@@ -75,13 +75,8 @@ const brandsData: BrandType[] = [
     heading: "Expert Audi Service & Maintenance in Dubai",
     heroText:
       "Professional Audi repair, maintenance, and diagnostics using advanced tools and certified technicians.",
-    description: [
+    description:
       "At our Audi service center, we provide premium care for all Audi models. From routine maintenance to complex engine repairs, every service ensures your vehicle performs at its peak.",
-      "Our certified technicians specialize in the latest Audi technologies, using genuine parts to maintain luxury and reliability.",
-      "We offer detailed maintenance programs including oil changes, brake inspections, suspension tuning, and electrical system checks.",
-      "Performance tuning and upgrades are available for enthusiasts who want to maximize their car's potential safely and efficiently.",
-      "Customer satisfaction is our top priority, providing transparent pricing, detailed service reports, and a seamless experience.",
-    ],
     whyChooseUs: [
       {
         title: "Certified Audi Specialists",
@@ -136,9 +131,8 @@ const brandsData: BrandType[] = [
     heading: "Reliable BMW Service & Repairs in Dubai",
     heroText:
       "Comprehensive BMW care with certified technicians and precision diagnostics.",
-    description: [
+    description:
       "Our BMW service center ensures your vehicle stays in top condition...",
-    ],
     whyChooseUs: [
       {
         title: "BMW Expert Technicians",
@@ -190,9 +184,7 @@ const brandsData: BrandType[] = [
     heading: "Premium Jaguar Repairs & Maintenance in Dubai",
     heroText:
       "Certified Jaguar service with genuine parts and professional care.",
-    description: [
-      "We provide full-service Jaguar maintenance for all models...",
-    ],
+    description: "We provide full-service Jaguar maintenance for all models...",
     whyChooseUs: [
       {
         title: "Jaguar Certified Technicians",
@@ -245,9 +237,7 @@ const brandsData: BrandType[] = [
     heading: "Luxury Maserati Maintenance & Repairs in Dubai",
     heroText:
       "Comprehensive Maserati service with certified experts and genuine parts.",
-    description: [
-      "Our Maserati service center delivers premium maintenance...",
-    ],
+    description: "Our Maserati service center delivers premium maintenance...",
     whyChooseUs: [
       {
         title: "Maserati Performance Specialists",
@@ -299,7 +289,7 @@ const brandsData: BrandType[] = [
     heading: "Maybach Luxury Car Service in Dubai",
     heroText:
       "High-quality Maybach maintenance and repair with certified technicians.",
-    description: ["Our Maybach service center provides premium care..."],
+    description: "Our Maybach service center provides premium care...",
     whyChooseUs: [
       {
         title: "Elite Maybach Technicians",
@@ -351,7 +341,7 @@ const brandsData: BrandType[] = [
     heading: "Mercedes-Benz Expert Service & Repairs",
     heroText:
       "Certified Mercedes-Benz maintenance with genuine parts and advanced diagnostics.",
-    description: ["We provide full-service Mercedes-Benz maintenance..."],
+    description: "We provide full-service Mercedes-Benz maintenance...",
     whyChooseUs: [
       {
         title: "Certified Mercedes Engineers",
@@ -403,7 +393,7 @@ const brandsData: BrandType[] = [
     heading: "Porsche High-Performance Maintenance & Repairs",
     heroText:
       "Expert Porsche service with certified technicians and genuine parts to maintain peak performance.",
-    description: ["Our Porsche service center delivers comprehensive care..."],
+    description: "Our Porsche service center delivers comprehensive care...",
     whyChooseUs: [
       {
         title: "Porsche Performance Specialists",
