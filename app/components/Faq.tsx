@@ -9,7 +9,7 @@ function Faq({ faq }: { faq: faqTypes[] | undefined }) {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-primary">
+      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-gray-50">
         {faq &&
           faq.map((item, index) => (
             <details

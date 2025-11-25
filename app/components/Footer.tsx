@@ -36,10 +36,10 @@ const Footer = () => {
           <img className="w-40 h-25 items-center justify-center"src="/assets/logo-light.png" alt="" />
 
           <p className="normalText leading-tight">
-            Premium car care, detailing, and automotive services.
+            Luxury-grade car maintenance, detailing, and auto service solutions.
           </p>
           <p className="normalText leading-tight -mt-1">
-            Serving UAE with quality, trust, and expert technicians.
+            Bringing quality service, trusted support, and highly trained specialists to the UAE.
           </p>
 
           <div className="flex flex-col gap-2 mt-2">

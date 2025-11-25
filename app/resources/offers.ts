@@ -1,53 +1,40 @@
 interface offersType {
   title: string;
   image: string;
-  text: string[];
+  
 }
 const offers: offersType[] = [
   {
-    title: "Mechanical Services",
+    title: "Mechanical Repair Solutions",
     image: "/assets/offer3.png",
-    text: [
-      "Axle/ Driveshaft Repair",
-      "Brake Repair",
-      "Gearbox Repair",
-      "Suspension Repair",
-      "Transmission Repair",
-    ],
+  
   },
   {
-    title: "Electrical Services",
+    title: "Auto Electrical Services",
     image: "/assets/offer3.png",
-    text: ["AC Repair", "Comfort System Repair"],
+    
   },
   {
-    title: "Programming & Retrofit",
+    title: "Software Programming & Retrofits",
     image: "/assets/offer3.png",
-    text: ["Car Software Repair & Programming", "Camera / Radar Calibration"],
+   
   },
   {
-    title: "Engine Repair Services",
+    title: "Comprehensive Engine Services",
     image: "/assets/offer3.png",
-    text: [
-      "Engine Control Unit Repair",
-      "Engine Cooling System Repair",
-      "Engine Cooling System Repair",
-    ],
+   
   },
   {
-    title: "Service Packages",
+    title: "Custom Service Packages",
     image: "/assets/offer3.png",
-    text: ["Luxury Car Service Packages", "Service & Warranty Packages"],
+   
   },
   {
-    title: "Extended Warranty",
+    title: "Extended Warranty Plans",
     image: "/assets/offer3.png",
-    text: [
-      "New Cars Warranty Packages",
-      "Pre-Owned Cars Warranty Packages",
-      "Luxury Cars Warranty Packages",
-    ],
+    
   },
 ];
+
 
 export default offers;
