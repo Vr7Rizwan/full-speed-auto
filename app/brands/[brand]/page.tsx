@@ -1,6 +1,6 @@
 import Banner from "@/app/components/Brands/Banner";
 import BrandDetail from "@/app/components/Brands/BrandDetail";
-import BrandServices from "@/app/components/Brands/BrandServices";
+import BrandServices from "@/app/components/Services";
 import CarWorkshopForm from "@/app/components/CarWorkshopForm";
 import Faq from "@/app/components/Faq";
 import WhyChooseUS from "@/app/components/WhyChooseUS";
