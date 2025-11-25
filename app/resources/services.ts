@@ -19,7 +19,7 @@ export interface ServiceType {
 const servicesData: ServiceType[] = [
     {
         name: "Radiator Repair & Service",
-        banner: "/assets/services/performance-ecu-tuning.webp",
+        banner: "/assets/services/radiator-repair-&-service.webp",
         heading: "Professional Radiator Repair & Cooling System Service",
         contentimg: "/assets/services/content-10.webp",
 
@@ -103,7 +103,7 @@ const servicesData: ServiceType[] = [
     },
     {
         name: "Ceramic Coating",
-        banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
+        banner: "/assets/services/ceramic-coating.webp",
         heading: "Premium Ceramic Coating for Ultimate Paint Protection",
         contentimg: "/assets/services/content-12.webp",
 
