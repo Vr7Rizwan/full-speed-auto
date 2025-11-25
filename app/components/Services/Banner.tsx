@@ -2,8 +2,8 @@ import React from 'react'
 
 const Banner = ({ banner }: { banner: string }) => {
     return (
-        <div className='w-full h-full pb-1 md:pb-12'>
-            <img src={banner} alt="" />
+        <div>
+            <img src={banner} alt="" className='w-full object-center object-cover' />
         </div>
     )
 }
