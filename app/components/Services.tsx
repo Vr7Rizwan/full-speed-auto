@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-const BrandServices = ({ Services }: { Services: {name:string;link:string}[] | undefined }) => {
+const BrandServices = ({ Services }: { Services: {name:string;link:string;description:string;}[] | undefined }) => {
     const [flip, setFlip] = useState<number | null>(null);
     return (
         <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
@@ -29,16 +29,15 @@ const BrandServices = ({ Services }: { Services: {name:string;link:string}[] | u
                   }`}
                 >
                   <div
-                    className="absolute w-full h-64 bg-primary flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-lg 
-                                transition-all p-8 text-center border border-gray-200"
+                    className="absolute w-full h-64 bg-primary flex flex-col  items-start justify-center rounded-2xl shadow-md hover:shadow-lg 
+                                transition-all p-8 border border-gray-200"
                   >
                     <h3 className="subHeading font-semibold text-txtColor mb-2">
                       {value.name}
                     </h3>
 
-                    <p className="text-txtColor normalText leading-relaxed">
-                      High-quality service ensuring top performance and
-                      reliability.
+                    <p className="text-txtColor normalText ">
+                      {value.description}
                     </p>
                   </div>
 

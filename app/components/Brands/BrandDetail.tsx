@@ -17,9 +17,9 @@ const BrandDetail = ({
             <p className="italic text-txtColor normalText font-medium">
               {heroText}
             </p>
-            <div className="flex flex-col">
-              <p>{description}</p>
-            </div>
+           
+             <p className="text-txtColor normalText">{description}</p>
+           
           </div>
         </div>
       )}
