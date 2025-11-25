@@ -18,7 +18,7 @@ function WhyChooseUS({
             whyChooseUs.map((item, index) => (
               <div
                 key={index}
-                className="bg-secondary/80 px-10 py-10 flex flex-col gap-5 rounded-2xl text-primary"
+                className="bg-primary px-10 py-10 flex flex-col gap-5 rounded-2xl text-primary"
               >
                 <h3 className="text-txtColor subHeading font-bold">
                   {item.title}
