@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Banner = ({ banner }: { banner: string }) => {
-    return (
-        <div className='w-full h-94 pb-1 md:pb-12 bg-no-repeat bg-cover'
-            style={{ backgroundImage: `url(${banner})` }}>
-        </div>
-    )
-}
+  return (
+    <div>
+      <img src={banner} alt="" className="w-full object-center object-cover" />
+    </div>
+  );
+};
 
-export default Banner
+export default Banner;
