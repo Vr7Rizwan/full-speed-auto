@@ -460,6 +460,324 @@ whyChooseUs: [
     }
   ]
 },
+{
+  name: "ferrari",
+  banner: "/assets/brands/audi.webp",
+  heading: "Ferrari High-Performance Maintenance and Repairs",
+  heroText:
+    "Certified Ferrari care with genuine parts and expert diagnostics for unmatched performance and reliability.",
+  description: 
+    "At our Ferrari service center, we provide complete maintenance and repair solutions for all Ferrari models, ensuring that your high-performance supercar operates at its peak. From routine servicing to complex engine, transmission, and electrical system repairs, our certified technicians handle every Ferrari with precision and expertise. We combine advanced diagnostic tools, professional-grade equipment, and genuine Ferrari parts to maintain your car’s performance, safety, and iconic driving experience. Our comprehensive services include oil changes, brake inspections, suspension tuning, transmission servicing, AC maintenance, electrical system checks, and performance enhancements. Every service is designed to provide a seamless, premium experience for Ferrari owners in Dubai, keeping your vehicle reliable, safe, and delivering the exhilaration Ferrari is known for.",
+  whyChooseUs: [
+    {
+      title: "Ferrari Performance Specialists",
+      text: "Our team of highly trained Ferrari technicians specializes in high-performance engines and advanced automotive systems unique to Ferrari vehicles. Every maintenance and repair task, whether routine or complex, is executed with meticulous attention to detail to preserve your Ferrari’s speed, handling, and signature driving excitement. Our specialists continuously update their expertise with the latest Ferrari technologies, ensuring your supercar receives the highest standard of care."
+    },
+    {
+      title: "State-of-the-Art Ferrari Diagnostics",
+      text: "We employ Ferrari-approved diagnostic tools to obtain precise insights into your vehicle's performance and condition. This advanced technology allows our technicians to quickly detect and resolve issues, ensuring repairs are accurate, efficient, and performance-focused. Each diagnostic is performed with a commitment to safety, reliability, and the high standards expected from a Ferrari."
+    },
+    {
+      title: "Guaranteed Genuine Ferrari Parts",
+      text: "We use only 100% genuine Ferrari OEM components to maintain authenticity, reliability, and long-term performance. Each part is engineered for perfect fit, durability, and performance, ensuring your Ferrari retains its factory-standard speed, handling, and value. Using authentic components guarantees that every service or repair enhances your vehicle’s longevity, efficiency, and extraordinary driving experience."
+    }
+  ],
+ 
+  seoTitle: "Ferrari Service Dubai | Expert Ferrari Maintenance and Repairs",
+  seoDescription:
+    "Professional Ferrari maintenance and repair in Dubai. Certified Ferrari technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full high-performance service.",
+  faqs: [
+    {
+      Question: "How often does a Ferrari require servicing?",
+      Answer: "Ferrari vehicles typically require service every 8,000–12,000 km depending on driving conditions and model specifications to ensure optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Ferrari parts?",
+      Answer: "Yes, we use only 100% genuine Ferrari OEM components to ensure perfect fit, durability, and the high-performance standards expected from Ferrari vehicles."
+    },
+    {
+      Question: "Do you offer Ferrari diagnostics?",
+      Answer: "Absolutely. We use advanced Ferrari diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Ferrari engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, including high-performance Ferrari models, ensuring your vehicle continues to deliver exceptional speed and handling."
+    },
+    {
+      Question: "Do you offer Ferrari tuning?",
+      Answer: "Yes, we provide professional ECU tuning, performance kits, and exhaust upgrades, designed to safely enhance your Ferrari’s power, responsiveness, and driving dynamics."
+    },
+    {
+      Question: "How long does Ferrari maintenance take?",
+      Answer: "Routine Ferrari services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+{
+  name: "hyundai",
+  banner: "/assets/brands/audi.webp",
+  heading: "Hyundai Expert Maintenance and Repairs",
+  heroText:
+    "Certified Hyundai care with genuine parts and professional diagnostics for reliable performance and longevity.",
+  description: 
+    "At our Hyundai service center, we provide complete maintenance and repair solutions for all Hyundai models, ensuring your vehicle remains safe, reliable, and efficient. From routine servicing to engine, transmission, brake, and electrical system repairs, our certified technicians handle every Hyundai with precision and expertise. We combine advanced diagnostic tools, high-quality equipment, and genuine Hyundai parts to maintain your car’s performance, safety, and driving comfort. Our services include oil changes, brake inspections, suspension checks, transmission servicing, AC maintenance, battery and electrical system inspections, and general performance checks. Every service is designed to offer a seamless, professional experience for Hyundai owners in Dubai, keeping your vehicle dependable and performing at its best.",
+ whyChooseUs: [
+  {
+    title: "Certified Hyundai Technicians",
+    text: "Our team of highly trained Hyundai specialists has extensive knowledge and hands-on experience with all Hyundai models. Every service, whether routine maintenance or complex repair, is carried out with meticulous attention to detail. We focus on maintaining your vehicle’s reliability, efficiency, and smooth performance, while also ensuring comfort and safety. Our technicians stay updated with the latest Hyundai technologies and service practices to deliver the highest standard of care at all times."
+  },
+  {
+    title: "Advanced Hyundai Diagnostics",
+    text: "We utilize Hyundai-approved diagnostic systems to quickly and accurately assess your vehicle’s performance and detect any potential issues. This advanced technology enables our technicians to identify problems before they impact your car’s efficiency or safety. Every diagnostic check is performed with precision and professionalism, ensuring your Hyundai remains dependable, safe, and optimally performing for years to come."
+  },
+  {
+    title: "Genuine Hyundai Parts Only",
+    text: "We use only 100% genuine Hyundai OEM parts to maintain your vehicle’s reliability, performance, and safety. Each component is engineered for perfect fit, durability, and long-lasting efficiency. By using authentic parts, we ensure that every repair or replacement preserves your Hyundai’s value, enhances performance, and guarantees a smooth, trouble-free driving experience."
+  }
+],
+ 
+  seoTitle: "Hyundai Service Dubai | Expert Hyundai Maintenance and Repairs",
+  seoDescription:
+    "Professional Hyundai maintenance and repair in Dubai. Certified Hyundai technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+  faqs: [
+    {
+      Question: "How often should I service my Hyundai?",
+      Answer: "Hyundai vehicles typically require service every 10,000–12,000 km or once a year, depending on driving conditions and model specifications, to maintain optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Hyundai parts?",
+      Answer: "Yes, we use only 100% genuine Hyundai OEM components to ensure perfect fit, durability, and the performance standards expected from Hyundai vehicles."
+    },
+    {
+      Question: "Do you offer Hyundai diagnostics?",
+      Answer: "Absolutely. We use advanced Hyundai diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Hyundai engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, ensuring your Hyundai continues to deliver reliable performance and smooth driving."
+    },
+    {
+      Question: "Do you offer Hyundai performance checks?",
+      Answer: "Yes, we provide detailed vehicle inspections, performance tuning, and system optimizations to keep your Hyundai running efficiently."
+    },
+    {
+      Question: "How long does Hyundai maintenance take?",
+      Answer: "Routine Hyundai services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+{
+  name: "toyota",
+  banner: "/assets/brands/audi.webp",
+  heading: "Toyota Expert Maintenance and Repairs",
+  heroText:
+    "Certified Toyota care with genuine parts and professional diagnostics for reliable performance and long-lasting durability.",
+  description: 
+    "At our Toyota service center, we provide comprehensive maintenance and repair solutions for all Toyota models, ensuring your vehicle remains safe, dependable, and efficient. From routine servicing to engine, transmission, brake, and electrical system repairs, our certified technicians handle every Toyota with precision and expertise. We combine advanced diagnostic tools, professional-grade equipment, and genuine Toyota parts to maintain your car’s performance, safety, and driving comfort. Our services include oil changes, brake inspections, suspension checks, transmission servicing, AC maintenance, battery and electrical system inspections, and full performance evaluations. Every service is designed to provide a seamless and professional experience for Toyota owners in Dubai, keeping your vehicle reliable and performing at its best.",
+  whyChooseUs: [
+    {
+      title: "Certified Toyota Technicians",
+      text: "Our team of highly skilled Toyota-certified technicians possesses in-depth knowledge and hands-on experience with all Toyota models. Each service, whether routine maintenance or complex repair, is performed with meticulous attention to detail, ensuring your vehicle maintains reliability, efficiency, and smooth performance. Our technicians stay updated with the latest Toyota technologies and service practices to provide the highest standard of care at all times."
+    },
+    {
+      title: "Advanced Toyota Diagnostics",
+      text: "We employ Toyota-approved diagnostic systems to quickly and accurately assess your vehicle’s performance and detect any potential issues. This ensures timely, precise, and effective repairs while maintaining your car’s reliability, safety, and efficiency. Every diagnostic procedure is conducted with professionalism and attention to detail, helping your Toyota operate at its peak for years to come."
+    },
+    {
+      title: "Genuine Toyota Parts Only",
+      text: "We use exclusively 100% genuine Toyota OEM components to preserve your vehicle’s reliability, performance, and safety. Each part is engineered for perfect fit, durability, and long-lasting efficiency. By using authentic components, we ensure that every repair or replacement enhances your Toyota’s value, driving experience, and long-term performance."
+    }
+  ],
+  seoTitle: "Toyota Service Dubai | Expert Toyota Maintenance and Repairs",
+  seoDescription:
+    "Professional Toyota maintenance and repair in Dubai. Certified Toyota technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+  faqs: [
+    {
+      Question: "How often should I service my Toyota?",
+      Answer: "Toyota vehicles typically require service every 10,000–12,000 km or once a year, depending on driving conditions and model specifications, to ensure optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Toyota parts?",
+      Answer: "Yes, we use only 100% genuine Toyota OEM components to ensure perfect fit, durability, and the performance standards expected from Toyota vehicles."
+    },
+    {
+      Question: "Do you offer Toyota diagnostics?",
+      Answer: "Absolutely. We use advanced Toyota diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Toyota engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, ensuring your Toyota continues to deliver reliable performance and smooth driving."
+    },
+    {
+      Question: "Do you offer Toyota performance checks?",
+      Answer: "Yes, we provide detailed vehicle inspections, performance tuning, and system optimizations to keep your Toyota running efficiently and safely."
+    },
+    {
+      Question: "How long does Toyota maintenance take?",
+      Answer: "Routine Toyota services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+{
+  name: "lamborghini",
+  banner: "/assets/brands/audi.webp",
+  heading: "Lamborghini High-Performance Maintenance and Repairs",
+  heroText:
+    "Certified Lamborghini care with genuine parts and advanced diagnostics for ultimate performance and precision.",
+  description: 
+    "At our Lamborghini service center, we provide full-spectrum maintenance and repair solutions for all Lamborghini models, ensuring your high-performance supercar operates at its peak. From routine servicing to complex engine, transmission, brake, and electrical system repairs, our certified technicians handle every Lamborghini with precision and expertise. We combine cutting-edge diagnostic tools, professional-grade equipment, and genuine Lamborghini parts to maintain your vehicle’s performance, safety, and iconic driving experience. Our services include oil changes, brake inspections, suspension adjustments, transmission servicing, AC maintenance, electrical system checks, and performance enhancements. Each service is designed to provide a seamless, premium experience for Lamborghini owners in Dubai, keeping your vehicle reliable, safe, and delivering the thrilling performance Lamborghini is renowned for.",
+  whyChooseUs: [
+    {
+      title: "Lamborghini Performance Specialists",
+      text: "Our team of highly trained Lamborghini technicians specializes in high-performance engines and advanced automotive systems unique to Lamborghini. Every maintenance and repair task, whether routine or highly complex, is executed with meticulous attention to detail to preserve your Lamborghini’s speed, handling, and signature driving excitement. Our specialists continuously update their knowledge with the latest Lamborghini technologies, ensuring your supercar receives the highest standard of care."
+    },
+    {
+      title: "Advanced Lamborghini Diagnostics",
+      text: "We employ Lamborghini-approved diagnostic tools to obtain precise insights into your vehicle's performance and condition. This advanced technology enables our technicians to quickly identify and resolve any issues, ensuring repairs are accurate, efficient, and performance-focused. Each diagnostic is performed with a commitment to safety, reliability, and maintaining the high standards expected from a Lamborghini."
+    },
+    {
+      title: "Guaranteed Genuine Lamborghini Parts",
+      text: "We use only 100% genuine Lamborghini OEM components to preserve authenticity, reliability, and long-term performance. Every part is engineered for perfect fit, durability, and factory-level performance, ensuring your Lamborghini retains its speed, handling, and value. Using authentic components guarantees that every service or repair enhances your vehicle’s longevity, efficiency, and extraordinary driving experience."
+    }
+  ],
+  seoTitle: "Lamborghini Service Dubai | Expert Lamborghini Maintenance and Repairs",
+  seoDescription:
+    "Professional Lamborghini maintenance and repair in Dubai. Certified Lamborghini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full high-performance service.",
+  faqs: [
+    {
+      Question: "How often does a Lamborghini require servicing?",
+      Answer: "Lamborghini vehicles typically require service every 8,000–12,000 km depending on driving conditions and model specifications to ensure optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Lamborghini parts?",
+      Answer: "Yes, we use only 100% genuine Lamborghini OEM components to ensure perfect fit, durability, and the high-performance standards expected from Lamborghini vehicles."
+    },
+    {
+      Question: "Do you offer Lamborghini diagnostics?",
+      Answer: "Absolutely. We use advanced Lamborghini diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Lamborghini engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, including high-performance Lamborghini models, ensuring your vehicle continues to deliver exceptional speed and handling."
+    },
+    {
+      Question: "Do you offer Lamborghini tuning?",
+      Answer: "Yes, we provide professional ECU tuning, performance kits, and exhaust upgrades designed to safely enhance your Lamborghini’s power, responsiveness, and driving dynamics."
+    },
+    {
+      Question: "How long does Lamborghini maintenance take?",
+      Answer: "Routine Lamborghini services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+{
+  name: "honda",
+  banner: "/assets/brands/audi.webp",
+  heading: "Honda Expert Maintenance and Repairs",
+  heroText:
+    "Certified Honda care with genuine parts and professional diagnostics for reliable performance and long-lasting durability.",
+  description: 
+    "At our Honda service center, we provide complete maintenance and repair solutions for all Honda models, ensuring your vehicle remains safe, dependable, and efficient. From routine servicing to engine, transmission, brake, and electrical system repairs, our certified technicians handle every Honda with precision and expertise. We combine advanced diagnostic tools, professional-grade equipment, and genuine Honda parts to maintain your car’s performance, safety, and driving comfort. Our services include oil changes, brake inspections, suspension checks, transmission servicing, AC maintenance, battery and electrical system inspections, and full performance evaluations. Every service is designed to provide a seamless and professional experience for Honda owners in Dubai, keeping your vehicle reliable, efficient, and performing at its best.",
+  whyChooseUs: [
+    {
+      title: "Certified Honda Technicians",
+      text: "Our team of highly trained Honda-certified technicians possesses extensive knowledge and hands-on experience with all Honda models. Each service, whether routine maintenance or complex repair, is performed with meticulous attention to detail, ensuring your vehicle maintains reliability, efficiency, and smooth performance. Our technicians stay updated with the latest Honda technologies and service practices to provide the highest standard of care at all times."
+    },
+    {
+      title: "Advanced Honda Diagnostics",
+      text: "We employ Honda-approved diagnostic systems to quickly and accurately assess your vehicle’s performance and detect any potential issues. This ensures timely, precise, and effective repairs while maintaining your car’s reliability, safety, and efficiency. Every diagnostic procedure is conducted with professionalism and attention to detail, helping your Honda operate at its peak for years to come."
+    },
+    {
+      title: "Genuine Honda Parts Only",
+      text: "We use exclusively 100% genuine Honda OEM components to preserve your vehicle’s reliability, performance, and safety. Each part is engineered for perfect fit, durability, and long-lasting efficiency. By using authentic components, we ensure that every repair or replacement enhances your Honda’s value, driving experience, and long-term performance."
+    }
+  ],
+  seoTitle: "Honda Service Dubai | Expert Honda Maintenance and Repairs",
+  seoDescription:
+    "Professional Honda maintenance and repair in Dubai. Certified Honda technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+  faqs: [
+    {
+      Question: "How often should I service my Honda?",
+      Answer: "Honda vehicles typically require service every 10,000–12,000 km or once a year, depending on driving conditions and model specifications, to maintain optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Honda parts?",
+      Answer: "Yes, we use only 100% genuine Honda OEM components to ensure perfect fit, durability, and the performance standards expected from Honda vehicles."
+    },
+    {
+      Question: "Do you offer Honda diagnostics?",
+      Answer: "Absolutely. We use advanced Honda diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Honda engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, ensuring your Honda continues to deliver reliable performance and smooth driving."
+    },
+    {
+      Question: "Do you offer Honda performance checks?",
+      Answer: "Yes, we provide detailed vehicle inspections, performance tuning, and system optimizations to keep your Honda running efficiently and safely."
+    },
+    {
+      Question: "How long does Honda maintenance take?",
+      Answer: "Routine Honda services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+
+{
+  name: "mazda",
+  banner: "/assets/brands/audi.webp",
+  heading: "Mazda Expert Maintenance and Repairs",
+  heroText:
+    "Certified Mazda care with genuine parts and professional diagnostics for reliable performance and long-lasting durability.",
+  description: 
+    "At our Mazda service center, we provide comprehensive maintenance and repair solutions for all Mazda models, ensuring your vehicle remains safe, dependable, and efficient. From routine servicing to engine, transmission, brake, and electrical system repairs, our certified technicians handle every Mazda with precision and expertise. We combine advanced diagnostic tools, professional-grade equipment, and genuine Mazda parts to maintain your car’s performance, safety, and driving comfort. Our services include oil changes, brake inspections, suspension checks, transmission servicing, AC maintenance, battery and electrical system inspections, and full performance evaluations. Each service is designed to provide a seamless and professional experience for Mazda owners in Dubai, keeping your vehicle reliable, efficient, and performing at its best.",
+  whyChooseUs: [
+    {
+      title: "Certified Mazda Technicians",
+      text: "Our team of highly trained Mazda-certified technicians possesses in-depth knowledge and hands-on experience with all Mazda models. Each service, whether routine maintenance or complex repair, is performed with meticulous attention to detail, ensuring your vehicle maintains reliability, efficiency, and smooth performance. Our technicians stay updated with the latest Mazda technologies and service practices to provide the highest standard of care at all times."
+    },
+    {
+      title: "Advanced Mazda Diagnostics",
+      text: "We employ Mazda-approved diagnostic systems to quickly and accurately assess your vehicle’s performance and detect any potential issues. This ensures timely, precise, and effective repairs while maintaining your car’s reliability, safety, and efficiency. Every diagnostic procedure is conducted with professionalism and attention to detail, helping your Mazda operate at its peak for years to come."
+    },
+    {
+      title: "Genuine Mazda Parts Only",
+      text: "We use exclusively 100% genuine Mazda OEM components to preserve your vehicle’s reliability, performance, and safety. Each part is engineered for perfect fit, durability, and long-lasting efficiency. By using authentic components, we ensure that every repair or replacement enhances your Mazda’s value, driving experience, and long-term performance."
+    }
+  ],
+  seoTitle: "Mazda Service Dubai | Expert Mazda Maintenance and Repairs",
+  seoDescription:
+    "Professional Mazda maintenance and repair in Dubai. Certified Mazda technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+  faqs: [
+    {
+      Question: "How often should I service my Mazda?",
+      Answer: "Mazda vehicles typically require service every 10,000–12,000 km or once a year, depending on driving conditions and model specifications, to maintain optimal performance and reliability."
+    },
+    {
+      Question: "Do you use genuine Mazda parts?",
+      Answer: "Yes, we use only 100% genuine Mazda OEM components to ensure perfect fit, durability, and the performance standards expected from Mazda vehicles."
+    },
+    {
+      Question: "Do you offer Mazda diagnostics?",
+      Answer: "Absolutely. We use advanced Mazda diagnostic tools to quickly and accurately identify any issues, ensuring precise and effective repairs."
+    },
+    {
+      Question: "Do you repair Mazda engines?",
+      Answer: "Yes, we provide comprehensive engine and gearbox repair services, ensuring your Mazda continues to deliver reliable performance and smooth driving."
+    },
+    {
+      Question: "Do you offer Mazda performance checks?",
+      Answer: "Yes, we provide detailed vehicle inspections, performance tuning, and system optimizations to keep your Mazda running efficiently and safely."
+    },
+    {
+      Question: "How long does Mazda maintenance take?",
+      Answer: "Routine Mazda services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+    }
+  ]
+},
+
+
+
 ];
 
 export const findBrand = (brand: string): BrandType | undefined =>
