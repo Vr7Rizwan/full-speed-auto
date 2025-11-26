@@ -103,7 +103,7 @@ export default function LogoSlider({
                 alt={logo.alt}
                 width={logo.width}
                 height={logo.height}
-                className="filter grayscale dark:grayscale-0 hover:grayscale-0 transition duration-500 hover:cursor-pointer w-1/2 h-1/2 object-contain scale-100"
+                className="hover:cursor-pointer w-1/2 h-1/2 object-contain scale-100"
                 priority
               />
             </div>
