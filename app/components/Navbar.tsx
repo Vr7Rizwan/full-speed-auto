@@ -77,7 +77,11 @@ const Navbar: React.FC = () => {
                           : ""
                       }`}
                     >
-                      <Link href={subItem[1]} className="block font-semibold">
+                      <Link
+                        href={subItem[1]}
+                        prefetch={false}
+                        className="block font-semibold"
+                      >
                         {subItem[0]}
                       </Link>
                     </li>
@@ -140,6 +144,7 @@ const Navbar: React.FC = () => {
                     {item.submenu.map((subItem) => (
                       <li key={subItem[0]} className="py-1 normalText">
                         <Link
+                          prefetch={false}
                           onClick={() => setMobileMenuOpen(false)}
                           href={subItem[1]}
                           className="block text-txtColor hover:text-secondary"
