@@ -8,7 +8,7 @@ export default function OurFeatures({ features }: { features: { icon: string; ti
                     Our Features
                 </h2>
                 <p className="txtColor max-w-2xl mx-auto text-base md:text-lg">
-                    Why customers trust our services — premium quality, reliability, and professionalism.
+                    Why customers trust our services - premium quality, reliability, and professionalism.
                 </p>
             </div>
 
