@@ -16,7 +16,7 @@ const ContactInfoSection = () => {
           <div className="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all">
             <Phone className="w-10 h-10 text-secondary mb-4" />
             <h3 className="subHeading font-semibold mb-2">Phone</h3>
-            <p className="text-gray-600">+971 55 123 4567</p>
+            <p className="text-gray-600">+971 56 322 0861</p>
           </div>
 
           {/* Email */}
@@ -31,7 +31,7 @@ const ContactInfoSection = () => {
             <MapPin className="w-10 h-10 text-secondary mb-4" />
             <h3 className="subHeading font-semibold mb-2">Location</h3>
             <p className="text-gray-600">
-              Al Quoz Industrial Area 3, Dubai, UAE
+              Ras Al Khor Industrial Area 2, Warehouse No. 56, Dubai-UAE
             </p>
           </div>
 
