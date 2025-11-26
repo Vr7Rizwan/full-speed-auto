@@ -193,7 +193,7 @@ const brandsData: BrandType[] = [
 
   {
     name: "Jaguar",
-    banner: "/assets/brands/jaguar.jpg",
+    banner: "/assets/brands/jaguar.webp",
     heading: "Premium Jaguar Repairs and Maintenance in Dubai",
     heroText:
       "Comprehensive Jaguar care provided by certified technicians using genuine parts, advanced diagnostics, and professional expertise to ensure peak performance and reliability.",
