@@ -1340,19 +1340,7 @@ const brandsData: BrandType[] = [
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
 ];
-
 export const findBrand = (brand: string): BrandType | undefined =>
   brandsData.find(
     (eachService: BrandType) =>
