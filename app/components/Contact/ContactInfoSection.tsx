@@ -39,8 +39,8 @@ const ContactInfoSection = () => {
           <div className="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all">
             <Clock className="w-10 h-10 text-secondary mb-4" />
             <h3 className="subHeading font-semibold mb-2">Business Hours</h3>
-            <p className="text-gray-600">Mon – Sat: 9:00 AM – 8:00 PM</p>
-            <p className="text-gray-600">Sunday: Closed</p>
+            <p className="text-gray-600">24/7</p>
+            
           </div>
         </div>
       </div>
