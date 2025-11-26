@@ -11,7 +11,7 @@ const AboutPage = () => {
       <CompanyProfile />
       <MissionVision />
       <Cards />
-      <div className="w-[95%] mx-auto flex flex-col gap-5">
+      <div className="w-[95%] mx-auto flex flex-col gap-7 md:gap-10 py-7 md:py-10">
         <h2 className="subHeading font-bold text-center">
           Brands we have dealt with
         </h2>
