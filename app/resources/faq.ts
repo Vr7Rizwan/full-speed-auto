@@ -26,12 +26,12 @@ const faq: faqTypes[] = [
   {
     Question: "How long has Speed-Full Auto been operating in the car repair industry?",
     Answer:
-      "Speed-Full Auto Services brings over 18 years of dealership-level expertise, serving customers from its single, state-of-the-art Dubai workshop.",
+      "Speed-Full Auto Services many years of dealership-level expertise, serving customers from its single, state-of-the-art Dubai workshop.",
   },
   {
     Question: "What makes Speed-Full Auto Services a leading car workshop in Dubai?",
     Answer:
-      "Our modern facilities, highly skilled technicians, and comprehensive range of premium repair and maintenance services for all car types—delivered at competitive prices—make Speed-Full Auto Services one of Dubai’s most reliable automotive service centers.",
+      "Our modern facilities, highly skilled technicians, and comprehensive range of premium repair and maintenance services for all car types delivered at competitive prices make Speed-Full Auto Services one of Dubai’s most reliable automotive service centers.",
   },
 ];
 
