@@ -13,7 +13,7 @@ const whyChooseUs: whyChooseUsTypes[] = [
   },
   {
     title: "COMPREHENSIVE VEHICLE DIAGNOSTICS",
-    text: "We follow a detailed diagnostic process to identify issues with precision. As a trusted local workshop, Speed-Full Auto Services ensures that every vehicle undergoes a full inspection—covering all essential components for a clear understanding of its condition.",
+    text: "We follow a detailed diagnostic process to identify issues with precision. As a trusted local workshop, Speed-Full Auto Services ensures that every vehicle undergoes a full inspection covering all essential components for a clear understanding of its condition.",
   },
   {
     title: "PREMIUM QUALITY PARTS",
