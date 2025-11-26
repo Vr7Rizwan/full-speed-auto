@@ -1,8 +1,12 @@
 import { whyChooseUsTypes } from "../resources/whyChooseUs";
 
-function WhyChooseUS({whyChooseUs,}: {whyChooseUs: whyChooseUsTypes[] | undefined;}) {
+function WhyChooseUS({
+  whyChooseUs,
+}: {
+  whyChooseUs: whyChooseUsTypes[] | undefined;
+}) {
   return (
-    <div className="bg-primary bg-cover relative bg-center bg-no-repeat min-h-screen flex justify-center">
+    <div className="bg-primary bg-cover relative bg-center bg-no-repeat flex justify-center">
       <div className="w-full z-10 py-15 flex items-center flex-col gap-15">
         <h2 className="text-txtColor font-bold subHeading">
           WHY CHOOSE{" "}
