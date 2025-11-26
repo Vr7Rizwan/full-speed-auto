@@ -128,10 +128,10 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Audi servicing take?",
-        Answer: "Most standard services are completed within 1–2 hours, depending on the inspection and specific work required, with detailed reporting provided for transparency."
+        Answer: "Most standard services are completed within 1 to 2 hours, depending on the inspection and specific work required, with detailed reporting provided for transparency."
       },
       {
-        Question: "Do you repair Audi suspension & AC?",
+        Question: "Do you repair Audi suspension and AC?",
         Answer: "Yes, we provide comprehensive repair and maintenance services for suspension systems, AC units, brakes, transmission, and all major components to ensure your Audi remains in top condition."
       }
     ],
@@ -237,7 +237,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Jaguar servicing take?",
-        Answer: "Most Jaguar services are completed within 1–2 hours, depending on the inspection and work required, with detailed reports provided for transparency."
+        Answer: "Most Jaguar services are completed within 1 to 2 hours, depending on the inspection and work required, with detailed reports provided for transparency."
       },
       {
         Question: "Do you offer Jaguar performance upgrades?",
@@ -357,15 +357,15 @@ const brandsData: BrandType[] = [
   {
     name: "Mercedes",
     banner: "/assets/brands/mercedes.webp",
-    heading: "Mercedes-Benz Expert Service and Repairs",
+    heading: "Mercedes Expert Service and Repairs",
     heroText:
-      "Comprehensive Mercedes-Benz maintenance and repair by certified technicians using genuine parts and advanced diagnostics to ensure peak performance, safety, and luxury.",
+      "Comprehensive Mercedes maintenance and repair by certified technicians using genuine parts and advanced diagnostics to ensure peak performance, safety, and luxury.",
     description:
-      "At our Mercedes-Benz service center, we provide full-service maintenance and repair solutions designed to keep your luxury vehicle in optimal condition. From routine servicing to complex engine, transmission, electrical, and suspension repairs, our certified technicians handle every model with precision and care. We combine advanced diagnostic tools, professional-grade equipment, and genuine Mercedes-Benz parts to ensure your car maintains its performance, reliability, and luxurious feel. Our wide range of services includes oil changes, brake inspections, suspension adjustments, transmission maintenance, AC servicing, battery and electrical system checks, and performance tuning. Every service is delivered with attention to detail and a seamless experience for Mercedes-Benz owners in Dubai, ensuring your vehicle remains safe, reliable, and performs at its peak.",
+      "At our Mercedes service center, we provide full-service maintenance and repair solutions designed to keep your luxury vehicle in optimal condition. From routine servicing to complex engine, transmission, electrical, and suspension repairs, our certified technicians handle every model with precision and care. We combine advanced diagnostic tools, professional-grade equipment, and genuine Mercedes parts to ensure your car maintains its performance, reliability, and luxurious feel. Our wide range of services includes oil changes, brake inspections, suspension adjustments, transmission maintenance, AC servicing, battery and electrical system checks, and performance tuning. Every service is delivered with attention to detail and a seamless experience for Mercedes owners in Dubai, ensuring your vehicle remains safe, reliable, and performs at its peak.",
     whyChooseUs: [
       {
         title: "Certified Mercedes Engineers",
-        text: "Our team of certified Mercedes-Benz professionals brings extensive expertise in luxury automotive engineering. Each maintenance and repair task, whether routine or highly complex, is carried out with meticulous precision to maintain your vehicle’s performance, comfort, and refinement. We continually update our skills on the latest Mercedes technologies to provide the highest standard of service and ensure your car drives flawlessly."
+        text: "Our team of certified Mercedes professionals brings extensive expertise in luxury automotive engineering. Each maintenance and repair task, whether routine or highly complex, is carried out with meticulous precision to maintain your vehicle’s performance, comfort, and refinement. We continually update our skills on the latest Mercedes technologies to provide the highest standard of service and ensure your car drives flawlessly."
       },
       {
         title: "High-End Mercedes Diagnostics",
@@ -373,36 +373,37 @@ const brandsData: BrandType[] = [
       },
       {
         title: "Authentic Mercedes Parts",
-        text: "We use only 100% genuine Mercedes-Benz OEM components to preserve your vehicle’s authenticity, performance, and long-term reliability. Each part is designed for perfect compatibility and durability, ensuring your Mercedes retains its premium value, optimal functionality, and luxurious feel while avoiding potential issues caused by aftermarket or non-certified parts."
+        text: "We use only 100% genuine Mercedes OEM components to preserve your vehicle’s authenticity, performance, and long-term reliability. Each part is designed for perfect compatibility and durability, ensuring your Mercedes retains its premium value, optimal functionality, and luxurious feel while avoiding potential issues caused by aftermarket or non-certified parts."
       }
     ],
-    seoTitle: "Mercedes-Benz Service Dubai | Expert Maintenance and Repairs",
+    seoTitle: "Mercedes Service Dubai | Expert Maintenance and Repairs",
     seoDescription:
-      "Professional Mercedes-Benz maintenance and repair in Dubai. Certified technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full-service care.",
+      "Professional Mercedes maintenance and repair in Dubai. Certified technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full-service care.",
     faqs: [
       {
+        Question: "Is Mercedes performance tuning available?",
+        Answer: "Yes, we provide AMG-safe ECU tuning and performance upgrades, designed to enhance your Mercedes’ power, efficiency, and driving dynamics."
+      },
+      {
         Question: "How often do I need to service my Mercedes?",
-        Answer: "Mercedes-Benz vehicles generally require servicing every 10,000 km or once a year, whichever comes first, to maintain optimal performance, safety, and reliability."
+        Answer: "Mercedes vehicles generally require servicing every 10,000 km or once a year, whichever comes first, to maintain optimal performance, safety, and reliability."
       },
       {
         Question: "Do you use original Mercedes parts?",
-        Answer: "Yes, we use only 100% genuine Mercedes-Benz OEM components to ensure perfect fit, longevity, and premium performance."
+        Answer: "Yes, we use only 100% genuine Mercedes OEM components to ensure perfect fit, longevity, and premium performance."
       },
       {
         Question: "Do you repair Mercedes electrical issues?",
         Answer: "Absolutely. We handle all electrical system repairs including ECUs, sensors, wiring faults, and other advanced electronic components with professional care."
       },
-      {
-        Question: "Is Mercedes performance tuning available?",
-        Answer: "Yes, we provide AMG-safe ECU tuning and performance upgrades, designed to enhance your Mercedes’ power, efficiency, and driving dynamics."
-      },
+      
       {
         Question: "Do you fix Mercedes air suspension?",
         Answer: "Yes, we service all AIRMATIC and ABC suspension systems, ensuring optimal comfort, handling, and ride stability."
       },
       {
         Question: "How long does Mercedes servicing take?",
-        Answer: "Routine maintenance typically takes 1–2 hours depending on the inspection and services required, with detailed reporting for transparency."
+        Answer: "Routine maintenance typically takes 1 to 2 hours depending on the inspection and services required, with detailed reporting for transparency."
       }
     ]
   },
@@ -456,7 +457,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Porsche maintenance take?",
-        Answer: "Routine Porsche services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Porsche services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -474,7 +475,7 @@ const brandsData: BrandType[] = [
         text: "Our team of highly trained Ferrari technicians specializes in high-performance engines and advanced automotive systems unique to Ferrari vehicles. Every maintenance and repair task, whether routine or complex, is executed with meticulous attention to detail to preserve your Ferrari’s speed, handling, and signature driving excitement. Our specialists continuously update their expertise with the latest Ferrari technologies, ensuring your supercar receives the highest standard of care."
       },
       {
-        title: "State-of-the-Art Ferrari Diagnostics",
+        title: "State of the Art Ferrari Diagnostics",
         text: "We employ Ferrari-approved diagnostic tools to obtain precise insights into your vehicle's performance and condition. This advanced technology allows our technicians to quickly detect and resolve issues, ensuring repairs are accurate, efficient, and performance-focused. Each diagnostic is performed with a commitment to safety, reliability, and the high standards expected from a Ferrari."
       },
       {
@@ -509,7 +510,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Ferrari maintenance take?",
-        Answer: "Routine Ferrari services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Ferrari services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -562,7 +563,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Hyundai maintenance take?",
-        Answer: "Routine Hyundai services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Hyundai services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -614,7 +615,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Toyota maintenance take?",
-        Answer: "Routine Toyota services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Toyota services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -666,7 +667,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Lamborghini maintenance take?",
-        Answer: "Routine Lamborghini services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Lamborghini services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -718,7 +719,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Honda maintenance take?",
-        Answer: "Routine Honda services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Honda services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -771,7 +772,7 @@ const brandsData: BrandType[] = [
       },
       {
         Question: "How long does Mazda maintenance take?",
-        Answer: "Routine Mazda services typically take 1–2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
+        Answer: "Routine Mazda services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
     ]
   },
@@ -800,7 +801,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Bentley Service Dubai | Luxury Bentley Maintenance & Repairs",
+  seoTitle: "Bentley Service Dubai | Luxury Bentley Maintenance and Repairs",
   seoDescription:
     "Premium Bentley maintenance and repair in Dubai. Certified Bentley specialists, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Bentley care.",
 
@@ -827,7 +828,7 @@ const brandsData: BrandType[] = [
     },
     {
       Question: "How long does Bentley maintenance take?",
-      Answer: "Routine Bentley maintenance typically takes 1–2 hours depending on the required services, followed by a detailed inspection report."
+      Answer: "Routine Bentley maintenance typically takes 1 to 2 hours depending on the required services, followed by a detailed inspection report."
     }
   ]
 },
@@ -856,7 +857,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Mini Cooper Service Dubai | Expert Mini Maintenance & Repairs",
+  seoTitle: "Mini Cooper Service Dubai | Expert Mini Maintenance and Repairs",
   seoDescription:
     "Professional Mini Cooper maintenance and repair in Dubai. Certified Mini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, and complete Mini servicing.",
 
@@ -883,7 +884,7 @@ const brandsData: BrandType[] = [
     },
     {
       Question: "How long does Mini Cooper maintenance take?",
-      Answer: "Routine Mini Cooper servicing typically takes 1–2 hours, depending on the inspection details and required maintenance tasks."
+      Answer: "Routine Mini Cooper servicing typically takes 1 to 2 hours, depending on the inspection details and required maintenance tasks."
     }
   ]
 },
@@ -912,7 +913,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Volkswagen Service Dubai | Expert VW Maintenance & Repairs",
+  seoTitle: "Volkswagen Service Dubai | Expert VW Maintenance and Repairs",
   seoDescription:
     "Professional Volkswagen maintenance and repair in Dubai. Certified VW technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Volkswagen servicing.",
 
@@ -939,7 +940,7 @@ const brandsData: BrandType[] = [
     },
     {
       Question: "How long does Volkswagen maintenance take?",
-      Answer: "Routine Volkswagen servicing typically takes 1–2 hours based on the maintenance requirements and diagnostic findings."
+      Answer: "Routine Volkswagen servicing typically takes 1 to 2 hours based on the maintenance requirements and diagnostic findings."
     }
   ]
 },
@@ -968,7 +969,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Pagani Service Dubai | Expert Pagani Hypercar Maintenance & Repairs",
+  seoTitle: "Pagani Service Dubai | Expert Pagani Hypercar Maintenance and Repairs",
   seoDescription:
     "Premium Pagani maintenance and repair in Dubai. Certified Pagani technicians, genuine parts, advanced diagnostics, engine, carbon-fiber, suspension, brakes, and complete hypercar servicing.",
 
@@ -1024,7 +1025,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Dodge Service Dubai | Expert Dodge Maintenance & Performance Repairs",
+  seoTitle: "Dodge Service Dubai | Expert Dodge Maintenance and Performance Repairs",
   seoDescription:
     "Professional Dodge maintenance and repair in Dubai. Certified Dodge technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and full Dodge performance servicing.",
 
@@ -1051,14 +1052,14 @@ const brandsData: BrandType[] = [
     },
     {
       Question: "How long does Dodge maintenance take?",
-      Answer: "Routine Dodge servicing typically takes 1–2 hours depending on the specific maintenance requirements and diagnostic results."
+      Answer: "Routine Dodge servicing typically takes 1 to 2 hours depending on the specific maintenance requirements and diagnostic results."
     }
   ]
 },
 {
   name: "bugatti",
   banner: "/assets/brands/bugatti.webp",
-  heading: "Bugatti Hypercar Maintenance & Precision Repair Specialists",
+  heading: "Bugatti Hypercar Maintenance and Precision Repair Specialists",
   
   heroText:
     "Certified Bugatti care with advanced diagnostics, hypercar-grade maintenance, and 100% genuine components for unmatched performance and engineering perfection.",
@@ -1081,7 +1082,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Bugatti Service Dubai | Expert Bugatti Hypercar Maintenance & Repairs",
+  seoTitle: "Bugatti Service Dubai | Expert Bugatti Hypercar Maintenance and Repairs",
   seoDescription:
     "Premium Bugatti hypercar maintenance and repair in Dubai. Certified Bugatti technicians, genuine parts, advanced diagnostics, W16 engine servicing, aerodynamics, brakes, and full hypercar care.",
 
@@ -1115,7 +1116,7 @@ const brandsData: BrandType[] = [
 {
   name: "jeep",
   banner: "/assets/brands/jeep.webp",
-  heading: "Jeep Maintenance, Off-Road Repairs & 4x4 Performance Specialists",
+  heading: "Jeep Maintenance, Off-Road Repairs and 4x4 Performance Specialists",
   
   heroText:
     "Certified Jeep care with advanced diagnostics, genuine parts, and professional 4x4 maintenance for powerful, reliable, and adventure-ready performance.",
@@ -1138,7 +1139,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Jeep Service Dubai | Expert Jeep Maintenance & 4x4 Performance Repairs",
+  seoTitle: "Jeep Service Dubai | Expert Jeep Maintenance and 4x4 Performance Repairs",
   seoDescription:
     "Professional Jeep maintenance and repair in Dubai. Certified Jeep technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road performance care.",
 
@@ -1165,14 +1166,14 @@ const brandsData: BrandType[] = [
     },
     {
       Question: "How long does Jeep maintenance take?",
-      Answer: "Routine Jeep servicing typically takes 1–2 hours, depending on the model, mileage, and diagnostic results."
+      Answer: "Routine Jeep servicing typically takes 1 to 2 hours, depending on the model, mileage, and diagnostic results."
     }
   ]
 },
 {
   name: "mclaren",
   banner: "/assets/brands/mclaren.webp",
-  heading: "McLaren Hypercar Maintenance & Precision Repairs",
+  heading: "McLaren Hypercar Maintenance and Precision Repairs",
 
   heroText:
     "Certified McLaren care with genuine parts, advanced diagnostics, and hypercar-grade maintenance for unmatched performance and driving precision.",
@@ -1195,7 +1196,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "McLaren Service Dubai | Expert Hypercar Maintenance & Repairs",
+  seoTitle: "McLaren Service Dubai | Expert Hypercar Maintenance and Repairs",
   seoDescription:
     "Premium McLaren maintenance and repair in Dubai. Certified McLaren technicians, genuine parts, advanced diagnostics, engine, carbon-fiber chassis, brakes, suspension, and full hypercar servicing.",
 
@@ -1229,7 +1230,7 @@ const brandsData: BrandType[] = [
 {
   name: "range rover",
   banner: "/assets/brands/range-rover.webp",
-  heading: "Range Rover Maintenance & Premium 4x4 Repairs",
+  heading: "Range Rover Maintenance and Premium 4x4 Repairs",
 
   heroText:
     "Certified Range Rover care with genuine parts, advanced diagnostics, and expert 4x4 maintenance for luxury, performance, and off-road reliability.",
@@ -1252,7 +1253,7 @@ const brandsData: BrandType[] = [
     }
   ],
 
-  seoTitle: "Range Rover Service Dubai | Expert 4x4 Maintenance & Repairs",
+  seoTitle: "Range Rover Service Dubai | Expert 4x4 Maintenance and Repairs",
   seoDescription:
     "Professional Range Rover maintenance and repair in Dubai. Certified Range Rover technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road and luxury performance care.",
 
@@ -1286,57 +1287,57 @@ const brandsData: BrandType[] = [
 {
   name: "rolls-royce",
   banner: "/assets/brands/rolls-royce.webp",
-  heading: "Rolls-Royce Luxury Maintenance & Precision Repairs",
+  heading: "Rolls Royce Luxury Maintenance and Precision Repairs",
 
   heroText:
-    "Certified Rolls-Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",
+    "Certified Rolls Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",
 
   description:
-    "Our Rolls-Royce service center provides world-class maintenance and repair solutions for all Rolls-Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls-Royce vehicles require expert care and meticulous attention. Our certified Rolls-Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls-Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls-Royce owners in Dubai, preserving the elegance, power, and precision of their vehicles.",
+    "Our Rolls Royce service center provides world-class maintenance and repair solutions for all Rolls Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls Royce vehicles require expert care and meticulous attention. Our certified Rolls Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls Royce owners in Dubai, preserving the elegance, power, and precision of their vehicles.",
 
   whyChooseUs: [
     {
-      title: "Certified Rolls-Royce Technicians",
-      text: "Our Rolls-Royce-certified technicians possess specialized expertise in all models, including bespoke Phantom, Ghost, and Cullinan variants. Every maintenance and repair task is executed with extreme precision to uphold luxury, performance, and reliability. Our team follows the latest Rolls-Royce service standards to deliver top-tier care for every vehicle."
+      title: "Certified Rolls Royce Technicians",
+      text: "Our Rolls Royce certified technicians possess specialized expertise in all models, including bespoke Phantom, Ghost, and Cullinan variants. Every maintenance and repair task is executed with extreme precision to uphold luxury, performance, and reliability. Our team follows the latest Rolls Royce service standards to deliver top-tier care for every vehicle."
     },
     {
-      title: "Advanced Rolls-Royce Diagnostics",
-      text: "We utilize Rolls-Royce-approved diagnostic tools to accurately assess engine performance, transmission behavior, suspension systems, electronics, and luxury features. This enables early detection of issues and ensures precise repairs that maintain the vehicle’s comfort, refinement, and long-term reliability."
+      title: "Advanced Rolls Royce Diagnostics",
+      text: "We utilize Rolls Royce approved diagnostic tools to accurately assess engine performance, transmission behavior, suspension systems, electronics, and luxury features. This enables early detection of issues and ensures precise repairs that maintain the vehicle’s comfort, refinement, and long-term reliability."
     },
     {
-      title: "Genuine Rolls-Royce Parts Only",
-      text: "To preserve your Rolls-Royce’s performance, luxury, and craftsmanship, we install only 100% genuine Rolls-Royce OEM components. Each part is engineered for perfect fitment, durability, and seamless integration. Using authentic parts guarantees your vehicle maintains peak performance, reliability, and its signature bespoke quality."
+      title: "Genuine Rolls Royce Parts Only",
+      text: "To preserve your Rolls Royce’s performance, luxury, and craftsmanship, we install only 100% genuine Rolls Royce OEM components. Each part is engineered for perfect fitment, durability, and seamless integration. Using authentic parts guarantees your vehicle maintains peak performance, reliability, and its signature bespoke quality."
     }
   ],
 
-  seoTitle: "Rolls-Royce Service Dubai | Luxury Maintenance & Precision Repairs",
+  seoTitle: "Rolls Royce Service Dubai | Luxury Maintenance and Precision Repairs",
   seoDescription:
-    "Professional Rolls-Royce maintenance and repair in Dubai. Certified Rolls-Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
+    "Professional Rolls Royce maintenance and repair in Dubai. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
 
   faqs: [
     {
-      Question: "How often should I service my Rolls-Royce?",
-      Answer: "Rolls-Royce vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model specifications."
+      Question: "How often should I service my Rolls Royce?",
+      Answer: "Rolls Royce vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model specifications."
     },
     {
-      Question: "Do you use genuine Rolls-Royce parts?",
-      Answer: "Yes, we use only 100% genuine Rolls-Royce OEM components to ensure maximum performance, reliability, and luxury standards."
+      Question: "Do you use genuine Rolls Royce parts?",
+      Answer: "Yes, we use only 100% genuine Rolls Royce OEM components to ensure maximum performance, reliability, and luxury standards."
     },
     {
-      Question: "Do you offer Rolls-Royce diagnostics?",
-      Answer: "Absolutely. We use Rolls-Royce-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and luxury features with precision."
+      Question: "Do you offer Rolls Royce diagnostics?",
+      Answer: "Absolutely. We use Rolls Royce-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and luxury features with precision."
     },
     {
-      Question: "Do you repair Rolls-Royce engines and transmissions?",
-      Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Rolls-Royce models, maintaining smooth performance and ultimate luxury."
+      Question: "Do you repair Rolls Royce engines and transmissions?",
+      Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Rolls Royce models, maintaining smooth performance and ultimate luxury."
     },
     {
-      Question: "Do you offer Rolls-Royce performance and luxury checks?",
-      Answer: "Yes, we provide detailed inspections, suspension calibration, system evaluations, and optimization to ensure your Rolls-Royce performs flawlessly in all conditions."
+      Question: "Do you offer Rolls Royce performance and luxury checks?",
+      Answer: "Yes, we provide detailed inspections, suspension calibration, system evaluations, and optimization to ensure your Rolls Royce performs flawlessly in all conditions."
     },
     {
-      Question: "How long does Rolls-Royce maintenance take?",
-      Answer: "Routine Rolls-Royce servicing typically takes 2–4 hours depending on the model, service requirements, and diagnostic complexity."
+      Question: "How long does Rolls Royce maintenance take?",
+      Answer: "Routine Rolls Royce servicing typically takes 2–4 hours depending on the model, service requirements, and diagnostic complexity."
     }
   ]
 }
