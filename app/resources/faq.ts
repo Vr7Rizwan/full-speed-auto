@@ -26,7 +26,7 @@ const faq: faqTypes[] = [
   {
     Question: "How long has Speed-Full Auto been operating in the car repair industry?",
     Answer:
-      "Speed-Full Auto Services many years of dealership-level expertise, serving customers from its single, state-of-the-art Dubai workshop.",
+      "Speed-Full Auto Services has many years of dealership-level expertise, serving customers from its single, state-of-the-art Dubai workshop.",
   },
   {
     Question: "What makes Speed-Full Auto Services a leading car workshop in Dubai?",
