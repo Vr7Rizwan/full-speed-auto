@@ -10,13 +10,13 @@ const AboutPage = () => {
       <AboutBanner />
       <CompanyProfile />
       <MissionVision />
-      <Cards />
       <div className="w-[95%] mx-auto flex flex-col gap-7 md:gap-10 py-7 md:py-10">
         <h2 className="subHeading font-bold text-center">
-          Brands we have dealt with
+          <span className="text-secondary">Brands</span> we have dealt with
         </h2>
         <LogoSlider logos={logos} />
       </div>
+      <Cards />
     </>
   );
 };

@@ -7,10 +7,10 @@
 }
 
 .heading {
-  @apply text-4xl md:text-5xl;
+  @apply text-4xl md:text-5xl uppercase;
 }
 .subHeading {
-  @apply text-xl md:text-2xl;
+  @apply text-xl md:text-2xl uppercase;
 }
 .normalText {
   @apply text-sm md:text-lg;
@@ -18,4 +18,3 @@
 .summary::marker {
   display: none;
 }
-
