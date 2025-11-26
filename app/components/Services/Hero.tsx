@@ -21,10 +21,7 @@ const Hero = ({
           <h1 className="heading text-txtColor font-bold">{heading}</h1>
 
           <div className="flex flex-col gap-1">
-            <p className="normalText">
-              {description}
-            </p>
-
+            <p className="normalText">{description}</p>
           </div>
         </div>
         <div className="md:w-full w-full flex justify-center md:justify-end">
@@ -38,28 +35,25 @@ const Hero = ({
 
       <h2 className="subHeading text-txtColor font-semibold">{heroTxt}</h2>
 
-     <Link
-  href="https://wa.me/971563220861?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
-  target="_blank"
-  className="block w-full"
->
-  {/* Desktop Image */}
-  <img
-    src="/assets/services/discounting.webp"
-    alt="discount"
-    className="hidden md:block w-full py-3 md:py-10 h-auto"
-  />
+      <Link
+        href="https://wa.me/971563220861?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+        target="_blank"
+        className="block w-full my-3 md:my-10"
+      >
+        {/* Desktop Image */}
+        <img
+          src="/assets/services/discounting.webp"
+          alt="discount"
+          className="hidden md:block w-full h-auto"
+        />
 
-  {/* Mobile Image */}
-  <img
-    src="/assets/services/discounting-mob.webp"
-    alt="discount"
-    className="block md:hidden w-full py-3 md:py-10 h-auto"
-  />
-</Link>
-
-
-
+        {/* Mobile Image */}
+        <img
+          src="/assets/services/discounting-mob.webp"
+          alt="discount"
+          className="block md:hidden w-full h-auto"
+        />
+      </Link>
 
       {/* <h2 className="heading text-txtColor font-bold pt-5 md:pt-10">
         Our Features
