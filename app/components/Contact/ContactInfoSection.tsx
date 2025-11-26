@@ -23,7 +23,7 @@ const ContactInfoSection = () => {
           <div className="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition-all">
             <Mail className="w-10 h-10 text-secondary mb-4" />
             <h3 className="subHeading font-semibold mb-2">Email</h3>
-            <p className="text-gray-600">fullspeedauto@gmail.com</p>
+            <p className="text-gray-600">info@speedfullauto.com</p>
           </div>
 
           {/* Location */}

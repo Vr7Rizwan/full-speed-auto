@@ -26,6 +26,11 @@ function Form({widthAfterMD}:{widthAfterMD?:string}) {
                         placeholder="Car Model"
                         className="border-3 border-secondary rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-secondary"
                     />
+                    <input
+                        type="text"
+                        placeholder="Car Name"
+                        className="border-3 border-secondary rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    />
 
                     <textarea
                         placeholder="Additional Details"
