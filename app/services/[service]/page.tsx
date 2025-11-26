@@ -28,14 +28,14 @@ const page = async ({ params }: { params: { service: string } }) => {
   }
   const whychooseus: whyChooseUsTypes[] = selectedService.whyChooseUs;
   return (
-    <div>
+    <div className="bg-gray-50">
       <section className="relative">
         <Banner banner={selectedService.banner} />
         <h1 className="heading hidden md:block text-primary bg-txtColor/75 backdrop-blur-[2px] rounded-2xl w-[95%] text-center py-10 leading-relaxed font-semibold absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2">
           {selectedService.heading}
         </h1>
       </section>
-      <h1 className="block md:hidden w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
+      <h1 className="block md:hidden bg-gray-50 w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
         {selectedService.heading}
       </h1>
       <Hero
