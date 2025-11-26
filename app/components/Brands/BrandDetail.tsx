@@ -1,18 +1,12 @@
 interface brandDetailPropType {
-  heading: string | undefined;
   heroText: string | undefined;
   description: string | undefined;
 }
-const BrandDetail = ({
-  heading,
-  heroText,
-  description,
-}: brandDetailPropType) => {
+const BrandDetail = ({ heroText, description }: brandDetailPropType) => {
   return (
-    <section className="flex justify-center py-10">
-      {heading && heroText && description && (
-        <div className="w-[92%] md:w-[95%] flex flex-col gap-3">
-          <h1 className="heading text-txtColor font-semibold">{heading}</h1>
+    <section className="flex justify-center py-5 md:py-10 md:pt-30">
+      {heroText && description && (
+        <div className="w-[92%] md:w-[95%] mx-auto flex flex-col gap-3">
           <div className="flex flex-col gap-5">
             <p className="text-txtColor normalText font-medium">{heroText}</p>
 

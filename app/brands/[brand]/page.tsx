@@ -23,9 +23,16 @@ async function page({ params }: { params: { brand: string } }) {
   const selectedBrand = findBrand(data.brand);
   return (
     <div>
-      <Banner banner={selectedBrand?.banner} />
+      <section className="relative">
+        <Banner banner={selectedBrand?.banner} />
+        <h1 className="heading hidden md:block text-primary bg-txtColor/75 backdrop-blur-[2px] rounded-2xl w-[95%] text-center py-10 leading-relaxed font-semibold absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2">
+          {selectedBrand?.heading}
+        </h1>
+      </section>
+      <h1 className="block md:hidden w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
+        {selectedBrand?.heading}
+      </h1>
       <BrandDetail
-        heading={selectedBrand?.heading}
         heroText={selectedBrand?.heroText}
         description={selectedBrand?.description}
       />

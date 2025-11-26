@@ -2,34 +2,26 @@ import React from "react";
 import Link from "next/link";
 
 const Hero = ({
-  heading,
   heroTxt,
   description,
 
   contentimg,
 }: {
-  heading: string;
   heroTxt: string;
   description: string;
 
   contentimg: string;
 }) => {
   return (
-    <div className="flex flex-col bg-gray-50 justify-center py-10 w-full px-4 md:px-6 md:py-10 gap-5">
+    <div className="flex flex-col bg-gray-50 justify-center w-full px-4 md:px-6 gap-5  py-5 md:py-10 md:pt-30">
       <div className="flex flex-col md:flex-row justify-center  gap-6 md:gap-0">
         <div className="flex flex-col gap-6 md:gap-8 md:pr-10">
-          <h1 className="heading text-txtColor font-bold">{heading}</h1>
-
           <div className="flex flex-col gap-1">
             <p className="normalText">{description}</p>
           </div>
         </div>
         <div className="md:w-full w-full flex justify-center md:justify-end">
-          <img
-            src={contentimg}
-            alt=""
-            className="w-full max-w-[280px] md:max-w-full object-cover"
-          />
+          <img src={contentimg} alt="" className="object-cover" />
         </div>
       </div>
 
