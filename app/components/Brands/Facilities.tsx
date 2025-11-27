@@ -19,7 +19,6 @@ function Facilities({
             key={facility + i}
             className="flex items-start gap-3 bg-white p-4 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
           >
-            <span className="txtColor">✔</span>
             <p className="txtColor normalText">{facility}</p>
           </div>
         ))}
