@@ -1,6 +1,6 @@
 const apiKey = process.env.NEXT_PUBLIC_API_KEY ?? "";
 const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID ?? "contact_us";
-const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID ?? "template_nj2d17b";
+const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID ?? "template_3rj0zua";
 
 // Validate that required environment variables are set
 if (!apiKey) {
