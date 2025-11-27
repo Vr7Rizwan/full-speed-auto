@@ -21,91 +21,91 @@ export const commonServices: {
   link: string;
   description: string;
 }[] = [
-  {
-    name: "Radiator Repair and Service",
-    link: "/services/radiator-repair-service",
-    description:
-      "Efficient radiator inspection, repair, and maintenance to keep your engine cool and prevent overheating.",
-  },
-  {
-    name: "Ceramic Coating",
-    link: "/services/ceramic-coating",
-    description:
-      "High-quality ceramic coating for long-lasting paint protection and enhanced vehicle shine.",
-  },
-  {
-    name: "AC Repair and Maintenance",
-    link: "/services/ac-repair-maintenance",
-    description:
-      "Professional air conditioning service to ensure optimal cooling performance and comfort.",
-  },
-  {
-    name: "Engine and ECU Service",
-    link: "/services/engine-ecu-service",
-    description:
-      "Comprehensive engine and ECU diagnostics and repairs to maintain peak performance and efficiency.",
-  },
-  {
-    name: "Brake System Service",
-    link: "/services/brake-system-service",
-    description:
-      "Complete brake inspections and repairs for reliable stopping power and safety.",
-  },
-  {
-    name: "Transmission and Gearbox Repair",
-    link: "/services/transmission-gearbox-repair",
-    description:
-      "Expert transmission and gearbox maintenance to ensure smooth shifting and long-term reliability.",
-  },
-  {
-    name: "Suspension and Steering Maintenance",
-    link: "/services/suspension-steering-maintenance",
-    description:
-      "Thorough suspension and steering checks to maintain handling, comfort, and vehicle stability.",
-  },
-  {
-    name: "Oil Change and Fluid Checks",
-    link: "/services/oil-change-fluid-checks",
-    description:
-      "Regular oil changes and fluid inspections to protect your engine and ensure smooth operation.",
-  },
-  {
-    name: "Electrical and Comfort Systems",
-    link: "/services/electrical-comfort-systems",
-    description:
-      "Repair and maintenance of all electrical and comfort systems for optimal functionality.",
-  },
-  {
-    name: "Fuel Injection Service",
-    link: "/services/fuel-injection-service",
-    description:
-      "Efficient fuel injection cleaning and tuning to maximize engine efficiency and performance.",
-  },
-  {
-    name: "Pre Purchase Inspection and Diagnostics",
-    link: "/services/pre-purchase-inspection-diagnostics",
-    description:
-      "Thorough vehicle inspections and diagnostics to help make informed buying decisions.",
-  },
-  {
-    name: "Performance Tuning and ECU Upgrade",
-    link: "/services/performance-tuning-ecu-upgrade",
-    description:
-      "Expert ECU tuning and performance enhancements to boost power, efficiency, and driving dynamics.",
-  },
-  {
-    name: "Paint Protection and Coatings",
-    link: "/services/paint-protection-coatings",
-    description:
-      "Professional paint protection and coating applications to preserve your vehicle’s finish and shine.",
-  },
-  {
-    name: "Alloy Wheel Repair and Refurbishment",
-    link: "/services/alloy-wheel-repair-refurbishment",
-    description:
-      "Alloy wheel repair and refurbishment for improved appearance, safety, and durability.",
-  },
-];
+    {
+      name: "Radiator Repair and Service",
+      link: "/services/radiator-repair-service",
+      description:
+        "Efficient radiator inspection, repair, and maintenance to keep your engine cool and prevent overheating.",
+    },
+    {
+      name: "Ceramic Coating",
+      link: "/services/ceramic-coating",
+      description:
+        "High-quality ceramic coating for long-lasting paint protection and enhanced vehicle shine.",
+    },
+    {
+      name: "AC Repair and Maintenance",
+      link: "/services/ac-repair-maintenance",
+      description:
+        "Professional air conditioning service to ensure optimal cooling performance and comfort.",
+    },
+    {
+      name: "Engine and ECU Service",
+      link: "/services/engine-ecu-service",
+      description:
+        "Comprehensive engine and ECU diagnostics and repairs to maintain peak performance and efficiency.",
+    },
+    {
+      name: "Brake System Service",
+      link: "/services/brake-system-service",
+      description:
+        "Complete brake inspections and repairs for reliable stopping power and safety.",
+    },
+    {
+      name: "Transmission and Gearbox Repair",
+      link: "/services/transmission-gearbox-repair",
+      description:
+        "Expert transmission and gearbox maintenance to ensure smooth shifting and long-term reliability.",
+    },
+    {
+      name: "Suspension and Steering Maintenance",
+      link: "/services/suspension-steering-maintenance",
+      description:
+        "Thorough suspension and steering checks to maintain handling, comfort, and vehicle stability.",
+    },
+    {
+      name: "Oil Change and Fluid Checks",
+      link: "/services/oil-change-fluid-checks",
+      description:
+        "Regular oil changes and fluid inspections to protect your engine and ensure smooth operation.",
+    },
+    {
+      name: "Electrical and Comfort Systems",
+      link: "/services/electrical-comfort-systems",
+      description:
+        "Repair and maintenance of all electrical and comfort systems for optimal functionality.",
+    },
+    {
+      name: "Fuel Injection Service",
+      link: "/services/fuel-injection-service",
+      description:
+        "Efficient fuel injection cleaning and tuning to maximize engine efficiency and performance.",
+    },
+    {
+      name: "Pre Purchase Inspection and Diagnostics",
+      link: "/services/pre-purchase-inspection-diagnostics",
+      description:
+        "Thorough vehicle inspections and diagnostics to help make informed buying decisions.",
+    },
+    {
+      name: "Performance Tuning and ECU Upgrade",
+      link: "/services/performance-tuning-ecu-upgrade",
+      description:
+        "Expert ECU tuning and performance enhancements to boost power, efficiency, and driving dynamics.",
+    },
+    {
+      name: "Paint Protection and Coatings",
+      link: "/services/paint-protection-coatings",
+      description:
+        "Professional paint protection and coating applications to preserve your vehicle’s finish and shine.",
+    },
+    {
+      name: "Alloy Wheel Repair and Refurbishment",
+      link: "/services/alloy-wheel-repair-refurbishment",
+      description:
+        "Alloy wheel repair and refurbishment for improved appearance, safety, and durability.",
+    },
+  ];
 const brandsData: BrandType[] = [
   {
     name: "Audi",
