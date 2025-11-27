@@ -4,25 +4,38 @@ import { useState } from "react";
 const Services = ({
   Services,
   brand,
+  expertService,
 }: {
   Services: { name: string; link: string; description: string }[] | undefined;
   brand?: string;
+  expertService?: { title: string; description: string };
 }) => {
   const [flip, setFlip] = useState<number | null>(null);
   return (
     <section className="w-full py-16 px-6 md:px-12 bg-gray-50">
       {Services && (
         <div>
-          <div className="mb-12">
-            <h1 className="subHeading font-bold text-txtColor mb-3">
-              Automotive Solutions
-            </h1>
-            <p className="text-txtColor normalText">
-              Expert care for maintenance, repairs, and performance upgrades,
-              ensuring your vehicle runs smoothly, stays reliable, and delivers
-              its full potential.
-            </p>
-          </div>
+          {expertService ? (
+            <div className="mb-12">
+              <h1 className="subHeading font-bold text-txtColor mb-3">
+                {expertService.title}
+              </h1>
+              <p className="text-txtColor normalText">
+                {expertService.description}
+              </p>
+            </div>
+          ) : (
+            <div className="mb-12">
+              <h1 className="subHeading font-bold text-txtColor mb-3">
+                Automotive Solutions
+              </h1>
+              <p className="text-txtColor normalText">
+                Expert care for maintenance, repairs, and performance upgrades,
+                ensuring your vehicle runs smoothly, stays reliable, and
+                delivers its full potential.
+              </p>
+            </div>
+          )}
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {Services.map((value, i) => (

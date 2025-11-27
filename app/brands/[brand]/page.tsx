@@ -5,6 +5,8 @@ import CarWorkshopForm from "@/app/components/CarWorkshopForm";
 import Faq from "@/app/components/Faq";
 import WhyChooseUS from "@/app/components/WhyChooseUS";
 import { commonServices, findBrand } from "@/app/resources/brands";
+import WhatCanYouExpect from "@/app/components/Brands/WhatCanYouExpect";
+import Facilities from "@/app/components/Brands/Facilities";
 
 export async function generateMetadata({
   params,
@@ -36,7 +38,18 @@ async function page({ params }: { params: { brand: string } }) {
         heroText={selectedBrand?.heroText}
         description={selectedBrand?.description}
       />
-      <Services Services={commonServices} brand={selectedBrand?.name} />
+      <Services
+        Services={commonServices}
+        brand={selectedBrand?.name}
+        expertService={selectedBrand?.expertServices}
+      />
+      <section className="flex flex-col gap-15 w-[95%] mx-auto py-15">
+        <WhatCanYouExpect whatToExpect={selectedBrand?.whatToExpect} />
+        <Facilities
+          facilities={selectedBrand?.facilities}
+          brand={selectedBrand?.name}
+        />
+      </section>
       <WhyChooseUS whyChooseUs={selectedBrand?.whyChooseUs} />
       <Faq faq={selectedBrand?.faqs} />
       <CarWorkshopForm />
