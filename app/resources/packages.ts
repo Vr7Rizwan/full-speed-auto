@@ -1,15 +1,15 @@
- interface packageTypes {
-    title: string
-    desc: string
-    btn: string
-    image: string
- }
- const packageDetails:packageTypes[] = [
+interface packageTypes {
+  title: string
+  desc: string
+  btn: string
+  image: string
+}
+const packageDetails: packageTypes[] = [
   {
     title: "BODY SHOP OFFERS",
     desc: "Now get 30% off on all bodyshop services while ensuring superior car care. T & C Apply",
     btn: "AVAIL OFFER",
-    image: "/assets/packages/bodyshop.webp",
+    image: "/assets/packages/30-off.webp",
   },
   {
     title: "OIL SERVICE PACKAGE",
@@ -21,9 +21,9 @@
     title: "25% off on Major Services",
     desc: "Regardless of the model of your car, we are offering a 25% discount on any major service. Taking care of your vehicle just got easier. Don’t let this offer pass you by. T&C Apply",
     btn: "AVAIL OFFER",
-    image: "/assets/packages/25-off-on-major-service.webp",
+    image: "/assets/packages/25-off.webp",
   },
-   
+
 ]
 
 export default packageDetails;
