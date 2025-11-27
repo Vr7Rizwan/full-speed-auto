@@ -31,7 +31,7 @@ const page = async ({ params }: { params: { service: string } }) => {
     <div className="bg-gray-50">
       <section className="relative">
         <Banner banner={selectedService.banner} />
-        <h1 className="heading hidden md:block text-primary bg-txtColor/75 backdrop-blur-[2px] rounded-2xl w-[95%] text-center py-10 leading-relaxed font-semibold absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2">
+        <h1 className="heading hidden md:block text-primary bg-txtColor backdrop-blur-[2px] rounded-2xl w-[95%] text-center py-10 leading-relaxed font-semibold absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2">
           {selectedService.heading}
         </h1>
       </section>
