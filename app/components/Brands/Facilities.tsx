@@ -8,9 +8,9 @@ function Facilities({
   brand: string | undefined;
 }) {
   return (
-    <div className="w-[95%] mx-auto py-10 px-6 rounded-2xl bg-gray-50">
+    <div className="w-[95%] flex flex-col gap-4 mx-auto py-10 px-8 rounded-2xl bg-gray-50">
       <h2 className="subHeading font-bold text-txtColor mb-6 text-center">
-        Our Facilities for {brand} Repair and Service
+        Our Facilities for <span className="subHeading font-bold text-secondary mb-6 text-center">{brand} Repair and Service</span>
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6">
