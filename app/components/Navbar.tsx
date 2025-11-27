@@ -101,10 +101,10 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="lg:hidden">
-          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+        <div className="lg:hidden ">
+          <button  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-6 h-6 " />
             ) : (
               <Menu className="w-6 h-6" />
             )}

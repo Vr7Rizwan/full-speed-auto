@@ -17,9 +17,10 @@ function Facilities({
         {facilities?.map((facility, i) => (
           <div
             key={facility + i}
-            className="flex items-start gap-3 bg-white p-4 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
+            className="flex items-start gap-3 bg-white p-5 border border-secondary rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
           >
-            <span className="txtColor">✔</span>
+            {/* <span className="txtColor">✔</span> */}
+           
             <p className="txtColor normalText">{facility}</p>
           </div>
         ))}

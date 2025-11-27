@@ -15,9 +15,9 @@ function WhatCanYouExpect({
         {whatToExpect?.map((item, i) => (
           <div
             key={item + i}
-            className="flex items-start gap-4 p-4 md:p-6 rounded-lg border-l-4 border-secondary shadow-sm hover:shadow-md transition-shadow duration-300"
+            className="flex items-start gap-4 p-4 md:p-6 rounded-lg border-l-4 border-secondary border-r-4 border-b border-t shadow-sm hover:shadow-md transition-shadow duration-300"
           >
-            <div className=" w-8 h-8 flex items-center justify-center rounded-full bg-secondary text-primary font-semibold">
+            <div className="w-8 h-8 flex items-center justify-center rounded-full bg-secondary text-primary font-semibold">
               {i + 1}
             </div>
             <p className="txtColor normalText">{item}</p>
