@@ -50,9 +50,15 @@ const Services = ({
                   }`}
                 >
                   <div className="absolute w-full h-64 bg-primary flex flex-col items-start justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all p-8 border border-secondary">
-                    <h3 className="subHeading font-semibold text-txtColor mb-2">
-                      {brand + " " + value.name}
-                    </h3>
+                    {brand ? (
+                      <h3 className="subHeading font-semibold text-txtColor mb-2">
+                        {brand + " " + value.name}
+                      </h3>
+                    ) : (
+                      <h3 className="subHeading font-semibold text-txtColor mb-2">
+                        {value.name}
+                      </h3>
+                    )}
 
                     <p className="text-txtColor normalText ">
                       {value.description}
