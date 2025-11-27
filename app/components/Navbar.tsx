@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
               {/* Desktop Dropdown */}
               {item.submenu && (
                 <ul
-                  className={`absolute top-[90%] left-0 mt-2 w-[99vw] mx-auto bg-txtColor border border-gray-100 rounded shadow-lg 
+                  className={`absolute top-[90%] left-0 mt-2 w-[98vw] mx-1 bg-txtColor border border-gray-100 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
                     ${
                       item.name === "Brands" || item.name === "Services"
