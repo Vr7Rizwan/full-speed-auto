@@ -1,18 +1,29 @@
+import React from "react";
+
 function WhatCanYouExpect({
   whatToExpect,
 }: {
   whatToExpect: string[] | undefined;
 }) {
   return (
-    <div className="flex flex-col justify-center w-[95%] mx-auto gap-4">
-      <h2 className="subHeading">What can you expect at SPEED FULL AUTO?</h2>
-      <ul>
-        {whatToExpect?.map((eachLine, i) => (
-          <li className="list-disc normalText" key={eachLine + i}>
-            {eachLine}
-          </li>
+    <div className="w-[95%] mx-auto py-12">
+      <h2 className="subHeading font-bold txtColor mb-10 text-center tracking-wide">
+        What You Can Expect at SPEED FULL AUTO
+      </h2>
+
+      <div className="flex flex-col gap-6">
+        {whatToExpect?.map((item, i) => (
+          <div
+            key={item + i}
+            className="flex items-start gap-4 p-4 md:p-6 rounded-lg border-l-4 border-secondary shadow-sm hover:shadow-md transition-shadow duration-300"
+          >
+            <div className=" w-8 h-8 flex items-center justify-center rounded-full bg-secondary text-primary font-semibold">
+              {i + 1}
+            </div>
+            <p className="txtColor normalText">{item}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

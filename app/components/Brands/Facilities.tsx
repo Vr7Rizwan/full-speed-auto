@@ -8,17 +8,22 @@ function Facilities({
   brand: string | undefined;
 }) {
   return (
-    <div className="flex flex-col justify-center w-[95%] mx-auto gap-4">
-      <h2 className="subHeading">
-        Our facilities are geared for your {brand} Repair and Service:
+    <div className="w-[95%] mx-auto py-10">
+      <h2 className="subHeading font-bold txtColor mb-6 text-center">
+        Our Facilities for {brand} Repair and Service
       </h2>
-      <ul>
+
+      <div className="grid md:grid-cols-2 gap-6">
         {facilities?.map((facility, i) => (
-          <li className="list-disc normalText" key={facility + i}>
-            {facility}
-          </li>
+          <div
+            key={facility + i}
+            className="flex items-start gap-3 bg-white p-4 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
+          >
+            <span className="txtColor">✔</span>
+            <p className="txtColor normalText">{facility}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
