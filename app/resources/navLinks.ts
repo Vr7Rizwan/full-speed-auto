@@ -5,6 +5,7 @@ interface NavLinkType {
 }
 
 const navLinks: NavLinkType[] = [
+  { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   {
     name: "Brands",
@@ -23,16 +24,16 @@ const navLinks: NavLinkType[] = [
       ["Lamborghini", "/brands/lamborghini"],
       ["Honda", "/brands/honda"],
       ["Mazda", "/brands/mazda"],
-      ["Bentley","/brands/bentley"],
-      ["Mini Cooper","/brands/mini-cooper"],
-      ["Volkswagen","/brands/volkswagen"],
-      ["Pagani","/brands/pagani"],
-      ["Dodge","/brands/dodge"],
-      ["Bugatti","/brands/bugatti"],
-      ["Jeep","/brands/jeep"],
-      ["McLaren","/brands/mclaren"],
-      ["Range Rover","/brands/range-rover"],
-      ["Rolls Royce","/brands/rolls-royce"],
+      ["Bentley", "/brands/bentley"],
+      ["Mini Cooper", "/brands/mini-cooper"],
+      ["Volkswagen", "/brands/volkswagen"],
+      ["Pagani", "/brands/pagani"],
+      ["Dodge", "/brands/dodge"],
+      ["Bugatti", "/brands/bugatti"],
+      ["Jeep", "/brands/jeep"],
+      ["McLaren", "/brands/mclaren"],
+      ["Range Rover", "/brands/range-rover"],
+      ["Rolls Royce", "/brands/rolls-royce"],
     ],
   },
   {
