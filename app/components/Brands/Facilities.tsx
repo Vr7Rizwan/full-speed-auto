@@ -9,7 +9,7 @@ function Facilities({
 }) {
   return (
     <div className="w-[95%] mx-auto py-10">
-      <h2 className="subHeading font-bold txtColor mb-6 text-center">
+      <h2 className="subHeading font-bold text-txtColor mb-6 text-center">
         Our Facilities for {brand} Repair and Service
       </h2>
 
@@ -17,9 +17,9 @@ function Facilities({
         {facilities?.map((facility, i) => (
           <div
             key={facility + i}
-            className="flex items-start gap-3 bg-white p-5 border border-secondary rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
+            className="flex items-center  gap-3 bg-primary p-4 border border-secondary rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
           >
-            <p className="txtColor normalText">{facility}</p>
+            <p className="text-txtColor normalText">{facility}</p>
           </div>
         ))}
       </div>
