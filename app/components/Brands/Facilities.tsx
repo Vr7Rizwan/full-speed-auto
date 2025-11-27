@@ -8,7 +8,7 @@ function Facilities({
   brand: string | undefined;
 }) {
   return (
-    <div className="w-[95%] mx-auto py-10">
+    <div className="w-[95%] mx-auto py-10 px-6 rounded-2xl bg-gray-50">
       <h2 className="subHeading font-bold text-txtColor mb-6 text-center">
         Our Facilities for {brand} Repair and Service
       </h2>
