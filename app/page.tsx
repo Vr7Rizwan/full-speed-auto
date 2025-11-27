@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <Services Services={commonServices} />
+      <Services Services={commonServices.slice(0, 6)} />
       <WhyChooseUS whyChooseUs={whyChooseUs} />
       <Faq faq={faq} />
       <div className="w-[95%] mx-auto flex flex-col gap-7 md:gap-10 py-7 md:py-10">

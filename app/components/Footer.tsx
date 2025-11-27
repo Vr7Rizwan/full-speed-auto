@@ -14,7 +14,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Facebook className="size-5 hover:text-secondary cursor-pointer" />,
-      href: "https://facebook.com",
+      href: "https://www.facebook.com/100069101524639/about/?_rdr",
     },
     {
       icon: (
@@ -95,7 +95,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-2">
             <Mail className="size-4 text-secondary" />
-            <p className="normalText">info@fullspeedautos.com</p>
+            <p className="normalText">info@speedfullauto.com</p>
           </div>
 
           <div className="flex items-center gap-4 mt-3">

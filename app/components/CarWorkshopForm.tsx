@@ -42,14 +42,14 @@ const CarWorkshopForm = () => {
             <div className="flex items-center gap-3">
               <Mail className="text-secondary mt-1" size={24} />
               <p className="leading-tight normalText">
-                fullspeedauto@gmail.com
+                info@speedfullauto.com
               </p>
             </div>
 
             {/* Social Icons */}
             <div className="flex items-center gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/100069101524639/about/?_rdr"
                 className="p-2 bg-secondary text-black rounded-md hover:bg-secondary"
               >
                 <Facebook size={18} />
