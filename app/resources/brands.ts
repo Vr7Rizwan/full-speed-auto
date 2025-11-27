@@ -8,7 +8,13 @@ export interface BrandType {
   seoTitle?: string;
   seoDescription?: string;
   faqs?: { Question: string; Answer: string }[];
+
+  // New additions
+  expertServices?: { title: string; description: string }[];
+  whatToExpect?: string[];
+  facilities?: string[];
 }
+
 // Common Services (Same for All Brands)
 export const commonServices: { name: string; link: string; description: string }[] = [
   {
@@ -135,6 +141,36 @@ const brandsData: BrandType[] = [
         Answer: "Yes, we provide comprehensive repair and maintenance services for suspension systems, AC units, brakes, transmission, and all major components to ensure your Audi remains in top condition."
       }
     ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Audi Services center in Dubai for Your Vehicle",
+        description: "No matter which Audi model you drive, whether it’s the popular A4, A5, A8, allroad or the Q7, we have the expertise to serve you. With over 18 years of experience in maintaining and repairing Audi vehicles in the UAE, we understand exactly how your Audi runs and the challenges it faces in the hot & humid UAE conditions. We know the problems regularly faced by Audi owners like DSG transmission failure, radiator leaks, coolant leaks, oil leakage, coolant and oil mix, electrical component failure, and ignition coil and spark plugs issues. With regular maintenance and proper timely repairs from the professionals, these problems can be avoided. We offer the below electrical and mechanical repairs for Audi at our Audi garage in Dubai."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Audi repair and service at very competitive rates",
+      "Warranty certificates for 12 months for both labor and parts work after your vehicles are repaired",
+      "A very sophisticated CRM system to keep the history of your car saved forever",
+      "Customer service that treats you like royalty & makes your Audi service experience easier"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop, car garage, and Audi car service center in Dubai",
+      "The ultra-modern, state-of-the-art workshop to handle various Audi models",
+      "18,000 sqm area",
+      "23 vehicle lifters",
+      "A capacity of 60 cars per day",
+      "Engine room dedicated to engine repair, engine refurbishment, or engine replacement",
+      "Highly qualified and certified technicians specialized in the brands we serve",
+      "Spare parts department and own storage",
+      "A professional and multi-cultural team, we speak your language!",
+      "Up to 15,000 different spare parts available in stock"
+    ]
+
   },
 
   {
@@ -188,7 +224,37 @@ const brandsData: BrandType[] = [
         Question: "Do you service BMW hybrid models?",
         Answer: "Yes, we offer comprehensive maintenance and repair services for all BMW hybrid and electric models, including the BMW i-series. Our specialized care ensures these vehicles perform efficiently, reliably, and safely."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert BMW Services center in Dubai for Your Vehicle",
+        description: "No matter which BMW model you drive, whether it’s the popular 3 Series, 5 Series, X5, or i8, Speed Full Auto has the expertise to serve you. With our experience in maintaining and repairing BMW vehicles in the UAE, we understand exactly how your BMW runs and the challenges it faces in the hot & humid UAE conditions. Common issues like engine overheating, transmission faults, electronic malfunctions, brake wear, and suspension problems are handled efficiently by our certified BMW technicians. Regular maintenance and timely repairs ensure your BMW stays in peak condition and delivers the premium performance you expect."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality BMW repair and service at very competitive rates",
+      "Warranty certificates for 12 months for both labor and parts work after your vehicles are repaired",
+      "Advanced CRM system to keep a complete history of your BMW",
+      "Customer service that treats you like royalty, making your BMW service experience seamless"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and BMW service center in Dubai",
+      "State-of-the-art workshop capable of handling all BMW models",
+      "18,000 sqm area dedicated to premium car services",
+      "23 vehicle lifters ensuring smooth workflow",
+      "Capacity to service 60 cars per day",
+      "Specialized engine room for engine repair, refurbishment, or replacement",
+      "Certified BMW technicians with extensive hands-on experience",
+      "Fully stocked spare parts department",
+      "Multi-cultural professional team, fluent in your language",
+      "Up to 15,000 different spare parts available in stock for quick replacements"
     ]
+
   },
 
   {
@@ -243,7 +309,37 @@ const brandsData: BrandType[] = [
         Question: "Do you offer Jaguar performance upgrades?",
         Answer: "Yes, we provide professional ECU tuning and performance enhancement packages to safely improve your Jaguar's power, efficiency, and driving dynamics."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Jaguar Services center in Dubai for Your Vehicle",
+        description: "No matter which Jaguar model you drive, whether it’s the XF, XE, F-PACE, or I-PACE, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Jaguar vehicles in the UAE, we understand the specific needs of these luxury cars in hot and humid conditions. Our certified technicians handle common Jaguar issues such as engine performance, electrical systems, transmission care, brake and suspension problems, ensuring your vehicle runs smoothly. Regular maintenance and professional repairs help your Jaguar maintain its elegance, reliability, and premium driving experience."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Jaguar repair and service at very competitive rates",
+      "12-month warranty certificates for both labor and parts after repair",
+      "Advanced CRM system maintaining full history of your Jaguar",
+      "Customer service that treats you like royalty, making your Jaguar experience effortless"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Jaguar service center in Dubai",
+      "Ultra-modern workshop capable of servicing all Jaguar models",
+      "18,000 sqm area dedicated to premium vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service 60 cars per day",
+      "Specialized engine room for engine repair, refurbishment, or replacement",
+      "Highly qualified and certified Jaguar technicians",
+      "Fully stocked spare parts department with own storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 different spare parts available in stock for immediate replacement"
     ]
+
   },
 
   {
@@ -297,7 +393,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Maserati servicing take?",
         Answer: "Most services are completed within 1 to 2 hours depending on the inspection and type of work required, with detailed service reports provided for full transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Maserati Services center in Dubai for Your Vehicle",
+        description: "No matter which Maserati model you drive, whether it’s the Ghibli, Quattroporte, Levante, or GranTurismo, Speed Full Auto has the expertise to serve you. With over 18 years of experience in maintaining and repairing Maserati vehicles in the UAE, we understand the performance-focused engineering and the challenges these cars face in hot and humid conditions. From electrical issues and suspension faults to brake wear, overheating, and transmission problems, our certified technicians know exactly how to keep your Maserati running at its best. With regular maintenance and timely repairs, your Maserati stays powerful, smooth, and reliable."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Maserati repair and service at highly competitive rates",
+      "12-month warranty certificates for both labor and parts after repairs",
+      "Advanced CRM system to securely store your Maserati’s full service history",
+      "Premium customer service that treats you like royalty for a smooth, stress-free experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Maserati service center in Dubai",
+      "State-of-the-art workshop designed to handle all Maserati models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters for fast and efficient service flow",
+      "Daily capacity to service up to 60 vehicles",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Maserati technicians with deep expertise",
+      "In-house spare parts department and secure storage facility",
+      "Professional and multi-cultural team that speaks your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
 
   {
@@ -351,7 +477,37 @@ const brandsData: BrandType[] = [
         Question: "Do you offer Maybach tuning?",
         Answer: "Yes, we provide professional ECU tuning and performance upgrade packages, designed to safely enhance your Maybach’s power, handling, and overall driving dynamics."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Maybach Services center in Dubai for Your Vehicle",
+        description: "No matter which Maybach model you drive, whether it’s the S-Class Maybach or GLS Maybach, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing luxury vehicles in the UAE, we understand the high standards and precision engineering of Maybach cars. Our certified technicians handle common issues such as electronic system faults, engine performance, suspension, brakes, and transmission, ensuring your Maybach delivers the ultimate comfort and performance. Regular maintenance and professional care keep your Maybach running flawlessly."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Maybach repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Maybach",
+      "Premium customer service that treats you like royalty for a seamless service experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Maybach service center in Dubai",
+      "State-of-the-art workshop equipped for all Maybach models",
+      "18,000 sqm area dedicated to premium vehicle care",
+      "23 vehicle lifters for efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Maybach technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
 
   {
@@ -396,7 +552,7 @@ const brandsData: BrandType[] = [
         Question: "Do you repair Mercedes electrical issues?",
         Answer: "Absolutely. We handle all electrical system repairs including ECUs, sensors, wiring faults, and other advanced electronic components with professional care."
       },
-      
+
       {
         Question: "Do you fix Mercedes air suspension?",
         Answer: "Yes, we service all AIRMATIC and ABC suspension systems, ensuring optimal comfort, handling, and ride stability."
@@ -405,7 +561,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Mercedes servicing take?",
         Answer: "Routine maintenance typically takes 1 to 2 hours depending on the inspection and services required, with detailed reporting for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Mercedes Services center in Dubai for Your Vehicle",
+        description: "No matter which Mercedes model you drive, whether it’s the C-Class, E-Class, S-Class, GLE, or AMG series, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Mercedes vehicles in the UAE, we understand the engineering excellence and performance expectations of these luxury cars. Our certified technicians handle common issues such as engine diagnostics, transmission faults, electronic malfunctions, suspension, and brake systems. Regular maintenance and professional repairs ensure your Mercedes delivers smooth, reliable, and premium performance at all times."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Mercedes repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to keep your Mercedes’ full service history",
+      "Premium customer service that treats you like royalty and ensures a smooth experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Mercedes service center in Dubai",
+      "Ultra-modern workshop capable of servicing all Mercedes models",
+      "18,000 sqm area dedicated to premium vehicle care",
+      "23 vehicle lifters for efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Mercedes technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
 
   {
@@ -459,7 +645,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Porsche maintenance take?",
         Answer: "Routine Porsche services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Porsche Services center in Dubai for Your Vehicle",
+        description: "No matter which Porsche model you drive, whether it’s the 911, Cayenne, Macan, or Panamera, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Porsche vehicles in the UAE, we understand the precision engineering and high-performance demands of these luxury sports cars. Our certified technicians handle common issues such as engine performance, transmission care, brake systems, suspension, and electrical components. Regular maintenance and professional repairs ensure your Porsche continues to deliver exceptional performance and reliability."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Porsche repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Porsche",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Porsche service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Porsche models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring smooth workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Porsche technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
   {
     name: "ferrari",
@@ -512,7 +728,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Ferrari maintenance take?",
         Answer: "Routine Ferrari services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Ferrari Services center in Dubai for Your Vehicle",
+        description: "No matter which Ferrari model you drive, whether it’s the 488, F8 Tributo, Portofino, or SF90 Stradale, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Ferrari vehicles in the UAE, we understand the high-performance engineering and precision required by these luxury sports cars. Our certified technicians handle common issues such as engine tuning, transmission, suspension, brakes, and electronic systems. Regular maintenance and professional care ensure your Ferrari delivers peak performance, reliability, and the ultimate driving experience."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Ferrari repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Ferrari",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Ferrari service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Ferrari models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Ferrari technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
   {
     name: "hyundai",
@@ -565,7 +811,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Hyundai maintenance take?",
         Answer: "Routine Hyundai services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Hyundai Services center in Dubai for Your Vehicle",
+        description: "No matter which Hyundai model you drive, whether it’s the Elantra, Tucson, Santa Fe, or Palisade, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Hyundai vehicles in the UAE, we understand their performance requirements and common issues in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electrical system repairs efficiently. Regular maintenance and professional care ensure your Hyundai remains reliable, safe, and performs at its best."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Hyundai repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Hyundai",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent Hyundai service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Hyundai models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Hyundai technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
     ]
+
   },
   {
     name: "toyota",
@@ -617,7 +893,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Toyota maintenance take?",
         Answer: "Routine Toyota services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Toyota Services center in Dubai for Your Vehicle",
+        description: "No matter which Toyota model you drive, whether it’s the Corolla, Camry, RAV4, Land Cruiser, or Prado, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Toyota vehicles in the UAE, we understand their durability and common challenges in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electrical system repairs efficiently. Regular maintenance and professional care ensure your Toyota remains reliable, safe, and performs at its best."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Toyota repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Toyota",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent Toyota service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Toyota models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Toyota technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
     ]
+
   },
   {
     name: "lamborghini",
@@ -669,7 +975,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Lamborghini maintenance take?",
         Answer: "Routine Lamborghini services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Lamborghini Services center in Dubai for Your Vehicle",
+        description: "No matter which Lamborghini model you drive, whether it’s the Huracán, Aventador, Urus, or Gallardo, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Lamborghini vehicles in the UAE, we understand the high-performance engineering and luxury standards these cars demand. Our certified technicians handle engine tuning, transmission, brakes, suspension, and advanced electronic systems. Regular maintenance and professional care ensure your Lamborghini delivers peak performance, reliability, and the ultimate driving experience."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Lamborghini repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Lamborghini",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Lamborghini service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Lamborghini models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Lamborghini technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
     ]
+
   },
   {
     name: "honda",
@@ -721,7 +1057,37 @@ const brandsData: BrandType[] = [
         Question: "How long does Honda maintenance take?",
         Answer: "Routine Honda services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Honda Services center in Dubai for Your Vehicle",
+        description: "No matter which Honda model you drive, whether it’s the Civic, Accord, CR-V, or Pilot, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Honda vehicles in the UAE, we understand their reliability and common issues in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electrical system repairs efficiently. Regular maintenance and professional care ensure your Honda remains safe, reliable, and performs at its best."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Honda repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Honda",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent Honda service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Honda models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Honda technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
     ]
+
   },
 
   {
@@ -774,573 +1140,903 @@ const brandsData: BrandType[] = [
         Question: "How long does Mazda maintenance take?",
         Answer: "Routine Mazda services typically take 1 to 2 hours depending on inspection and specific maintenance needs, with detailed reports provided for transparency."
       }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Mazda Services center in Dubai for Your Vehicle",
+        description: "No matter which Mazda model you drive, whether it’s the CX-5, Mazda3, Mazda6, or CX-9, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Mazda vehicles in the UAE, we understand their performance and reliability requirements in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electrical system repairs efficiently. Regular maintenance and professional care ensure your Mazda remains safe, reliable, and performs at its best."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Mazda repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Mazda",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent Mazda service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Mazda models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Mazda technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
     ]
+
   },
-{
-  name: "bentley",
-  banner: "/assets/brands/bentley.webp",
-  heading: "Bentley Expert Maintenance and Repairs",
-  heroText:
-    "Certified Bentley care with genuine parts, precision diagnostics, and premium maintenance for unmatched performance and reliability.",
+  {
+    name: "bentley",
+    banner: "/assets/brands/bentley.webp",
+    heading: "Bentley Expert Maintenance and Repairs",
+    heroText:
+      "Certified Bentley care with genuine parts, precision diagnostics, and premium maintenance for unmatched performance and reliability.",
 
-  description:
-    "Our Bentley service center delivers world-class maintenance and repair solutions tailored for all Bentley models, ensuring your luxury vehicle remains powerful, refined, and exceptionally reliable. From routine servicing to advanced engine, suspension, transmission, and electrical system repairs, our certified Bentley specialists handle every task with unmatched precision. We use cutting-edge diagnostic tools, factory-approved equipment, and 100% genuine Bentley components to maintain peak performance and driving comfort. Our services include engine oil changes, brake servicing, suspension calibration, transmission maintenance, AC inspection, battery diagnostics, electrical system repairs, and complete performance evaluations. Each service guarantees a seamless, premium experience for Bentley owners in Dubai, ensuring your vehicle stays elegant, efficient, and performing at its highest standard.",
+    description:
+      "Our Bentley service center delivers world-class maintenance and repair solutions tailored for all Bentley models, ensuring your luxury vehicle remains powerful, refined, and exceptionally reliable. From routine servicing to advanced engine, suspension, transmission, and electrical system repairs, our certified Bentley specialists handle every task with unmatched precision. We use cutting-edge diagnostic tools, factory-approved equipment, and 100% genuine Bentley components to maintain peak performance and driving comfort. Our services include engine oil changes, brake servicing, suspension calibration, transmission maintenance, AC inspection, battery diagnostics, electrical system repairs, and complete performance evaluations. Each service guarantees a seamless, premium experience for Bentley owners in Dubai, ensuring your vehicle stays elegant, efficient, and performing at its highest standard.",
 
-  whyChooseUs: [
-    {
-      title: "Certified Bentley Technicians",
-      text: "Our highly trained Bentley-certified technicians bring extensive experience and elite expertise in servicing all Bentley models, including Continental, Bentayga, Flying Spur, and Mulsanne. Every maintenance and repair task is executed with precision, ensuring your vehicle maintains its luxury performance, safety, and refinement. Our experts continuously stay updated with Bentley’s latest engineering standards and service protocols to deliver uncompromised quality."
-    },
-    {
-      title: "Advanced Bentley Diagnostics",
-      text: "We utilize Bentley-approved diagnostic systems that provide accurate, real-time assessments of your vehicle’s performance and health. This allows our specialists to identify issues quickly and deliver precise, effective repairs. Each diagnostic procedure is carried out with professionalism and technical accuracy, ensuring your Bentley continues to offer smooth power delivery, safety, and exceptional road performance."
-    },
-    {
-      title: "Genuine Bentley Parts Only",
-      text: "To preserve the luxury, durability, and engineering excellence of your Bentley, we install only 100% genuine Bentley OEM parts. Every component is engineered to perfection, ensuring optimal fitment, long-lasting reliability, and top-tier performance. By using authentic Bentley parts, we safeguard your vehicle’s value, safety, and signature driving experience."
-    }
-  ],
+    whyChooseUs: [
+      {
+        title: "Certified Bentley Technicians",
+        text: "Our highly trained Bentley-certified technicians bring extensive experience and elite expertise in servicing all Bentley models, including Continental, Bentayga, Flying Spur, and Mulsanne. Every maintenance and repair task is executed with precision, ensuring your vehicle maintains its luxury performance, safety, and refinement. Our experts continuously stay updated with Bentley’s latest engineering standards and service protocols to deliver uncompromised quality."
+      },
+      {
+        title: "Advanced Bentley Diagnostics",
+        text: "We utilize Bentley-approved diagnostic systems that provide accurate, real-time assessments of your vehicle’s performance and health. This allows our specialists to identify issues quickly and deliver precise, effective repairs. Each diagnostic procedure is carried out with professionalism and technical accuracy, ensuring your Bentley continues to offer smooth power delivery, safety, and exceptional road performance."
+      },
+      {
+        title: "Genuine Bentley Parts Only",
+        text: "To preserve the luxury, durability, and engineering excellence of your Bentley, we install only 100% genuine Bentley OEM parts. Every component is engineered to perfection, ensuring optimal fitment, long-lasting reliability, and top-tier performance. By using authentic Bentley parts, we safeguard your vehicle’s value, safety, and signature driving experience."
+      }
+    ],
 
-  seoTitle: "Bentley Service Dubai | Luxury Bentley Maintenance and Repairs",
-  seoDescription:
-    "Premium Bentley maintenance and repair in Dubai. Certified Bentley specialists, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Bentley care.",
+    seoTitle: "Bentley Service Dubai | Luxury Bentley Maintenance and Repairs",
+    seoDescription:
+      "Premium Bentley maintenance and repair in Dubai. Certified Bentley specialists, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Bentley care.",
 
-  faqs: [
-    {
-      Question: "How often should I service my Bentley?",
-      Answer: "Bentley vehicles generally require servicing every 10,000–12,000 km or once a year to maintain optimal performance, safety, and long-term reliability."
-    },
-    {
-      Question: "Do you use genuine Bentley parts?",
-      Answer: "Yes, we use only 100% genuine Bentley OEM components to ensure perfect compatibility, reliability, and performance for your luxury vehicle."
-    },
-    {
-      Question: "Do you offer Bentley diagnostics?",
-      Answer: "Yes, we use advanced Bentley diagnostic tools to accurately identify issues and ensure precise, efficient repairs for your vehicle."
-    },
-    {
-      Question: "Do you repair Bentley engines?",
-      Answer: "Absolutely. We offer complete engine and gearbox repair services for all Bentley models, ensuring smooth performance and long-term reliability."
-    },
-    {
-      Question: "Do you offer Bentley performance checks?",
-      Answer: "Yes, we provide detailed performance inspections, system calibrations, and optimization services to keep your Bentley running at its best."
-    },
-    {
-      Question: "How long does Bentley maintenance take?",
-      Answer: "Routine Bentley maintenance typically takes 1 to 2 hours depending on the required services, followed by a detailed inspection report."
-    }
-  ]
-},
-{
-  name: "mini cooper",
-  banner: "/assets/brands/mini-cooper.webp",
-  heading: "Mini Cooper Expert Maintenance and Repairs",
-  heroText:
-    "Certified Mini Cooper care with genuine parts, precision diagnostics, and expert maintenance to keep your vehicle performing at its best.",
+    faqs: [
+      {
+        Question: "How often should I service my Bentley?",
+        Answer: "Bentley vehicles generally require servicing every 10,000–12,000 km or once a year to maintain optimal performance, safety, and long-term reliability."
+      },
+      {
+        Question: "Do you use genuine Bentley parts?",
+        Answer: "Yes, we use only 100% genuine Bentley OEM components to ensure perfect compatibility, reliability, and performance for your luxury vehicle."
+      },
+      {
+        Question: "Do you offer Bentley diagnostics?",
+        Answer: "Yes, we use advanced Bentley diagnostic tools to accurately identify issues and ensure precise, efficient repairs for your vehicle."
+      },
+      {
+        Question: "Do you repair Bentley engines?",
+        Answer: "Absolutely. We offer complete engine and gearbox repair services for all Bentley models, ensuring smooth performance and long-term reliability."
+      },
+      {
+        Question: "Do you offer Bentley performance checks?",
+        Answer: "Yes, we provide detailed performance inspections, system calibrations, and optimization services to keep your Bentley running at its best."
+      },
+      {
+        Question: "How long does Bentley maintenance take?",
+        Answer: "Routine Bentley maintenance typically takes 1 to 2 hours depending on the required services, followed by a detailed inspection report."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Bentley Services center in Dubai for Your Vehicle",
+        description: "No matter which Bentley model you drive, whether it’s the Continental, Flying Spur, Bentayga, or Mulsanne, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Bentley vehicles in the UAE, we understand the luxury engineering and performance expectations of these cars. Our certified technicians handle engine performance, transmission, brakes, suspension, and advanced electronics. Regular maintenance and professional care ensure your Bentley delivers smooth, reliable, and luxurious driving experiences."
+      }
+    ],
 
-  description:
-    "Our Mini Cooper service center provides complete maintenance and repair solutions for all Mini models, ensuring your vehicle remains responsive, efficient, and fun to drive. Whether it's routine servicing, engine work, suspension tuning, transmission repair, or electrical troubleshooting, our certified Mini technicians handle every task with precision. Using advanced diagnostic tools, factory-approved equipment, and genuine Mini Cooper parts, we maintain your car’s performance, safety, and signature go-kart handling experience. Our services include engine oil changes, brake servicing, suspension checks, transmission maintenance, AC inspection, battery testing, electrical diagnostics, and full performance evaluations. We ensure every Mini Cooper receives premium care, delivering a smooth, reliable, and enjoyable driving experience for owners in Dubai.",
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Bentley repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Bentley",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
 
-  whyChooseUs: [
-    {
-      title: "Certified Mini Cooper Technicians",
-      text: "Our Mini Cooper–certified technicians bring specialized expertise in servicing all Mini models, including Cooper, Cooper S, Clubman, Countryman, and John Cooper Works. Each maintenance and repair service is performed with accuracy and attention to detail, ensuring optimal performance, safety, and longevity. Our team stays updated with Mini’s latest engineering standards and service techniques to provide exceptional care every time."
-    },
-    {
-      title: "Advanced Mini Cooper Diagnostics",
-      text: "We use Mini-approved diagnostic systems capable of detecting even the smallest issues with precision. These advanced tools allow our experts to analyze engine performance, transmission behavior, electrical systems, and onboard sensors in real time. Accurate diagnostics ensure timely repairs, improved reliability, and an optimal driving experience for your Mini Cooper."
-    },
-    {
-      title: "Genuine Mini Cooper Parts Only",
-      text: "To maintain your Mini Cooper’s performance, safety, and value, we install only 100% genuine Mini OEM parts. Each component is engineered for perfect fitment, long-lasting durability, and seamless compatibility with your vehicle. By using authentic Mini parts, we ensure dependable performance, enhanced driving comfort, and long-term reliability."
-    }
-  ],
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Bentley service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Bentley models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Bentley technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
 
-  seoTitle: "Mini Cooper Service Dubai | Expert Mini Maintenance and Repairs",
-  seoDescription:
-    "Professional Mini Cooper maintenance and repair in Dubai. Certified Mini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, and complete Mini servicing.",
+  },
+  {
+    name: "mini cooper",
+    banner: "/assets/brands/mini-cooper.webp",
+    heading: "Mini Cooper Expert Maintenance and Repairs",
+    heroText:
+      "Certified Mini Cooper care with genuine parts, precision diagnostics, and expert maintenance to keep your vehicle performing at its best.",
 
-  faqs: [
-    {
-      Question: "How often should I service my Mini Cooper?",
-      Answer: "Mini Cooper vehicles typically require servicing every 8,000–10,000 km or once a year to maintain peak performance, efficiency, and safety."
-    },
-    {
-      Question: "Do you use genuine Mini Cooper parts?",
-      Answer: "Yes, we use only 100% genuine Mini Cooper OEM components to ensure perfect fit, long-term performance, and factory-level reliability."
-    },
-    {
-      Question: "Do you offer Mini Cooper diagnostics?",
-      Answer: "Absolutely. We use advanced Mini diagnostic tools to accurately identify issues in the engine, transmission, electronics, and performance systems."
-    },
-    {
-      Question: "Do you repair Mini Cooper engines?",
-      Answer: "Yes, we provide complete engine and gearbox repair services for all Mini models, ensuring reliable performance and smooth power delivery."
-    },
-    {
-      Question: "Do you offer Mini Cooper performance checks?",
-      Answer: "Yes, we perform full performance inspections, system calibrations, and handling optimization to keep your Mini Cooper running at its best."
-    },
-    {
-      Question: "How long does Mini Cooper maintenance take?",
-      Answer: "Routine Mini Cooper servicing typically takes 1 to 2 hours, depending on the inspection details and required maintenance tasks."
-    }
-  ]
-},
-{
-  name: "volkswagen",
-  banner: "/assets/brands/volkswagen.webp",
-  heading: "Volkswagen Expert Maintenance and Repairs",
-  heroText:
-    "Certified Volkswagen care with genuine parts, advanced diagnostics, and precision maintenance for reliable and efficient performance.",
+    description:
+      "Our Mini Cooper service center provides complete maintenance and repair solutions for all Mini models, ensuring your vehicle remains responsive, efficient, and fun to drive. Whether it's routine servicing, engine work, suspension tuning, transmission repair, or electrical troubleshooting, our certified Mini technicians handle every task with precision. Using advanced diagnostic tools, factory-approved equipment, and genuine Mini Cooper parts, we maintain your car’s performance, safety, and signature go-kart handling experience. Our services include engine oil changes, brake servicing, suspension checks, transmission maintenance, AC inspection, battery testing, electrical diagnostics, and full performance evaluations. We ensure every Mini Cooper receives premium care, delivering a smooth, reliable, and enjoyable driving experience for owners in Dubai.",
 
-  description:
-    "Our Volkswagen service center provides comprehensive maintenance and repair solutions for all VW models, ensuring your vehicle remains safe, efficient, and smooth on the road. From routine servicing to advanced engine, transmission, brake, and electrical system repairs, our certified Volkswagen technicians deliver expert care with exceptional precision. Using advanced diagnostic technology, manufacturer-approved equipment, and 100% genuine Volkswagen OEM parts, we maintain your vehicle’s performance, comfort, and long-term durability. Our services include oil changes, brake inspections, suspension evaluations, transmission servicing, AC maintenance, battery diagnostics, electrical troubleshooting, and full performance checks. Each service is carefully designed to provide a premium and hassle-free experience for Volkswagen owners in Dubai, ensuring your car performs at its absolute best.",
+    whyChooseUs: [
+      {
+        title: "Certified Mini Cooper Technicians",
+        text: "Our Mini Cooper–certified technicians bring specialized expertise in servicing all Mini models, including Cooper, Cooper S, Clubman, Countryman, and John Cooper Works. Each maintenance and repair service is performed with accuracy and attention to detail, ensuring optimal performance, safety, and longevity. Our team stays updated with Mini’s latest engineering standards and service techniques to provide exceptional care every time."
+      },
+      {
+        title: "Advanced Mini Cooper Diagnostics",
+        text: "We use Mini-approved diagnostic systems capable of detecting even the smallest issues with precision. These advanced tools allow our experts to analyze engine performance, transmission behavior, electrical systems, and onboard sensors in real time. Accurate diagnostics ensure timely repairs, improved reliability, and an optimal driving experience for your Mini Cooper."
+      },
+      {
+        title: "Genuine Mini Cooper Parts Only",
+        text: "To maintain your Mini Cooper’s performance, safety, and value, we install only 100% genuine Mini OEM parts. Each component is engineered for perfect fitment, long-lasting durability, and seamless compatibility with your vehicle. By using authentic Mini parts, we ensure dependable performance, enhanced driving comfort, and long-term reliability."
+      }
+    ],
 
-  whyChooseUs: [
-    {
-      title: "Certified Volkswagen Technicians",
-      text: "Our team of Volkswagen-certified technicians has extensive experience with all VW models, including Golf, Passat, Jetta, Tiguan, Touareg, Polo, and Arteon. Every maintenance or repair task is executed with meticulous attention to detail to preserve your vehicle’s reliability, safety, and driving comfort. Our experts stay updated with the latest Volkswagen technology and service protocols to ensure top-tier care."
-    },
-    {
-      title: "Advanced Volkswagen Diagnostics",
-      text: "We use Volkswagen-approved diagnostic systems to evaluate your vehicle’s performance with accuracy and speed. These advanced tools help identify issues in the engine, transmission, electronics, and onboard sensors in real time. With precise diagnostics, we deliver accurate repairs that enhance your car’s dependability, fuel efficiency, and overall performance."
-    },
-    {
-      title: "Genuine Volkswagen Parts Only",
-      text: "To ensure optimal performance, safety, and long-term durability, we install only 100% genuine Volkswagen OEM parts. Each component is engineered to match VW standards for perfect fitment and reliability. By using authentic parts, we maintain your Volkswagen’s value, efficiency, and signature driving experience."
-    }
-  ],
+    seoTitle: "Mini Cooper Service Dubai | Expert Mini Maintenance and Repairs",
+    seoDescription:
+      "Professional Mini Cooper maintenance and repair in Dubai. Certified Mini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, and complete Mini servicing.",
 
-  seoTitle: "Volkswagen Service Dubai | Expert VW Maintenance and Repairs",
-  seoDescription:
-    "Professional Volkswagen maintenance and repair in Dubai. Certified VW technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Volkswagen servicing.",
+    faqs: [
+      {
+        Question: "How often should I service my Mini Cooper?",
+        Answer: "Mini Cooper vehicles typically require servicing every 8,000–10,000 km or once a year to maintain peak performance, efficiency, and safety."
+      },
+      {
+        Question: "Do you use genuine Mini Cooper parts?",
+        Answer: "Yes, we use only 100% genuine Mini Cooper OEM components to ensure perfect fit, long-term performance, and factory-level reliability."
+      },
+      {
+        Question: "Do you offer Mini Cooper diagnostics?",
+        Answer: "Absolutely. We use advanced Mini diagnostic tools to accurately identify issues in the engine, transmission, electronics, and performance systems."
+      },
+      {
+        Question: "Do you repair Mini Cooper engines?",
+        Answer: "Yes, we provide complete engine and gearbox repair services for all Mini models, ensuring reliable performance and smooth power delivery."
+      },
+      {
+        Question: "Do you offer Mini Cooper performance checks?",
+        Answer: "Yes, we perform full performance inspections, system calibrations, and handling optimization to keep your Mini Cooper running at its best."
+      },
+      {
+        Question: "How long does Mini Cooper maintenance take?",
+        Answer: "Routine Mini Cooper servicing typically takes 1 to 2 hours, depending on the inspection details and required maintenance tasks."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Mini Cooper Services center in Dubai for Your Vehicle",
+        description: "No matter which Mini Cooper model you drive, whether it’s the Cooper, Cooper S, Clubman, or Countryman, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Mini vehicles in the UAE, we understand their compact engineering, performance requirements, and common challenges in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electronic systems. Regular maintenance and professional care ensure your Mini Cooper remains reliable, safe, and delivers a fun driving experience."
+      }
+    ],
 
-  faqs: [
-    {
-      Question: "How often should I service my Volkswagen?",
-      Answer: "Volkswagen vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model requirements."
-    },
-    {
-      Question: "Do you use genuine Volkswagen parts?",
-      Answer: "Yes, we use only 100% genuine Volkswagen OEM components to ensure maximum reliability, durability, and compatibility."
-    },
-    {
-      Question: "Do you offer Volkswagen diagnostics?",
-      Answer: "Absolutely. We use Volkswagen-approved diagnostic tools to identify engine, transmission, electrical, and system-related issues with precision."
-    },
-    {
-      Question: "Do you repair Volkswagen engines?",
-      Answer: "Yes, we provide comprehensive engine and gearbox repair services for all Volkswagen models, ensuring smooth, reliable performance."
-    },
-    {
-      Question: "Do you offer Volkswagen performance checks?",
-      Answer: "Yes, we perform detailed performance inspections, system calibrations, and efficiency evaluations to keep your Volkswagen in peak condition."
-    },
-    {
-      Question: "How long does Volkswagen maintenance take?",
-      Answer: "Routine Volkswagen servicing typically takes 1 to 2 hours based on the maintenance requirements and diagnostic findings."
-    }
-  ]
-},
-{
-  name: "pagani",
-  banner: "/assets/brands/pagani.webp",
-  heading: "Pagani Expert Maintenance and Hypercar Repairs",
-  heroText:
-    "Certified Pagani care with genuine components, precision diagnostics, and hypercar-grade maintenance for unmatched performance and craftsmanship.",
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Mini Cooper repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Mini Cooper",
+      "Friendly and professional customer service ensuring a seamless experience"
+    ],
 
-  description:
-    "Our Pagani service center delivers ultra-premium maintenance and repair solutions designed specifically for Pagani hypercars, including the Huayra and Zonda series. Known for their hand-built craftsmanship, advanced aerodynamics, and unmatched performance, Pagani vehicles require specialized expertise and meticulous care. Our factory-trained technicians use advanced diagnostic systems, manufacturer-approved tools, and 100% genuine Pagani components to ensure flawless performance, safety, and authenticity. We provide hypercar-level services such as performance evaluations, engine and gearbox repairs, suspension calibration, braking system tuning, electrical diagnostics, carbon-fiber inspection, AC servicing, battery testing, and complete aerodynamic system assessments. Each service is executed with extreme precision, offering Pagani owners in Dubai a seamless and world-class maintenance experience that preserves the vehicle’s exclusivity, power, and engineering excellence.",
+    // 3. Facilities
+    facilities: [
+      "Largest independent Mini Cooper service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Mini Cooper models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Mini Cooper technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
+    ]
 
-  whyChooseUs: [
-    {
-      title: "Certified Pagani Hypercar Technicians",
-      text: "Our team of Pagani-certified specialists is trained specifically to handle the engineering complexity and handcrafted components of Pagani hypercars. From AMG-engine servicing to carbon-fiber chassis maintenance, every procedure is performed with unmatched precision and attention to detail. Our technicians stay updated with the latest Pagani engineering standards to ensure your hypercar receives elite-level care at all times."
-    },
-    {
-      title: "Advanced Pagani Diagnostics",
-      text: "We use Pagani-approved diagnostic systems capable of analyzing engine behavior, aerodynamics, electronics, suspension dynamics, and high-performance systems in real time. These tools allow our experts to identify even the smallest irregularities, ensuring accurate, performance-focused repairs while maintaining the hypercar’s structural integrity and engineering perfection."
-    },
-    {
-      title: "Genuine Pagani Parts Only",
-      text: "To preserve the exclusivity, performance, and craftsmanship of your Pagani, we install only 100% genuine Pagani OEM parts. Each component—from carbon-fiber elements to AMG-engine parts—is engineered for hyper-precision, durability, and optimal compatibility. Using authentic parts guarantees your Pagani retains its value, power, and hypercar-grade performance."
-    }
-  ],
+  },
+  {
+    name: "volkswagen",
+    banner: "/assets/brands/volkswagen.webp",
+    heading: "Volkswagen Expert Maintenance and Repairs",
+    heroText:
+      "Certified Volkswagen care with genuine parts, advanced diagnostics, and precision maintenance for reliable and efficient performance.",
 
-  seoTitle: "Pagani Service Dubai | Expert Pagani Hypercar Maintenance and Repairs",
-  seoDescription:
-    "Premium Pagani maintenance and repair in Dubai. Certified Pagani technicians, genuine parts, advanced diagnostics, engine, carbon-fiber, suspension, brakes, and complete hypercar servicing.",
+    description:
+      "Our Volkswagen service center provides comprehensive maintenance and repair solutions for all VW models, ensuring your vehicle remains safe, efficient, and smooth on the road. From routine servicing to advanced engine, transmission, brake, and electrical system repairs, our certified Volkswagen technicians deliver expert care with exceptional precision. Using advanced diagnostic technology, manufacturer-approved equipment, and 100% genuine Volkswagen OEM parts, we maintain your vehicle’s performance, comfort, and long-term durability. Our services include oil changes, brake inspections, suspension evaluations, transmission servicing, AC maintenance, battery diagnostics, electrical troubleshooting, and full performance checks. Each service is carefully designed to provide a premium and hassle-free experience for Volkswagen owners in Dubai, ensuring your car performs at its absolute best.",
 
-  faqs: [
-    {
-      Question: "How often should I service my Pagani?",
-      Answer: "Pagani hypercars typically require servicing every 7,000–10,000 km or once a year, depending on usage and performance conditions."
-    },
-    {
-      Question: "Do you use genuine Pagani parts?",
-      Answer: "Yes, we use only 100% genuine Pagani OEM components to maintain hypercar-grade performance, safety, and engineering quality."
-    },
-    {
-      Question: "Do you offer Pagani diagnostics?",
-      Answer: "Absolutely. We use Pagani-approved diagnostic tools to analyze engine performance, electronics, aerodynamics, and high-precision systems with extreme accuracy."
-    },
-    {
-      Question: "Do you repair Pagani engines?",
-      Answer: "Yes, we provide specialized engine and gearbox repair services designed specifically for AMG-powered Pagani hypercars, ensuring unmatched power and reliability."
-    },
-    {
-      Question: "Do you offer Pagani performance checks?",
-      Answer: "Yes, we offer detailed performance assessments, aerodynamic evaluations, system calibrations, and optimization services to maintain your Pagani’s hypercar-level performance."
-    },
-    {
-      Question: "How long does Pagani maintenance take?",
-      Answer: "Routine Pagani servicing typically takes 2–4 hours due to the vehicle’s complexity and the precision required for every inspection."
-    }
-  ]
-},
-{
-  name: "dodge",
-  banner: "/assets/brands/dodge.webp",
-  heading: "Dodge Expert Maintenance and Performance Repairs",
-  heroText:
-    "Certified Dodge care with genuine parts, advanced diagnostics, and performance-focused maintenance for powerful and reliable driving.",
+    whyChooseUs: [
+      {
+        title: "Certified Volkswagen Technicians",
+        text: "Our team of Volkswagen-certified technicians has extensive experience with all VW models, including Golf, Passat, Jetta, Tiguan, Touareg, Polo, and Arteon. Every maintenance or repair task is executed with meticulous attention to detail to preserve your vehicle’s reliability, safety, and driving comfort. Our experts stay updated with the latest Volkswagen technology and service protocols to ensure top-tier care."
+      },
+      {
+        title: "Advanced Volkswagen Diagnostics",
+        text: "We use Volkswagen-approved diagnostic systems to evaluate your vehicle’s performance with accuracy and speed. These advanced tools help identify issues in the engine, transmission, electronics, and onboard sensors in real time. With precise diagnostics, we deliver accurate repairs that enhance your car’s dependability, fuel efficiency, and overall performance."
+      },
+      {
+        title: "Genuine Volkswagen Parts Only",
+        text: "To ensure optimal performance, safety, and long-term durability, we install only 100% genuine Volkswagen OEM parts. Each component is engineered to match VW standards for perfect fitment and reliability. By using authentic parts, we maintain your Volkswagen’s value, efficiency, and signature driving experience."
+      }
+    ],
 
-  description:
-    "Our Dodge service center offers complete maintenance and repair solutions for all Dodge models, including Charger, Challenger, Durango, Ram, and Hellcat variants. Known for their powerful engines, bold performance, and muscular design, Dodge vehicles require precise workmanship and advanced technical expertise. Our certified Dodge technicians use high-end diagnostic tools, factory-approved equipment, and 100% genuine Dodge components to ensure exceptional performance, safety, and long-term reliability. We provide a wide range of services including engine oil changes, brake servicing, suspension tuning, transmission repairs, ECU diagnostics, AC servicing, electrical troubleshooting, battery testing, and full performance evaluations. Each service is tailored to deliver a premium and smooth experience for Dodge owners in Dubai, keeping your vehicle powerful, efficient, and ready for the road.",
+    seoTitle: "Volkswagen Service Dubai | Expert VW Maintenance and Repairs",
+    seoDescription:
+      "Professional Volkswagen maintenance and repair in Dubai. Certified VW technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Volkswagen servicing.",
 
-  whyChooseUs: [
-    {
-      title: "Certified Dodge Technicians",
-      text: "Our Dodge-certified technicians specialize in servicing all performance and muscle models, including HEMI, SRT, and Hellcat engines. Every repair and maintenance task is performed with expert precision to preserve your Dodge’s horsepower, durability, and smooth handling. Our team stays updated with the latest Dodge engineering advancements and service practices to ensure top-quality care."
-    },
-    {
-      title: "Advanced Dodge Diagnostics",
-      text: "We use Dodge-approved diagnostic systems to evaluate your vehicle’s engine performance, transmission response, onboard electronics, and high-performance systems. These tools enable our specialists to detect issues with accuracy and deliver repairs that enhance dependability, safety, and power delivery—ideal for daily drivers and performance enthusiasts."
-    },
-    {
-      title: "Genuine Dodge Parts Only",
-      text: "To maintain your Dodge’s strength, reliability, and factory-standard performance, we install only 100% genuine Dodge OEM components. Each part is engineered for perfect fitment, durability, and high-performance compatibility. Using authentic parts ensures improved longevity, driving comfort, and overall vehicle value."
-    }
-  ],
+    faqs: [
+      {
+        Question: "How often should I service my Volkswagen?",
+        Answer: "Volkswagen vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model requirements."
+      },
+      {
+        Question: "Do you use genuine Volkswagen parts?",
+        Answer: "Yes, we use only 100% genuine Volkswagen OEM components to ensure maximum reliability, durability, and compatibility."
+      },
+      {
+        Question: "Do you offer Volkswagen diagnostics?",
+        Answer: "Absolutely. We use Volkswagen-approved diagnostic tools to identify engine, transmission, electrical, and system-related issues with precision."
+      },
+      {
+        Question: "Do you repair Volkswagen engines?",
+        Answer: "Yes, we provide comprehensive engine and gearbox repair services for all Volkswagen models, ensuring smooth, reliable performance."
+      },
+      {
+        Question: "Do you offer Volkswagen performance checks?",
+        Answer: "Yes, we perform detailed performance inspections, system calibrations, and efficiency evaluations to keep your Volkswagen in peak condition."
+      },
+      {
+        Question: "How long does Volkswagen maintenance take?",
+        Answer: "Routine Volkswagen servicing typically takes 1 to 2 hours based on the maintenance requirements and diagnostic findings."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Volkswagen Services center in Dubai for Your Vehicle",
+        description: "No matter which Volkswagen model you drive, whether it’s the Golf, Passat, Tiguan, or Touareg, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Volkswagen vehicles in the UAE, we understand their engineering, performance needs, and common issues in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electronic system repairs efficiently. Regular maintenance and professional care ensure your Volkswagen remains reliable, safe, and performs at its best."
+      }
+    ],
 
-  seoTitle: "Dodge Service Dubai | Expert Dodge Maintenance and Performance Repairs",
-  seoDescription:
-    "Professional Dodge maintenance and repair in Dubai. Certified Dodge technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and full Dodge performance servicing.",
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Volkswagen repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Volkswagen",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
 
-  faqs: [
-    {
-      Question: "How often should I service my Dodge?",
-      Answer: "Dodge vehicles typically require servicing every 8,000–12,000 km or once a year, depending on driving style and model specifications."
-    },
-    {
-      Question: "Do you use genuine Dodge parts?",
-      Answer: "Yes, we install only 100% genuine Dodge OEM components to ensure maximum reliability, performance, and durability."
-    },
-    {
-      Question: "Do you offer Dodge diagnostics?",
-      Answer: "Absolutely. We use advanced Dodge diagnostic tools to identify issues in the engine, transmission, electronics, and performance systems."
-    },
-    {
-      Question: "Do you repair Dodge engines?",
-      Answer: "Yes, we provide complete engine and gearbox repair services, including specialized work on HEMI, SRT, and Hellcat powertrains."
-    },
-    {
-      Question: "Do you offer Dodge performance checks?",
-      Answer: "Yes, we perform full performance evaluations, system calibrations, and tuning recommendations to keep your Dodge performing at its peak."
-    },
-    {
-      Question: "How long does Dodge maintenance take?",
-      Answer: "Routine Dodge servicing typically takes 1 to 2 hours depending on the specific maintenance requirements and diagnostic results."
-    }
-  ]
-},
-{
-  name: "bugatti",
-  banner: "/assets/brands/bugatti.webp",
-  heading: "Bugatti Hypercar Maintenance and Precision Repair Specialists",
-  
-  heroText:
-    "Certified Bugatti care with advanced diagnostics, hypercar-grade maintenance, and 100% genuine components for unmatched performance and engineering perfection.",
+    // 3. Facilities
+    facilities: [
+      "Largest independent Volkswagen service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Volkswagen models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Volkswagen technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
+    ]
 
-  description:
-    "Our Bugatti service center provides ultra-premium maintenance and repair solutions tailored for Bugatti hypercars, including the Chiron, Veyron, Divo, and other limited-production models. Known for extraordinary horsepower, advanced aerodynamics, and world-leading engineering, Bugatti vehicles require unmatched technical mastery and precision care. Our factory-trained specialists use Bugatti-approved diagnostic equipment, specialized tools, and 100% genuine OEM components to ensure flawless performance, safety, and reliability. We offer a full suite of hypercar-grade services including quad-turbo engine servicing, transmission and gearbox repair, suspension calibration, carbon-ceramic brake maintenance, aerodynamic system diagnostics, electrical troubleshooting, AC servicing, battery testing, and complete performance evaluations. Each service is designed to preserve your Bugatti’s engineering integrity, exclusivity, and record-breaking performance.",
+  },
+  {
+    name: "pagani",
+    banner: "/assets/brands/pagani.webp",
+    heading: "Pagani Expert Maintenance and Hypercar Repairs",
+    heroText:
+      "Certified Pagani care with genuine components, precision diagnostics, and hypercar-grade maintenance for unmatched performance and craftsmanship.",
 
-  whyChooseUs: [
-    {
-      title: "Certified Bugatti Hypercar Technicians",
-      text: "Our Bugatti-certified specialists are trained to handle the extreme engineering, high-performance systems, and advanced components of Bugatti hypercars. From quad-turbo W16 engine servicing to precision carbon-fiber maintenance, every task is executed with absolute accuracy and craftsmanship. Our technicians follow the latest Bugatti service protocols to ensure your hypercar receives world-class care."
-    },
-    {
-      title: "Advanced Bugatti Diagnostics",
-      text: "We use state-of-the-art Bugatti diagnostic technology capable of analyzing engine performance, turbocharger behavior, aerodynamics, electronics, suspension dynamics, and high-speed systems with extreme precision. These tools allow us to identify even the smallest performance deviations, ensuring hyper-accurate repairs while preserving structural integrity and engineering excellence."
-    },
-    {
-      title: "Genuine Bugatti Parts Only",
-      text: "To maintain your Bugatti’s authenticity, performance, and long-term value, we install only 100% genuine Bugatti OEM parts. Every component—including turbochargers, carbon-fiber elements, brakes, and W16 engine parts—is engineered for hypercar-level durability and perfect compatibility. Using authentic parts guarantees the performance, safety, and exclusivity your Bugatti deserves."
-    }
-  ],
+    description:
+      "Our Pagani service center delivers ultra-premium maintenance and repair solutions designed specifically for Pagani hypercars, including the Huayra and Zonda series. Known for their hand-built craftsmanship, advanced aerodynamics, and unmatched performance, Pagani vehicles require specialized expertise and meticulous care. Our factory-trained technicians use advanced diagnostic systems, manufacturer-approved tools, and 100% genuine Pagani components to ensure flawless performance, safety, and authenticity. We provide hypercar-level services such as performance evaluations, engine and gearbox repairs, suspension calibration, braking system tuning, electrical diagnostics, carbon-fiber inspection, AC servicing, battery testing, and complete aerodynamic system assessments. Each service is executed with extreme precision, offering Pagani owners in Dubai a seamless and world-class maintenance experience that preserves the vehicle’s exclusivity, power, and engineering excellence.",
 
-  seoTitle: "Bugatti Service Dubai | Expert Bugatti Hypercar Maintenance and Repairs",
-  seoDescription:
-    "Premium Bugatti hypercar maintenance and repair in Dubai. Certified Bugatti technicians, genuine parts, advanced diagnostics, W16 engine servicing, aerodynamics, brakes, and full hypercar care.",
+    whyChooseUs: [
+      {
+        title: "Certified Pagani Hypercar Technicians",
+        text: "Our team of Pagani-certified specialists is trained specifically to handle the engineering complexity and handcrafted components of Pagani hypercars. From AMG-engine servicing to carbon-fiber chassis maintenance, every procedure is performed with unmatched precision and attention to detail. Our technicians stay updated with the latest Pagani engineering standards to ensure your hypercar receives elite-level care at all times."
+      },
+      {
+        title: "Advanced Pagani Diagnostics",
+        text: "We use Pagani-approved diagnostic systems capable of analyzing engine behavior, aerodynamics, electronics, suspension dynamics, and high-performance systems in real time. These tools allow our experts to identify even the smallest irregularities, ensuring accurate, performance-focused repairs while maintaining the hypercar’s structural integrity and engineering perfection."
+      },
+      {
+        title: "Genuine Pagani Parts Only",
+        text: "To preserve the exclusivity, performance, and craftsmanship of your Pagani, we install only 100% genuine Pagani OEM parts. Each component—from carbon-fiber elements to AMG-engine parts—is engineered for hyper-precision, durability, and optimal compatibility. Using authentic parts guarantees your Pagani retains its value, power, and hypercar-grade performance."
+      }
+    ],
 
-  faqs: [
-    {
-      Question: "How often should I service my Bugatti?",
-      Answer: "Bugatti hypercars typically require servicing every 5,000–7,000 km or once a year, depending on performance usage and driving conditions."
-    },
-    {
-      Question: "Do you use genuine Bugatti parts?",
-      Answer: "Yes, we use 100% genuine Bugatti OEM components to ensure uncompromised performance, durability, and engineering accuracy."
-    },
-    {
-      Question: "Do you offer Bugatti diagnostics?",
-      Answer: "Yes, we use Bugatti-approved diagnostic systems to analyze engine, electronics, aerodynamics, turbocharger response, and high-performance systems."
-    },
-    {
-      Question: "Do you repair Bugatti engines?",
-      Answer: "Absolutely. We specialize in quad-turbo W16 engine servicing, gearbox repairs, cooling systems, and all high-performance components."
-    },
-    {
-      Question: "Do you offer Bugatti performance checks?",
-      Answer: "Yes, we perform complete performance evaluations, aerodynamic diagnostics, system calibration, and optimization for maximum hypercar performance."
-    },
-    {
-      Question: "How long does Bugatti maintenance take?",
-      Answer: "Routine Bugatti servicing typically takes 3–6 hours due to the hypercar’s complexity and the precision required for every inspection."
-    }
-  ]
-},
-{
-  name: "jeep",
-  banner: "/assets/brands/jeep.webp",
-  heading: "Jeep Maintenance, Off-Road Repairs and 4x4 Performance Specialists",
-  
-  heroText:
-    "Certified Jeep care with advanced diagnostics, genuine parts, and professional 4x4 maintenance for powerful, reliable, and adventure-ready performance.",
+    seoTitle: "Pagani Service Dubai | Expert Pagani Hypercar Maintenance and Repairs",
+    seoDescription:
+      "Premium Pagani maintenance and repair in Dubai. Certified Pagani technicians, genuine parts, advanced diagnostics, engine, carbon-fiber, suspension, brakes, and complete hypercar servicing.",
 
-  description:
-    "Our Jeep service center provides complete maintenance and repair solutions for all Jeep models, including Wrangler, Grand Cherokee, Gladiator, Compass, Renegade, and Rubicon variants. Built for rugged terrain, off-road capability, and powerful performance, Jeep vehicles require expert servicing and precision diagnostics. Our certified Jeep technicians use advanced diagnostic systems, manufacturer-approved tools, and 100% genuine Jeep OEM parts to ensure durability, safety, and maximum 4x4 capability. We offer comprehensive services including engine oil changes, suspension repairs, differential and transfer case servicing, brake maintenance, transmission repairs, ECU diagnostics, AC servicing, electrical troubleshooting, and full off-road performance evaluations. Each service is designed to keep your Jeep reliable, powerful, and ready for both city driving and extreme off-road adventures.",
+    faqs: [
+      {
+        Question: "How often should I service my Pagani?",
+        Answer: "Pagani hypercars typically require servicing every 7,000–10,000 km or once a year, depending on usage and performance conditions."
+      },
+      {
+        Question: "Do you use genuine Pagani parts?",
+        Answer: "Yes, we use only 100% genuine Pagani OEM components to maintain hypercar-grade performance, safety, and engineering quality."
+      },
+      {
+        Question: "Do you offer Pagani diagnostics?",
+        Answer: "Absolutely. We use Pagani-approved diagnostic tools to analyze engine performance, electronics, aerodynamics, and high-precision systems with extreme accuracy."
+      },
+      {
+        Question: "Do you repair Pagani engines?",
+        Answer: "Yes, we provide specialized engine and gearbox repair services designed specifically for AMG-powered Pagani hypercars, ensuring unmatched power and reliability."
+      },
+      {
+        Question: "Do you offer Pagani performance checks?",
+        Answer: "Yes, we offer detailed performance assessments, aerodynamic evaluations, system calibrations, and optimization services to maintain your Pagani’s hypercar-level performance."
+      },
+      {
+        Question: "How long does Pagani maintenance take?",
+        Answer: "Routine Pagani servicing typically takes 2–4 hours due to the vehicle’s complexity and the precision required for every inspection."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Pagani Services center in Dubai for Your Vehicle",
+        description: "No matter which Pagani model you drive, whether it’s the Huayra or Zonda, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Pagani vehicles in the UAE, we understand the extreme performance and precision engineering these hypercars demand. Our certified technicians handle engine tuning, transmission, brakes, suspension, and advanced electronic systems. Regular maintenance and professional care ensure your Pagani delivers unparalleled performance, reliability, and an extraordinary driving experience."
+      }
+    ],
 
-  whyChooseUs: [
-    {
-      title: "Certified Jeep 4x4 Technicians",
-      text: "Our Jeep-certified technicians specialize in both on-road and off-road Jeep systems, including Trail Rated, Rubicon, and 4x4 drivetrain models. From suspension and differential servicing to crawl-ratio evaluations, every service is performed with precision to maintain Jeep’s durability, torque, and rugged performance. Our team follows the latest Jeep service standards to deliver premium care for every model."
-    },
-    {
-      title: "Advanced Jeep Diagnostics",
-      text: "We use Jeep-approved diagnostic tools to analyze engine health, transmission performance, 4WD engagement, traction systems, electronics, and off-road components. These advanced diagnostics help us detect issues with high accuracy, ensuring repairs that enhance reliability, safety, and long-term performance—whether on the highway or challenging terrain."
-    },
-    {
-      title: "Genuine Jeep Parts Only",
-      text: "To preserve your Jeep’s strength, safety, and factory-grade performance, we install only 100% genuine Jeep OEM components. From suspension parts and drivetrain components to brake systems and engine elements, every part is engineered for durability and perfect compatibility. Using authentic parts guarantees long-term reliability and optimal off-road capability."
-    }
-  ],
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Pagani repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Pagani",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
 
-  seoTitle: "Jeep Service Dubai | Expert Jeep Maintenance and 4x4 Performance Repairs",
-  seoDescription:
-    "Professional Jeep maintenance and repair in Dubai. Certified Jeep technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road performance care.",
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Pagani service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Pagani models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Pagani technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
 
-  faqs: [
-    {
-      Question: "How often should I service my Jeep?",
-      Answer: "Jeep vehicles typically require servicing every 8,000–12,000 km or once a year, depending on driving conditions and off-road usage."
-    },
-    {
-      Question: "Do you use genuine Jeep parts?",
-      Answer: "Yes, we use only 100% genuine Jeep OEM parts to ensure maximum durability, reliability, and off-road performance."
-    },
-    {
-      Question: "Do you offer Jeep diagnostics?",
-      Answer: "Absolutely. We use Jeep-approved diagnostic systems to evaluate engine performance, electronics, 4x4 systems, transmission, and traction control."
-    },
-    {
-      Question: "Do you repair Jeep engines and transmissions?",
-      Answer: "Yes, we provide complete engine, transmission, and drivetrain repair services for all Jeep models, including off-road and high-performance versions."
-    },
-    {
-      Question: "Do you offer Jeep off-road performance checks?",
-      Answer: "Yes, we provide full off-road performance evaluations, suspension checks, differential inspection, traction testing, and drivetrain calibration."
-    },
-    {
-      Question: "How long does Jeep maintenance take?",
-      Answer: "Routine Jeep servicing typically takes 1 to 2 hours, depending on the model, mileage, and diagnostic results."
-    }
-  ]
-},
-{
-  name: "mclaren",
-  banner: "/assets/brands/mclaren.webp",
-  heading: "McLaren Hypercar Maintenance and Precision Repairs",
+  },
+  {
+    name: "dodge",
+    banner: "/assets/brands/dodge.webp",
+    heading: "Dodge Expert Maintenance and Performance Repairs",
+    heroText:
+      "Certified Dodge care with genuine parts, advanced diagnostics, and performance-focused maintenance for powerful and reliable driving.",
 
-  heroText:
-    "Certified McLaren care with genuine parts, advanced diagnostics, and hypercar-grade maintenance for unmatched performance and driving precision.",
+    description:
+      "Our Dodge service center offers complete maintenance and repair solutions for all Dodge models, including Charger, Challenger, Durango, Ram, and Hellcat variants. Known for their powerful engines, bold performance, and muscular design, Dodge vehicles require precise workmanship and advanced technical expertise. Our certified Dodge technicians use high-end diagnostic tools, factory-approved equipment, and 100% genuine Dodge components to ensure exceptional performance, safety, and long-term reliability. We provide a wide range of services including engine oil changes, brake servicing, suspension tuning, transmission repairs, ECU diagnostics, AC servicing, electrical troubleshooting, battery testing, and full performance evaluations. Each service is tailored to deliver a premium and smooth experience for Dodge owners in Dubai, keeping your vehicle powerful, efficient, and ready for the road.",
 
-  description:
-    "Our McLaren service center provides comprehensive maintenance and repair solutions for all McLaren models, including 570S, 720S, GT, Artura, and limited-edition hypercars. Renowned for cutting-edge engineering, lightweight carbon-fiber construction, and exhilarating performance, McLaren vehicles demand specialized expertise and meticulous attention. Our certified McLaren technicians utilize factory-approved tools, advanced diagnostic systems, and 100% genuine McLaren OEM parts to ensure flawless performance, safety, and long-term reliability. Services include engine oil changes, carbon-fiber chassis inspections, brake maintenance, suspension calibration, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service ensures McLaren owners in Dubai receive a premium experience while preserving peak performance and driving excellence.",
+    whyChooseUs: [
+      {
+        title: "Certified Dodge Technicians",
+        text: "Our Dodge-certified technicians specialize in servicing all performance and muscle models, including HEMI, SRT, and Hellcat engines. Every repair and maintenance task is performed with expert precision to preserve your Dodge’s horsepower, durability, and smooth handling. Our team stays updated with the latest Dodge engineering advancements and service practices to ensure top-quality care."
+      },
+      {
+        title: "Advanced Dodge Diagnostics",
+        text: "We use Dodge-approved diagnostic systems to evaluate your vehicle’s engine performance, transmission response, onboard electronics, and high-performance systems. These tools enable our specialists to detect issues with accuracy and deliver repairs that enhance dependability, safety, and power delivery—ideal for daily drivers and performance enthusiasts."
+      },
+      {
+        title: "Genuine Dodge Parts Only",
+        text: "To maintain your Dodge’s strength, reliability, and factory-standard performance, we install only 100% genuine Dodge OEM components. Each part is engineered for perfect fitment, durability, and high-performance compatibility. Using authentic parts ensures improved longevity, driving comfort, and overall vehicle value."
+      }
+    ],
 
-  whyChooseUs: [
-    {
-      title: "Certified McLaren Hypercar Technicians",
-      text: "Our McLaren-certified technicians are trained to handle the unique engineering and advanced systems of all McLaren models. From high-rev V8/V10 engines to carbon-fiber chassis and suspension systems, every repair and maintenance task is executed with precision to maintain McLaren’s performance, safety, and driving dynamics. Our specialists follow the latest McLaren service protocols to deliver elite hypercar care."
-    },
-    {
-      title: "Advanced McLaren Diagnostics",
-      text: "We use McLaren-approved diagnostic tools to accurately analyze engine performance, transmission behavior, electronics, suspension dynamics, and aerodynamic systems. These advanced diagnostics help identify even minor issues, ensuring precise, performance-focused repairs while maintaining structural integrity and engineering excellence."
-    },
-    {
-      title: "Genuine McLaren Parts Only",
-      text: "We install only 100% genuine McLaren OEM components to preserve your vehicle’s performance, reliability, and exclusivity. From engine components to carbon-fiber elements and braking systems, every part is engineered for precision, durability, and perfect fitment, ensuring your McLaren delivers hypercar-level performance at all times."
-    }
-  ],
+    seoTitle: "Dodge Service Dubai | Expert Dodge Maintenance and Performance Repairs",
+    seoDescription:
+      "Professional Dodge maintenance and repair in Dubai. Certified Dodge technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and full Dodge performance servicing.",
 
-  seoTitle: "McLaren Service Dubai | Expert Hypercar Maintenance and Repairs",
-  seoDescription:
-    "Premium McLaren maintenance and repair in Dubai. Certified McLaren technicians, genuine parts, advanced diagnostics, engine, carbon-fiber chassis, brakes, suspension, and full hypercar servicing.",
+    faqs: [
+      {
+        Question: "How often should I service my Dodge?",
+        Answer: "Dodge vehicles typically require servicing every 8,000–12,000 km or once a year, depending on driving style and model specifications."
+      },
+      {
+        Question: "Do you use genuine Dodge parts?",
+        Answer: "Yes, we install only 100% genuine Dodge OEM components to ensure maximum reliability, performance, and durability."
+      },
+      {
+        Question: "Do you offer Dodge diagnostics?",
+        Answer: "Absolutely. We use advanced Dodge diagnostic tools to identify issues in the engine, transmission, electronics, and performance systems."
+      },
+      {
+        Question: "Do you repair Dodge engines?",
+        Answer: "Yes, we provide complete engine and gearbox repair services, including specialized work on HEMI, SRT, and Hellcat powertrains."
+      },
+      {
+        Question: "Do you offer Dodge performance checks?",
+        Answer: "Yes, we perform full performance evaluations, system calibrations, and tuning recommendations to keep your Dodge performing at its peak."
+      },
+      {
+        Question: "How long does Dodge maintenance take?",
+        Answer: "Routine Dodge servicing typically takes 1 to 2 hours depending on the specific maintenance requirements and diagnostic results."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Dodge Services center in Dubai for Your Vehicle",
+        description: "No matter which Dodge model you drive, whether it’s the Charger, Challenger, Durango, or Journey, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Dodge vehicles in the UAE, we understand their performance needs and common issues in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electronic system repairs efficiently. Regular maintenance and professional care ensure your Dodge remains reliable, powerful, and performs at its best."
+      }
+    ],
 
-  faqs: [
-    {
-      Question: "How often should I service my McLaren?",
-      Answer: "McLaren vehicles typically require servicing every 7,000–10,000 km or once a year, depending on driving style and performance usage."
-    },
-    {
-      Question: "Do you use genuine McLaren parts?",
-      Answer: "Yes, we use only 100% genuine McLaren OEM components to maintain hypercar-level performance, safety, and reliability."
-    },
-    {
-      Question: "Do you offer McLaren diagnostics?",
-      Answer: "Absolutely. We use McLaren-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and aerodynamic performance with precision."
-    },
-    {
-      Question: "Do you repair McLaren engines?",
-      Answer: "Yes, we provide complete engine, gearbox, and high-performance component repair services for all McLaren models, ensuring exceptional performance and reliability."
-    },
-    {
-      Question: "Do you offer McLaren performance checks?",
-      Answer: "Yes, we provide detailed performance evaluations, aerodynamic assessments, suspension calibration, and system optimizations to maintain peak McLaren driving performance."
-    },
-    {
-      Question: "How long does McLaren maintenance take?",
-      Answer: "Routine McLaren servicing typically takes 2–4 hours depending on the model, complexity, and precision required for each inspection."
-    }
-  ]
-},
-{
-  name: "range rover",
-  banner: "/assets/brands/range-rover.webp",
-  heading: "Range Rover Maintenance and Premium 4x4 Repairs",
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Dodge repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Dodge",
+      "Friendly and professional customer service ensuring a smooth experience"
+    ],
 
-  heroText:
-    "Certified Range Rover care with genuine parts, advanced diagnostics, and expert 4x4 maintenance for luxury, performance, and off-road reliability.",
+    // 3. Facilities
+    facilities: [
+      "Largest independent Dodge service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Dodge models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Dodge technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
+    ]
 
-  description:
-    "Our Range Rover service center provides comprehensive maintenance and repair solutions for all Range Rover models, including Range Rover Sport, Velar, Evoque, Autobiography, and SV variants. Renowned for luxury, off-road capability, and advanced engineering, Range Rover vehicles require specialized expertise and precision care. Our certified technicians utilize manufacturer-approved tools, advanced diagnostic systems, and 100% genuine Range Rover OEM components to ensure flawless performance, safety, and driving comfort. Services include engine oil changes, suspension tuning, 4x4 drivetrain servicing, brake maintenance, transmission repair, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Every service is designed to deliver a premium experience for Range Rover owners in Dubai, ensuring your vehicle remains powerful, luxurious, and adventure-ready.",
+  },
+  {
+    name: "bugatti",
+    banner: "/assets/brands/bugatti.webp",
+    heading: "Bugatti Hypercar Maintenance and Precision Repair Specialists",
 
-  whyChooseUs: [
-    {
-      title: "Certified Range Rover Technicians",
-      text: "Our Range Rover-certified technicians specialize in all models and 4x4 systems, including Terrain Response, SVAutobiography, and high-performance engines. Each service, from suspension calibration to drivetrain maintenance, is performed with precision to maintain luxury, off-road capability, and reliability. Our experts follow the latest Land Rover service protocols to provide top-tier care for every vehicle."
-    },
-    {
-      title: "Advanced Range Rover Diagnostics",
-      text: "We use Range Rover-approved diagnostic tools to analyze engine performance, transmission behavior, 4WD systems, electronics, and off-road components. Accurate diagnostics enable our specialists to detect issues early and deliver precise repairs that enhance safety, reliability, and performance—whether on the highway or extreme terrain."
-    },
-    {
-      title: "Genuine Range Rover Parts Only",
-      text: "To preserve your Range Rover’s performance, luxury, and factory-grade reliability, we install only 100% genuine Range Rover OEM components. From suspension and drivetrain parts to engine and braking systems, every component is engineered for durability, fitment, and optimal performance. Using authentic parts ensures long-term reliability and driving excellence."
-    }
-  ],
+    heroText:
+      "Certified Bugatti care with advanced diagnostics, hypercar-grade maintenance, and 100% genuine components for unmatched performance and engineering perfection.",
 
-  seoTitle: "Range Rover Service Dubai | Expert 4x4 Maintenance and Repairs",
-  seoDescription:
-    "Professional Range Rover maintenance and repair in Dubai. Certified Range Rover technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road and luxury performance care.",
+    description:
+      "Our Bugatti service center provides ultra-premium maintenance and repair solutions tailored for Bugatti hypercars, including the Chiron, Veyron, Divo, and other limited-production models. Known for extraordinary horsepower, advanced aerodynamics, and world-leading engineering, Bugatti vehicles require unmatched technical mastery and precision care. Our factory-trained specialists use Bugatti-approved diagnostic equipment, specialized tools, and 100% genuine OEM components to ensure flawless performance, safety, and reliability. We offer a full suite of hypercar-grade services including quad-turbo engine servicing, transmission and gearbox repair, suspension calibration, carbon-ceramic brake maintenance, aerodynamic system diagnostics, electrical troubleshooting, AC servicing, battery testing, and complete performance evaluations. Each service is designed to preserve your Bugatti’s engineering integrity, exclusivity, and record-breaking performance.",
 
-  faqs: [
-    {
-      Question: "How often should I service my Range Rover?",
-      Answer: "Range Rover vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving style and on/off-road usage."
-    },
-    {
-      Question: "Do you use genuine Range Rover parts?",
-      Answer: "Yes, we use only 100% genuine Range Rover OEM components to ensure optimal performance, reliability, and luxury standards."
-    },
-    {
-      Question: "Do you offer Range Rover diagnostics?",
-      Answer: "Absolutely. We use Range Rover-approved diagnostic systems to analyze engine, transmission, electronics, 4x4 systems, and suspension with precision."
-    },
-    {
-      Question: "Do you repair Range Rover engines and transmissions?",
-      Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Range Rover models, maintaining smooth performance and off-road capability."
-    },
-    {
-      Question: "Do you offer Range Rover performance and off-road checks?",
-      Answer: "Yes, we provide detailed performance inspections, suspension calibration, 4x4 system evaluation, and off-road readiness assessments to keep your Range Rover at peak performance."
-    },
-    {
-      Question: "How long does Range Rover maintenance take?",
-      Answer: "Routine Range Rover servicing typically takes 1–3 hours depending on the model, service requirements, and diagnostic complexity."
-    }
-  ]
-},
-{
-  name: "rolls-royce",
-  banner: "/assets/brands/rolls-royce.webp",
-  heading: "Rolls Royce Luxury Maintenance and Precision Repairs",
+    whyChooseUs: [
+      {
+        title: "Certified Bugatti Hypercar Technicians",
+        text: "Our Bugatti-certified specialists are trained to handle the extreme engineering, high-performance systems, and advanced components of Bugatti hypercars. From quad-turbo W16 engine servicing to precision carbon-fiber maintenance, every task is executed with absolute accuracy and craftsmanship. Our technicians follow the latest Bugatti service protocols to ensure your hypercar receives world-class care."
+      },
+      {
+        title: "Advanced Bugatti Diagnostics",
+        text: "We use state-of-the-art Bugatti diagnostic technology capable of analyzing engine performance, turbocharger behavior, aerodynamics, electronics, suspension dynamics, and high-speed systems with extreme precision. These tools allow us to identify even the smallest performance deviations, ensuring hyper-accurate repairs while preserving structural integrity and engineering excellence."
+      },
+      {
+        title: "Genuine Bugatti Parts Only",
+        text: "To maintain your Bugatti’s authenticity, performance, and long-term value, we install only 100% genuine Bugatti OEM parts. Every component—including turbochargers, carbon-fiber elements, brakes, and W16 engine parts—is engineered for hypercar-level durability and perfect compatibility. Using authentic parts guarantees the performance, safety, and exclusivity your Bugatti deserves."
+      }
+    ],
 
-  heroText:
-    "Certified Rolls Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",
+    seoTitle: "Bugatti Service Dubai | Expert Bugatti Hypercar Maintenance and Repairs",
+    seoDescription:
+      "Premium Bugatti hypercar maintenance and repair in Dubai. Certified Bugatti technicians, genuine parts, advanced diagnostics, W16 engine servicing, aerodynamics, brakes, and full hypercar care.",
 
-  description:
-    "Our Rolls Royce service center provides world-class maintenance and repair solutions for all Rolls Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls Royce vehicles require expert care and meticulous attention. Our certified Rolls Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls Royce owners in Dubai, preserving the elegance, power, and precision of their vehicles.",
+    faqs: [
+      {
+        Question: "How often should I service my Bugatti?",
+        Answer: "Bugatti hypercars typically require servicing every 5,000–7,000 km or once a year, depending on performance usage and driving conditions."
+      },
+      {
+        Question: "Do you use genuine Bugatti parts?",
+        Answer: "Yes, we use 100% genuine Bugatti OEM components to ensure uncompromised performance, durability, and engineering accuracy."
+      },
+      {
+        Question: "Do you offer Bugatti diagnostics?",
+        Answer: "Yes, we use Bugatti-approved diagnostic systems to analyze engine, electronics, aerodynamics, turbocharger response, and high-performance systems."
+      },
+      {
+        Question: "Do you repair Bugatti engines?",
+        Answer: "Absolutely. We specialize in quad-turbo W16 engine servicing, gearbox repairs, cooling systems, and all high-performance components."
+      },
+      {
+        Question: "Do you offer Bugatti performance checks?",
+        Answer: "Yes, we perform complete performance evaluations, aerodynamic diagnostics, system calibration, and optimization for maximum hypercar performance."
+      },
+      {
+        Question: "How long does Bugatti maintenance take?",
+        Answer: "Routine Bugatti servicing typically takes 3–6 hours due to the hypercar’s complexity and the precision required for every inspection."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Bugatti Services center in Dubai for Your Vehicle",
+        description: "No matter which Bugatti model you drive, whether it’s the Chiron, Veyron, or Divo, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Bugatti vehicles in the UAE, we understand the extreme performance and precision engineering these hypercars demand. Our certified technicians handle engine tuning, transmission, brakes, suspension, and advanced electronic systems. Regular maintenance and professional care ensure your Bugatti delivers unparalleled performance, reliability, and an extraordinary driving experience."
+      }
+    ],
 
-  whyChooseUs: [
-    {
-      title: "Certified Rolls Royce Technicians",
-      text: "Our Rolls Royce certified technicians possess specialized expertise in all models, including bespoke Phantom, Ghost, and Cullinan variants. Every maintenance and repair task is executed with extreme precision to uphold luxury, performance, and reliability. Our team follows the latest Rolls Royce service standards to deliver top-tier care for every vehicle."
-    },
-    {
-      title: "Advanced Rolls Royce Diagnostics",
-      text: "We utilize Rolls Royce approved diagnostic tools to accurately assess engine performance, transmission behavior, suspension systems, electronics, and luxury features. This enables early detection of issues and ensures precise repairs that maintain the vehicle’s comfort, refinement, and long-term reliability."
-    },
-    {
-      title: "Genuine Rolls Royce Parts Only",
-      text: "To preserve your Rolls Royce’s performance, luxury, and craftsmanship, we install only 100% genuine Rolls Royce OEM components. Each part is engineered for perfect fitment, durability, and seamless integration. Using authentic parts guarantees your vehicle maintains peak performance, reliability, and its signature bespoke quality."
-    }
-  ],
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Bugatti repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Bugatti",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
 
-  seoTitle: "Rolls Royce Service Dubai | Luxury Maintenance and Precision Repairs",
-  seoDescription:
-    "Professional Rolls Royce maintenance and repair in Dubai. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Bugatti service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Bugatti models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Bugatti technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
 
-  faqs: [
-    {
-      Question: "How often should I service my Rolls Royce?",
-      Answer: "Rolls Royce vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model specifications."
-    },
-    {
-      Question: "Do you use genuine Rolls Royce parts?",
-      Answer: "Yes, we use only 100% genuine Rolls Royce OEM components to ensure maximum performance, reliability, and luxury standards."
-    },
-    {
-      Question: "Do you offer Rolls Royce diagnostics?",
-      Answer: "Absolutely. We use Rolls Royce-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and luxury features with precision."
-    },
-    {
-      Question: "Do you repair Rolls Royce engines and transmissions?",
-      Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Rolls Royce models, maintaining smooth performance and ultimate luxury."
-    },
-    {
-      Question: "Do you offer Rolls Royce performance and luxury checks?",
-      Answer: "Yes, we provide detailed inspections, suspension calibration, system evaluations, and optimization to ensure your Rolls Royce performs flawlessly in all conditions."
-    },
-    {
-      Question: "How long does Rolls Royce maintenance take?",
-      Answer: "Routine Rolls Royce servicing typically takes 2–4 hours depending on the model, service requirements, and diagnostic complexity."
-    }
-  ]
-}
+  },
+  {
+    name: "jeep",
+    banner: "/assets/brands/jeep.webp",
+    heading: "Jeep Maintenance, Off-Road Repairs and 4x4 Performance Specialists",
+
+    heroText:
+      "Certified Jeep care with advanced diagnostics, genuine parts, and professional 4x4 maintenance for powerful, reliable, and adventure-ready performance.",
+
+    description:
+      "Our Jeep service center provides complete maintenance and repair solutions for all Jeep models, including Wrangler, Grand Cherokee, Gladiator, Compass, Renegade, and Rubicon variants. Built for rugged terrain, off-road capability, and powerful performance, Jeep vehicles require expert servicing and precision diagnostics. Our certified Jeep technicians use advanced diagnostic systems, manufacturer-approved tools, and 100% genuine Jeep OEM parts to ensure durability, safety, and maximum 4x4 capability. We offer comprehensive services including engine oil changes, suspension repairs, differential and transfer case servicing, brake maintenance, transmission repairs, ECU diagnostics, AC servicing, electrical troubleshooting, and full off-road performance evaluations. Each service is designed to keep your Jeep reliable, powerful, and ready for both city driving and extreme off-road adventures.",
+
+    whyChooseUs: [
+      {
+        title: "Certified Jeep 4x4 Technicians",
+        text: "Our Jeep-certified technicians specialize in both on-road and off-road Jeep systems, including Trail Rated, Rubicon, and 4x4 drivetrain models. From suspension and differential servicing to crawl-ratio evaluations, every service is performed with precision to maintain Jeep’s durability, torque, and rugged performance. Our team follows the latest Jeep service standards to deliver premium care for every model."
+      },
+      {
+        title: "Advanced Jeep Diagnostics",
+        text: "We use Jeep-approved diagnostic tools to analyze engine health, transmission performance, 4WD engagement, traction systems, electronics, and off-road components. These advanced diagnostics help us detect issues with high accuracy, ensuring repairs that enhance reliability, safety, and long-term performance—whether on the highway or challenging terrain."
+      },
+      {
+        title: "Genuine Jeep Parts Only",
+        text: "To preserve your Jeep’s strength, safety, and factory-grade performance, we install only 100% genuine Jeep OEM components. From suspension parts and drivetrain components to brake systems and engine elements, every part is engineered for durability and perfect compatibility. Using authentic parts guarantees long-term reliability and optimal off-road capability."
+      }
+    ],
+
+    seoTitle: "Jeep Service Dubai | Expert Jeep Maintenance and 4x4 Performance Repairs",
+    seoDescription:
+      "Professional Jeep maintenance and repair in Dubai. Certified Jeep technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road performance care.",
+
+    faqs: [
+      {
+        Question: "How often should I service my Jeep?",
+        Answer: "Jeep vehicles typically require servicing every 8,000–12,000 km or once a year, depending on driving conditions and off-road usage."
+      },
+      {
+        Question: "Do you use genuine Jeep parts?",
+        Answer: "Yes, we use only 100% genuine Jeep OEM parts to ensure maximum durability, reliability, and off-road performance."
+      },
+      {
+        Question: "Do you offer Jeep diagnostics?",
+        Answer: "Absolutely. We use Jeep-approved diagnostic systems to evaluate engine performance, electronics, 4x4 systems, transmission, and traction control."
+      },
+      {
+        Question: "Do you repair Jeep engines and transmissions?",
+        Answer: "Yes, we provide complete engine, transmission, and drivetrain repair services for all Jeep models, including off-road and high-performance versions."
+      },
+      {
+        Question: "Do you offer Jeep off-road performance checks?",
+        Answer: "Yes, we provide full off-road performance evaluations, suspension checks, differential inspection, traction testing, and drivetrain calibration."
+      },
+      {
+        Question: "How long does Jeep maintenance take?",
+        Answer: "Routine Jeep servicing typically takes 1 to 2 hours, depending on the model, mileage, and diagnostic results."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Jeep Services center in Dubai for Your Vehicle",
+        description: "No matter which Jeep model you drive, whether it’s the Wrangler, Grand Cherokee, Compass, or Renegade, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Jeep vehicles in the UAE, we understand their off-road capabilities and performance needs in hot and humid conditions. Our certified technicians handle engine performance, transmission, brakes, suspension, and electronic system repairs efficiently. Regular maintenance and professional care ensure your Jeep remains reliable, safe, and ready for any adventure."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "High-quality Jeep repair and service at competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the full service history of your Jeep",
+      "Friendly and professional customer service ensuring a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent Jeep service center and luxury car workshop in Dubai",
+      "State-of-the-art workshop equipped for all Jeep models",
+      "18,000 sqm area dedicated to efficient vehicle care",
+      "23 vehicle lifters for smooth service operations",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for repairs, refurbishment, and replacements",
+      "Certified Jeep technicians with extensive expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick replacements"
+    ]
+
+  },
+  {
+    name: "mclaren",
+    banner: "/assets/brands/mclaren.webp",
+    heading: "McLaren Hypercar Maintenance and Precision Repairs",
+
+    heroText:
+      "Certified McLaren care with genuine parts, advanced diagnostics, and hypercar-grade maintenance for unmatched performance and driving precision.",
+
+    description:
+      "Our McLaren service center provides comprehensive maintenance and repair solutions for all McLaren models, including 570S, 720S, GT, Artura, and limited-edition hypercars. Renowned for cutting-edge engineering, lightweight carbon-fiber construction, and exhilarating performance, McLaren vehicles demand specialized expertise and meticulous attention. Our certified McLaren technicians utilize factory-approved tools, advanced diagnostic systems, and 100% genuine McLaren OEM parts to ensure flawless performance, safety, and long-term reliability. Services include engine oil changes, carbon-fiber chassis inspections, brake maintenance, suspension calibration, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service ensures McLaren owners in Dubai receive a premium experience while preserving peak performance and driving excellence.",
+
+    whyChooseUs: [
+      {
+        title: "Certified McLaren Hypercar Technicians",
+        text: "Our McLaren-certified technicians are trained to handle the unique engineering and advanced systems of all McLaren models. From high-rev V8/V10 engines to carbon-fiber chassis and suspension systems, every repair and maintenance task is executed with precision to maintain McLaren’s performance, safety, and driving dynamics. Our specialists follow the latest McLaren service protocols to deliver elite hypercar care."
+      },
+      {
+        title: "Advanced McLaren Diagnostics",
+        text: "We use McLaren-approved diagnostic tools to accurately analyze engine performance, transmission behavior, electronics, suspension dynamics, and aerodynamic systems. These advanced diagnostics help identify even minor issues, ensuring precise, performance-focused repairs while maintaining structural integrity and engineering excellence."
+      },
+      {
+        title: "Genuine McLaren Parts Only",
+        text: "We install only 100% genuine McLaren OEM components to preserve your vehicle’s performance, reliability, and exclusivity. From engine components to carbon-fiber elements and braking systems, every part is engineered for precision, durability, and perfect fitment, ensuring your McLaren delivers hypercar-level performance at all times."
+      }
+    ],
+
+    seoTitle: "McLaren Service Dubai | Expert Hypercar Maintenance and Repairs",
+    seoDescription:
+      "Premium McLaren maintenance and repair in Dubai. Certified McLaren technicians, genuine parts, advanced diagnostics, engine, carbon-fiber chassis, brakes, suspension, and full hypercar servicing.",
+
+    faqs: [
+      {
+        Question: "How often should I service my McLaren?",
+        Answer: "McLaren vehicles typically require servicing every 7,000–10,000 km or once a year, depending on driving style and performance usage."
+      },
+      {
+        Question: "Do you use genuine McLaren parts?",
+        Answer: "Yes, we use only 100% genuine McLaren OEM components to maintain hypercar-level performance, safety, and reliability."
+      },
+      {
+        Question: "Do you offer McLaren diagnostics?",
+        Answer: "Absolutely. We use McLaren-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and aerodynamic performance with precision."
+      },
+      {
+        Question: "Do you repair McLaren engines?",
+        Answer: "Yes, we provide complete engine, gearbox, and high-performance component repair services for all McLaren models, ensuring exceptional performance and reliability."
+      },
+      {
+        Question: "Do you offer McLaren performance checks?",
+        Answer: "Yes, we provide detailed performance evaluations, aerodynamic assessments, suspension calibration, and system optimizations to maintain peak McLaren driving performance."
+      },
+      {
+        Question: "How long does McLaren maintenance take?",
+        Answer: "Routine McLaren servicing typically takes 2–4 hours depending on the model, complexity, and precision required for each inspection."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert McLaren Services center in Dubai for Your Vehicle",
+        description: "No matter which McLaren model you drive, whether it’s the 720S, GT, Artura, or P1, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing McLaren vehicles in the UAE, we understand the high-performance engineering and precision these supercars demand. Our certified technicians handle engine tuning, transmission, brakes, suspension, and advanced electronic systems. Regular maintenance and professional care ensure your McLaren delivers maximum performance, reliability, and an exhilarating driving experience."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality McLaren repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your McLaren",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and McLaren service center in Dubai",
+      "State-of-the-art workshop capable of servicing all McLaren models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified McLaren technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
+
+  },
+  {
+    name: "range rover",
+    banner: "/assets/brands/range-rover.webp",
+    heading: "Range Rover Maintenance and Premium 4x4 Repairs",
+
+    heroText:
+      "Certified Range Rover care with genuine parts, advanced diagnostics, and expert 4x4 maintenance for luxury, performance, and off-road reliability.",
+
+    description:
+      "Our Range Rover service center provides comprehensive maintenance and repair solutions for all Range Rover models, including Range Rover Sport, Velar, Evoque, Autobiography, and SV variants. Renowned for luxury, off-road capability, and advanced engineering, Range Rover vehicles require specialized expertise and precision care. Our certified technicians utilize manufacturer-approved tools, advanced diagnostic systems, and 100% genuine Range Rover OEM components to ensure flawless performance, safety, and driving comfort. Services include engine oil changes, suspension tuning, 4x4 drivetrain servicing, brake maintenance, transmission repair, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Every service is designed to deliver a premium experience for Range Rover owners in Dubai, ensuring your vehicle remains powerful, luxurious, and adventure-ready.",
+
+    whyChooseUs: [
+      {
+        title: "Certified Range Rover Technicians",
+        text: "Our Range Rover-certified technicians specialize in all models and 4x4 systems, including Terrain Response, SVAutobiography, and high-performance engines. Each service, from suspension calibration to drivetrain maintenance, is performed with precision to maintain luxury, off-road capability, and reliability. Our experts follow the latest Land Rover service protocols to provide top-tier care for every vehicle."
+      },
+      {
+        title: "Advanced Range Rover Diagnostics",
+        text: "We use Range Rover-approved diagnostic tools to analyze engine performance, transmission behavior, 4WD systems, electronics, and off-road components. Accurate diagnostics enable our specialists to detect issues early and deliver precise repairs that enhance safety, reliability, and performance—whether on the highway or extreme terrain."
+      },
+      {
+        title: "Genuine Range Rover Parts Only",
+        text: "To preserve your Range Rover’s performance, luxury, and factory-grade reliability, we install only 100% genuine Range Rover OEM components. From suspension and drivetrain parts to engine and braking systems, every component is engineered for durability, fitment, and optimal performance. Using authentic parts ensures long-term reliability and driving excellence."
+      }
+    ],
+
+    seoTitle: "Range Rover Service Dubai | Expert 4x4 Maintenance and Repairs",
+    seoDescription:
+      "Professional Range Rover maintenance and repair in Dubai. Certified Range Rover technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road and luxury performance care.",
+
+    faqs: [
+      {
+        Question: "How often should I service my Range Rover?",
+        Answer: "Range Rover vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving style and on/off-road usage."
+      },
+      {
+        Question: "Do you use genuine Range Rover parts?",
+        Answer: "Yes, we use only 100% genuine Range Rover OEM components to ensure optimal performance, reliability, and luxury standards."
+      },
+      {
+        Question: "Do you offer Range Rover diagnostics?",
+        Answer: "Absolutely. We use Range Rover-approved diagnostic systems to analyze engine, transmission, electronics, 4x4 systems, and suspension with precision."
+      },
+      {
+        Question: "Do you repair Range Rover engines and transmissions?",
+        Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Range Rover models, maintaining smooth performance and off-road capability."
+      },
+      {
+        Question: "Do you offer Range Rover performance and off-road checks?",
+        Answer: "Yes, we provide detailed performance inspections, suspension calibration, 4x4 system evaluation, and off-road readiness assessments to keep your Range Rover at peak performance."
+      },
+      {
+        Question: "How long does Range Rover maintenance take?",
+        Answer: "Routine Range Rover servicing typically takes 1–3 hours depending on the model, service requirements, and diagnostic complexity."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Range Rover Services center in Dubai for Your Vehicle",
+        description: "No matter which Range Rover model you drive, whether it’s the Evoque, Velar, Sport, or Autobiography, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Range Rover vehicles in the UAE, we understand their luxury engineering and off-road capabilities. Our certified technicians handle engine performance, transmission, brakes, suspension, and electronic systems. Regular maintenance and professional care ensure your Range Rover remains reliable, safe, and delivers a premium driving experience."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Range Rover repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Range Rover",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Range Rover service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Range Rover models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Range Rover technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
+
+  },
+  {
+    name: "rolls-royce",
+    banner: "/assets/brands/rolls-royce.webp",
+    heading: "Rolls Royce Luxury Maintenance and Precision Repairs",
+
+    heroText:
+      "Certified Rolls Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",
+
+    description:
+      "Our Rolls Royce service center provides world-class maintenance and repair solutions for all Rolls Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls Royce vehicles require expert care and meticulous attention. Our certified Rolls Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls Royce owners in Dubai, preserving the elegance, power, and precision of their vehicles.",
+
+    whyChooseUs: [
+      {
+        title: "Certified Rolls Royce Technicians",
+        text: "Our Rolls Royce certified technicians possess specialized expertise in all models, including bespoke Phantom, Ghost, and Cullinan variants. Every maintenance and repair task is executed with extreme precision to uphold luxury, performance, and reliability. Our team follows the latest Rolls Royce service standards to deliver top-tier care for every vehicle."
+      },
+      {
+        title: "Advanced Rolls Royce Diagnostics",
+        text: "We utilize Rolls Royce approved diagnostic tools to accurately assess engine performance, transmission behavior, suspension systems, electronics, and luxury features. This enables early detection of issues and ensures precise repairs that maintain the vehicle’s comfort, refinement, and long-term reliability."
+      },
+      {
+        title: "Genuine Rolls Royce Parts Only",
+        text: "To preserve your Rolls Royce’s performance, luxury, and craftsmanship, we install only 100% genuine Rolls Royce OEM components. Each part is engineered for perfect fitment, durability, and seamless integration. Using authentic parts guarantees your vehicle maintains peak performance, reliability, and its signature bespoke quality."
+      }
+    ],
+
+    seoTitle: "Rolls Royce Service Dubai | Luxury Maintenance and Precision Repairs",
+    seoDescription:
+      "Professional Rolls Royce maintenance and repair in Dubai. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
+
+    faqs: [
+      {
+        Question: "How often should I service my Rolls Royce?",
+        Answer: "Rolls Royce vehicles typically require servicing every 10,000–12,000 km or once a year, depending on driving conditions and model specifications."
+      },
+      {
+        Question: "Do you use genuine Rolls Royce parts?",
+        Answer: "Yes, we use only 100% genuine Rolls Royce OEM components to ensure maximum performance, reliability, and luxury standards."
+      },
+      {
+        Question: "Do you offer Rolls Royce diagnostics?",
+        Answer: "Absolutely. We use Rolls Royce-approved diagnostic systems to analyze engine, transmission, electronics, suspension, and luxury features with precision."
+      },
+      {
+        Question: "Do you repair Rolls Royce engines and transmissions?",
+        Answer: "Yes, we provide complete engine, gearbox, and drivetrain repair services for all Rolls Royce models, maintaining smooth performance and ultimate luxury."
+      },
+      {
+        Question: "Do you offer Rolls Royce performance and luxury checks?",
+        Answer: "Yes, we provide detailed inspections, suspension calibration, system evaluations, and optimization to ensure your Rolls Royce performs flawlessly in all conditions."
+      },
+      {
+        Question: "How long does Rolls Royce maintenance take?",
+        Answer: "Routine Rolls Royce servicing typically takes 2–4 hours depending on the model, service requirements, and diagnostic complexity."
+      }
+    ],
+    // 1. Expert Services Overview
+    expertServices: [
+      {
+        title: "Our Expert Rolls-Royce Services center in Dubai for Your Vehicle",
+        description: "No matter which Rolls-Royce model you drive, whether it’s the Phantom, Ghost, Wraith, or Cullinan, Speed Full Auto has the expertise to serve you. With over 18 years of experience maintaining and repairing Rolls-Royce vehicles in the UAE, we understand the unparalleled luxury, precision engineering, and performance these cars demand. Our certified technicians handle engine performance, transmission, brakes, suspension, and advanced electronics. Regular maintenance and professional care ensure your Rolls-Royce delivers smooth, reliable, and extraordinary driving experiences."
+      }
+    ],
+
+    // 2. What To Expect
+    whatToExpect: [
+      "Dealership-quality Rolls-Royce repair and service at highly competitive rates",
+      "12-month warranty certificates for labor and parts after repairs",
+      "Advanced CRM system to maintain the complete service history of your Rolls-Royce",
+      "Premium customer service that treats you like royalty for a seamless experience"
+    ],
+
+    // 3. Facilities
+    facilities: [
+      "Largest independent luxury car workshop and Rolls-Royce service center in Dubai",
+      "State-of-the-art workshop capable of servicing all Rolls-Royce models",
+      "18,000 sqm area dedicated to high-end vehicle care",
+      "23 vehicle lifters ensuring efficient workflow",
+      "Capacity to service up to 60 vehicles per day",
+      "Dedicated engine room for engine repair, refurbishment, and replacements",
+      "Certified Rolls-Royce technicians with specialized expertise",
+      "Fully stocked spare parts department with secure storage",
+      "Professional and multi-cultural team, fluent in your language",
+      "Up to 15,000 genuine spare parts available in stock for quick repairs"
+    ]
+
+  }
 ];
 export const findBrand = (brand: string): BrandType | undefined =>
   brandsData.find(
