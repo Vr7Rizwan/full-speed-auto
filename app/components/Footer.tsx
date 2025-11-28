@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full bg-txtColor text-primary py-12 px-6 md:px-12 z-20">
-      <div className="flex flex-col md:flex-row justify-between gap-12">
+      <div className="flex flex-col md:flex-row justify-around gap-12">
         {/* Column 1: Brand + Locations */}
         <div className="flex flex-col gap-4 md:w-1/4">
           <img className="w-40 h-25 items-center justify-center"src="/assets/logo-light.png" alt="" />
