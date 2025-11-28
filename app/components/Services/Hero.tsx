@@ -19,7 +19,7 @@ const Hero = ({
             <p className="normalText">{description}</p>
         </div>
         <div className="w-full lg:w-[40%] h-54 lg:h-auto flex justify-center md:justify-end bg-cover bg-center rounded-b-2xl lg:rounded-b-none lg:rounded-br-2xl lg:rounded-tr-2xl"
-         style={{ backgroundImage: `url('/assets/services/brake-system-content.webp')` }}>
+         style={{ backgroundImage: `url(${contentimg}` }}>
           {/* <img src={contentimg} alt="" className="w-full object-cover rounded-br-2xl rounded-bl-2xl md:rounded-bl-none md:rounded-tr-2xl md:rounded-br-2xl" /> */}
 
         </div>
