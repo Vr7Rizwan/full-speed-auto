@@ -13,7 +13,7 @@ const packageDetails: packageTypes[] = [
   },
   {
     title: "OIL SERVICE PACKAGE",
-    desc: "This time we come up with huge offers on the oil service package starting from only PKR 8,999.",
+    desc: "This time we come up with huge offers on the oil service package starting from only 130 AED.",
     btn: "CHECK PACKAGE",
     image: "/assets/packages/oil-service.webp",
   },
