@@ -2045,7 +2045,7 @@ const brandsData: BrandType[] = [
   {
     name: "rolls-royce",
     banner: "/assets/brands/rolls-royce.webp",
-    heading: "Rolls Royce Luxury Maintenance and Precision Repairs",
+    heading: "Rolls Royce Maintenance and Precision Repairs",
 
     heroText:
       "Certified Rolls Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",

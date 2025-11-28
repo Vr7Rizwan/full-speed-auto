@@ -22,7 +22,7 @@ function WhyChooseUS({
                 <h3 className="text-txtColor subHeading font-bold">
                   {item.title}
                 </h3>
-                <p className="text-txtColor normalText">{item.text}</p>
+                <p className="text-txtColor normalText ">{item.text}</p>
               </div>
             ))}
         </div>

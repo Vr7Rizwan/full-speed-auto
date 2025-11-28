@@ -19,7 +19,7 @@ function Facilities({
             key={facility + i}
             className="flex items-center  gap-3 bg-primary p-4 border border-secondary rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
           >
-            <p className="text-txtColor normalText">{facility}</p>
+            <p className="text-txtColor normalText ">{facility}</p>
           </div>
         ))}
       </div>
