@@ -1,13 +1,13 @@
 import { companyprofile } from "@/app/resources/about";
 const CompanyProfile = () => {
   return (
-    <section className="flex justify-center py-10">
+    <section className="flex justify-center py-10 px-4 md:px-0">
       <div className="w-[95%] mx-auto">
         <div className="flex flex-col gap-5">
           <h1 className="heading text-txtColor font-bold">
             ABOUT THE COMPANY
           </h1>
-          <div className="flex flex-col gap-4 normalText text-txtColor">
+          <div className="flex flex-col gap-4 normalText text-start text-txtColor">
             <p>{companyprofile}</p>
           </div>
         </div>
