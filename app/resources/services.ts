@@ -122,7 +122,7 @@ const servicesData: ServiceType[] = [
       },
       {
         title: "High Gloss & Long-Term Protection",
-        text: "Each coating is applied with precision to achieve a deep shine, hydrophobic effect, and years of premium paint protection—keeping your car looking fresh and glossy.",
+        text: "Each coating is applied with precision to achieve a deep shine, hydrophobic effect, and years of premium paint protection-keeping your car looking fresh and glossy.",
       },
     ],
 
