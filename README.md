@@ -1,6 +1,6 @@
 #  introduction
-## FULL SPEED AUTOS – Professional Car Repair Services
-FULL SPEED AUTOS is a premium automotive service center dedicated to providing high-quality car repair and maintenance services for luxury vehicles. Our goal is to ensure that every client receives reliable, efficient, and professional care for their vehicle, enhancing both performance and longevity.
+## SPEED FULL  AUTOS REPAIRING GARAGE LLC – Professional Car Repair Services
+SPEED FULL AUTOS REPAIRING GARAGE LLC  is a premium automotive service center dedicated to providing high-quality car repair and maintenance services for luxury vehicles. Our goal is to ensure that every client receives reliable, efficient, and professional care for their vehicle, enhancing both performance and longevity.
 
 We specialize in a wide range of automotive services, including:
 
@@ -26,18 +26,36 @@ Our service center caters exclusively to luxury car brands, ensuring that each v
 - **Maybach**
 - **Mercedes**
 - **Porsche**
+- **Ferrari**
+-	**Hyundai**
+-	**Toyota**
+-	**Lamborghini**
+-	**Honda**
+-	**Mazda**
+-	**Bentley**
+-	**Mini Cooper**
+- **Volkswagen**
+-	**Pagani**
+-	**Dodge**
+-	**Bugatti**
+-	**Jeep**
+-	**McLaren**
+-	**Range Rover**
+-	**Rolls Royce**
 
-At FULL SPEED AUTOS, we combine state-of-the-art diagnostic tools, genuine spare parts, and a skilled technical team to deliver a seamless, trustworthy, and client-focused experience. Whether it’s routine maintenance or specialized performance upgrades, our mission is to keep your luxury vehicle in peak condition while providing exceptional customer service.
+
+At SPEED FULL  AUTOS REPAIRING GARAGE LLC, we combine state-of-the-art diagnostic tools, genuine spare parts, and a skilled technical team to deliver a seamless, trustworthy, and client-focused experience. Whether it’s routine maintenance or specialized performance upgrades, our mission is to keep your luxury vehicle in peak condition while providing exceptional customer service.
 
 # Client Requirements
 ## Website Name
 ```
-FULL SPEED AUTO
+SPEED FULL  AUTOS REPAIRING GARAGE LLC
 ```
 ## Website Pages & Navigation
  The site should include the following pages with dropdowns where applicable:
 ```
-- About – Company overview, mission, vision, services, and values  
+   -	Home – Premium hero section, dealership-level car service intro detailed service, FAQs section, supported luxury brands, contact and location details, and a complete service booking form.
+   - About – Company overview, mission, vision, services, and values  
    - Brands – Dropdown for each brand detailing services and unique offerings  
    - Services – Dropdown for each service with detailed descriptions and features  
    - Packages – Promotional offers and service packages  
@@ -52,6 +70,23 @@ FULL SPEED AUTO
 - Maybach  
 - Mercedes  
 - Porsche
+-	Ferrari
+-	Hyundai
+-	Toyota
+-	Lamborghini
+-	Honda
+-	Mazda
+-	Bentley
+-	Mini Cooper
+-	Volkswagen
+-	Pagani
+-	Dodge
+-	Bugatti
+-	Jeep
+-	McLaren
+-	Range Rover
+-	Rolls Royce
+
 ```
 ## Automotive Services
 ```
@@ -171,18 +206,39 @@ Full Speed Auto
 
 ```
 ## libraries
+## @emailjs/browser
+```
+npm i @emailjs/browser
 
+@emailjs/browser is a JavaScript library that allows sending emails directly from the client-side (browser) without requiring a backend server.It is commonly used to handle contact forms, feedback forms, or any feature that needs to send emails securely and efficiently from a web application.
+```
+## react-slick
+```
+npm i react-slick
+
+react-slick is a React library for creating responsive, touch-friendly carousels and sliders.
+It provides easy-to-use components with customizable settings like autoplay, slides to show, navigation arrows, and responsive breakpoints, enabling smooth and visually appealing content sliders in React applications.
+```
+## react-toastify
+```
+npm i react-toastify
+
+react-toastify is a React library used to display customizable toast notifications in web applications.It allows developers to show alerts, success messages, warnings, or errors with minimal setup, supporting features like auto-dismiss, positioning, styling, and interactive behaviors to enhance user feedback and experience.
+```
+## slick-carousel
+```
+npm i slick-carousel
+
+slick-carousel is a CSS and JavaScript library that provides the core styles and functionality for creating responsive, touch-enabled carousels and sliders.
+It is commonly used alongside react-slick in React projects to handle the underlying slider mechanics, including transitions, navigation, and responsive behavior.
+```
 ### Lucide React
 
 ```
 npm install lucide-react
-```
-### React DOM
 
+lucide-react is a React library that provides a collection of crisp, customizable, and lightweight SVG icons.It allows developers to easily integrate vector icons into React applications, with support for sizing, color, and other styling options, ensuring scalable and visually consistent icons across the UI.
 ```
-npm i react-dom
-```
-
 Here ## heading refer to folders and ``` bash``` refer to subfolders and files
  
 # Folder Structure
@@ -204,6 +260,7 @@ Here ## heading refer to folders and ``` bash``` refer to subfolders and files
 <CompanyProfile/>     `import Cards from "../components/About/Cards"`
 <CompanyServices/>    `import CompanyProfile from "../components/About/CompanyProfile"`
 <MissionVision/>       `import CompanyServices from "../components/About/CompanyServices"
+<LogoSlider logos={logos} />       import LogoSlider from "../components/LogoSlider";
 <Cards/>               `import MissionVision from "../components/About/MissionVision"`
 
 The `about` folder contains the `page.tsx` file, which renders the complete About page of the website.  
@@ -230,7 +287,9 @@ Rendered Components are:
 
 <Banner/>            `import Banner from "@/app/components/Brands/Banner";`
 <BrandDetail/>        `import BrandDetail from "@/app/components/Brands/BrandDetail";`
-<BrandServices/>    `import BrandServices from "@/app/components/Brands/BrandServices";`
+<Services/>    `import Services from "@/app/components/Brands/Services";`
+<WhatCanYouExpect />   import WhatCanYouExpect from "@/app/components/Brands/WhatCanYouExpect";
+<Facilities />         import Facilities from "@/app/components/Brands/Facilities";
 <WhyChooseUS />       `import WhyChooseUS from "@/app/components/WhyChooseUS"`
 <Faq />              `import Faq from "@/app/components/Faq";`
 <CarWorkshopForm />   `import CarWorkshopForm from "@/app/components/CarWorkshopForm";`
@@ -287,6 +346,8 @@ Rendered Components:
 
 <Banner/>                     `import Banner from "@/app/components/Services/Banner";`
  <Hero/>                      `import Hero from "@/app/components/Services/Hero";`
+ <WhyChooseUS />               'import WhyChooseUS from "@/app/components/WhyChooseUS";'
+<OurFeatures />                 'import OurFeatures from "@/app/components/Services/Features";'
 <CarWorkshopForm />            `import CarWorkshopForm from "@/app/components/CarWorkshopForm";`
 findServices (A function       `import { findService } from "@/app/resources/services";`
 form services.ts)
@@ -315,8 +376,7 @@ These components structure and display content to ensure a clean and consistent 
 
 - **AboutBanner.tsx**  
 - **Cards.tsx** 
-- **CompanyProfile.tsx** 
-- **CompanyServices.tsx** 
+- **CompanyProfile.tsx**  
 - **MissionVision.tsx** 
  
  ```
@@ -372,8 +432,10 @@ The `Brands` folder contains all the reusable components specifically created fo
 These components structure and display content to ensure a clean and consistent layout. Key components include:
 
 - **Banner.tsx**  
-- **BrandDetail.tsx**  
-- **BrandServices.tsx** 
+- **BrandDetail.tsx**
+- **Facilities.tsx**  
+- **WhatCanYouExpect.tsx**
+- **BrandServices.tsx**
 
 ```
 Banner.tsx
@@ -390,6 +452,21 @@ located inside the `Brands` folder
 
 The `BrandDetail` component displays detailed information for a specific brand on the brand page. It accepts `heading`, `heroText`, and `description` as props and renders them in a structured layout. The `heading` is shown as the main title, `heroText` as an italicized highlight, and `description` as a series of paragraphs. Tailwind CSS is used for spacing, typography, and responsive alignment, ensuring a clean and readable presentation of brand details.
 
+```
+```
+Facilities
+
+located inside the `Brands` folder
+
+The ‘Facilities’ component displays a list of service facilities offered for a specific car brand.
+It dynamically renders each facility in a clean, responsive grid layout, using Tailwind CSS for styling and hover effects to enhance visual engagement.
+```
+```
+WhatCanYouExpect
+
+located inside the `Brands` folder
+
+The ’WhatCanYouExpect’ component presents a numbered list of key expectations for customers at SPEED FULL AUTO.It maps through the provided data to display each point with styled numbering and a modern, responsive layout to ensure clarity and visual appeal.
 ```
 ```
 BrandServices.tsx
@@ -424,6 +501,7 @@ The `Services` folder  contains all the reusable components specifically created
 These components structure and display content to ensure a clean and consistent layout. Key components include:
 
 - **Banner.tsx**
+- **•	OurFeature.tsx**
 - **Hero.tsx**
 
 ```
@@ -432,6 +510,14 @@ Banner.tsx
 located inside the `Services` folder
 
 The `Banner` component for the Services page displays a full-width banner image at the top of the page. It accepts a `banner` prop and renders the image inside a responsive container. Tailwind CSS classes ensure proper width, height, and spacing, providing a clean and visually appealing header for the Services section.
+
+```
+```
+OurFeatures
+
+located inside the `Services` folder
+
+The OurFeatures component showcases the key features that highlight the quality and reliability of the service.It renders a responsive grid of feature cards each containing an icon, title, and description styled with Tailwind CSS to ensure a clean, modern, and visually engaging presentation.
 
 ```
 ```
@@ -480,6 +566,13 @@ located inside `component` folder
 ```
 The `ContactBtn` component is a reusable button used throughout the website to trigger the contact form popup. It accepts `text` for the button label, `classes` for custom styling, and an optional `setMobileMenuOpen` function to close the mobile menu when clicked. The component manages its own `formPopup` state using React’s `useState` hook. This modular design allows the button to be used in different contexts while maintaining consistent behavior and styling.
 
+```
+### LogoSlider.tsx
+
+located inside `components` folder
+
+```
+The LogoSlider component displays a smooth, auto-scrolling carousel of brand logos powered by react-slick.It offers flexible customization, including adjustable slide count, scroll direction (left or right), autoplay timing, and transition speed.With fully responsive breakpoints and optimized rendering using Next.js Image, the slider delivers a seamless, high-performance, and visually engaging experience across all screen sizes.
 ```
 ### Faq.tsx
 
@@ -541,16 +634,6 @@ The `Navbar` component provides a responsive navigation bar for the website. It 
 It uses React `useState` to manage mobile menu visibility and active submenus. The `ContactBtn` component is integrated for consistent appointment booking functionality. This component ensures smooth navigation, accessibility, and a consistent user experience across all devices.
 
 ```
-### Offers.tsx
-
-located inside `components` folder
-
-```
-The `Offers` component displays a visually structured list of services and benefits provided by the car service center. It dynamically renders content from the `offers` resource file, showcasing each offer with an icon, title, and descriptive text.
-
-The layout is fully responsive—using Tailwind CSS grid utilities—to adapt from a single-column layout on mobile to a multi-column layout on larger screens. This component enhances user engagement by clearly presenting key value propositions in an organized, easy-to-read format.
-
-```
 ### WhyChooseUs.tsx
 
 located inside the `component` folder
@@ -577,6 +660,7 @@ The `resources` folder contains structured data files used throughout the applic
 - **brands.ts**   
 - **faq.ts**
 - **footer.ts**
+- **logos.ts**
 - **navlinks.ts**
 - **offer.ts**
 - **packages.ts**
@@ -658,6 +742,16 @@ This setup allows the footer to dynamically render important navigation and cont
 
 ```
 ```
+Logos.ts
+
+The `logos.ts` file in the `resources` folder contains structured data for the website’s footer section. It includes:
+
+The logos array contains the brand logo data used throughout the website to showcase trusted automotive brands.
+Each entry includes the logo image source, alt text, and dimensions, providing a consistent and structured dataset.
+This allows components like LogoSlider to dynamically render a responsive, visually appealing, and uniform carousel of brand logos, ensuring high-quality display across all devices and screen sizes.
+
+```
+```
 navLinks.ts
 
 The `navLinks.ts` file in the `resources` folder defines the website’s navigation structure. 
@@ -729,4 +823,261 @@ located inside `app` directory
 The page.tsx (Home Page) imports and renders all major sections of the landing page, including Banner, Offers, WhyChooseUS, FAQ, and the CarWorkshopForm. Each component is neatly separated for better readability and maintainability. Data-driven sections like WhyChooseUS and Faq receive their content through props, ensuring clean separation of UI and data. This structured approach keeps the home page modular, scalable, and easy to update.
 
 ```
+## Public
 
+Located inside the project folder ‘full-speed-atuo-master’
+
+```
+assets
+
+located inside the “Public” folder
+
+The assets folder contains all the images used across the website, including banners, icons, brand logos, and other visual elements.It serves as a centralized repository for media assets, ensuring organized file management and consistent usage throughout different pages and components of the site.
+
+```
+## sitemap.ts
+```
+located inside the Speed Full Auto
+
+1)https://www.speedfullauto.com/
+
+Page: Home Page
+
+When a user types the website https://www.speedfullauto.com in the browser or clicks on the logo, they are automatically directed to the Home Page. This is the main entry point of the website, which is why it has been assigned the highest priority (1.0).
+```
+```
+2)https://www.speedfullauto.com/about
+
+Page: About Us Page
+
+When a user clicks on “About” in the header navigation or selects the link from the footer, this page opens. It contains the company's introduction, expertise, experience, and other essential background information.
+```
+```
+3) https://www.speedfullauto.com/brands/audi
+
+Page: Audi brand Page
+Navigation:
+Brands menu → Audi
+```
+```
+4) https://www.speedfullauto.com/brands/bmw
+
+Page: bmw brand Page
+Navigation:
+Brands menu → bmw
+```
+```
+5) https://www.speedfullauto.com/brands/jaguar
+   
+Page: jaguar brand Page
+Navigation:
+Brands menu → Jaguar
+```
+```
+1) https://www.speedfullauto.com/brands/meserati
+
+Page: Meserati brand Page
+Navigation:
+Brands menu → Meserati
+```
+```
+1) https://www.speedfullauto.com/brands/maybach
+
+Page: Maybach brand Page
+Navigation:
+Brands menu → Maybach
+```
+```
+1) https://www.speedfullauto.com/brands/mercedes
+
+Page: Mercedes brand Page
+Navigation:
+Brands menu → Mercedes
+```
+```
+1) https://www.speedfullauto.com/brands/prosche
+
+Page: Prosche brand Page
+Navigation:
+Brands menu → Prosche
+```
+```
+1)   https://www.speedfullauto.com/brands/ferrari
+
+Page: Ferrari brand Page
+Navigation:
+Brands menu → Ferrari
+```
+```
+1)   https://www.speedfullauto.com/brands/hyundai
+
+Page: Hyundai brand Page
+Navigation:
+Brands menu → Hyundai
+```
+```
+1)   https://www.speedfullauto.com/brands/toyota
+
+Page: Toyota brand Page
+Navigation:
+Brands menu → Toyota
+```
+1)   https://www.speedfullauto.com/brands/lamborghini
+   
+Page: Lamborghini brand Page
+Navigation:
+Brands menu → Lamborghini
+```
+```
+1)   https://www.speedfullauto.com/brands/honda
+   
+Page: Honda brand Page
+Navigation:
+Brands menu → Honda
+```
+```
+1)   https://www.speedfullauto.com/brands/mazda
+   
+Page: Mazda brand Page
+Navigation:
+Brands menu → Mazda
+```
+```
+1)   https://www.speedfullauto.com/brands/mini-cooper
+   
+Page: Mini Cooper brand Page
+Navigation:
+Brands menu → Mini Cooper
+```
+```
+1)   https://www.speedfullauto.com/brands/volkswagen
+  
+Page: Volkswagen brand Page
+Navigation:
+Brands menu → Vlkswagen
+```
+```
+1)   https://www.speedfullauto.com/brands/pagani
+
+Page: Pagani brand Page
+Navigation:
+Brands menu → Pagani
+```
+```
+1)   https://www.speedfullauto.com/brands/dodge
+Page: Dodge brand Page
+Navigation:
+Brands menu → Dodge
+```
+```
+1)   https://www.speedfullauto.com/brands/bugatti
+Page: Bugatti brand Page
+Navigation:
+Brands menu → Bugatti
+```
+```
+1)   https://www.speedfullauto.com/brands/jeep
+Page: Jeep brand Page
+Navigation:
+Brands menu → Jeep
+```
+```
+1)   https://www.speedfullauto.com/brands/mclaren
+Page: Mclaren brand Page
+Navigation:
+Brands menu → Mclaren
+```
+```
+1)   https://www.speedfullauto.com/brands/range-rover
+Page: Range Rover brand Page
+Navigation:
+Brands menu → Range Rover
+```
+```
+1)   https://www.speedfullauto.com/brands/rolls-royce
+Page: Rolls Royce brand Page
+Navigation:
+Brands menu → Rolls Roys
+Service Pages
+```
+```
+1)https://www.speedfullauto.com/services/radiator-repair-service
+Navigation:
+Services → Radiator Repair
+```
+```
+1) https://www.speedfullauto.com/services/ceramic-coating
+Navigation:
+Services →Ceramic Coating
+```
+```
+3)https://www.speedfullauto.com/services/ac-repair-maintenance
+Navigation:
+Services → AC Repair and Maintenance
+```
+```
+4)https://www.speedfullauto.com/services/engine-ecu-service
+Navigation:
+Services → Engine & ECU Service
+```
+```
+5)https://www.speedfullauto.com/services/brake-system-service
+Navigation:
+Services → Brake System Service
+```
+```
+6)https://www.speedfullauto.com/services/transmission-gearbox-repair
+Navigation:
+Services → Transmission & Gearbox Repair
+```
+```
+7)https://www.speedfullauto.com/services/suspension-steering-maintenance
+Navigation:
+Services → Suspension & Steering Maintenance
+```
+```
+8)https://www.speedfullauto.com/services/oil-change-fluid-checks
+Navigation:
+Services → Oil Change & Fluid Checks
+```
+```
+9)https://www.speedfullauto.com/services/electrical-comfort-systems
+Navigation:
+Services → Electrical & Comfort Systems
+```
+```
+10)https://www.speedfullauto.com/services/fuel-injection-service
+Navigation:
+Services → Fuel Injection Service
+```
+```
+11)https://www.speedfullauto.com/services/pre-purchase-inspection-diagnostics
+Navigation:
+Services → Pre Purchase Inspection & Diagnostics
+```
+```
+12)https://www.speedfullauto.com/services/performance-tuning-ecu-upgrade
+Navigation:
+Services → Performance Tuning & ECU Upgrade
+```
+```
+13)https://www.speedfullauto.com/services/paint-protection-coatings
+Navigation:
+Services → Paint Protection & Coatings
+```
+```
+14)https://www.speedfullauto.com/services/alloy-wheel-repair-refurbishment
+Navigation:
+Services → Alloy Wheel Repair & Refurbishment Packages
+Additional Pages
+```
+```
+15)https://www.speedfullauto.com/packages
+Navigation: Header Menu → Packages
+```
+```
+16)https://www.speedfullauto.com/packages
+Navigation: Header Menu → Contact
+Footer → Contact
+Buttons like “Book Now / Schedule Now”
+```
