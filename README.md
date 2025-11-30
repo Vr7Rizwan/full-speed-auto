@@ -78,22 +78,22 @@ The site should include the following pages with dropdowns where applicable:
 - Maybach
 - Mercedes
 - Porsche
--	Ferrari
--	Hyundai
--	Toyota
--	Lamborghini
--	Honda
--	Mazda
--	Bentley
--	Mini Cooper
--	Volkswagen
--	Pagani
--	Dodge
--	Bugatti
--	Jeep
--	McLaren
--	Range Rover
--	Rolls Royce
+- Ferrari
+- Hyundai
+- Toyota
+- Lamborghini
+- Honda
+- Mazda
+- Bentley
+- Mini Cooper
+- Volkswagen
+- Pagani
+- Dodge
+- Bugatti
+- Jeep
+- McLaren
+- Range Rover
+- Rolls Royce
 
 ```
 
