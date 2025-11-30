@@ -52,7 +52,7 @@ At SPEED FULL AUTOS REPAIRING GARAGE LLC, we combine state-of-the-art diagnostic
 ## Website Name
 
 ```
-SPEED FULL  AUTOS REPAIRING GARAGE LLC
+SPEED FULL AUTOS REPAIRING GARAGE LLC
 ```
 
 ## Website Pages & Navigation
