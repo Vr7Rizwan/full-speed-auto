@@ -60,7 +60,7 @@ SPEED FULL AUTOS REPAIRING GARAGE LLC
 The site should include the following pages with dropdowns where applicable:
 
 ```
-   -	Home – Premium hero section, dealership-level car service intro detailed service, FAQs section, supported luxury brands, contact and location details, and a complete service booking form.
+   - Home – Premium hero section, dealership-level car service intro detailed service, FAQs section, supported luxury brands, contact and location details, and a complete service booking form.
    - About – Company overview, mission, vision, services, and values
    - Brands – Dropdown for each brand detailing services and unique offerings
    - Services – Dropdown for each service with detailed descriptions and features
@@ -165,7 +165,7 @@ Next, the setup process asks whether you want to proceed with the recommended Ne
 After confirming the setup options, Next.js automatically created the project, installed all required dependencies (React, Tailwind, TypeScript, ESLint, etc.), initialized Git, and successfully generated the project structure.
 
 ```
-   Creating a new Next.js app in :path\full-speed-auto-master.
+ Creating a new Next.js app in :path\full-speed-auto-master.
 
 Using npm.
 
@@ -549,7 +549,7 @@ The `Services` folder contains all the reusable components specifically created 
 These components structure and display content to ensure a clean and consistent layout. Key components include:
 
 - **Banner.tsx**
-- **• OurFeature.tsx**
+- **OurFeature.tsx**
 - **Hero.tsx**
 
 ```
