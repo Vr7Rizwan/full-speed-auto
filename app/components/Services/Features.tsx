@@ -5,7 +5,7 @@ export default function OurFeatures({ features }: { features: { icon: string; ti
         <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
             <div className="text-center mb-12">
                 <h2 className="subHeading font-bold txtColor mb-3">
-                    Our Features
+                    Our <span className="subHeading font-bold txtColor mb-3 text-secondary">Features</span>
                 </h2>
                 <p className="txtColor max-w-2xl mx-auto text-base md:text-lg">
                     Why customers trust our services - premium quality, reliability, and professionalism.

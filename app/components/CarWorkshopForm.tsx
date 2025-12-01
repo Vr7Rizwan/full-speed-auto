@@ -1,5 +1,4 @@
 import { MapPin, Phone, Mail } from "lucide-react";
-import { Facebook, Instagram } from "lucide-react";
 import Form from "./Form";
 
 const CarWorkshopForm = () => {
@@ -40,27 +39,14 @@ const CarWorkshopForm = () => {
 
             {/* Email */}
             <div className="flex items-center gap-3">
-              <Mail className="text-secondary mt-1" size={24} />
-              <p className="leading-tight normalText">
-                info@speedfullauto.com
+              <Mail className="text-secondary mt-1 w-[10%]" size={24} />
+              <p className="leading-tight normalText w-[90%]">
+                speedfullauto21@gmail.com
               </p>
             </div>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-3">
-              <a
-                href="https://www.facebook.com/100069101524639/about/?_rdr"
-                className="p-2 bg-secondary text-black rounded-md hover:bg-secondary"
-              >
-                <Facebook size={18} />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-secondary text-black rounded-md hover:bg-secondary"
-              >
-                <Instagram size={18} />
-              </a>
-            </div>
+            
           </div>
 
           {/* Map */}

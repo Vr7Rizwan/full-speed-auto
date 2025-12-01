@@ -4,33 +4,16 @@ import {
   MapPin,
   Phone,
   Mail,
-  Facebook,
-  Instagram,
-  Youtube,
+ 
 } from "lucide-react";
 import { locations, quickLinks, usefulLinks } from "../resources/footer";
 
 const Footer = () => {
-  const socialLinks = [
-    {
-      icon: <Facebook className="size-5 hover:text-secondary cursor-pointer" />,
-      href: "https://www.facebook.com/100069101524639/about/?_rdr",
-    },
-    {
-      icon: (
-        <Instagram className="size-5 hover:text-secondary cursor-pointer" />
-      ),
-      href: "https://instagram.com",
-    },
-    {
-      icon: <Youtube className="size-5 hover:text-secondary cursor-pointer" />,
-      href: "https://youtube.com",
-    },
-  ];
+  
 
   return (
     <footer className="w-full bg-txtColor text-primary py-12 px-6 md:px-12 z-20">
-      <div className="flex flex-col md:flex-row justify-between gap-12">
+      <div className="flex flex-col md:flex-row justify-around gap-12">
         {/* Column 1: Brand + Locations */}
         <div className="flex flex-col gap-4 md:w-1/4">
           <img className="w-40 h-25 items-center justify-center"src="/assets/logo-light.png" alt="" />
@@ -95,21 +78,10 @@ const Footer = () => {
 
           <div className="flex items-center gap-2">
             <Mail className="size-4 text-secondary" />
-            <p className="normalText">info@speedfullauto.com</p>
+            <p className="normalText">speedfullauto21@gmail.com</p>
           </div>
 
-          <div className="flex items-center gap-4 mt-3">
-            {socialLinks.map((s, idx) => (
-              <Link
-                key={idx}
-                href={s.href}
-                target="_blank"
-                className="border border-secondary p-2 rounded-3xl"
-              >
-                {s.icon}
-              </Link>
-            ))}
-          </div>
+         
         </div>
       </div>
 
