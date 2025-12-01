@@ -58,24 +58,21 @@ const Navbar: React.FC = () => {
                 <ul
                   className={`absolute top-[90%] left-0 mt-2 w-[98vw] mx-1 bg-txtColor border border-gray-100 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
-                    ${
-                      item.name === "Brands" || item.name === "Services"
-                        ? "grid grid-cols-3 p-4"
-                        : "w-40"
+                    ${item.name === "Brands" || item.name === "Services"
+                      ? "grid grid-cols-3 p-4"
+                      : "w-40"
                     }
                     group-hover:opacity-100 group-hover:visible
-                    ${
-                      activeSubmenu === item.name ? "opacity-100 visible" : ""
+                    ${activeSubmenu === item.name ? "opacity-100 visible" : ""
                     }`}
                 >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem[0]}
-                      className={`px-4 py-2 hover:bg-secondary hover:text-txtColor normalText ${
-                        item.name === "Brands" || item.name === "Services"
-                          ? "p-2"
-                          : ""
-                      }`}
+                      className={`px-4 py-2 hover:bg-secondary hover:text-txtColor normalText ${item.name === "Brands" || item.name === "Services"
+                        ? "p-2"
+                        : ""
+                        }`}
                     >
                       <Link
                         href={subItem[1]}
@@ -102,7 +99,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Hamburger */}
         <div className="lg:hidden ">
-          <button  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
               <X className="w-6 h-6 " />
             ) : (
@@ -114,7 +111,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-secondary border-t border-txtColor">
+        <div className="lg:hidden bg-secondary border-t border-txtColor overflow-y-auto max-h-[70vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
@@ -131,9 +128,8 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${
-                        activeSubmenu === item.name ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
+                        }`}
                     />
                   )}
                 </div>
