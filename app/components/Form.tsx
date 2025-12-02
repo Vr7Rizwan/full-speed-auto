@@ -87,7 +87,7 @@ function Form({
             e.stopPropagation();
             onClose();
           }}
-          className="absolute top-4 right-4 text-2xl font-bold text-txtColor cursor-pointer"
+          className="absolute top-2 right-3 md:right-4 text-2xl font-bold text-gray-500 cursor-pointer"
         >
           ×
         </button>
