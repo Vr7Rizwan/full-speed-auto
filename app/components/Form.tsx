@@ -9,8 +9,8 @@ const emailRegex =
 
 function Form({
   widthAfterMD,
-  isPopup = false,           // NEW: set true when this is shown as a popup
-  onClose,                   // NEW: optional close handler (only used when isPopup === true)
+  isPopup = false,          
+  onClose,                  
 }: {
   widthAfterMD?: string;
   isPopup?: boolean;
@@ -76,18 +76,16 @@ function Form({
   return (
     <div
       className={`relative w-full md:${widthAfterMD || "w-1/2"} bg-primary p-6 sm:p-8 rounded-lg shadow-md`}
-    >
-      {/* CLOSE BUTTON: only shown when this is a popup AND an onClose handler is provided */}
+    >  
       {isPopup && onClose && (
         <button
           type="button"
           aria-label="Close"
           onClick={(e) => {
-            // prevent any parent click handlers from running
             e.stopPropagation();
             onClose();
           }}
-          className="absolute top-2 right-3 md:right-4 text-2xl font-bold text-gray-500 cursor-pointer"
+          className="absolute top-2 right-3 md:right-4 normalText font-bold text-gray-500 cursor-pointer"
         >
           ×
         </button>

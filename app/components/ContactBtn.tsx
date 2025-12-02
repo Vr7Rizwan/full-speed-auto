@@ -26,7 +26,6 @@ function ContactBtn({
         <button
           onClick={() => {
             setFormPopup(true);
-            // setMobileMenuOpen && setMobileMenuOpen(false);
           }}
           className={classes}
         >
@@ -38,16 +37,16 @@ function ContactBtn({
         createPortal(
           <div
             className="fixed w-full h-full inset-0 backdrop-blur-[2px] bg-black/50 z-[9999] flex justify-center items-center p-4"
-            onClick={() => setFormPopup(false)} // click outside closes
+            onClick={() => setFormPopup(false)} 
           >
             <div
-              onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
+              onClick={(e) => e.stopPropagation()} 
               className="w-full max-w-2xl"
             >
               <Form
                 widthAfterMD="w-full"
-                isPopup={true}              // indicate this is a popup
-                onClose={() => setFormPopup(false)} // close handler for "×"
+                isPopup={true}              
+                onClose={() => setFormPopup(false)}
               />
             </div>
           </div>,
