@@ -49,8 +49,8 @@ const Services = ({
                     flip === i ? "transform-[rotateY(180deg)]" : ""
                   }`}
                 >
-                  <div className="absolute w-full h-64 bg-primary flex flex-col p-8 sm:p-5 items-start  justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
-                    
+                  <div className="absolute w-full h-64 p-8 bg-primary flex flex-col gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
+                   
                     {brand ? (
                   
                       <h3 className="subHeading font-semibold text-txtColor">
@@ -62,10 +62,9 @@ const Services = ({
                       </h3>
                     )}
 
-                    <p className="text-txtColor normalText">
+                    <p className="text-txtColor normalText wrap-break-word">
                       {value.description}
                     </p>
-                   
                   </div>
 
                   <div className="absolute w-full h-full bg-primary flex flex-col items-center justify-center gap-10 rounded-2xl shadow-md hover:shadow-lg transition-all p-8 text-center border border-secondary backface-hidden transform-[rotateY(180deg)]">
