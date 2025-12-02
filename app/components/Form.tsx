@@ -2,10 +2,23 @@
 import emailjs from "@emailjs/browser";
 import key from "../utils/emailConfig";
 import { ToastContainer, toast } from "react-toastify";
-const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-function Form({ widthAfterMD }: { widthAfterMD?: string }) {
+import { useState } from "react";
+
+const emailRegex =
+  /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+function Form({
+  widthAfterMD,
+  isPopup = false,           // NEW: set true when this is shown as a popup
+  onClose,                   // NEW: optional close handler (only used when isPopup === true)
+}: {
+  widthAfterMD?: string;
+  isPopup?: boolean;
+  onClose?: () => void;
+}) {
   const notifySuccess = (msg: string) => toast.success(msg);
   const notifyError = (msg: string) => toast.error(msg);
+
   const sendMail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.target as HTMLFormElement);
@@ -15,9 +28,11 @@ function Form({ widthAfterMD }: { widthAfterMD?: string }) {
     const carModel = formData.get("carModel") as string;
     const carName = formData.get("carName") as string;
     const additionalDetails = formData.get("additionalDetails") as string;
+
     const firstName =
       fullName.split(" ")[0].slice(0, 1).toUpperCase() +
       fullName.split(" ")[0].slice(1).toLowerCase();
+
     if (
       !mail ||
       !fullName ||
@@ -33,6 +48,7 @@ function Form({ widthAfterMD }: { widthAfterMD?: string }) {
       alert("Invalid email address");
       return;
     }
+
     const templateParams = {
       mail,
       fullName,
@@ -42,6 +58,7 @@ function Form({ widthAfterMD }: { widthAfterMD?: string }) {
       additionalDetails,
       firstName,
     };
+
     emailjs.init(key.public_key);
     emailjs.send(key.service_ID, key.template_ID, templateParams).then(
       (response) => {
@@ -55,13 +72,29 @@ function Form({ widthAfterMD }: { widthAfterMD?: string }) {
       }
     );
   };
+
   return (
     <div
-      className={`w-full md:${
-        widthAfterMD || "w-1/2"
-      } bg-primary p-6 sm:p-8 rounded-lg shadow-md`}
+      className={`relative w-full md:${widthAfterMD || "w-1/2"} bg-primary p-6 sm:p-8 rounded-lg shadow-md`}
     >
+      {/* CLOSE BUTTON: only shown when this is a popup AND an onClose handler is provided */}
+      {isPopup && onClose && (
+        <button
+          type="button"
+          aria-label="Close"
+          onClick={(e) => {
+            // prevent any parent click handlers from running
+            e.stopPropagation();
+            onClose();
+          }}
+          className="absolute top-4 right-4 text-2xl font-bold text-txtColor cursor-pointer"
+        >
+          ×
+        </button>
+      )}
+
       <ToastContainer />
+
       <h2 className="subHeading font-bold mb-6 text-txtColor">
         Book Your{" "}
         <span className="subHeading font-bold mb-6 text-secondary">

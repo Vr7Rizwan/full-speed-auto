@@ -38,13 +38,17 @@ function ContactBtn({
         createPortal(
           <div
             className="fixed w-full h-full inset-0 backdrop-blur-[2px] bg-black/50 z-[9999] flex justify-center items-center p-4"
-            onClick={() => setFormPopup(false)}
+            onClick={() => setFormPopup(false)} // click outside closes
           >
             <div
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => e.stopPropagation()} // prevent closing when clicking inside
               className="w-full max-w-2xl"
             >
-              <Form widthAfterMD="w-full" />
+              <Form
+                widthAfterMD="w-full"
+                isPopup={true}              // indicate this is a popup
+                onClose={() => setFormPopup(false)} // close handler for "×"
+              />
             </div>
           </div>,
           document.body
