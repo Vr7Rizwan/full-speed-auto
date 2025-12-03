@@ -42,30 +42,32 @@ const Services = ({
               <div
                 key={`${value} ${i}`}
                 onClick={() => setFlip(flip === i ? null : i)}
-                className="group w-full h-64 perspective-[1000px]"
+                className="group w-full h-64 md:h-80  xl:h-64  perspective-[1000px]"
               >
                 <div
                   className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${
                     flip === i ? "transform-[rotateY(180deg)]" : ""
                   }`}
                 >
-                  <div className="absolute w-full h-64 bg-primary flex flex-col items-start justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all p-8 border border-secondary">
+                  <div className="absolute w-full md:h-80 h-64  xl:h-64  p-8 bg-primary flex flex-col gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
+                   
                     {brand ? (
-                      <h3 className="subHeading font-semibold text-txtColor mb-2">
+                  
+                      <h3 className="subHeading font-semibold text-txtColor">
                         {brand + " " + value.name}
                       </h3>
                     ) : (
-                      <h3 className="subHeading font-semibold text-txtColor mb-2">
+                      <h3 className="subHeading font-semibold text-txtColor">
                         {value.name}
                       </h3>
                     )}
 
-                    <p className="text-txtColor normalText ">
+                    <p className="text-txtColor normalText wrap-break-word">
                       {value.description}
                     </p>
                   </div>
 
-                  <div className="absolute w-full h-full bg-primary flex flex-col items-center justify-center gap-10 rounded-2xl shadow-md hover:shadow-lg transition-all p-8 text-center border border-secondary backface-hidden transform-[rotateY(180deg)]">
+                  <div className="absolute w-full h-full  bg-primary flex flex-col items-center justify-center gap-10 rounded-2xl shadow-md hover:shadow-lg transition-all p-8 text-center border border-secondary backface-hidden transform-[rotateY(180deg)]">
                     <h3 className="subHeading font-semibold text-txtColor mb-2">
                       {value.name}
                     </h3>
