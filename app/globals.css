@@ -4,6 +4,7 @@
   --color-primary: #ffffff;
   --color-secondary: #febd1a;
   --color-txtColor: #000000;
+  --breakpoint-xs:360px;
 }
 
 .heading {
