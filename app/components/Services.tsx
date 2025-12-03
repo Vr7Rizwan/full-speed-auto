@@ -29,7 +29,7 @@ const Services = ({
               <h1 className="subHeading font-bold text-txtColor mb-3">
                 Automotive Solutions
               </h1>
-              <p className="text-txtColor normalText">
+              <p className="text-txtColor normalText text-justify">
                 Expert care for maintenance, repairs, and performance upgrades,
                 ensuring your vehicle runs smoothly, stays reliable, and
                 delivers its full potential.
