@@ -36,14 +36,14 @@ const Hero = ({
         <img
           src="/assets/services/discounting.webp"
           alt="discount"
-          className="hidden md:block w-full h-auto"
+          className="hidden md:block w-full h-auto rounded-2xl"
         />
 
         {/* Mobile Image */}
         <img
           src="/assets/services/discounting-mob.webp"
           alt="discount"
-          className="block md:hidden w-full h-auto"
+          className="block md:hidden w-full h-auto rounded-2xl"
         />
       </Link>
 
