@@ -11,10 +11,10 @@ const CarWorkshopForm = () => {
         <div className="relative max-w-6xl mx-auto">
           <div>
             {/* Heading */}
-            <h4 className="text-secondary subHeading font-bold mb-2 tracking-wide">
+            <h4 className="text-secondary heading font-bold mb-2 tracking-wide">
               CONTACT US
             </h4>
-            <h2 className="heading font-extrabold mb-6">Get In Touch</h2>
+            <h2 className="subHeading font-extrabold mb-6">Get In Touch</h2>
             <p className="text-primary normalText max-w-2xl mb-10">
               For any inquiries or to schedule a service, feel free to reach out
               to us. Our team is ready to assist you with all your car repair
@@ -34,13 +34,13 @@ const CarWorkshopForm = () => {
             {/* Phone */}
             <div className="flex items-center gap-3">
               <Phone className="text-secondary mt-1" size={24} />
-              <p className="leading-tight normalText">+971 56 322 0861</p>
+              <p className="leading-tight normalText font-bold">+971 56 322 0861</p>
             </div>
 
             {/* Email */}
             <div className="flex items-center gap-3">
               <Mail className="text-secondary mt-1 w-[10%]" size={24} />
-              <p className="leading-tight normalText w-[90%]">
+              <p className="leading-tight normalText w-[90%] font-bold">
                 speedfullauto21@gmail.com
               </p>
             </div>
