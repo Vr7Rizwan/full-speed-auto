@@ -6,7 +6,6 @@ interface NavLinkType {
 
 const navLinks: NavLinkType[] = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
   {
     name: "Brands",
     href: "",
@@ -74,8 +73,9 @@ const navLinks: NavLinkType[] = [
   },
   {
     name: "Packages",
-    href: "/packages"
+    href: "/packages",
   },
+  { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 export default navLinks;
