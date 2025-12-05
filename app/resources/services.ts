@@ -7,6 +7,7 @@ export interface ServiceType {
   banner: string;
   contentimg: string;
   heading: string;
+  subheading: string;
   heroText: string;
   description: string;
   whyChooseUs: whyChooseUsTypes[];
@@ -21,6 +22,7 @@ const servicesData: ServiceType[] = [
     name: "Radiator Repair & Service",
     banner: "/assets/services/radiator-repair-&-service.webp",
     heading: "Professional Radiator Repair & Cooling System Service",
+    subheading: "Ensure your vehicle stays cool and efficient with expert radiator care",
     contentimg: "/assets/services/radiator-repair-content.webp",
 
     heroText:
@@ -104,6 +106,8 @@ const servicesData: ServiceType[] = [
     name: "Ceramic Coating",
     banner: "/assets/services/ceramic-coating.webp",
     heading: "Premium Ceramic Coating for Ultimate Paint Protection",
+    subheading: "Protect and enhance your vehicle’s paint with a long-lasting, high-gloss ceramic shield",
+
     contentimg: "/assets/services/ceramic-coating-content.webp",
 
     heroText:
@@ -187,6 +191,7 @@ const servicesData: ServiceType[] = [
     name: "AC Repair & Maintenance",
     banner: "/assets/services/ac-repair-&-maintenance.webp",
     heading: "Expert Car AC Repair & Maintenance",
+    subheading: "Keep your vehicle’s AC running perfectly with expert repair and regular maintenance",
     contentimg: "/assets/services/ac-repair-content.webp",
 
     heroText:
@@ -270,6 +275,7 @@ const servicesData: ServiceType[] = [
     banner: "/assets/services/engine-&-ecu-service.webp",
     heading: "Comprehensive Engine & ECU Maintenance",
     contentimg: "/assets/services/engine-content.webp",
+    subheading: "Optimize your engine performance and ECU efficiency with our professional service",
 
     heroText:
       "Ensure your car’s engine and ECU perform at their best with our professional maintenance and repair services.",
@@ -352,6 +358,7 @@ const servicesData: ServiceType[] = [
     name: "Brake System Service",
     banner: "/assets/services/brake-system-service.webp",
     heading: "Professional Brake System Repair & Maintenance",
+    subheading: "Ensure safety and smooth stopping power with our comprehensive brake system service",
     contentimg: "/assets/services/brake-system-content.webp",
 
     heroText:
@@ -434,6 +441,7 @@ const servicesData: ServiceType[] = [
     name: "Transmission & Gearbox Repair",
     banner: "/assets/services/transmission-&-gearbox-repair.webp",
     heading: "Reliable Transmission & Gearbox Repairs",
+    subheading: "Restore smooth shifting and reliable performance with expert transmission and gearbox repairs",
     contentimg: "/assets/services/transmission-content.webp",
 
     heroText:
@@ -517,6 +525,7 @@ const servicesData: ServiceType[] = [
     name: "Suspension & Steering Maintenance",
     banner: "/assets/services/suspension-steering-repair.webp",
     heading: "Expert Suspension & Steering Services",
+    subheading: "Maintain ride comfort and precise handling with our suspension and steering maintenance services",
     contentimg: "/assets/services/suspension-content.webp",
 
     heroText:
@@ -600,6 +609,7 @@ const servicesData: ServiceType[] = [
     name: "Oil Change & Fluid Checks",
     banner: "/assets/services/oil-change-fluid-checks.webp",
     heading: "Comprehensive Oil Change & Fluid Maintenance",
+    subheading: "Keep your engine healthy and running smoothly with regular oil changes and fluid inspections",
     contentimg: "/assets/services/oil-change-content.webp",
 
     heroText:
@@ -681,6 +691,7 @@ const servicesData: ServiceType[] = [
     banner: "/assets/services/electrical-comfort-repair.webp",
     contentimg: "/assets/services/electrical-comfort-system-content.webp",
     heading: "Electrical & Comfort System Repairs",
+    subheading: "Ensure all electrical and comfort systems function flawlessly for a safe and enjoyable ride",
 
     heroText:
       "Keep your car’s advanced electrical and comfort systems working perfectly with our expert services.",
@@ -762,6 +773,7 @@ const servicesData: ServiceType[] = [
     name: "Fuel Injection Service",
     banner: "/assets/services/fuel-injection-service.webp",
     heading: "Expert Fuel Injection Cleaning & Maintenance",
+    subheading: "Optimize engine performance and fuel efficiency with our professional fuel injection service",
     contentimg: "/assets/services/fuel-injection-content.webp",
 
     heroText:
@@ -842,6 +854,7 @@ const servicesData: ServiceType[] = [
     name: "Pre Purchase Inspection & Diagnostics",
     banner: "/assets/services/pre-purchase-inspection.webp",
     heading: "Comprehensive Pre-Purchase Vehicle Inspection",
+    subheading: "Get a detailed assessment of any vehicle before purchase with expert inspection and diagnostics",
     contentimg: "/assets/services/pre-purchase-content.webp",
 
     heroText:
@@ -922,6 +935,7 @@ const servicesData: ServiceType[] = [
     banner: "/assets/services/performance-ecu-tuning.webp",
     contentimg: "/assets/services/performance-tuning-content.webp",
     heading: "Expert Performance Tuning & ECU Upgrades",
+    subheading: "Enhance your vehicle’s power and efficiency with professional performance tuning and ECU upgrades",
 
     heroText:
       "Boost your vehicle’s power, efficiency, and driving experience with professional performance tuning and ECU upgrades.",
@@ -1004,6 +1018,7 @@ const servicesData: ServiceType[] = [
     banner: "/assets/services/paint-protection-coating.webp",
     contentimg: "/assets/services/paint-protection-content.webp",
     heading: "Professional Paint Protection & Car Coatings",
+    subheading: "Shield your vehicle’s paint and maintain its shine with premium protection and coating services",
 
     heroText:
       "Keep your car’s paint flawless and protected with professional PPF, ceramic coatings, and car dip color services.",
@@ -1083,6 +1098,7 @@ const servicesData: ServiceType[] = [
   {
     name: "Alloy Wheel Repair & Refurbishment",
     banner: "/assets/services/alloy-wheel-repair-refurbishment.webp",
+    subheading: "Restore the look and strength of your alloy wheels with expert repair and refurbishment",
     contentimg: "/assets/services/alloy-wheel-content.webp",
 
     heading: "Expert Alloy Wheel Repair & Refurbishment",

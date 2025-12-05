@@ -31,7 +31,7 @@ export default function WhatsAppWidget() {
               <div>
                 <h4 className="font-semibold normalText">Speed Full Auto </h4>
                 <p className="text-xs opacity-80">
-                  Typically replies within a day
+                  Typically replies within 10 minutes
                 </p>
               </div>
             </div>
