@@ -39,7 +39,6 @@ const page = async ({ params }: { params: { service: string } }) => {
         {selectedService.heading}
       </h1>
       <Hero
-        heroTxt={selectedService.heroText}
         description={selectedService.description}
         subheading={selectedService.subheading}
         contentimg={selectedService.contentimg}

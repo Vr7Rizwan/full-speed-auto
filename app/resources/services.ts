@@ -8,7 +8,6 @@ export interface ServiceType {
   contentimg: string;
   heading: string;
   subheading: string;
-  heroText: string;
   description: string;
   whyChooseUs: whyChooseUsTypes[];
   features: { icon: string; title: string; desc: string }[];
@@ -24,9 +23,6 @@ const servicesData: ServiceType[] = [
     heading: "Professional Radiator Repair & Cooling System Service",
     subheading: "Ensure your vehicle stays cool and efficient with expert radiator care",
     contentimg: "/assets/services/radiator-repair-content.webp",
-
-    heroText:
-      "Keep your engine cool and running smoothly with our professional radiator repair and complete cooling system services.",
 
     description:
       "Keep your engine cool and running smoothly with our professional radiator repair service. We carefully inspect for leaks, blockages, worn hoses, faulty thermostats, and weak water pumps using advanced tools. Regular radiator maintenance prevents overheating, saves repair costs, and extends the life of your engine. Our skilled technicians use high-quality parts and proven techniques to ensure reliable and long-lasting cooling system performance.",
@@ -110,8 +106,6 @@ const servicesData: ServiceType[] = [
 
     contentimg: "/assets/services/ceramic-coating-content.webp",
 
-    heroText:
-      "Give your car long-lasting shine and protection with our premium ceramic coating that keeps your paint looking new for years.",
 
     description:
       "Protect your car’s paint with our professional ceramic coating service. It forms a durable, high-quality layer that shields your vehicle from UV rays, scratches, dirt, and oxidation. This coating not only keeps your car looking shiny and new for longer but also makes cleaning easier and maintains the paint’s clarity. Applied by certified technicians, it ensures long-lasting protection and enhances the overall appearance and value of your vehicle.",
@@ -194,8 +188,6 @@ const servicesData: ServiceType[] = [
     subheading: "Keep your vehicle’s AC running perfectly with expert repair and regular maintenance",
     contentimg: "/assets/services/ac-repair-content.webp",
 
-    heroText:
-      "Enjoy cool, fresh, and comfortable drives with our professional car AC repair and complete maintenance services.",
 
     description:
       "Keep your car cool and comfortable even in the hottest Dubai weather with our professional AC repair service. We ensure your vehicle’s air conditioning system works efficiently by diagnosing issues like refrigerant leaks, compressor faults, and faulty components. Regular AC maintenance not only improves cooling performance but also extends the lifespan of your system, enhances air quality, and prevents unexpected breakdowns. Our certified technicians use genuine parts and advanced tools to provide fast, reliable, and long-lasting AC service.",
@@ -277,8 +269,6 @@ const servicesData: ServiceType[] = [
     contentimg: "/assets/services/engine-content.webp",
     subheading: "Optimize your engine performance and ECU efficiency with our professional service",
 
-    heroText:
-      "Ensure your car’s engine and ECU perform at their best with our professional maintenance and repair services.",
 
     description:
       "Ensure your car runs smoothly and efficiently with our comprehensive engine and ECU service. We cover every aspect of your vehicle’s engine health, including precise diagnostics, performance optimization, and repair or replacement of critical components. Regular maintenance helps prevent costly repairs, improves fuel efficiency, and keeps your engine performing at its best. Our certified technicians use advanced diagnostic tools and genuine parts to deliver reliable, long-lasting results, giving you confidence in your vehicle’s performance and safety.",
@@ -361,8 +351,6 @@ const servicesData: ServiceType[] = [
     subheading: "Ensure safety and smooth stopping power with our comprehensive brake system service",
     contentimg: "/assets/services/brake-system-content.webp",
 
-    heroText:
-      "Stay safe on the road with our professional brake system repair and maintenance services.",
 
     description:
       "Stay safe on every journey with our professional brake system service. We thoroughly inspect and maintain all components, including brake pads, rotors, calipers, and fluid systems, to ensure your vehicle stops reliably under any conditions. Regular brake maintenance prevents accidents, reduces repair costs, and extends the life of your braking components. Our certified technicians use high-quality parts and precise techniques to deliver long-lasting performance, giving you peace of mind and confidence behind the wheel.",
@@ -444,8 +432,6 @@ const servicesData: ServiceType[] = [
     subheading: "Restore smooth shifting and reliable performance with expert transmission and gearbox repairs",
     contentimg: "/assets/services/transmission-content.webp",
 
-    heroText:
-      "Enjoy smooth, precise driving with our professional transmission and gearbox repair and maintenance services.",
 
     description:
       "Enjoy smooth and efficient driving with our expert transmission and gearbox service. We carefully inspect and maintain all components, including clutches, gears, bearings, and fluids, to ensure precise gear shifts and reliable power delivery. Regular maintenance prevents wear and costly repairs while extending the life of your transmission system. Our certified technicians use advanced tools and genuine parts to provide accurate, long-lasting service, keeping your vehicle performing at its best under all driving conditions.",
@@ -528,8 +514,6 @@ const servicesData: ServiceType[] = [
     subheading: "Maintain ride comfort and precise handling with our suspension and steering maintenance services",
     contentimg: "/assets/services/suspension-content.webp",
 
-    heroText:
-      "Drive smoothly and safely with our professional suspension and steering repair and maintenance services.",
 
     description:
       "Maintain a smooth and stable ride with our professional suspension and steering service. We thoroughly inspect and repair shocks, struts, springs, and steering components to ensure your vehicle handles safely and comfortably. Our service also includes wheel alignment to prevent uneven tire wear and improve driving performance. Certified technicians use high-quality parts and advanced tools to deliver precise, long-lasting repairs, enhancing vehicle stability, ride comfort, and overall safety on every journey.",
@@ -612,8 +596,6 @@ const servicesData: ServiceType[] = [
     subheading: "Keep your engine healthy and running smoothly with regular oil changes and fluid inspections",
     contentimg: "/assets/services/oil-change-content.webp",
 
-    heroText:
-      "Keep your engine healthy and running efficiently with our professional oil change and fluid maintenance services.",
 
     description:
       "Keep your engine running smoothly and efficiently with our comprehensive oil change and fluid inspection service. We replace engine oil, check coolant, brake fluid, power steering fluid, and other essential fluids to ensure optimal performance. Regular maintenance helps prevent leaks, reduces wear, improves fuel efficiency, and extends the life of your engine. Our certified technicians use high-quality oils and fluids, performing thorough checks to maintain your vehicle’s reliability and prevent costly repairs.",
@@ -693,8 +675,6 @@ const servicesData: ServiceType[] = [
     heading: "Electrical & Comfort System Repairs",
     subheading: "Ensure all electrical and comfort systems function flawlessly for a safe and enjoyable ride",
 
-    heroText:
-      "Keep your car’s advanced electrical and comfort systems working perfectly with our expert services.",
 
     description:
       "Our electrical and comfort systems service ensures all your car’s electronic features work perfectly. We repair and maintain infotainment systems, sensors, lighting, AC, seats, climate controls, and other comfort modules. Using advanced diagnostic tools, our certified technicians accurately identify and fix issues, perform software updates, and ensure long-lasting performance. Regular maintenance prevents unexpected breakdowns and keeps your car’s technology functioning reliably and efficiently.",
@@ -776,8 +756,6 @@ const servicesData: ServiceType[] = [
     subheading: "Optimize engine performance and fuel efficiency with our professional fuel injection service",
     contentimg: "/assets/services/fuel-injection-content.webp",
 
-    heroText:
-      "Maximize engine efficiency and performance with our professional fuel injection cleaning and maintenance services.",
 
     description:
       "Our fuel injection service thoroughly cleans, inspects, and maintains all fuel injectors to ensure smooth engine performance and efficient fuel delivery. We remove clogs, check fuel flow, and adjust injector settings using specialized equipment. Regular servicing improves fuel efficiency, reduces emissions, prevents engine misfires, and extends the lifespan of your engine, keeping your vehicle running reliably and efficiently.",
@@ -857,8 +835,6 @@ const servicesData: ServiceType[] = [
     subheading: "Get a detailed assessment of any vehicle before purchase with expert inspection and diagnostics",
     contentimg: "/assets/services/pre-purchase-content.webp",
 
-    heroText:
-      "Make a safe and confident vehicle purchase with our detailed pre-purchase inspection and diagnostics.",
 
     description:
       "We perform comprehensive inspections of vehicles before purchase, covering the engine, transmission, suspension, brakes, electrical systems, and other critical components. Our certified technicians identify potential issues, hidden damages, and maintenance needs, providing a detailed report. This helps buyers make informed decisions, avoid costly repairs, and ensure the vehicle is safe, reliable, and roadworthy.",
@@ -937,8 +913,6 @@ const servicesData: ServiceType[] = [
     heading: "Expert Performance Tuning & ECU Upgrades",
     subheading: "Enhance your vehicle’s power and efficiency with professional performance tuning and ECU upgrades",
 
-    heroText:
-      "Boost your vehicle’s power, efficiency, and driving experience with professional performance tuning and ECU upgrades.",
 
     description:
       "Our performance tuning service expertly optimizes engine and ECU settings to boost power, torque, and fuel efficiency while ensuring complete vehicle safety. Using advanced diagnostic tools and software, we fine-tune performance parameters for improved throttle response, smoother acceleration, and overall driving dynamics. Every adjustment is performed by certified technicians to guarantee reliability, longevity, and an enhanced driving experience.",
@@ -1020,8 +994,6 @@ const servicesData: ServiceType[] = [
     heading: "Professional Paint Protection & Car Coatings",
     subheading: "Shield your vehicle’s paint and maintain its shine with premium protection and coating services",
 
-    heroText:
-      "Keep your car’s paint flawless and protected with professional PPF, ceramic coatings, and car dip color services.",
 
     description:
       "Our paint protection services provide a durable shield against scratches, fading, UV rays, bird droppings, and other environmental factors that can damage your vehicle's exterior. We offer professional application of PPF, ceramic coatings, and protective films to maintain your car’s glossy finish, enhance its aesthetic appeal, and preserve resale value. Certified technicians use precision techniques to ensure long-lasting protection and a flawless, showroom-quality look.",
@@ -1103,8 +1075,6 @@ const servicesData: ServiceType[] = [
 
     heading: "Expert Alloy Wheel Repair & Refurbishment",
 
-    heroText:
-      "Restore your alloy wheels to perfect condition with professional repair, refurbishment, and maintenance services.",
 
     description:
       "We repair and refurbish damaged alloy wheels, restoring both their structural integrity and visual appeal. Our services include straightening bent wheels, repairing cracks, refinishing surfaces, and applying protective coatings. Using advanced tools and high-quality materials, our certified technicians ensure your wheels are safe, durable, and look as good as new, enhancing both performance and aesthetics.",

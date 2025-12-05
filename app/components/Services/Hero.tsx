@@ -2,14 +2,13 @@ import React from "react";
 import Link from "next/link";
 
 const Hero = ({
-  heroTxt,
+
   description,
   subheading,
 
 
   contentimg,
 }: {
-  heroTxt: string;
   description: string;
   subheading: string;
 
@@ -29,7 +28,6 @@ const Hero = ({
         </div>
       </div>
 
-      <h2 className="subHeading text-txtColor font-semibold">{heroTxt}</h2>
 
       <Link
         href="https://wa.me/971563220861?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
