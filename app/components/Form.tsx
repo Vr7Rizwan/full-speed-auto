@@ -4,13 +4,12 @@ import key from "../utils/emailConfig";
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
 
-const emailRegex =
-  /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 function Form({
   widthAfterMD,
-  isPopup = false,          
-  onClose,                  
+  isPopup = false,
+  onClose,
 }: {
   widthAfterMD?: string;
   isPopup?: boolean;
@@ -75,8 +74,10 @@ function Form({
 
   return (
     <div
-      className={`relative w-full md:${widthAfterMD || "w-1/2"} bg-primary p-6 sm:p-8 rounded-lg shadow-md`}
-    >  
+      className={`relative w-full md:${
+        widthAfterMD || "w-1/2"
+      } bg-primary p-6 sm:p-8 rounded-lg shadow-md`}
+    >
       {isPopup && onClose && (
         <button
           type="button"
@@ -147,7 +148,7 @@ function Form({
 
         <button
           type="submit"
-          className="bg-secondary cursor-pointer text-txtColor normalText font-semibold py-3 rounded transition"
+          className="bg-secondary cursor-pointer text-txtColor text-center font-semibold py-3 rounded transition"
         >
           Submit
         </button>

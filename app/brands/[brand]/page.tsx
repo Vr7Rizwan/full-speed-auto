@@ -43,7 +43,7 @@ async function page({ params }: { params: { brand: string } }) {
         brand={selectedBrand?.name}
         expertService={selectedBrand?.expertServices}
       />
-      <section className="flex flex-col gap-15 w-[95%] mx-auto py-15">
+      <section className="flex flex-col gap-5 w-[95%] mx-auto py-5">
         <WhatCanYouExpect whatToExpect={selectedBrand?.whatToExpect} />
         <Facilities
           facilities={selectedBrand?.facilities}

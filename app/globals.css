@@ -4,7 +4,7 @@
   --color-primary: #ffffff;
   --color-secondary: #febd1a;
   --color-txtColor: #000000;
-  --breakpoint-xs:360px;
+  --breakpoint-xs: 360px;
 }
 
 .heading {
@@ -14,7 +14,7 @@
   @apply text-xl md:text-2xl uppercase;
 }
 .normalText {
-  @apply text-sm md:text-lg;
+  @apply text-sm md:text-lg text-justify;
 }
 .summary::marker {
   display: none;

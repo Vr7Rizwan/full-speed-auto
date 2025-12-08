@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { faqTypes } from "../resources/faq";
 import { useRef, useState, useEffect } from "react";
 
@@ -6,15 +6,13 @@ function Faq({ faq }: { faq: faqTypes[] | undefined }) {
   return (
     <div className="bg-gray-50 py-5">
       <div className="flex justify-center">
-        <h2 className="subHeading font-bold text-txtColor py-10">
+        <h2 className="subHeading font-bold text-txtColor">
           FREQUENTLY ASKED{" "}
-          <span className="subHeading font-bold text-secondary py-10">
-            QUESTIONS
-          </span>
+          <span className="subHeading font-bold text-secondary">QUESTIONS</span>
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-gray-50">
+      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-5 bg-gray-50">
         {faq?.map((item, index) => (
           <FaqItem key={index} item={item} />
         ))}
@@ -44,7 +42,9 @@ function FaqItem({ item }: { item: faqTypes }) {
         onClick={() => setOpen(!open)}
         className="w-full normalText font-medium flex justify-between items-center bg-secondary px-4 py-5 rounded-2xl cursor-pointer"
       >
-        <span className="flex text-start w-[90%] md:w-[95%]">{item.Question}</span>
+        <span className="flex text-start w-[90%] md:w-[95%]">
+          {item.Question}
+        </span>
 
         <span
           className={`transition-transform duration-300 w-[10%] md:w-[5%] ${
