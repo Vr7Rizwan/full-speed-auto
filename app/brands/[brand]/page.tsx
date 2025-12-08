@@ -38,11 +38,12 @@ async function page({ params }: { params: { brand: string } }) {
         heroText={selectedBrand?.heroText}
         description={selectedBrand?.description}
       />
-      <Services
-        Services={commonServices}
-        brand={selectedBrand?.name}
-        expertService={selectedBrand?.expertServices}
-      />
+      <Services 
+      
+  Services={commonServices}
+  brand={selectedBrand?.name}
+  expertService={selectedBrand?.expertServices}
+/>
       <section className="flex flex-col gap-15 w-[95%] mx-auto py-15">
         <WhatCanYouExpect whatToExpect={selectedBrand?.whatToExpect} />
         <Facilities
