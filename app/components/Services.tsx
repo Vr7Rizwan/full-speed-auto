@@ -12,7 +12,7 @@ const Services = ({
 }) => {
   const [flip, setFlip] = useState<number | null>(null);
   return (
-    <section className="w-full py-16 px-6 md:px-12 bg-gray-50">
+    <section className="w-full py-10 px-6 md:px-12 bg-gray-50">
       {Services && (
         <div>
           {expertService ? (
@@ -45,14 +45,13 @@ const Services = ({
                 className="group w-full h-75 sm:h-64 md:h-80  xl:h-64  perspective-[1000px]"
               >
                 <div
-                  className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${
-                    flip === i ? "transform-[rotateY(180deg)]" : ""
-                  }`}
+                  className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${flip === i ? "transform-[rotateY(180deg)]" : ""
+                    }`}
                 >
                   <div className="absolute w-full h-75 md:h-80 sm:h-64  xl:h-64  p-8 bg-primary flex flex-col gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
-                   
+
                     {brand ? (
-                  
+
                       <h3 className="subHeading font-semibold text-txtColor">
                         {brand + " " + value.name}
                       </h3>

@@ -6,7 +6,7 @@ function WhatCanYouExpect({
   whatToExpect: string[] | undefined;
 }) {
   return (
-    <div className="w-[95%] mx-auto py-12">
+    <div className="w-[95%] mx-auto">
       <h2 className="subHeading font-bold txtColor mb-10 text-center tracking-wide">
         What You Can Expect at <span className="subHeading font-bold txtColor mb-10 text-center tracking-wide text-secondary">SPEED FULL AUTO</span>
       </h2>

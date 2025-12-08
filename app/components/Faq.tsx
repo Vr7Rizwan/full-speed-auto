@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 
 function Faq({ faq }: { faq: faqTypes[] | undefined }) {
   return (
-    <div className="bg-gray-50 py-5">
+    <div className="bg-gray-50 py-2">
       <div className="flex justify-center">
         <h2 className="subHeading font-bold text-txtColor">
           FREQUENTLY ASKED{" "}
@@ -12,7 +12,7 @@ function Faq({ faq }: { faq: faqTypes[] | undefined }) {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-5 bg-gray-50">
+      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-1 bg-gray-50">
         {faq?.map((item, index) => (
           <FaqItem key={index} item={item} />
         ))}

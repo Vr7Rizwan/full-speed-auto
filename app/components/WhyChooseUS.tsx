@@ -7,7 +7,7 @@ function WhyChooseUS({
 }) {
   return (
     <div className="bg-primary bg-cover relative bg-center bg-no-repeat flex justify-center">
-      <div className="w-full z-10 py-5 flex items-center flex-col gap-5">
+      <div className="w-full z-10 py-3 md:py-7 flex items-center flex-col gap-7">
         <h2 className="text-txtColor font-bold subHeading">
           WHY CHOOSE{" "}
           <span className="text-secondary font-bold subHeading">US</span>
