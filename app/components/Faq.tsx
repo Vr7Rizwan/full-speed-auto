@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 
 function Faq({ faq }: { faq: faqTypes[] | undefined }) {
   return (
-    <div className="bg-gray-50 py-5">
+    <div className="bg-gray-50 py-2">
       <div className="flex justify-center">
         <h2 className="subHeading font-bold text-txtColor py-10">
           FREQUENTLY ASKED{" "}
@@ -14,7 +14,7 @@ function Faq({ faq }: { faq: faqTypes[] | undefined }) {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-10 bg-gray-50">
+      <div className="grid md:grid-cols-2 md:gap-1 px-4 py-1 bg-gray-50">
         {faq?.map((item, index) => (
           <FaqItem key={index} item={item} />
         ))}
@@ -47,9 +47,8 @@ function FaqItem({ item }: { item: faqTypes }) {
         <span className="flex text-start w-[90%] md:w-[95%]">{item.Question}</span>
 
         <span
-          className={`transition-transform duration-300 w-[10%] md:w-[5%] ${
-            open ? "rotate-180" : "rotate-0"
-          }`}
+          className={`transition-transform duration-300 w-[10%] md:w-[5%] ${open ? "rotate-180" : "rotate-0"
+            }`}
         >
           ▼
         </span>
