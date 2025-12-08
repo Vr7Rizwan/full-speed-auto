@@ -3,10 +3,10 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactInfoSection = () => {
   return (
-    <section className="w-[95%] mx-auto bg-white py-16">
+    <section className="w-[95%] mx-auto bg-white py-5 ">
       <div>
         {/* Heading */}
-        <h2 className="subHeading font-bold text-center mb-12">
+        <h2 className="subHeading font-bold text-center py-5 md:py-8">
           Get in <span className="text-secondary">Touch With Us</span>
         </h2>
 
@@ -40,7 +40,7 @@ const ContactInfoSection = () => {
             <Clock className="w-10 h-10 text-secondary mb-4" />
             <h3 className="subHeading font-semibold mb-2">Business Hours</h3>
             <p className="text-gray-600">24/7</p>
-            
+
           </div>
         </div>
       </div>

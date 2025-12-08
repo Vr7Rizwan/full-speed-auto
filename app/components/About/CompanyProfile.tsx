@@ -1,7 +1,7 @@
 import { companyprofile } from "@/app/resources/about";
 const CompanyProfile = () => {
   return (
-    <section className="flex justify-center py-10 px-2 md:px-0">
+    <section className="flex justify-center py-8 px-2 md:px-0">
       <div className="w-[95%] mx-auto">
         <div className="flex flex-col gap-5">
           <h1 className="heading text-txtColor font-bold">

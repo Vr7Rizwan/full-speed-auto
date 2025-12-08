@@ -35,9 +35,9 @@ const page = async ({ params }: { params: { service: string } }) => {
           {selectedService.heading}
         </h1>
       </section>
-      <h1 className="block md:hidden bg-gray-50 w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
+      {/* <h1 className="block md:hidden bg-gray-50 w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
         {selectedService.heading}
-      </h1>
+      </h1> */}
       <Hero
         description={selectedService.description}
         subheading={selectedService.subheading}
