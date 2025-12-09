@@ -691,6 +691,16 @@ The `Navbar` component provides a responsive navigation bar for the website. It 
 It uses React `useState` to manage mobile menu visibility and active submenus. The `ContactBtn` component is integrated for consistent appointment booking functionality. This component ensures smooth navigation, accessibility, and a consistent user experience across all devices.
 
 ```
+### Services.tsx
+
+located inside the `components` folder
+
+```
+The Services component displays a dynamic grid of automotive services, each presented as an interactive flip card.It supports optional brand-specific titles and expert service descriptions, enhancing contextual relevance for different pages.Each card reveals detailed information on the front and a “Learn More” action on the back, providing an engaging, responsive UI built with Tailwind CSS and powered by smooth 3D flip animations.
+
+This component features an interactive 3D flip-card animation that enhances user engagement across mobile and desktop devices. Each service card flips on click, and on larger screens it also flips on hover using a smooth rotateY(180°) transition. On mobile screens, an automatic flip is triggered when the section enters the viewport, achieved through an IntersectionObserver, creating an attention-grabbing reveal effect. The flipping logic is controlled by React state, allowing only the active card to rotate while others remain static. Backface visibility and 3D perspective are used to create a realistic two-sided card animation. The result is a polished, modern interaction that highlights service details in an elegant, dynamic way.
+
+```
 
 ### WhyChooseUs.tsx
 
