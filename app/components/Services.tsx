@@ -96,14 +96,14 @@ const Services = ({
               <div
                 key={`${value} ${i}`}
                 onClick={() => setFlip(flip === i ? null : i)}
-                className="group w-full h-[30vh] sm:h-64 md:h-77 lg:h-78   xl:h-55  perspective-[1000px]"
+                className="group w-full h-[30vh] sm:h-64 md:h-77 lg:h-78 xl:h-62  perspective-[1000px]"
               >
                 <div
                   className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${
                     flip === i|| (autoFlip && i === 0) ? "transform-[rotateY(180deg)]" : ""
                   }`}
                 >
-                  <div className="absolute w-full h-[30vh] sm:h-64 md:h-77 lg:h-78 xl:h-55 p-8 bg-primary flex flex-col justify-center sm:justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
+                  <div className="absolute w-full h-[30vh] sm:h-64 md:h-77 lg:h-78 xl:h-62 p-8 bg-primary flex flex-col justify-center sm:justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
                    
                     {brand ? (
                   
@@ -116,7 +116,7 @@ const Services = ({
                       </h3>
                     )}
 
-                    <p className="text-txtColor normalText wrap-break-word">
+                    <p className="text-txtColor normalText">
                       {value.description}
                     </p>
                   </div>
