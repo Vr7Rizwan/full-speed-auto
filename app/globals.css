@@ -15,7 +15,7 @@
 }
 
 .normalText {
-  @apply text-sm md:text-lg;
+  @apply text-sm md:text-lg text-justify hyphens-auto;
 }
 
 .summary::marker {
