@@ -15,7 +15,7 @@
 }
 
 .normalText {
-  @apply text-sm md:text-lg text-justify;
+  @apply text-sm md:text-lg;
 }
 
 .summary::marker {
