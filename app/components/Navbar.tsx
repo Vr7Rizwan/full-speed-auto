@@ -159,7 +159,7 @@ const Navbar: React.FC = () => {
               <ContactBtn
                 setMobileMenuOpen={setMobileMenuOpen}
                 text="Book Appointment"
-                classes="w-full text-center cursor-pointer normalText font-semibold rounded-full bg-txtColor text-primary px-3 py-2"
+                classes="w-full text-center cursor-pointer font-semibold rounded-full bg-txtColor text-primary px-3 py-2"
               />
             </li>
           </ul>

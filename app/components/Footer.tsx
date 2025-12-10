@@ -21,9 +21,7 @@ const Footer = () => {
           <p className="normalText leading-tight">
             Luxury-grade car maintenance, detailing, and auto service solutions.
           </p>
-          <p className="normalText leading-tight -mt-1">
-            Bringing quality service, trusted support, and highly trained specialists to the UAE.
-          </p>
+          
 
           <div className="flex flex-col gap-2 mt-2">
             {locations.map((loc) => (
@@ -36,7 +34,7 @@ const Footer = () => {
         </div>
 
         {/* Column 2: Quick Links */}
-        <div className="flex flex-col gap-3 md:w-1/4">
+        <div className="hidden md:flex flex-col gap-3 md:w-1/4">
           <h1 className="subHeading font-bold text-primary">Quick Links</h1>
           <div className="flex flex-col gap-2 normalText">
             {quickLinks.map((link) => (
@@ -52,7 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Column 3: Useful Links */}
-        <div className="flex flex-col gap-3 md:w-1/4">
+        <div className="hidden md:flex flex-col gap-3 md:w-1/4">
           <h1 className="subHeading font-bold text-primary">Useful Links</h1>
           <div className="flex flex-col gap-2 normalText">
             {usefulLinks.map((link) => (
