@@ -28,15 +28,21 @@ const Navbar: React.FC = () => {
   };
   return (
     <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
-      <div className="flex flex-row items-center justify-between px-4 pl-38 md:px-8">
+      <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
-        <Link href="/" className="">
+        
+          <Link href="/" className="w-2/10">
           <img
-            className="w-25 h-25 md:w-40 md:h-25 py-2"
+            className="w-20 h-15 md:w-40 md:h-25 py-2"
             src="/assets/logo.png"
             alt=""
           />
         </Link>
+        <ContactBtn
+                setMobileMenuOpen={setMobileMenuOpen}
+                text="Book Appointment"
+                classes={`w-full ${mobileMenuOpen && "hidden"} block lg:hidden bg-txtColor text-primary text-center cursor-pointer font-semibold rounded-full bg-secondary px-5 py-2`}
+              />
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex flex-row gap-6 xl:gap-7 text-primary items-center">
@@ -101,7 +107,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="lg:hidden ">
+        <div className="lg:hidden w-[15%] flex justify-end">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
               <X className="w-6 h-6 " />

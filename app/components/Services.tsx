@@ -74,7 +74,7 @@ const Services = ({
               <h1 className="text-[1rem] md:subHeading font-bold text-txtColor mb-3">
                 {expertService.title}
               </h1>
-              <p className="text-txtColor normalText">
+              <p className="text-txtColor normalText text-justify">
                 {expertService.description}
               </p>
             </div>
