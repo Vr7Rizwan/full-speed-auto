@@ -28,11 +28,11 @@ const Navbar: React.FC = () => {
   };
   return (
     <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
-      <div className="flex flex-row items-center justify-between px-4 md:px-8">
+      <div className="flex flex-row items-center justify-between px-4 pl-38 md:px-8">
         {/* Logo */}
         <Link href="/" className="">
           <img
-            className="w-20 h-15 md:w-40 md:h-25 py-2"
+            className="w-25 h-25 md:w-40 md:h-25 py-2"
             src="/assets/logo.png"
             alt=""
           />
