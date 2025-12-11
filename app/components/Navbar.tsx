@@ -31,9 +31,9 @@ const Navbar: React.FC = () => {
       <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
         
-          <Link href="/" className="lg:w-2/10">
+          <Link href="/" className="w-2/10 lg:w-1/4">
           <img
-            className="w-20 h-15 md:w-40 md:h-25 py-2"
+            className="w-20 h-15 md:w-32 md:h-24 py-2"
             src="/assets/logo.png"
             alt=""
           />
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
               />
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex flex-row gap-6 xl:gap-7 text-primary items-center">
+        <ul className="w-1/2 hidden lg:flex flex-row justify-center gap-3 xl:gap-6 text-primary items-center">
           {navLinks.map((item) => (
             <li
               key={item.name}
@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
         </ul>
 
         {/* Desktop Button */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:flex lg:w-1/4 justify-end">
           <ContactBtn
             text="Book Appointment"
             classes="cursor-pointer normalText font-semibold bg-txtColor text-primary px-5 py-3 rounded-full"
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="lg:hidden lg:w-[15%] flex justify-end">
+        <div className="lg:hidden w-[15%] lg:w-auto flex justify-end">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
               <X className="w-6 h-6 " />
