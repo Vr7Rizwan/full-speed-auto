@@ -2,6 +2,7 @@ import AboutBanner from "../components/About/AboutBanner";
 import Cards from "../components/About/Cards";
 import CompanyProfile from "../components/About/CompanyProfile";
 import MissionVision from "../components/About/MissionVision";
+import CarWorkshopForm from "../components/CarWorkshopForm";
 import LogoSlider from "../components/LogoSlider";
 import { logos } from "../resources/logos";
 const AboutPage = () => {
@@ -17,6 +18,7 @@ const AboutPage = () => {
         <LogoSlider logos={logos} />
       </div>
       <Cards />
+      <CarWorkshopForm/>
     </>
   );
 };

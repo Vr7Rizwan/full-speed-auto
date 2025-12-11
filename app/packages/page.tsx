@@ -1,3 +1,4 @@
+import CarWorkshopForm from "../components/CarWorkshopForm";
 import ContactBtn from "../components/ContactBtn";
 import packageDetails from "../resources/packages";
 
@@ -39,6 +40,7 @@ function page() {
           </div>
         ))}
       </div>
+      <CarWorkshopForm/>
     </section>
   );
 }

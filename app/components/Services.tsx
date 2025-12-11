@@ -66,7 +66,7 @@ const Services = ({
   }, []);
 
   return (
-    <section ref={sectionRef} className="w-full py-16 px-6 md:px-12 bg-gray-50">
+    <section ref={sectionRef} className="w-full py-6 md:py-16 px-6 md:px-12 bg-gray-50">
       {Services && (
         <div>
           {expertService ? (
