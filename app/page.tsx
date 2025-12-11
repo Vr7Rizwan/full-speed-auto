@@ -8,7 +8,6 @@ import Services from "./components/Services";
 import { commonServices } from "./resources/brands";
 import LogoSlider from "./components/LogoSlider";
 import { logos } from "./resources/logos";
-import TriggerOnScroll from "./components/TriggerOnScroll";
 
 export default function Home() {
   return (
@@ -24,7 +23,6 @@ export default function Home() {
       </div>
       <Faq faq={faq} />
       <CarWorkshopForm />
-      <TriggerOnScroll/>
     </div>
   );
 }
