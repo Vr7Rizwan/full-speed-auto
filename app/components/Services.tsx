@@ -51,8 +51,8 @@ const Services = ({
               </p>
             </div>
           ) : (
-            <div className="mb-12">
-              <h1 className="subHeading font-bold text-txtColor mb-3">
+            <div className="mb-6 md:mb-12">
+              <h1 className="subHeading font-bold text-txtColor mb-1 md:mb-3">
                 Automotive Solutions
               </h1>
               <p className="text-txtColor normalText">
@@ -72,7 +72,7 @@ const Services = ({
               >
                 <div
                   className={`relative w-full h-full transition-all duration-2000 transform-3d group-hover:transform-[rotateY(180deg)] ${
-                    (flip==i || (triggered && i==0))
+                    window.innerWidth < 768 && (flip==i || (triggered && i==0))
                       ? "transform-[rotateY(180deg)]"
                       : ""
                   }`}
