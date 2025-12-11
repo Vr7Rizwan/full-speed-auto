@@ -27,7 +27,7 @@ const Footer = () => {
             {locations.map((loc) => (
               <div key={loc} className="flex items-center gap-2">
                 <MapPin className="size-4 text-secondary" />
-                <p>{loc}</p>
+                <p>Ras Al Khor Industrial Area 2, Warehouse No. 56, Dubai-UAE</p>
               </div>
             ))}
           </div>
