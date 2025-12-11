@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
         
-          <Link href="/" className="w-2/10">
+          <Link href="/" className="lg:w-2/10">
           <img
             className="w-20 h-15 md:w-40 md:h-25 py-2"
             src="/assets/logo.png"
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Hamburger */}
-        <div className="lg:hidden w-[15%] flex justify-end">
+        <div className="lg:hidden lg:w-[15%] flex justify-end">
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? (
               <X className="w-6 h-6 " />
