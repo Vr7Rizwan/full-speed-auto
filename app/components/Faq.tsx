@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 
 function Faq({ faq }: { faq: faqTypes[] | undefined }) {
   return (
-    <div className="bg-gray-50 py-2">
+    <div className="bg-gray-50 py-2 md:py-7">
       <div className="flex justify-center">
         <h2 className="subHeading font-bold text-txtColor">
           FREQUENTLY ASKED{" "}

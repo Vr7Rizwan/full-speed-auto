@@ -58,21 +58,24 @@ const Navbar: React.FC = () => {
                 <ul
                   className={`absolute top-[90%] left-0 mt-2 w-[98vw] mx-1 bg-txtColor border border-gray-100 rounded shadow-lg 
                     opacity-0 invisible transition-all duration-300 z-50
-                    ${item.name === "Brands" || item.name === "Services"
-                      ? "grid grid-cols-3 p-4"
-                      : "w-40"
+                    ${
+                      item.name === "Brands" || item.name === "Services"
+                        ? "grid grid-cols-3 p-4"
+                        : "w-40"
                     }
                     group-hover:opacity-100 group-hover:visible
-                    ${activeSubmenu === item.name ? "opacity-100 visible" : ""
+                    ${
+                      activeSubmenu === item.name ? "opacity-100 visible" : ""
                     }`}
                 >
                   {item.submenu.map((subItem) => (
                     <li
                       key={subItem[0]}
-                      className={`px-4 py-2 hover:bg-secondary hover:text-txtColor normalText ${item.name === "Brands" || item.name === "Services"
-                        ? "p-2"
-                        : ""
-                        }`}
+                      className={`px-4 py-2 hover:bg-secondary hover:text-txtColor normalText ${
+                        item.name === "Brands" || item.name === "Services"
+                          ? "p-2"
+                          : ""
+                      }`}
                     >
                       <Link
                         href={subItem[1]}
@@ -111,12 +114,12 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-secondary border-t border-txtColor overflow-y-auto max-h-[70vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
+        <div className="lg:hidden bg-txtColor border-t border-txtColor overflow-y-auto max-h-[90vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
                 <div
-                  className="flex items-center justify-between py-2 font-bold text-txtColor cursor-pointer"
+                  className="flex items-center justify-between py-2 font-bold text-primary cursor-pointer"
                   onClick={() => item.submenu && toggleSubmenu(item.name)}
                 >
                   <Link
@@ -128,22 +131,23 @@ const Navbar: React.FC = () => {
                   </Link>
                   {item.submenu && (
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-300 ${activeSubmenu === item.name ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform duration-300 ${
+                        activeSubmenu === item.name ? "rotate-180" : ""
+                      }`}
                     />
                   )}
                 </div>
 
                 {/* Mobile Submenu */}
                 {item.submenu && activeSubmenu === item.name && (
-                  <ul className="pl-4 mt-1 flex flex-col gap-1">
+                  <ul className="pl-4 mt-1 flex max-h-[25vh] overflow-scroll flex-col gap-1">
                     {item.submenu.map((subItem) => (
                       <li key={subItem[0]} className="py-1 normalText">
                         <Link
                           prefetch={false}
                           onClick={() => setMobileMenuOpen(false)}
                           href={subItem[1]}
-                          className="block text-txtColor hover:text-secondary"
+                          className="block text-primary hover:text-secondary"
                         >
                           {subItem[0]}
                         </Link>
@@ -159,7 +163,7 @@ const Navbar: React.FC = () => {
               <ContactBtn
                 setMobileMenuOpen={setMobileMenuOpen}
                 text="Book Appointment"
-                classes="w-full text-center cursor-pointer font-semibold rounded-full bg-txtColor text-primary px-3 py-2"
+                classes="w-full text-center cursor-pointer font-semibold rounded-full bg-secondary text-txtColor px-3 py-2"
               />
             </li>
           </ul>

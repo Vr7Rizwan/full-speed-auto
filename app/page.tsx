@@ -15,13 +15,13 @@ export default function Home() {
       <Banner />
       <Services Services={commonServices.slice(0, 6)} />
       <WhyChooseUS whyChooseUs={whyChooseUs} />
-      <Faq faq={faq} />
       <div className="w-[95%] mx-auto flex flex-col gap-7 md:gap-10 py-7 md:py-10">
         <h2 className="subHeading font-bold text-center">
           <span className="text-secondary">Brands</span> we have dealt with
         </h2>
         <LogoSlider logos={logos} />
       </div>
+      <Faq faq={faq} />
       <CarWorkshopForm />
     </div>
   );
