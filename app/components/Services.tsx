@@ -71,7 +71,7 @@ const Services = ({
         <div>
           {expertService ? (
             <div className="mb-12">
-              <h1 className="subHeading font-bold text-txtColor mb-3">
+              <h1 className="text-[1rem] md:subHeading font-bold text-txtColor mb-3">
                 {expertService.title}
               </h1>
               <p className="text-txtColor normalText">
@@ -107,11 +107,11 @@ const Services = ({
                 >
                   <div className="absolute w-full h-[30vh] sm:h-64 md:h-77 lg:h-78 xl:h-62 p-8 bg-primary flex flex-col justify-center sm:justify-start gap-5 rounded-2xl shadow-md hover:shadow-lg transition-all border border-secondary">
                     {brand ? (
-                      <h3 className="subHeading font-semibold text-txtColor">
+                      <h3 className="text-[1rem] md:subHeading font-semibold text-txtColor">
                         {brand + " " + value.name}
                       </h3>
                     ) : (
-                      <h3 className="subHeading font-semibold text-txtColor">
+                      <h3 className="text-[1rem] md:subHeading font-semibold text-txtColor">
                         {value.name}
                       </h3>
                     )}

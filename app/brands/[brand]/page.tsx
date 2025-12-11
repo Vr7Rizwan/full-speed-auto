@@ -31,7 +31,7 @@ async function page({ params }: { params: { brand: string } }) {
           {selectedBrand?.heading}
         </h1>
       </section>
-      <h1 className="block md:hidden w-[92%] md:w-[95%] mx-auto pt-7 heading text-txtColor font-semibold">
+      <h1 className="block md:hidden w-[92%] md:w-[95%] mx-auto pt-7 subHeading text-txtColor font-bold">
         {selectedBrand?.heading}
       </h1>
       <BrandDetail
