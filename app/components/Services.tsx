@@ -13,7 +13,17 @@ const Services = ({
   const [flip, setFlip] = useState<number | null>(null);
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [triggered, setTriggered] = useState<boolean>(false);
+  const [isClient, setClient] = useState<boolean>(false);
 
+  useEffect(() => {
+    // Use setTimeout to delay state update, preventing immediate re-render
+    const timer = setTimeout(() => {
+      setClient(true); // This will now trigger the state update asynchronously
+    }, 0);
+
+    // Cleanup timer on component unmount
+    return () => clearTimeout(timer);
+  }, []);
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry], observerInstance) => {
@@ -38,7 +48,10 @@ const Services = ({
   }, []);
 
   return (
-    <section ref={sectionRef} className="w-full py-6 md:py-16 px-6 md:px-12 bg-gray-50">
+    <section
+      ref={sectionRef}
+      className="w-full py-6 md:py-16 px-6 md:px-12 bg-gray-50"
+    >
       {Services && (
         <div>
           {expertService ? (
@@ -72,7 +85,9 @@ const Services = ({
               >
                 <div
                   className={`relative w-full h-full transition-all duration-2000 transform-3d group-hover:transform-[rotateY(180deg)] ${
-                    window.innerWidth < 768 && (flip==i || (triggered && i==0))
+                    isClient &&
+                    window.innerWidth < 768 &&
+                    (flip == i || (triggered && i == 0))
                       ? "transform-[rotateY(180deg)]"
                       : ""
                   }`}
