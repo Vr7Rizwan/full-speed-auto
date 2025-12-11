@@ -110,7 +110,7 @@ const brandsData: BrandType[] = [
   {
     name: "Audi",
     banner: "/assets/brands/audi.webp",
-    heading: "Audi Repair and Maintenance Experts in Dubai",
+    heading: "Audi Repair and Maintenance Experts in UAE",
     heroText:
       "Advanced Audi repair and maintenance solutions performed by certified and highly trained technicians.",
     description:
@@ -195,7 +195,7 @@ const brandsData: BrandType[] = [
   {
     name: "BMW",
     banner: "/assets/brands/bmw.webp",
-    heading: "Reliable BMW Service and Repairs in Dubai",
+    heading: "Reliable BMW Service and Repairs in UAE",
     heroText:
       "Comprehensive BMW care provided by certified technicians, using advanced diagnostics and genuine parts to ensure every vehicle achieves peak performance, long-term reliability, and a premium driving experience.",
     description:
@@ -281,7 +281,7 @@ const brandsData: BrandType[] = [
   {
     name: "Jaguar",
     banner: "/assets/brands/jaguar.webp",
-    heading: "Premium Jaguar Repairs and Maintenance in Dubai",
+    heading: "Premium Jaguar Repairs and Maintenance in UAE",
     heroText:
       "Comprehensive Jaguar care provided by certified technicians using genuine parts, advanced diagnostics, and professional expertise to ensure peak performance and reliability.",
     description:
@@ -456,7 +456,7 @@ const brandsData: BrandType[] = [
   {
     name: "Maybach",
     banner: "/assets/brands/maybach.webp",
-    heading: "Maybach Luxury Car Service in Dubai",
+    heading: "Maybach Luxury Car Service in UAE",
     heroText:
       "Comprehensive Maybach maintenance and repair performed by certified technicians using genuine parts and advanced diagnostics to ensure peak performance, safety, and ultimate luxury.",
     description:
@@ -2029,7 +2029,7 @@ const brandsData: BrandType[] = [
       "Certified Rolls Royce care with genuine parts, advanced diagnostics, and premium maintenance for unmatched luxury, performance, and reliability.",
 
     description:
-      "Our Rolls Royce service center provides world-class maintenance and repair solutions for all Rolls Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls Royce vehicles require expert care and meticulous attention. Our certified Rolls Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls Royce owners in Dubai, preserving the elegance, power, and precision of their vehicles.",
+      "Our Rolls Royce service center provides world-class maintenance and repair solutions for all Rolls Royce models, including Phantom, Ghost, Cullinan, Wraith, and Dawn. Renowned for ultimate luxury, bespoke craftsmanship, and cutting-edge engineering, Rolls Royce vehicles require expert care and meticulous attention. Our certified Rolls Royce technicians use factory-approved tools, advanced diagnostics, and 100% genuine Rolls Royce OEM components to ensure flawless performance, safety, and refinement. Services include engine oil changes, suspension calibration, brake maintenance, transmission servicing, ECU diagnostics, AC servicing, battery testing, and full performance evaluations. Each service guarantees a premium and seamless experience for Rolls Royce owners in UAE, preserving the elegance, power, and precision of their vehicles.",
 
     whyChooseUs: [
       {
@@ -2049,7 +2049,7 @@ const brandsData: BrandType[] = [
     seoTitle:
       "Rolls Royce Service Dubai | Luxury Maintenance and Precision Repairs",
     seoDescription:
-      "Professional Rolls Royce maintenance and repair in Dubai. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
+      "Professional Rolls Royce maintenance and repair in UAE. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
 
     faqs: [
       {
@@ -2085,7 +2085,7 @@ const brandsData: BrandType[] = [
     ],
     // 1. Expert Services Overview
     expertServices: {
-      title: "Our Expert Rolls-Royce Services center in Dubai for Your Vehicle",
+      title: "Our Expert Rolls-Royce Services center in UAE for Your Vehicle",
       description:
         "No matter which Rolls-Royce model you drive, whether it’s the Phantom, Ghost, Wraith, or Cullinan, Speed Full Auto has the expertise to serve you. With many years of experience maintaining and repairing Rolls-Royce vehicles in the UAE, we understand the unparalleled luxury, precision engineering, and performance these cars demand. Our certified technicians handle engine performance, transmission, brakes, suspension, and advanced electronics. Regular maintenance and professional care ensure your Rolls-Royce delivers smooth, reliable, and extraordinary driving experiences.",
     },
@@ -2098,7 +2098,7 @@ const brandsData: BrandType[] = [
 
     // 3. Facilities
     facilities: [
-      "Largest independent luxury car workshop and Rolls-Royce service center in Dubai",
+      "Largest independent luxury car workshop and Rolls-Royce service center in UAE",
       "State-of-the-art workshop capable of servicing all Rolls-Royce models",
       "18,000 sqm area dedicated to high-end vehicle care",
       "23 vehicle lifters ensuring efficient workflow",
