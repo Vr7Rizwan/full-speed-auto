@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
                 >
                   <Link
                     onClick={() => item.submenu || setMobileMenuOpen(false)}
-                    className="normalText"
+                    className="normalText w-full"
                     href={item.href}
                   >
                     {item.name}

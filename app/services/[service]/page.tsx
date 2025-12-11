@@ -6,6 +6,7 @@ import WhyChooseUS from "@/app/components/WhyChooseUS";
 import Faq from "@/app/components/Faq";
 import { whyChooseUsTypes } from "@/app/resources/whyChooseUs";
 import OurFeatures from "@/app/components/Services/Features";
+import Link from "next/link";
 
 export async function generateMetadata({
   params,
@@ -44,6 +45,27 @@ const page = async ({ params }: { params: { service: string } }) => {
         contentimg={selectedService.contentimg}
       />
       <WhyChooseUS whyChooseUs={whychooseus} />
+      <div className="p-5">
+        <Link
+          href="https://wa.me/971563220861?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+          target="_blank"
+          className="block w-full my-3 md:my-10"
+        >
+          {/* Desktop Image */}
+          <img
+            src="/assets/services/discounting.webp"
+            alt="discount"
+            className="hidden md:block w-full h-auto rounded-2xl"
+          />
+
+          {/* Mobile Image */}
+          <img
+            src="/assets/services/discounting-mob.webp"
+            alt="discount"
+            className="block md:hidden w-full h-auto rounded-2xl"
+          />
+        </Link>
+      </div>
       <OurFeatures features={selectedService.features} />
       <Faq faq={selectedService.faqs} />
       <CarWorkshopForm />
