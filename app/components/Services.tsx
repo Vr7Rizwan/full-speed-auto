@@ -11,57 +11,29 @@ const Services = ({
   expertService?: { title: string; description: string };
 }) => {
   const [flip, setFlip] = useState<number | null>(null);
-  const [autoFlip, setAutoFlip] = useState<boolean>(false);
   const sectionRef = useRef<HTMLDivElement | null>(null);
+  const [triggered, setTriggered] = useState<boolean>(false);
+
   useEffect(() => {
-    if (typeof window !== "undefined" && window.innerWidth > 768) return;
-
-    let observer: IntersectionObserver | null = null;
-
-    const runFlip = () => {
-      setAutoFlip(true);
-      setTimeout(() => setAutoFlip(false), 1500);
-    };
-
-    const checkVisibility = () => {
-      if (!sectionRef.current) return;
-
-      const rect = sectionRef.current.getBoundingClientRect();
-
-      if (rect.top < window.innerHeight * 0.9 && rect.bottom > 0) {
-        runFlip();
+    const observer = new IntersectionObserver(
+      ([entry], observerInstance) => {
+        if (entry.isIntersecting) {
+          setTriggered(true); // trigger action
+          observerInstance.unobserve(entry.target); // optional: trigger only once
+        }
+      },
+      {
+        root: null, // viewport
+        threshold: 0.1, // section visible by 10%
       }
-    };
+    );
 
-    const startObserver = () => {
-      observer = new IntersectionObserver(
-        (entries) => {
-          if (entries[0].isIntersecting) {
-            runFlip();
-          }
-        },
-        { threshold: 0.3 }
-      );
-
-      if (sectionRef.current) observer.observe(sectionRef.current);
-    };
-
-    setTimeout(() => {
-      requestAnimationFrame(() => {
-        startObserver();
-        checkVisibility();
-      });
-    }, 400);
-
-    window.addEventListener("scroll", checkVisibility);
-    window.addEventListener("touchmove", checkVisibility);
-    window.addEventListener("resize", checkVisibility);
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
 
     return () => {
-      observer?.disconnect();
-      window.removeEventListener("scroll", checkVisibility);
-      window.removeEventListener("touchmove", checkVisibility);
-      window.removeEventListener("resize", checkVisibility);
+      if (sectionRef.current) observer.unobserve(sectionRef.current);
     };
   }, []);
 
@@ -99,8 +71,8 @@ const Services = ({
                 className="group w-full h-[30vh] sm:h-64 md:h-77 lg:h-78 xl:h-62  perspective-[1000px]"
               >
                 <div
-                  className={`relative w-full h-full transition-all duration-500 transform-3d group-hover:transform-[rotateY(180deg)] ${
-                    flip === i || (autoFlip && i === 0)
+                  className={`relative w-full h-full transition-all duration-2000 transform-3d group-hover:transform-[rotateY(180deg)] ${
+                    (flip==i || (triggered && i==0))
                       ? "transform-[rotateY(180deg)]"
                       : ""
                   }`}
