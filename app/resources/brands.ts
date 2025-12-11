@@ -777,7 +777,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Ferrari repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Ferrari",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -863,7 +862,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Hyundai repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Hyundai",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -948,7 +946,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Toyota repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Toyota",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -1034,7 +1031,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Lamborghini repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Lamborghini",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -1119,7 +1115,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Honda repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Honda",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -1205,7 +1200,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Mazda repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Mazda",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -1294,7 +1288,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Bentley repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Bentley",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -1383,7 +1376,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Mini Cooper repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Mini Cooper",
       "Friendly and professional customer service ensuring a seamless experience",
     ],
@@ -1473,7 +1465,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Volkswagen repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Volkswagen",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -1563,7 +1554,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Pagani repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Pagani",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -1653,7 +1643,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Dodge repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Dodge",
       "Friendly and professional customer service ensuring a smooth experience",
     ],
@@ -1744,7 +1733,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Bugatti repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Bugatti",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -1836,7 +1824,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "High-quality Jeep repair and service at competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the full service history of your Jeep",
       "Friendly and professional customer service ensuring a seamless experience",
     ],
@@ -1926,7 +1913,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality McLaren repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your McLaren",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -2016,7 +2002,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Range Rover repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Range Rover",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
@@ -2107,7 +2092,6 @@ const brandsData: BrandType[] = [
     // 2. What To Expect
     whatToExpect: [
       "Dealership-quality Rolls-Royce repair and service at highly competitive rates",
-      "12-month warranty certificates for labor and parts after repairs",
       "Advanced CRM system to maintain the complete service history of your Rolls-Royce",
       "Premium customer service that treats you like royalty for a seamless experience",
     ],
