@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-secondary border-t border-txtColor overflow-y-auto max-h-[70vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
+        <div className="absolute w-full transition-all duration-300 lg:hidden bg-secondary border-t border-txtColor overflow-y-auto max-h-[70vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
