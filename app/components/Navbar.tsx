@@ -30,8 +30,8 @@ const Navbar: React.FC = () => {
     <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
       <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
-        
-          <Link href="/" className="w-2/10 lg:w-1/4">
+
+        <Link href="/" className="w-2/10 lg:w-1/4">
           <img
             className="w-20 h-15 md:w-32 md:h-24 py-2"
             src="/assets/logo.png"
@@ -39,10 +39,12 @@ const Navbar: React.FC = () => {
           />
         </Link>
         <ContactBtn
-                setMobileMenuOpen={setMobileMenuOpen}
-                text="Book Appointment"
-                classes={`w-full ${mobileMenuOpen && "hidden"} block lg:hidden bg-txtColor text-primary text-center cursor-pointer font-semibold rounded-full bg-secondary px-5 py-2`}
-              />
+          setMobileMenuOpen={setMobileMenuOpen}
+          text="Book Appointment"
+          classes={`w-full ${
+            mobileMenuOpen && "hidden"
+          } block lg:hidden bg-txtColor text-primary text-center cursor-pointer font-semibold rounded-full bg-secondary px-5 py-2`}
+        />
 
         {/* Desktop Menu */}
         <ul className="w-1/2 hidden lg:flex flex-row justify-center gap-3 xl:gap-6 text-primary items-center">
@@ -120,7 +122,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-txtColor border-t border-txtColor overflow-y-auto max-h-[90vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
+        <div className="absolute w-full lg:hidden bg-txtColor border-t border-txtColor overflow-y-auto max-h-[90vh] scroll-smooth [ -webkit-overflow-scrolling:touch ]">
           <ul className="flex flex-col gap-2 py-4 px-6">
             {navLinks.map((item) => (
               <li key={item.name} className="relative">
