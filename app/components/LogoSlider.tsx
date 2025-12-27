@@ -3,8 +3,10 @@ import Slider, { Settings } from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 export interface LogoData {
+  link: string;
   src: string;
   alt: string;
   width: number;
@@ -96,18 +98,20 @@ export default function LogoSlider({
     <div dir={isRTL ? "rtl" : "ltr"} className={className}>
       <Slider {...settings}>
         {logos.map((logo, i) => (
-          <div key={i} className="px-1 sm:px-2 md:px-4 outline-none">
-            <div className="flex overflow-hidden rounded-2xl items-center justify-center w-full h-full bg-white">
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={logo.width}
-                height={logo.height}
-                className="hover:cursor-pointer w-1/2 h-1/2 object-contain scale-100"
-                priority
-              />
+          <Link key={`logo${i}`} href={logo.link}>
+            <div className="px-1 sm:px-2 md:px-4 outline-none">
+              <div className="flex overflow-hidden rounded-2xl items-center justify-center w-full h-full bg-white">
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={logo.width}
+                  height={logo.height}
+                  className="hover:cursor-pointer w-1/2 h-1/2 object-contain scale-100"
+                  priority
+                />
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </Slider>
     </div>
