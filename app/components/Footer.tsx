@@ -12,7 +12,7 @@ const Footer = () => {
           <img
             className="w-40 h-25 items-center justify-center"
             src="/assets/logo-light.png"
-            alt=""
+            alt="speed full auto 2"
           />
 
           <p className="normalText leading-tight">
