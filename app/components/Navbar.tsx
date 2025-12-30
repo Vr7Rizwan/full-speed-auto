@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
     setActiveSubmenu(activeSubmenu === name ? null : name);
   };
   return (
-    <nav className="w-full bg-secondary shadow-md sticky top-0 z-20">
+    <nav className="w-full bg-secondary shadow-md sticky top-0 z-50">
       <div className="flex flex-row items-center justify-between px-4 md:px-8">
         {/* Logo */}
 
