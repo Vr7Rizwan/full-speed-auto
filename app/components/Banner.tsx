@@ -8,10 +8,7 @@ const Banner = () => {
     "/assets/banner1.webp",
     "/assets/banner2.webp",
     "/assets/banner3.webp",
-    "/assets/banner4.webp",
-    "/assets/banner5.webp",
-    "/assets/banner6.webp",
-    "/assets/banner7.webp"
+    "/assets/banner4.webp"
   ];
 
   const settings = {
