@@ -42,9 +42,9 @@ function FaqItem({ item }: { item: faqTypes }) {
         onClick={() => setOpen(!open)}
         className="w-full normalText font-medium flex justify-between items-center bg-secondary px-4 py-5 rounded-2xl cursor-pointer"
       >
-        <span className="flex text-start w-[90%] md:w-[95%]">
+        <h3 className="flex font-bold text-start w-[90%] md:w-[95%]">
           {item.Question}
-        </span>
+        </h3>
 
         <span
           className={`transition-transform duration-300 w-[10%] md:w-[5%] ${

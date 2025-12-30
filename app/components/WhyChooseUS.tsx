@@ -19,10 +19,12 @@ function WhyChooseUS({
                 key={index}
                 className="p-5 flex flex-col gap-2 rounded-2xl border-2 border-secondary hover:bg-secondary hover:border-txtColor hover:cursor-pointer transition-all duration-500"
               >
-                <h3 className="text-txtColor subHeading font-bold">
+                <h3 className="text-txtColor normalText font-bold">
                   {item.title}
                 </h3>
-                <p className="text-txtColor normalText text-justify">{item.text}</p>
+                <p className="text-txtColor normalText text-justify">
+                  {item.text}
+                </p>
               </div>
             ))}
         </div>
