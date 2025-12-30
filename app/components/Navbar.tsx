@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <img
             className="w-20 h-15 md:w-32 md:h-24 py-2"
             src="/assets/logo.png"
-            alt=""
+            alt="speed full auto"
           />
         </Link>
         <ContactBtn

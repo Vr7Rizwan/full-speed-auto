@@ -30,7 +30,11 @@ function page() {
           >
             {/* Left Image */}
             <div className="relative w-full md:h-full">
-              <img className="md:rounded-3xl" src={pack.image} alt="" />
+              <img
+                className="md:rounded-3xl"
+                src={pack.image}
+                alt={pack.title}
+              />
             </div>
 
             {/* Right Content */}

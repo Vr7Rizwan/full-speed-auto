@@ -16,9 +16,7 @@ const Hero = ({
     <div className="flex flex-col bg-gray-50 justify-center w-full px-4 md:px-6 gap-5  py-5 md:py-10 md:pt-30">
       <div className="w-full flex flex-col lg:flex-row justify-center bg-gray-100 rounded-2xl gap-2  md:gap-0 my-5">
         <div className="w-full lg:w-[60%] flex flex-col gap-2 px-5 py-5 lg:px-10 lg:py-10 ">
-          <h2 className="text-[1.2rem] md:subHeading text-txtColor font-bold">
-            {subheading}
-          </h2>
+          <h2 className="subHeading text-txtColor font-bold">{subheading}</h2>
           <p className="normalText text-justify">{description}</p>
         </div>
         <div
