@@ -14,13 +14,13 @@ const Banner = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 1200,
+    speed: 1000,          // slide speed
     autoplay: true,
-    autoplaySpeed: 4000,
-    fade: true,
+    autoplaySpeed: 3000,
+    fade: false,         // 👈 fade OFF → slide ON
     pauseOnHover: false,
+     cssEase: "linear"
   };
-
   return (
     <section className="relative w-full h-screen overflow-hidden">
   
