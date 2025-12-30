@@ -56,7 +56,7 @@ const Services = ({
         <div>
           {expertService ? (
             <div className="mb-12">
-              <h2 className="text-[1rem] md:subHeading font-bold text-txtColor mb-3">
+              <h2 className="subHeading font-bold text-txtColor mb-3">
                 {expertService.title}
               </h2>
               <p className="text-txtColor normalText text-justify">
