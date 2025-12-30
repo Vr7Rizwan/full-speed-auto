@@ -5,8 +5,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 
-
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -20,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SPEED FULL AUTO",
   description: "Premium Luxury Car Service You Can Trust",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
