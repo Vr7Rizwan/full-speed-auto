@@ -30,13 +30,10 @@ async function page({ params }: { params: { brand: string } }) {
     <div>
       <section className="relative">
         <Banner banner={selectedBrand?.banner} />
-        <h1 className="heading hidden md:block text-primary bg-txtColor backdrop-blur-[2px] rounded-2xl w-[95%] text-center py-10 leading-relaxed font-semibold absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2">
+        <h1 className="heading block md:text-primary md:bg-txtColor md:backdrop-blur-[2px] rounded-2xl w-[95%] mx-auto md:text-center md:py-10 leading-relaxed font-semibold md:absolute md:left-1/2 md:-translate-x-1/2 md:top-full md:-translate-y-1/2">
           {selectedBrand?.heading}
         </h1>
       </section>
-      <h1 className="block md:hidden w-[92%] md:w-[95%] mx-auto pt-7 text-[1.2rem] text-txtColor font-bold">
-        {selectedBrand?.heading}
-      </h1>
       <BrandDetail
         heroText={selectedBrand?.heroText}
         description={selectedBrand?.description}
