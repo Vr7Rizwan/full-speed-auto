@@ -32,8 +32,8 @@ export default function LogoSlider({
   logos,
   direction = "left",
   slidesToShow = 5,
-  autoplaySpeed = 1000,
-  speed = 1000,
+  autoplaySpeed = 0,
+  speed = 3000,
   className = "",
 }: LogoSliderProps) {
   // In react-slick, reverse movement is achieved with RTL mode.
