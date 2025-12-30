@@ -18,6 +18,9 @@ export async function generateMetadata({
   return {
     title: selectedBrand?.seoTitle || "Default Brand Title",
     description: selectedBrand?.seoDescription || "Default Brand Description",
+    alternates: {
+      canonical: `https://www.speedfullauto.com/brands/${data.brand}`,
+    },
   };
 }
 async function page({ params }: { params: { brand: string } }) {

@@ -2,6 +2,13 @@ import CarWorkshopForm from "../components/CarWorkshopForm";
 import ContactBtn from "../components/ContactBtn";
 import packageDetails from "../resources/packages";
 
+export async function generateMetadata() {
+  return {
+    alternates: {
+      canonical: `https://www.speedfullauto.com/packages`,
+    },
+  };
+}
 function page() {
   return (
     <section>
@@ -40,7 +47,7 @@ function page() {
           </div>
         ))}
       </div>
-      <CarWorkshopForm/>
+      <CarWorkshopForm />
     </section>
   );
 }

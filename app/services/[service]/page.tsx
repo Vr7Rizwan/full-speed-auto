@@ -18,6 +18,9 @@ export async function generateMetadata({
   return {
     title: selectedService?.seoTitle || "Default Brand Title",
     description: selectedService?.seoDescription || "Default Brand Description",
+    alternates: {
+      canonical: `https://www.speedfullauto.com/brands/${data.service}`,
+    },
   };
 }
 

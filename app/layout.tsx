@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "SPEED FULL AUTO",
   description: "Premium Luxury Car Service You Can Trust",
   alternates: {
-    canonical: "/",
+    canonical: "https://www.speedfullauto.com/",
   },
 };
 
