@@ -32,6 +32,13 @@ const Banner = () => {
       subHeading: "Premium service experience designed for luxury vehicles.",
       buttonText: "Contact Us",
     },
+    {
+  image: "/assets/banner5.webp",
+  heading: "Driven by Excellence",
+  subHeading:
+    "Exceptional craftsmanship and service your luxury car deserves.",
+  buttonText: "Explore Services",
+},
   ];
 
   const settings = {
