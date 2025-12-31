@@ -7,9 +7,9 @@ const Banner = () => {
   const slides = [
     {
       image: "/assets/banner1.webp",
-      heading: "Premium Luxury Car Service",
+      heading: "Precision Car Detailing Excellence",
       subHeading:
-        "Dealership-level diagnostics, genuine manufacturer parts, and expert technicians.",
+        "Hand-finished detailing to restore shine, protect paint, and elevate your drive.",
       buttonText: "Schedule Now",
     },
     {
