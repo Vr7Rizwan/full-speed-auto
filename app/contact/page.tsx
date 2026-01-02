@@ -3,6 +3,15 @@ import CarWorkshopForm from "../components/CarWorkshopForm";
 import ContactInfoSection from "../components/Contact/ContactInfoSection";
 import { logos } from "../resources/logos";
 import LogoSlider from "../components/LogoSlider";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Contact - Speed Full Auto",
+  description:
+    "Get in touch with Speed Full Auto World for expert car care services in Dubai. Call, email, or visit our service center to request quotes or book an appointment.",
+  alternates: {
+    canonical: "https://www.speedfullauto.com/contact",
+  },
+};
 const ContactPage = () => {
   return (
     <div>
