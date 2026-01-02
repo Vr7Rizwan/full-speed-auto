@@ -11,13 +11,6 @@ export const metadata: Metadata = {
   },
 };
 
-export async function generateMetadata() {
-  return {
-    alternates: {
-      canonical: `https://www.speedfullauto.com/packages`,
-    },
-  };
-}
 function page() {
   return (
     <section>
