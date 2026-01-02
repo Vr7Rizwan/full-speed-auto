@@ -26,7 +26,11 @@ export async function generateMetadata({
 async function page({ params }: { params: { brand: string } }) {
   const data = await params;
   const selectedBrand = findBrand(data.brand);
-  return (
+  return !selectedBrand ? (
+    <div className="h-[50vh] flex justify-center items-center">
+      <h1 className="heading">404 : Page not found!</h1>
+    </div>
+  ) : (
     <div>
       <section className="relative">
         <Banner banner={selectedBrand?.banner} />

@@ -28,7 +28,11 @@ const page = async ({ params }: { params: { service: string } }) => {
   const data = await params;
   const selectedService = findService(data.service);
   if (!selectedService) {
-    return <div>Service not found</div>;
+    return (
+      <div className="h-[50vh] flex justify-center items-center">
+        <h1 className="heading">404 : Page not found!</h1>
+      </div>
+    );
   }
   const whychooseus: whyChooseUsTypes[] = selectedService.whyChooseUs;
   return (
