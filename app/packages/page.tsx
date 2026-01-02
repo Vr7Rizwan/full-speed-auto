@@ -3,7 +3,7 @@ import ContactBtn from "../components/ContactBtn";
 import packageDetails from "../resources/packages";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Car Service Center Dubai | Complete Auto Repairs & Maintenance",
+  title: "Car Service Center Dubai | Auto Repairs & Maintenance",
   description:
     "Visit Dubai’s best car service center for expert maintenance, repairs, and diagnostics. Trusted for luxury car servicing near me.",
   alternates: {

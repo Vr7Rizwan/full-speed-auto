@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Best Luxury Car Care in Dubai | Premium Car Detailing & Protection",
+  title: "Luxury Car Care in Dubai | Premium Detailing & Protection",
   description:
     "Get the best car care in Dubai with expert car detailing, ceramic coating, and PPF protection. We provide luxury car services tailored for perfection.",
   alternates: {
