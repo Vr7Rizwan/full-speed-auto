@@ -129,9 +129,9 @@ const brandsData: BrandType[] = [
         text: "Authenticity and quality are our top priorities. That’s why we use only 100% genuine Audi parts sourced directly from trusted suppliers. Genuine parts ensure perfect fitment, superior durability, and optimal performance, helping your vehicle maintain its reliability, safety, and value over time. Every replacement part is carefully chosen to preserve the luxury and efficiency of your Audi.",
       },
     ],
-    seoTitle: "Audi Repair Dubai | Expert Audi Maintenance and Premium Service",
+    seoTitle: "Expert Audi Repair and Maintenance Services in UAE",
     seoDescription:
-      "Professional Audi repair and maintenance services in Dubai. Our certified technicians provide expert diagnostics, genuine parts, routine servicing, oil changes, brake and suspension repairs, AC and transmission work, and performance tuning to keep your Audi performing at its best.",
+      "Expert Audi repair & maintenance in Dubai. Certified technicians, genuine parts, servicing, oil changes, brakes, suspension & performance tuning.",
     faqs: [
       {
         Question: "How often should I service my Audi in Dubai?",
@@ -215,9 +215,9 @@ const brandsData: BrandType[] = [
         text: "We use only genuine BMW OEM parts to preserve your vehicle's integrity, reliability, and performance. Each component is designed for perfect compatibility and long-term durability, ensuring optimal efficiency and maintaining the luxurious feel of your BMW. Using authentic parts guarantees safety, maximizes performance, and protects the value of your vehicle over time.",
       },
     ],
-    seoTitle: "BMW Repair Dubai | Expert BMW Maintenance and Premium Service",
+    seoTitle: "BMW Repair Dubai Expert BMW Maintenance and Premium Service",
     seoDescription:
-      "Professional BMW repair and maintenance services in Dubai. Certified BMW technicians, genuine parts, advanced diagnostics, oil changes, brake and suspension service, AC and transmission repairs, and performance upgrades to keep your vehicle performing at its best.",
+      "Certified BMW repair & maintenance in Dubai. Genuine parts, diagnostics, oil changes, brakes, AC, transmission & performance upgrades.",
     faqs: [
       {
         Question: "How often should I service my BMW?",
@@ -303,9 +303,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Jaguar Repair Dubai | Expert Jaguar Maintenance and Premium Service",
+      "Jaguar Repair Dubai | Expert Jaguar Maintenance Service",
     seoDescription:
-      "Professional Jaguar repair and maintenance services in Dubai. Certified Jaguar technicians, genuine parts, advanced diagnostics, oil changes, brakes, suspension, electrical systems, transmission, and performance upgrades.",
+      "Certified Jaguar repair in Dubai: genuine parts, diagnostics, oil changes, brakes, suspension, transmission & performance upgrades.",
     faqs: [
       {
         Question: "How often does a Jaguar need maintenance?",
@@ -390,9 +390,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Maserati Service Dubai | Premium Maserati Maintenance and Repairs",
+      "Luxury Maserati Maintenance and Repair Services in Dubai",
     seoDescription:
-      "Luxury Maserati maintenance and repair in Dubai. Certified Maserati technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, transmission, and performance upgrades.",
+      "Certified Maserati maintenance & repair in Dubai. Genuine parts, expert technicians, advanced diagnostics, engine, brakes, suspension & upgrades.",
     faqs: [
       {
         Question: "How often should I service my Maserati?",
@@ -476,9 +476,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Maybach Repair Dubai | Premium Maybach Maintenance and Service",
+    seoTitle: "Maybach Repair Dubai | Premium Maintenance & Service",
     seoDescription:
-      "Professional Maybach maintenance and repair in Dubai. Certified Maybach technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, transmission, and performance upgrades.",
+      "Certified Maybach service in Dubai: expert technicians, genuine parts, full maintenance, repairs, diagnostics & performance upgrades.",
     faqs: [
       {
         Question: "Do you use genuine Maybach parts?",
@@ -563,7 +563,7 @@ const brandsData: BrandType[] = [
     ],
     seoTitle: "Mercedes Service Dubai | Expert Maintenance and Repairs",
     seoDescription:
-      "Professional Mercedes maintenance and repair in Dubai. Certified technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full-service care.",
+      "Expert Mercedes maintenance & repair in Dubai. Certified technicians, genuine parts, full service: engine, brakes, suspension, AC, electrical & tuning.",
     faqs: [
       {
         Question: "Is Mercedes performance tuning available?",
@@ -648,9 +648,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Porsche Service Dubai | Expert Porsche Maintenance and Repairs",
+    seoTitle: "Porsche Service Dubai | Expert Maintenance & Repairs",
     seoDescription:
-      "Professional Porsche maintenance and repair in Dubai. Certified Porsche technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full high-performance service.",
+      "Certified Porsche service in Dubai: genuine parts, expert maintenance, diagnostics, engine, brakes, suspension, AC & performance tuning.",
     faqs: [
       {
         Question: "How often does a Porsche require servicing?",
@@ -733,9 +733,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Ferrari Service Dubai | Expert Ferrari Maintenance and Repairs",
+    seoTitle: "Ferrari Expert High-Performance Maintenance and Repairs",
     seoDescription:
-      "Professional Ferrari maintenance and repair in Dubai. Certified Ferrari technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full high-performance service.",
+      "Certified Ferrari service in Dubai. Expert maintenance, genuine parts, engine, brakes, suspension, AC, electrical & high-performance tuning.",
     faqs: [
       {
         Question: "How often does a Ferrari require servicing?",
@@ -818,9 +818,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Hyundai Service Dubai | Expert Hyundai Maintenance and Repairs",
+    seoTitle: "Professional Hyundai Maintenance and Repair Experts",
     seoDescription:
-      "Professional Hyundai maintenance and repair in Dubai. Certified Hyundai technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+      "Expert Hyundai maintenance & repair in Dubai. Certified technicians, genuine parts, full service for engine, brakes, AC & more.",
     faqs: [
       {
         Question: "How often should I service my Hyundai?",
@@ -904,7 +904,7 @@ const brandsData: BrandType[] = [
     ],
     seoTitle: "Toyota Service Dubai | Expert Toyota Maintenance and Repairs",
     seoDescription:
-      "Professional Toyota maintenance and repair in Dubai. Certified Toyota technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+      "Certified Toyota service in Dubai: Genuine parts, expert technicians, full maintenance & repair for engine, brakes, suspension, AC & electrical.",
     faqs: [
       {
         Question: "How often should I service my Toyota?",
@@ -987,9 +987,9 @@ const brandsData: BrandType[] = [
       },
     ],
     seoTitle:
-      "Lamborghini Service Dubai | Expert Lamborghini Maintenance and Repairs",
+      "Lamborghini High Performance Maintenance & Repairs",
     seoDescription:
-      "Professional Lamborghini maintenance and repair in Dubai. Certified Lamborghini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, performance tuning, and full high-performance service.",
+      "Expert Lamborghini service in Dubai. Certified technicians, genuine parts, full repairs & tuning for engine, brakes, suspension, AC & electrical systems.",
     faqs: [
       {
         Question: "How often does a Lamborghini require servicing?",
@@ -1073,7 +1073,7 @@ const brandsData: BrandType[] = [
     ],
     seoTitle: "Honda Service Dubai | Expert Honda Maintenance and Repairs",
     seoDescription:
-      "Professional Honda maintenance and repair in Dubai. Certified Honda technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+      "Certified Honda service in Dubai – genuine parts, expert technicians, engine, brakes, AC, suspension & full vehicle maintenance.",
     faqs: [
       {
         Question: "How often should I service my Honda?",
@@ -1158,7 +1158,7 @@ const brandsData: BrandType[] = [
     ],
     seoTitle: "Mazda Service Dubai | Expert Mazda Maintenance and Repairs",
     seoDescription:
-      "Professional Mazda maintenance and repair in Dubai. Certified Mazda technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, electrical systems, and full vehicle maintenance.",
+      "Certified Mazda service in Dubai: expert repairs, genuine parts, engine, brakes, suspension, AC, electrical & full maintenance.",
     faqs: [
       {
         Question: "How often should I service my Mazda?",
@@ -1243,9 +1243,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Bentley Service Dubai | Luxury Bentley Maintenance and Repairs",
+    seoTitle: "Bentley Service Dubai | Luxury Maintenance & Repairs",
     seoDescription:
-      "Premium Bentley maintenance and repair in Dubai. Certified Bentley specialists, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Bentley care.",
+      "Certified Bentley service in Dubai. Expert repairs, genuine parts, advanced diagnostics, engine, brakes, suspension & full Bentley care.",
 
     faqs: [
       {
@@ -1331,9 +1331,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Mini Cooper Service Dubai | Expert Mini Maintenance and Repairs",
+    seoTitle: "Mini Cooper Expert Maintenance and Repair Specialists",
     seoDescription:
-      "Professional Mini Cooper maintenance and repair in Dubai. Certified Mini technicians, genuine parts, advanced diagnostics, engine, brakes, suspension, AC, and complete Mini servicing.",
+      "Expert Mini Cooper maintenance and repair in Dubai. Certified technicians, genuine parts, diagnostics, engine, brakes, suspension, AC, and full servicing.",
 
     faqs: [
       {
@@ -1421,7 +1421,7 @@ const brandsData: BrandType[] = [
 
     seoTitle: "Volkswagen Service Dubai | Expert VW Maintenance and Repairs",
     seoDescription:
-      "Professional Volkswagen maintenance and repair in Dubai. Certified VW technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete Volkswagen servicing.",
+      "Certified VW technicians in Dubai. Genuine parts, advanced diagnostics, engine, brakes, AC & full Volkswagen maintenance and repair.",
 
     faqs: [
       {
@@ -1509,9 +1509,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Pagani Service Dubai | Expert Pagani Hypercar Maintenance and Repairs",
+      "Pagani Service Dubai | Expert Hypercar Maintenance & Repairs",
     seoDescription:
-      "Premium Pagani maintenance and repair in Dubai. Certified Pagani technicians, genuine parts, advanced diagnostics, engine, carbon-fiber, suspension, brakes, and complete hypercar servicing.",
+      "Premium Pagani maintenance & repair in Dubai. Certified technicians, genuine parts, advanced diagnostics, engine, suspension, brakes & hypercar service.",
 
     faqs: [
       {
@@ -1598,9 +1598,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Dodge Service Dubai | Expert Dodge Maintenance and Performance Repairs",
+      "Dodge Service Dubai Expert Maintenance & Performance Repair",
     seoDescription:
-      "Professional Dodge maintenance and repair in Dubai. Certified Dodge technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and full Dodge performance servicing.",
+      "Certified Dodge service in Dubai. Expert technicians, genuine parts, engine, brakes, suspension, AC & full performance maintenance.",
 
     faqs: [
       {
@@ -1688,9 +1688,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Bugatti Service Dubai | Expert Bugatti Hypercar Maintenance and Repairs",
+      "Bugatti Service Dubai | Expert Hypercar Maintenance & Repair",
     seoDescription:
-      "Premium Bugatti hypercar maintenance and repair in Dubai. Certified Bugatti technicians, genuine parts, advanced diagnostics, W16 engine servicing, aerodynamics, brakes, and full hypercar care.",
+      "Premium Bugatti service in Dubai. Certified techs, genuine parts, W16 engines, brakes & full hypercar care for peak performance.",
 
     faqs: [
       {
@@ -1779,9 +1779,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Jeep Service Dubai | Expert Jeep Maintenance and 4x4 Performance Repairs",
+      "Jeep Service Dubai | Expert Maintenance & 4x4 Repairs",
     seoDescription:
-      "Professional Jeep maintenance and repair in Dubai. Certified Jeep technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road performance care.",
+      "Expert Jeep maintenance & repair in Dubai. Certified technicians, genuine parts, 4x4 service, suspension, engine, brakes & full off-road care.",
 
     faqs: [
       {
@@ -1868,9 +1868,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "McLaren Service Dubai | Expert Hypercar Maintenance and Repairs",
+    seoTitle: "McLaren Hypercar Maintenance and Precision Repair Experts",
     seoDescription:
-      "Premium McLaren maintenance and repair in Dubai. Certified McLaren technicians, genuine parts, advanced diagnostics, engine, carbon-fiber chassis, brakes, suspension, and full hypercar servicing.",
+      "Premium McLaren service in Dubai. Certified technicians, genuine parts, advanced diagnostics, engine, chassis, brakes, suspension & full hypercar care.",
 
     faqs: [
       {
@@ -1957,9 +1957,9 @@ const brandsData: BrandType[] = [
       },
     ],
 
-    seoTitle: "Range Rover Service Dubai | Expert 4x4 Maintenance and Repairs",
+    seoTitle: "Range Rover Expert Maintenance and Premium 4x4 Repairs",
     seoDescription:
-      "Professional Range Rover maintenance and repair in Dubai. Certified Range Rover technicians, genuine parts, advanced diagnostics, 4x4 system servicing, suspension, engine, brakes, and full off-road and luxury performance care.",
+      "Expert Range Rover service in Dubai – certified technicians, genuine parts, 4x4, suspension, engine, brakes & full luxury performance care.",
 
     faqs: [
       {
@@ -2047,9 +2047,9 @@ const brandsData: BrandType[] = [
     ],
 
     seoTitle:
-      "Rolls Royce Service Dubai | Luxury Maintenance and Precision Repairs",
+      "Rolls Royce Service Dubai | Luxury Maintenance & Repairs",
     seoDescription:
-      "Professional Rolls Royce maintenance and repair in UAE. Certified Rolls Royce technicians, genuine parts, advanced diagnostics, engine, suspension, brakes, AC, and complete luxury vehicle servicing.",
+      "Expert Rolls Royce service in UAE. Certified technicians, genuine parts, full luxury car repair: engine, brakes, suspension & AC.",
 
     faqs: [
       {

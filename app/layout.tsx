@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SPEED FULL AUTO",
-  description: "Premium Luxury Car Service You Can Trust",
+  title: "Best Luxury Car Care in Dubai | Premium Car Detailing & Protection",
+  description:
+    "Get the best car care in Dubai with expert car detailing, ceramic coating, and PPF protection. We provide luxury car services tailored for perfection.",
   alternates: {
     canonical: "https://www.speedfullauto.com/",
   },

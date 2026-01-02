@@ -60,7 +60,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Radiator Repair Dubai | Expert Cooling System Service & Leak Fix",
+      "Radiator Repair Dubai | Cooling System & Leak Fix Expert",
 
     faqs: [
       {
@@ -96,7 +96,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Expert radiator repair and cooling system service in Dubai. We fix leaks, flush radiators, inspect thermostats, and restore full cooling performance using high-quality parts and certified technicians.",
+      "Expert radiator & cooling system repair in Dubai. We fix leaks, flush radiators & inspect thermostats to restore your car’s full cooling.",
   },
   {
     name: "Ceramic Coating",
@@ -143,7 +143,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Ceramic Coating Dubai | Premium Paint Protection & High Gloss Finish",
+      "Ceramic Coating Dubai | Premium Paint Protection",
 
     faqs: [
       {
@@ -179,7 +179,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Premium ceramic coating service in Dubai offering long-term paint protection, high gloss shine, hydrophobic performance, UV resistance, and scratch protection by certified experts.",
+      "Premium ceramic coating in Dubai by certified experts for long-lasting shine, hydrophobic protection, UV & scratch resistance.",
   },
   {
     name: "AC Repair & Maintenance",
@@ -260,7 +260,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional car AC repair and maintenance service in Dubai. We fix cooling issues, repair leaks, use genuine parts, and provide full diagnostics with certified technicians.",
+      "Expert car AC repair & maintenance in Dubai. Fix cooling issues, leaks, genuine parts & full diagnostics by certified technicians.",
   },
   {
     name: "Engine & ECU Service",
@@ -306,7 +306,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Engine & ECU Service Dubai | Expert Car Engine Maintenance & Repairs",
+      "Engine & ECU Service Dubai | Car Engine Repairs & Maintenance",
 
     faqs: [
       {
@@ -342,7 +342,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional engine and ECU service in Dubai. Expert diagnostics, repairs, performance tuning, cooling system maintenance, and genuine parts for long-lasting reliability.",
+      "Expert engine & ECU service in Dubai. Diagnostics, repairs, performance tuning & genuine parts for reliable, long-lasting car performance.",
   },
   {
     name: "Brake System Service",
@@ -423,7 +423,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional brake system repair and maintenance in Dubai. Expert technicians, genuine parts, advanced diagnostics, and full-service brake solutions to ensure your safety on the road.",
+      "Expert brake repair & maintenance in Dubai. Genuine parts, advanced diagnostics, and full-service solutions for your safety on the road.",
   },
   {
     name: "Transmission & Gearbox Repair",
@@ -469,7 +469,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Transmission & Gearbox Repair Dubai | Expert Car Transmission Service",
+      "Transmission & Gearbox Repair Dubai | Expert Car Service",
 
     faqs: [
       {
@@ -505,7 +505,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional transmission and gearbox repair in Dubai. Expert diagnostics, repairs, clutch replacement, fluid servicing, and full support for manual and automatic transmissions.",
+      "Expert transmission & gearbox repair in Dubai. Diagnostics, clutch replacement, fluid service & full support for manual & automatic cars.",
   },
   {
     name: "Suspension & Steering Maintenance",
@@ -551,7 +551,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Suspension & Steering Service Dubai | Expert Car Handling Maintenance",
+      "Suspension & Steering Service Dubai | Car Handling Experts",
 
     faqs: [
       {
@@ -587,7 +587,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional suspension and steering maintenance in Dubai. Expert repair, wheel alignment, shock and strut replacement, certified technicians, and improved vehicle handling.",
+      "Expert suspension & steering repair in Dubai. Wheel alignment, shock/strut replacement by certified technicians for better vehicle handling.",
   },
   {
     name: "Oil Change & Fluid Checks",
@@ -633,7 +633,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Oil Change & Fluid Checks Dubai | Expert Car Maintenance Service",
+      "Oil Change & Fluid Checks in Dubai | Expert Car Service",
 
     faqs: [
       {
@@ -666,7 +666,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional oil change and fluid maintenance in Dubai. Certified technicians perform engine oil replacement, coolant, brake, power steering, and transmission fluid checks to keep your vehicle running smoothly.",
+      "Professional oil & fluid maintenance in Dubai. Certified technicians handle engine oil, coolant, brake, power steering & transmission fluids.",
   },
   {
     name: "Electrical & Comfort Systems",
@@ -712,7 +712,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Car Electrical & Comfort System Repairs Dubai | Expert Diagnostics & Repair",
+      "Car Electrical & Comfort System Repairs in Dubai | Expert",
 
     faqs: [
       {
@@ -747,7 +747,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional car electrical and comfort system repair in Dubai. Certified technicians provide diagnostics, software updates, wiring, sensors, infotainment, and lighting repairs for reliable vehicle performance.",
+      "Expert car electrical & comfort system repair in Dubai. Certified technicians handle diagnostics, wiring, sensors, infotainment & lighting for reliable performance.",
   },
   {
     name: "Fuel Injection Service",
@@ -826,7 +826,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional fuel injection service in Dubai. Certified technicians provide injector cleaning, fuel system diagnostics, throttle body cleaning, and engine performance optimization.",
+      "Expert fuel injection service in Dubai: injector cleaning, throttle body service, fuel diagnostics & engine performance optimization.",
   },
   {
     name: "Pre Purchase Inspection & Diagnostics",
@@ -871,7 +871,7 @@ const servicesData: ServiceType[] = [
       },
     ],
 
-    seoTitle: "Pre-Purchase Vehicle Inspection Dubai | Expert Car Diagnostics",
+    seoTitle: "Pre-Purchase Vehicle Inspection & Car Diagnostics Dubai",
 
     faqs: [
       {
@@ -904,7 +904,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional pre-purchase vehicle inspection in Dubai. Comprehensive diagnostics of engine, transmission, brakes, suspension, electrical systems, and road test performance evaluation.",
+      "Professional pre-purchase vehicle inspection in Dubai. Full check of engine, transmission, brakes, suspension, electricals & road test.",
   },
   {
     name: "Performance Tuning & ECU Upgrade",
@@ -950,7 +950,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Performance Tuning & ECU Upgrade Dubai | Engine Optimization & Power Boost",
+      "Performance Tuning & ECU Upgrade Dubai | Engine Power Boost",
 
     faqs: [
       {
@@ -985,7 +985,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoDescription:
-      "Professional performance tuning and ECU upgrades in Dubai. Certified specialists improve engine power, torque, fuel efficiency, and driving dynamics safely and reliably.",
+      "Expert ECU tuning & performance upgrades in Dubai. Certified garage boosts engine power, torque, fuel efficiency & driving dynamics safely.",
   },
   {
     name: "Paint Protection & Coatings",
@@ -1031,7 +1031,7 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Paint Protection & Car Coatings Dubai | PPF, Ceramic & Dip Color",
+      "Professional Paint Protection & Premium Car Coatings",
 
     faqs: [
       {
@@ -1145,9 +1145,9 @@ const servicesData: ServiceType[] = [
     ],
 
     seoTitle:
-      "Alloy Wheel Repair & Refurbishment Dubai | Expert Car Wheel Services",
+      "Alloy Wheel Repair & Refurbishment in Dubai | Expert Service",
     seoDescription:
-      "Professional alloy wheel repair and refurbishment in Dubai. Services include straightening, crack repair, painting, coating, polishing, and wheel alignment by certified specialists.",
+      "Expert alloy wheel repair & refurbishment in Dubai – straightening, crack repair, painting, coating, polishing & alignment by certified pros.",
   },
 ];
 
